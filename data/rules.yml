@@ -2,12 +2,12 @@ version: "3.0"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Contact service anytime user ask for it
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: contact_service
+  - action: utter_contact_service
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Contact doctor anytime user ask for it
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: contact_doctor
+  - action: utter_contact_doctor
