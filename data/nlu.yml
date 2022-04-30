@@ -1,91 +1,75 @@
-version: "3.0"
+version: "3.1"
 
 nlu:
-- intent: greet
+- lookup: service
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - Gastro-entérologie
+    - Angiologie
+    - Ophtalmologie
+    - ORL
+    - Accueil
+    - Admissions
+    - Soins ambulatoire
+    - Planification
+    - Urgence
+    - Anesthésie
+    - Unité de Soins continus
+    - Angiographie
+    - Stomatologie
+    - Stomathérapie
+    - Assistante hôtelière
+    - Sophrologie
+    - Assistante logistique
+    - Oncologie
+    - Assistante sociale
+    - Biomédical
+    - Chirurgie de la main
+    - Scintigraphie
+    - Rythmologie
+    - Rhumatologie
+    - Ressources Humaines
+    - Chirurgie vasculaire
+    - Chirurgie Viscérale
+    - Pédiatrie
+    - Chirurgie digestive
+    - Chirurgie orthopédique
+- lookup: doctor
+  examples: |
+    - ABOAB Jennifer
+    - ABOUCAYA Jean-Paul
+    - AL MOUSSARIH Abdallah
+    - ALLARD Anne
+    - ALONSO Enrique
+    - APTECAR Eduardo
+    - ARISTIZABAL Patrick
+    - ARMANDON Denis
+    - BADO Fabrice
+    - BAUER Bertrand
+    - BECHEREL Pierre-André
+    - BELDA Eric
+    - BELHASSEN Laurent
+    - BELMAGHNI Fatma
+    - BENHAMOU Claude
+    - BENOSMAN Hedi
+    - BENOUAICHE Laurence
+    - BENSAID Cherazade
+    - BLAVIER Bénédicte
+    - BORIE Hervé
+    - BLIN Jean-Louis
+    - BOSSI Philippe
+    - BOUCHAREB Adam
+    - BOULET Stéphane
+    - BRUN Magali
+    - BRUN Laurent
+    - BRUNET Morgan
+    - BRUNET Océane
+    - CADOT Bernard
+    - BRYON Dominique
 
-- intent: goodbye
+- intent: contact_service
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - bonjour, je voudrais le service [Gastro-entérologie](service)
 
-- intent: affirm
+- intent: contact_doctor
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - bonjour, je voudrais parler au docteur [ABOAB](doctor)
