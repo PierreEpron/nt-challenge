@@ -1,5 +1,7 @@
-# Rasa
+# Custom
+.data/
 
+# Rasa
 .rasa/
 
 # Byte-compiled / optimized / DLL files
