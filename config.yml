@@ -1,9 +1,7 @@
 language: "fr"
 
 pipeline:
-  - name: SpacyNLP
-  - name: SpacyTokenizer
-  - name: SpacyFeaturizer
+  - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -13,3 +11,4 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     epochs: 100
+policies:
