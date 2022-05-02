@@ -1,0 +1,165 @@
+version: "3.1"
+nlu:
+- intent: contact_doctor
+  examples: |
+    - Je voudrais parler au D. [Aristizabal](doctor). Voulez-vous que j'épèle ?
+    - Pouvez-vous laisser un message au Dr [Brun](doctor) ?
+    - Il paraît que le Dr [Aboab](doctor) est en vacances, c'est vrai ou pouvez-vous me la passer ?
+    - Est-ce que le Dr [Alonso](doctor) est disponible ce matin ?
+    - Je voudrais parler au Dr [Bensaid](doctor), une femme, Cherazade de son prénom, je crois.
+    - mon anesthésiste m'a demandé de prendre rendez-vous avec le docteur [boulet](doctor)
+    - puis-je voir Mr [Brunet](doctor) ?
+    - j'ai besoin de récupérer mon dossier chez le docteur [bedo](doctor)
+    - on m'a dit d'appeler Mr [Benosman](doctor)
+    - le docteur [benhamou](doctor) doit me donner mes résultats
+    - Je voudrais accéder à Mr [Cadot](doctor)
+    - Je veux voir Mr [Epron](doctor) passez le moi tout de suite
+    - madame [Black WIDOW ](doctor)du service de [neurologie](service) m'a récemment demandé d'aller voir mademoiselle [super GIRL ](doctor)du service de [chirurgie](service), pourrais-je avoir un rendez-vous avec elle svp ?
+    - je veux voir le docteur [batman](doctor) sur les conseil de mr [superman](doctor)
+    - je veux voir le dr [batman](doctor)
+    - docteur [BAUER](doctor), service [Anesthésie](service)
+    - docteur [BAUER Bertrand](doctor), service [Anesthésie](service) svp
+    - docteur [BAUER](doctor), service [Anesthésie](service) svp
+    - service [Anesthésie](service), docteur [BAUER](doctor) svp
+    - service [Anesthésie](service), docteur [BAUER Bertrand](doctor) svp
+    - j'aimerais prendre un rdv auprès du docteur [BOSSI Philippe](doctor), du service de [Scintigraphie](service)
+    - j'aimerais prendre un rdv au service de [Scintigraphie](service), auprès du docteur [BOSSI Philippe](doctor)
+    - j'aimerais être mis en relation avec [Laurence BENOUAICHE ](doctor)du service [logistique](service) svp
+    - j'aimerais être mis en relation avec [Laurence BENOUAICHE ](doctor)pour un problème de [logistique](service) svp
+    - je souhaiterais déplacer mon rdv avec le docteur [Benhamou](doctor) svp. C'est possible ?
+    - j'ai perdu ma semelle [orthopédique](service), mr [Brignoli](doctor) serait-il dispo pour un rdv ?
+    - Je peux avoir le docteur [Bauer](doctor)
+    - mr [brunet](doctor) est-il disponible pour un rdv ?
+    - je voudrais un rendez-vous avec le docteur [aboab](doctor) svp
+- intent: contact_service
+  examples: |
+    - Apparemment il me faut une intervention en [chirurgie viscérale](service)
+    - On m'a dit de m'adresser à une [assistante sociale](service).
+    - Est-ce que pour un problème d'intestin, c'est bien la [stomatologie](service) ?
+    - Le service des [urgences](service), vite !
+    - Bonjour, j'aurais besoin de contacter le service des [planification](service), s'il vous plaît.
+    - bonjour, je voudrais voir un médecin charé de l'[orthopédie](service)
+    - bonjour, je voudrais voir un médecin charé de l'[ortophédi](service)
+    - il me faut mes résultats de ma [chirurgie digestive](service)
+    - Je c pa commant il fau faire mé je veu quelqun en [urgance](service)
+    - J'ai mal à l'oreille est-ce que je peux avoir quelqu'un du service d'[ORL](service) ?
+    - je veux avoir le service de [cardiologie](service) svp
+    - je veux avoir le service de [cardiologie.svp](service)
+    - je veux avoir le service de [cardiologie](service).
+    - je veux avoir le service de [cardiologie.c](service)'est possible ?
+    - [cadiologie](service) urgent !!
+    - [cadiologie](service) plz
+    - [cadiologie](service) ok ?
+    - [cadiologie](service) stp
+    - [cadiologie](service) svp
+    - [cadiologie](service) pls
+    - j'ai regardé une eclipse sans lunette de protection !! passe moi un [ophtalmo](service), j'ai mal !!!
+    - j'aimerais un rdv chez l'[opthtamo](service), j'ai mal !
+    - j'aimerais me plaindre auprès des [ophtalmo](service), ils prennent trop cher !
+    - il faut absolument que je parle à l'[assistante sociale](service), je suis enceinte !
+    - appelez moi le directeru de [soins ambulatoire](service)
+    - j'aimerais consulter un [cardiologue](service) le plus vite possible svp
+    - j'aimerais consulter un [ORL](service) le plus vite possible svp
+    - je veux voir quelqu'un de l'[administration](service), c'est un scandale !
+    - je veux voir quelqu'un de l'[administration](service) svp
+    - pourrais-je avoir un médecin du service [cardiologie](service) svp ?
+    - Je veux le service [ORL](service) RAPIDEMENT
+    - J'ai besoin d'une [planification](service) d'[urgence](service)
+    - j'ai un problème [administratif](service)
+    - j'ai une [urgence](service)
+    - puis-je voir un [anesthésiste](service) ?
+    - on m'a dit d'appeler un [pédiatre](service) ?
+- lookup: service
+  examples: |
+    - Gastro-entérologie
+    - Angiologie
+    - Ophtalmologie
+    - ORL
+    - Accueil
+    - Admissions
+    - Soins ambulatoire
+    - Planification
+    - Urgence
+    - Anesthésie
+    - Unité de Soins continus
+    - Angiographie
+    - Stomatologie
+    - Stomathérapie
+    - Assistante hôtelière
+    - Sophrologie
+    - Assistante logistique
+    - Oncologie
+    - Assistante sociale
+    - Biomédical
+    - Chirurgie de la main
+    - Scintigraphie
+    - Rythmologie
+    - rhumatologie
+    - Ressources Humaines
+    - Chirurgie vasculaire
+    - Chirurgie Viscérale
+    - Pédiatrie
+    - Chirurgie digestive
+    - Chirurgie orthopédique
+- lookup: doctor
+  examples: |
+    - ABOAB
+    - ABOUCAYA
+    - AL
+    - ALLARD
+    - ALONSO
+    - APTECAR
+    - ARISTIZABAL
+    - ARMANDON
+    - BADO
+    - BAUER
+    - BECHEREL
+    - BELDA
+    - BELHASSEN
+    - BELMAGHNI
+    - BENHAMOU
+    - BENOSMAN
+    - BENOUAICHE
+    - BENSAID
+    - BLAVIER
+    - BLIN
+    - BORIE
+    - BOSSI
+    - BOUCHAREB
+    - BOULET
+    - BRUN
+    - BRUN
+    - BRUNET
+    - BRUNET
+    - BRYON
+    - CADOT
+    - ABOAB Jennifer
+    - ABOUCAYA Jean-Paul
+    - AL MOUSSARIH Abdallah
+    - ALLARD Anne
+    - ALONSO Enrique
+    - APTECAR Eduardo
+    - ARISTIZABAL Patrick
+    - ARMANDON Denis
+    - BADO Fabrice
+    - BAUER Bertrand
+    - BECHEREL Pierre-André
+    - BELDA Eric
+    - BELHASSEN Laurent
+    - BELMAGHNI Fatma
+    - BENHAMOU Claude
+    - BENOSMAN Hedi
+    - BENOUAICHE Laurence
+    - BENSAID Cherazade
+    - BLAVIER Bénédicte
+    - BLIN Jean-Louis
+    - BORIE Hervé
+    - BOSSI Philippe
+    - BOUCHAREB Adam
+    - BOULET Stéphane
+    - BRUN Magali
+    - BRUN Laurent
+    - BRUNET Morgan
+    - BRUNET Océane
+    - BRYON Dominique
+    - CADOT Bernard

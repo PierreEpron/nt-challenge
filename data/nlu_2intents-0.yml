@@ -1,0 +1,95 @@
+version: "3.0"
+nlu:
+- intent: contact_doctor
+  examples: |
+    - Je voudrais parler au D. [Aristizabal]{"entity": "doctor", "role": "target"}. Voulez-vous que j'épèle ?
+    - Pouvez-vous laisser un message au Dr [Brun]{"entity": "doctor", "role": "target"} ?
+    - Il paraît que le Dr [Aboab]{"entity": "doctor", "role": "target"} est en vacances, c'est vrai ou pouvez-vous me la passer ?
+    - Est-ce que le Dr [Alonso]{"entity": "doctor", "role": "target"} est disponible ce matin ?
+    - Je voudrais parler au Dr [Bensaid]{"entity": "doctor", "role": "target"}, une femme, Cherazade de son prénom, je crois.
+    - mon anesthésiste m'a demandé de prendre rendez-vous avec le docteur [boulet]{"entity": "doctor", "role": "target"}
+    - puis-je voir Mr [Brunet]{"entity": "doctor", "role": "target"} ?
+    - j'ai besoin de récupérer mon dossier chez le docteur [bedo]{"entity": "doctor", "role": "target"}
+    - on m'a dit d'appeler Mr [Benosman]{"entity": "doctor", "role": "target"}
+    - le docteur [benhamou]{"entity": "doctor", "role": "target"} doit me donner mes résultats
+    - Je voudrais accéder à Mr [Cadot]{"entity": "doctor", "role": "target"}
+    - Je veux voir Mr [Epron]{"entity": "doctor", "role": "target"} passez le moi tout de suite
+    - madame [Black WIDOW ](doctor)du service de [neurologie](service) m'a récemment demandé d'aller voir mademoiselle [super GIRL ]{"entity": "doctor", "role": "target"}du service de [chirurgie](service), pourrais-je avoir un rendez-vous avec elle svp ?
+    - je veux voir le docteur [batman]{"entity": "doctor", "role": "target"} sur les conseil de mr [superman](doctor)
+    - je veux voir le dr [batman]{"entity": "doctor", "role": "target"}
+    - docteur [BAUER]{"entity": "doctor", "role": "target"}, service [Anesthésie](service)
+    - docteur [BAUER Bertrand]{"entity": "doctor", "role": "target"}, service [Anesthésie](service) svp
+    - docteur [BAUER]{"entity": "doctor", "role": "target"}, service [Anesthésie](service) svp
+    - service [Anesthésie](service), docteur [BAUER]{"entity": "doctor", "role": "target"} svp
+    - service [Anesthésie](service), docteur [BAUER Bertrand]{"entity": "doctor", "role": "target"} svp
+    - j'aimerais prendre un rdv auprès du docteur [BOSSI Philippe]{"entity": "doctor", "role": "target"}, du service de [Scintigraphie](service)
+    - j'aimerais prendre un rdv au service de [Scintigraphie](service), auprès du docteur [BOSSI Philippe]{"entity": "doctor", "role": "target"}
+    - j'aimerais être mis en relation avec [Laurence BENOUAICHE ]{"entity": "doctor", "role": "target"}du service [logistique](service) svp
+    - j'aimerais être mis en relation avec [Laurence BENOUAICHE ]{"entity": "doctor", "role": "target"}pour un problème de [logistique](service) svp
+    - je souhaiterais déplacer mon rdv avec le docteur [Benhamou]{"entity": "doctor", "role": "target"} svp. C'est possible ?
+    - j'ai perdu ma semelle [orthopédique](service), mr [Brignoli]{"entity": "doctor", "role": "target"} serait-il dispo pour un rdv ?
+    - Je peux avoir le docteur [Bauer]{"entity": "doctor", "role": "target"}
+    - mr [brunet]{"entity": "doctor", "role": "target"} est-il disponible pour un rdv ?
+    - je voudrais un rendez-vous avec le docteur [aboab]{"entity": "doctor", "role": "target"} svp
+- intent: contact_service
+  examples: |
+    - Apparemment il me faut une intervention en [chirurgie viscérale](service)
+    - On m'a dit de m'adresser à une [assistante sociale](service).
+    - Est-ce que pour un problème d'intestin, c'est bien la [stomatologie](service) ?
+    - Le service des [urgences]{"entity": "service", "role": "target"}, vite !
+    - Bonjour, j'aurais besoin de contacter le service des [planification](service), s'il vous plaît.
+    - bonjour, je voudrais voir un médecin charé de l'[orthopédie]{"entity": "service", "role": "target"}
+    - bonjour, je voudrais voir un médecin charé de l'[ortophédi]{"entity": "service", "role": "target"}
+    - il me faut mes résultats de ma [chirurgie digestive]{"entity": "service", "role": "target"}
+    - Je c pa commant il fau faire mé je veu quelqun en [urgance]{"entity": "service", "role": "target"}
+    - J'ai mal à l'oreille est-ce que je peux avoir quelqu'un du service d'[ORL]{"entity": "service", "role": "target"} ?
+    - je veux avoir le service de [cardiologie]{"entity": "service", "role": "target"} svp
+    - je veux avoir le service de [cardiologie.svp]{"entity": "service", "role": "target"}
+    - je veux avoir le service de [cardiologie]{"entity": "service", "role": "target"}.
+    - je veux avoir le service de [cardiologie.c]{"entity": "service", "role": "target"}'est possible ?
+    - [cadiologie]{"entity": "service", "role": "target"} urgent !!
+    - [cadiologie]{"entity": "service", "role": "target"} plz
+    - [cadiologie]{"entity": "service", "role": "target"} ok ?
+    - [cadiologie]{"entity": "service", "role": "target"} stp
+    - [cadiologie]{"entity": "service", "role": "target"} svp
+    - [cadiologie]{"entity": "service", "role": "target"} pls
+    - j'ai regardé une eclipse sans lunette de protection !! passe moi un [ophtalmo]{"entity": "service", "role": "target"}, j'ai mal !!!
+    - j'aimerais un rdv chez l'[opthtamo]{"entity": "service", "role": "target"}, j'ai mal !
+    - j'aimerais me plaindre auprès des [ophtalmo]{"entity": "service", "role": "target"}, ils prennent trop cher !
+    - il faut absolument que je parle à l'[assistante sociale]{"entity": "service", "role": "target"}, je suis enceinte !
+    - appelez moi le directeru de [soins ambulatoire]{"entity": "service", "role": "target"}
+    - j'aimerais consulter un [cardiologue]{"entity": "service", "role": "target"} le plus vite possible svp
+    - j'aimerais consulter un [ORL]{"entity": "service", "role": "target"} le plus vite possible svp
+    - je veux voir quelqu'un de l'[administration](service), c'est un scandale !
+    - je veux voir quelqu'un de l'[administration]{"entity": "service", "role": "target"} svp
+    - pourrais-je avoir un médecin du service [cardiologie]{"entity": "service", "role": "target"} svp ?
+    - Je veux le service [ORL]{"entity": "service", "role": "target"} RAPIDEMENT
+    - J'ai besoin d'une [planification]{"entity": "service", "role": "target"} d'[urgence](service)
+    - j'ai un problème [administratif]{"entity": "service", "role": "target"}
+    - j'ai une [urgence]{"entity": "service", "role": "target"}
+    - puis-je voir un [anesthésiste]{"entity": "service", "role": "target"} ?
+    - on m'a dit d'appeler un [pédiatre]{"entity": "service", "role": "target"} ?
+- intent: out_of_scope
+  examples: |
+    - le docteur [brunet](doctor) m'a demandé de faire une [angiographie](service) ?
+    - j'ai une hernie discale
+    - j'ai compris comment marche le bot
+    - je me suis trompé de service
+    - qu'est-ce que l'[oncologie](service) ?
+    - appelez moi le directeur
+    - appelez moi le directeru
+    - t'as intérêt à me faire rencontrer castex ou je t'explose, machine à la con
+    - ok
+    - appelle maman
+    - je ne me sens pas bien
+- intent: contact_something
+  examples: |
+    - J'ai besoin d'aide rapidement est-ce que je peux voir quelqu'un ?
+- intent: unknown
+  examples: |
+    - [ma.touche.espace.ne.fonctionne.plus.mais.je.veux.avoir.le.service.de.rhumatologie.svp](service)
+    - mon radiologue, le docteur [GREENLANTERN](doctor), m'a conseillé le dr [hulk](doctor) pour la [kinésithérapie](service)
+    - le dr [superman](doctor) m'a demandé d'aller voir le docteur [batman]{"entity": "doctor", "role": "target"}
+    - qui s'occupe de la [planification](service) ?
+    - J'ai besoin de savoir la chambre pour aller voir un ami au service du [soin continus]{"entity": "service", "role": "target"}
+    - J'ai besoin de mon dossier concernant mes analyses [biomédicales]{"entity": "service", "role": "target"}
