@@ -2,6 +2,7 @@ language: "fr"  # your two-letter language code
 
 pipeline:
   - name: SpacyNLP
+    model: fr_core_news_md
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
   - name: RegexFeaturizer

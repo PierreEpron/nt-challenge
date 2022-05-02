@@ -1,0 +1,258 @@
+[
+  {
+    "text": "madame Black WIDOW du service de neurologie m'a récemment demandé d'aller voir mademoiselle super GIRL du service de chirurgie, pourrais-je avoir un rendez-vous avec elle svp ?",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "je veux voir le docteur batman sur les conseil de mr superman",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9999560117721558
+    }
+  },
+  {
+    "text": "docteur BAUER, service Anesthésie",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "docteur BAUER Bertrand, service Anesthésie svp",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "docteur BAUER, service Anesthésie svp",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "service Anesthésie, docteur BAUER svp",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "service Anesthésie, docteur BAUER Bertrand svp",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'aimerais prendre un rdv auprès du docteur BOSSI Philippe, du service de Scintigraphie",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'aimerais prendre un rdv au service de Scintigraphie, auprès du docteur BOSSI Philippe",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'aimerais être mis en relation avec Laurence BENOUAICHE du service logistique svp",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9998517036437988
+    }
+  },
+  {
+    "text": "Apparemment il me faut une intervention en chirurgie viscérale",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999711513519287
+    }
+  },
+  {
+    "text": "On m'a dit de m'adresser à une assistante sociale.",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.8423156142234802
+    }
+  },
+  {
+    "text": "bonjour, je voudrais voir un médecin charé de l'orthopédie",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9995607733726501
+    }
+  },
+  {
+    "text": "bonjour, je voudrais voir un médecin charé de l'ortophédi",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "il me faut mes résultats de ma chirurgie digestive",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Je c pa commant il fau faire mé je veu quelqun en urgance",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cadiologie urgent !!",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cadiologie plz",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cadiologie ok ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cadiologie stp",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cadiologie svp",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cadiologie pls",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'ai regardé une eclipse sans lunette de protection !! passe moi un ophtalmo, j'ai mal !!!",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "j'aimerais un rdv chez l'opthtamo, j'ai mal !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'aimerais me plaindre auprès des ophtalmo, ils prennent trop cher !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9998167157173157
+    }
+  },
+  {
+    "text": "il faut absolument que je parle à l'assistante sociale, je suis enceinte !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9998632669448853
+    }
+  },
+  {
+    "text": "appelez moi le directeru de soins ambulatoire",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.6751768589019775
+    }
+  },
+  {
+    "text": "j'aimerais consulter un cardiologue le plus vite possible svp",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'aimerais consulter un ORL le plus vite possible svp",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.999998927116394
+    }
+  },
+  {
+    "text": "j'ai une urgence",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.8199103474617004
+    }
+  },
+  {
+    "text": "puis-je voir un anesthésiste ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "on m'a dit d'appeler un pédiatre ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  }
+]

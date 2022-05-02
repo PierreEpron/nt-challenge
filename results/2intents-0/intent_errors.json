@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Je veux voir Mr Epron passez le moi tout de suite",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9999905824661255
+    }
+  },
+  {
+    "text": "madame Black WIDOW du service de neurologie m'a récemment demandé d'aller voir mademoiselle super GIRL du service de chirurgie, pourrais-je avoir un rendez-vous avec elle svp ?",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "docteur BAUER, service Anesthésie",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "docteur BAUER, service Anesthésie svp",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  }
+]
