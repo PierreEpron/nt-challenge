@@ -31,6 +31,8 @@ nlu:
     - Je peux avoir le docteur [Bauer](doctor)
     - mr [brunet](doctor) est-il disponible pour un rdv ?
     - je voudrais un rendez-vous avec le docteur [aboab](doctor) svp
+    - j'ai rendez vous avec une [pédiatre](service) qui se nomme [Océane](doctor)
+    - je souhaiterais un rdv avec le docteur [cadot](doctor)
 - intent: contact_service
   examples: |
     - Apparemment il me faut une intervention en [chirurgie viscérale](service)
@@ -69,6 +71,15 @@ nlu:
     - j'ai une [urgence](service)
     - puis-je voir un [anesthésiste](service) ?
     - on m'a dit d'appeler un [pédiatre](service) ?
+    - Disposez vous d'un labo de [biomédical](service) ?
+    - Mon fils vomi ! appelez le [pédiatre](service) !
+    - Je souhaite joindre l'[accueil](service)
+    - Allo les [urgences](service) ?
+    - J'ai besoin d'un [anesthesiste](service) pour préparer une opération
+    - J'ai besoin d'un [chirurgien vasculaire](service) je suis dans le brun
+    - Need rdv pour [oncologie](service)
+    - Je  cherche un rhumatologue qui connais la [sophrologie](service)
+    - Bonjour je cherche à me faire une [chirurgie de la main](service)
 - lookup: service
   examples: |
     - Gastro-entérologie

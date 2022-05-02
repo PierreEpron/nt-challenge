@@ -1026,5 +1026,71 @@
         "extractor": "DIETClassifier"
       }
     ]
+  },
+  {
+    "text": "J'ai besoin d'un anesthesiste pour préparer une opération",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "anesthesiste",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 17,
+        "end": 29,
+        "confidence_entity": 0.6940762996673584,
+        "value": "anesthesiste",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 48,
+        "end": 57,
+        "confidence_entity": 0.985275149345398,
+        "value": "opération",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "J'ai besoin d'un chirurgien vasculaire je suis dans le brun",
+    "entities": [
+      {
+        "start": 17,
+        "end": 38,
+        "value": "chirurgien vasculaire",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 17,
+        "end": 38,
+        "confidence_entity": 0.9998419284820557,
+        "value": "chirurgien vasculaire",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 42,
+        "end": 51,
+        "confidence_entity": 0.39231792092323303,
+        "value": "suis dans",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 55,
+        "end": 59,
+        "confidence_entity": 0.5059293508529663,
+        "value": "brun",
+        "extractor": "DIETClassifier"
+      }
+    ]
   }
 ]

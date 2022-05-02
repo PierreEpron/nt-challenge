@@ -30,5 +30,13 @@
       "name": "contact_service",
       "confidence": 1.0
     }
+  },
+  {
+    "text": "j'ai rendez vous avec une pédiatre qui se nomme Océane",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
   }
 ]

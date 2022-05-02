@@ -254,5 +254,53 @@
       "name": "contact_doctor",
       "confidence": 1.0
     }
+  },
+  {
+    "text": "Mon fils vomi ! appelez le pédiatre !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Allo les urgences ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9565432667732239
+    }
+  },
+  {
+    "text": "J'ai besoin d'un chirurgien vasculaire je suis dans le brun",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Need rdv pour oncologie",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Je  cherche un rhumatologue qui connais la sophrologie",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999810457229614
+    }
+  },
+  {
+    "text": "Bonjour je cherche à me faire une chirurgie de la main",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.999951958656311
+    }
   }
 ]

@@ -479,6 +479,33 @@
     ]
   },
   {
+    "text": "j'ai rendez vous avec une pédiatre qui se nomme Océane",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "pédiatre",
+        "entity": "service"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "value": "Océane",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 42,
+        "end": 54,
+        "confidence_entity": 0.9920713305473328,
+        "value": "nomme Océane",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
     "text": "Apparemment il me faut une intervention en chirurgie viscérale",
     "entities": [
       {
@@ -1069,5 +1096,171 @@
       }
     ],
     "predicted_entities": []
+  },
+  {
+    "text": "Mon fils vomi ! appelez le pédiatre !",
+    "entities": [
+      {
+        "start": 27,
+        "end": 35,
+        "value": "pédiatre",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.7043248414993286,
+        "value": "fils",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9994959831237793,
+        "value": "vomi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Allo les urgences ?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "urgences",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.6002751588821411,
+        "value": "les",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.6974527835845947,
+        "value": "urgences",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "J'ai besoin d'un anesthesiste pour préparer une opération",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "anesthesiste",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 17,
+        "end": 29,
+        "confidence_entity": 0.9994388222694397,
+        "value": "anesthesiste",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 44,
+        "end": 57,
+        "confidence_entity": 0.6089383363723755,
+        "value": "une opération",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "J'ai besoin d'un chirurgien vasculaire je suis dans le brun",
+    "entities": [
+      {
+        "start": 17,
+        "end": 38,
+        "value": "chirurgien vasculaire",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 55,
+        "end": 59,
+        "confidence_entity": 0.9999823570251465,
+        "value": "brun",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Need rdv pour oncologie",
+    "entities": [
+      {
+        "start": 14,
+        "end": 23,
+        "value": "oncologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.945635199546814,
+        "value": "Need",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.9416992664337158,
+        "value": "oncologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bonjour je cherche à me faire une chirurgie de la main",
+    "entities": [
+      {
+        "start": 34,
+        "end": 54,
+        "value": "chirurgie de la main",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.8625110983848572,
+        "value": "une",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 34,
+        "end": 54,
+        "confidence_entity": 0.7244253754615784,
+        "value": "chirurgie de la main",
+        "extractor": "DIETClassifier"
+      }
+    ]
   }
 ]
