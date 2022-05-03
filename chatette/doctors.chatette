@@ -1,0 +1,11 @@
+~[contact doctor medium$TARGET]
+    ~[start noise?] ~[problems?p] ~[from doctor?p] ~[contact doctor] $TARGET ~[end noise?]
+    ~[start noise?] ~[contact doctor] $TARGET ~[problems?p] ~[from doctor?!p] ~[end noise?]
+    ~[start noise?] ~[med act?p] ~[from doctor?!p] ~[contact doctor] $TARGET ~[end noise?]
+    ~[start noise?] ~[contact doctor] $TARGET ~[med act?p] ~[from doctor?!p] ~[end noise?]
+
+~[contact doctor simple$TARGET]
+    ~[start noise?] ~[contact doctor] $TARGET ~[end noise?]
+
+~[contact doctor$TARGET]
+    ~[vouloir] ~[contact commun?c/75] ~[contact rare?!c] [Mme|Mr|Docteur?]

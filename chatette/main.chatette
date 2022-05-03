@@ -1,0 +1,479 @@
+%[&contact_doctor_aboab_jennifer]('train': '30', 'test': '15')
+    ~[contact doctor simple$ABOAB Jennifer]
+    ~[contact doctor simple$ABOAB]
+    ~[contact doctor medium$ABOAB Jennifer]
+    ~[contact doctor medium$ABOAB]
+
+
+%[&contact_doctor_aboucaya_jean_paul]('train': '30', 'test': '15')
+    ~[contact doctor simple$ABOUCAYA Jean-Paul]
+    ~[contact doctor simple$ABOUCAYA]
+    ~[contact doctor medium$ABOUCAYA Jean-Paul]
+    ~[contact doctor medium$ABOUCAYA]
+
+
+%[&contact_doctor_al_moussarih_abdallah]('train': '30', 'test': '15')
+    ~[contact doctor simple$AL MOUSSARIH Abdallah]
+    ~[contact doctor simple$AL]
+    ~[contact doctor medium$AL MOUSSARIH Abdallah]
+    ~[contact doctor medium$AL]
+
+
+%[&contact_doctor_allard_anne]('train': '30', 'test': '15')
+    ~[contact doctor simple$ALLARD Anne]
+    ~[contact doctor simple$ALLARD]
+    ~[contact doctor medium$ALLARD Anne]
+    ~[contact doctor medium$ALLARD]
+
+
+%[&contact_doctor_alonso_enrique]('train': '30', 'test': '15')
+    ~[contact doctor simple$ALONSO Enrique]
+    ~[contact doctor simple$ALONSO]
+    ~[contact doctor medium$ALONSO Enrique]
+    ~[contact doctor medium$ALONSO]
+
+
+%[&contact_doctor_aptecar_eduardo]('train': '30', 'test': '15')
+    ~[contact doctor simple$APTECAR Eduardo]
+    ~[contact doctor simple$APTECAR]
+    ~[contact doctor medium$APTECAR Eduardo]
+    ~[contact doctor medium$APTECAR]
+
+
+%[&contact_doctor_aristizabal_patrick]('train': '30', 'test': '15')
+    ~[contact doctor simple$ARISTIZABAL Patrick]
+    ~[contact doctor simple$ARISTIZABAL]
+    ~[contact doctor medium$ARISTIZABAL Patrick]
+    ~[contact doctor medium$ARISTIZABAL]
+
+
+%[&contact_doctor_armandon_denis]('train': '30', 'test': '15')
+    ~[contact doctor simple$ARMANDON Denis]
+    ~[contact doctor simple$ARMANDON]
+    ~[contact doctor medium$ARMANDON Denis]
+    ~[contact doctor medium$ARMANDON]
+
+
+%[&contact_doctor_bado_fabrice]('train': '30', 'test': '15')
+    ~[contact doctor simple$BADO Fabrice]
+    ~[contact doctor simple$BADO]
+    ~[contact doctor medium$BADO Fabrice]
+    ~[contact doctor medium$BADO]
+
+
+%[&contact_doctor_bauer_bertrand]('train': '30', 'test': '15')
+    ~[contact doctor simple$BAUER Bertrand]
+    ~[contact doctor simple$BAUER]
+    ~[contact doctor medium$BAUER Bertrand]
+    ~[contact doctor medium$BAUER]
+
+
+%[&contact_doctor_becherel_pierre_andre]('train': '30', 'test': '15')
+    ~[contact doctor simple$BECHEREL Pierre-André]
+    ~[contact doctor simple$BECHEREL]
+    ~[contact doctor medium$BECHEREL Pierre-André]
+    ~[contact doctor medium$BECHEREL]
+
+
+%[&contact_doctor_belda_eric]('train': '30', 'test': '15')
+    ~[contact doctor simple$BELDA Eric]
+    ~[contact doctor simple$BELDA]
+    ~[contact doctor medium$BELDA Eric]
+    ~[contact doctor medium$BELDA]
+
+
+%[&contact_doctor_belhassen_laurent]('train': '30', 'test': '15')
+    ~[contact doctor simple$BELHASSEN Laurent]
+    ~[contact doctor simple$BELHASSEN]
+    ~[contact doctor medium$BELHASSEN Laurent]
+    ~[contact doctor medium$BELHASSEN]
+
+
+%[&contact_doctor_belmaghni_fatma]('train': '30', 'test': '15')
+    ~[contact doctor simple$BELMAGHNI Fatma]
+    ~[contact doctor simple$BELMAGHNI]
+    ~[contact doctor medium$BELMAGHNI Fatma]
+    ~[contact doctor medium$BELMAGHNI]
+
+
+%[&contact_doctor_benhamou_claude]('train': '30', 'test': '15')
+    ~[contact doctor simple$BENHAMOU Claude]
+    ~[contact doctor simple$BENHAMOU]
+    ~[contact doctor medium$BENHAMOU Claude]
+    ~[contact doctor medium$BENHAMOU]
+
+
+%[&contact_doctor_benosman_hedi]('train': '30', 'test': '15')
+    ~[contact doctor simple$BENOSMAN Hedi]
+    ~[contact doctor simple$BENOSMAN]
+    ~[contact doctor medium$BENOSMAN Hedi]
+    ~[contact doctor medium$BENOSMAN]
+
+
+%[&contact_doctor_benouaiche_laurence]('train': '30', 'test': '15')
+    ~[contact doctor simple$BENOUAICHE Laurence]
+    ~[contact doctor simple$BENOUAICHE]
+    ~[contact doctor medium$BENOUAICHE Laurence]
+    ~[contact doctor medium$BENOUAICHE]
+
+
+%[&contact_doctor_bensaid_cherazade]('train': '30', 'test': '15')
+    ~[contact doctor simple$BENSAID Cherazade]
+    ~[contact doctor simple$BENSAID]
+    ~[contact doctor medium$BENSAID Cherazade]
+    ~[contact doctor medium$BENSAID]
+
+
+%[&contact_doctor_blavier_benedicte]('train': '30', 'test': '15')
+    ~[contact doctor simple$BLAVIER Bénédicte]
+    ~[contact doctor simple$BLAVIER]
+    ~[contact doctor medium$BLAVIER Bénédicte]
+    ~[contact doctor medium$BLAVIER]
+
+
+%[&contact_doctor_blin_jean_louis]('train': '30', 'test': '15')
+    ~[contact doctor simple$BLIN Jean-Louis]
+    ~[contact doctor simple$BLIN]
+    ~[contact doctor medium$BLIN Jean-Louis]
+    ~[contact doctor medium$BLIN]
+
+
+%[&contact_doctor_borie_herve]('train': '30', 'test': '15')
+    ~[contact doctor simple$BORIE Hervé]
+    ~[contact doctor simple$BORIE]
+    ~[contact doctor medium$BORIE Hervé]
+    ~[contact doctor medium$BORIE]
+
+
+%[&contact_doctor_bossi_philippe]('train': '30', 'test': '15')
+    ~[contact doctor simple$BOSSI Philippe]
+    ~[contact doctor simple$BOSSI]
+    ~[contact doctor medium$BOSSI Philippe]
+    ~[contact doctor medium$BOSSI]
+
+
+%[&contact_doctor_bouchareb_adam]('train': '30', 'test': '15')
+    ~[contact doctor simple$BOUCHAREB Adam]
+    ~[contact doctor simple$BOUCHAREB]
+    ~[contact doctor medium$BOUCHAREB Adam]
+    ~[contact doctor medium$BOUCHAREB]
+
+
+%[&contact_doctor_boulet_stephane]('train': '30', 'test': '15')
+    ~[contact doctor simple$BOULET Stéphane]
+    ~[contact doctor simple$BOULET]
+    ~[contact doctor medium$BOULET Stéphane]
+    ~[contact doctor medium$BOULET]
+
+
+%[&contact_doctor_brun_magali]('train': '30', 'test': '15')
+    ~[contact doctor simple$BRUN Magali]
+    ~[contact doctor simple$BRUN]
+    ~[contact doctor medium$BRUN Magali]
+    ~[contact doctor medium$BRUN]
+
+
+%[&contact_doctor_brun_laurent]('train': '30', 'test': '15')
+    ~[contact doctor simple$BRUN Laurent]
+    ~[contact doctor simple$BRUN]
+    ~[contact doctor medium$BRUN Laurent]
+    ~[contact doctor medium$BRUN]
+
+
+%[&contact_doctor_brunet_morgan]('train': '30', 'test': '15')
+    ~[contact doctor simple$BRUNET Morgan]
+    ~[contact doctor simple$BRUNET]
+    ~[contact doctor medium$BRUNET Morgan]
+    ~[contact doctor medium$BRUNET]
+
+
+%[&contact_doctor_brunet_oceane]('train': '30', 'test': '15')
+    ~[contact doctor simple$BRUNET Océane]
+    ~[contact doctor simple$BRUNET]
+    ~[contact doctor medium$BRUNET Océane]
+    ~[contact doctor medium$BRUNET]
+
+
+%[&contact_doctor_bryon_dominique]('train': '30', 'test': '15')
+    ~[contact doctor simple$BRYON Dominique]
+    ~[contact doctor simple$BRYON]
+    ~[contact doctor medium$BRYON Dominique]
+    ~[contact doctor medium$BRYON]
+
+
+%[&contact_doctor_cadot_bernard]('train': '30', 'test': '15')
+    ~[contact doctor simple$CADOT Bernard]
+    ~[contact doctor simple$CADOT]
+    ~[contact doctor medium$CADOT Bernard]
+    ~[contact doctor medium$CADOT]
+
+
+%[&contact_service_gastro_enterologie]('train': '30', 'test': '15')
+    ~[contact service simple$Gastro-entérologie]
+    ~[contact service medium$Gastro-entérologie]
+
+
+%[&contact_service_angiologie]('train': '30', 'test': '15')
+    ~[contact service simple$Angiologie]
+    ~[contact service medium$Angiologie]
+
+
+%[&contact_service_ophtalmologie]('train': '30', 'test': '15')
+    ~[contact service simple$Ophtalmologie]
+    ~[contact service medium$Ophtalmologie]
+
+
+%[&contact_service_orl]('train': '30', 'test': '15')
+    ~[contact service simple$ORL]
+    ~[contact service medium$ORL]
+
+
+%[&contact_service_accueil]('train': '30', 'test': '15')
+    ~[contact service simple$Accueil]
+    ~[contact service medium$Accueil]
+
+
+%[&contact_service_admissions]('train': '30', 'test': '15')
+    ~[contact service simple$Admissions]
+    ~[contact service medium$Admissions]
+
+
+%[&contact_service_soins_ambulatoire]('train': '30', 'test': '15')
+    ~[contact service simple$Soins ambulatoire]
+    ~[contact service medium$Soins ambulatoire]
+
+
+%[&contact_service_planification]('train': '30', 'test': '15')
+    ~[contact service simple$Planification]
+    ~[contact service medium$Planification]
+
+
+%[&contact_service_urgence]('train': '30', 'test': '15')
+    ~[contact service simple$Urgence]
+    ~[contact service medium$Urgence]
+
+
+%[&contact_service_anesthesie]('train': '30', 'test': '15')
+    ~[contact service simple$Anesthésie]
+    ~[contact service medium$Anesthésie]
+
+
+%[&contact_service_unite_de_soins_continus]('train': '30', 'test': '15')
+    ~[contact service simple$Unité de Soins continus]
+    ~[contact service medium$Unité de Soins continus]
+
+
+%[&contact_service_angiographie]('train': '30', 'test': '15')
+    ~[contact service simple$Angiographie]
+    ~[contact service medium$Angiographie]
+
+
+%[&contact_service_stomatologie]('train': '30', 'test': '15')
+    ~[contact service simple$Stomatologie]
+    ~[contact service medium$Stomatologie]
+
+
+%[&contact_service_stomatherapie]('train': '30', 'test': '15')
+    ~[contact service simple$Stomathérapie]
+    ~[contact service medium$Stomathérapie]
+
+
+%[&contact_service_assistante_hoteliere]('train': '30', 'test': '15')
+    ~[contact service simple$Assistante hôtelière]
+    ~[contact service medium$Assistante hôtelière]
+
+
+%[&contact_service_sophrologie]('train': '30', 'test': '15')
+    ~[contact service simple$Sophrologie]
+    ~[contact service medium$Sophrologie]
+
+
+%[&contact_service_assistante_logistique]('train': '30', 'test': '15')
+    ~[contact service simple$Assistante logistique]
+    ~[contact service medium$Assistante logistique]
+
+
+%[&contact_service_oncologie]('train': '30', 'test': '15')
+    ~[contact service simple$Oncologie]
+    ~[contact service medium$Oncologie]
+
+
+%[&contact_service_assistante_sociale]('train': '30', 'test': '15')
+    ~[contact service simple$Assistante sociale]
+    ~[contact service medium$Assistante sociale]
+
+
+%[&contact_service_biomedical]('train': '30', 'test': '15')
+    ~[contact service simple$Biomédical]
+    ~[contact service medium$Biomédical]
+
+
+%[&contact_service_chirurgie_de_la_main]('train': '30', 'test': '15')
+    ~[contact service simple$Chirurgie de la main]
+    ~[contact service medium$Chirurgie de la main]
+
+
+%[&contact_service_scintigraphie]('train': '30', 'test': '15')
+    ~[contact service simple$Scintigraphie]
+    ~[contact service medium$Scintigraphie]
+
+
+%[&contact_service_rythmologie]('train': '30', 'test': '15')
+    ~[contact service simple$Rythmologie]
+    ~[contact service medium$Rythmologie]
+
+
+%[&contact_service_rhumatologie]('train': '30', 'test': '15')
+    ~[contact service simple$rhumatologie]
+    ~[contact service medium$rhumatologie]
+
+
+%[&contact_service_ressources_humaines]('train': '30', 'test': '15')
+    ~[contact service simple$Ressources Humaines]
+    ~[contact service medium$Ressources Humaines]
+
+
+%[&contact_service_chirurgie_vasculaire]('train': '30', 'test': '15')
+    ~[contact service simple$Chirurgie vasculaire]
+    ~[contact service medium$Chirurgie vasculaire]
+
+
+%[&contact_service_chirurgie_viscerale]('train': '30', 'test': '15')
+    ~[contact service simple$Chirurgie Viscérale]
+    ~[contact service medium$Chirurgie Viscérale]
+
+
+%[&contact_service_pediatrie]('train': '30', 'test': '15')
+    ~[contact service simple$Pédiatrie]
+    ~[contact service medium$Pédiatrie]
+
+
+%[&contact_service_chirurgie_digestive]('train': '30', 'test': '15')
+    ~[contact service simple$Chirurgie digestive]
+    ~[contact service medium$Chirurgie digestive]
+
+
+%[&contact_service_chirurgie_orthopedique]('train': '30', 'test': '15')
+    ~[contact service simple$Chirurgie orthopédique]
+    ~[contact service medium$Chirurgie orthopédique]
+
+
+%[&contact_doctor_unknown]('train': '100', 'test': '100')
+    ~[contact doctor simple$PRINCE Aladdin]
+    ~[contact doctor simple$PRINCE]
+    ~[contact doctor medium$PRINCE Aladdin]
+    ~[contact doctor medium$PRINCE]
+    ~[contact doctor simple$EPRON Pierre]
+    ~[contact doctor simple$EPRON]
+    ~[contact doctor medium$EPRON Pierre]
+    ~[contact doctor medium$EPRON]
+    ~[contact doctor simple$VALJEAN Jean]
+    ~[contact doctor simple$VALJEAN]
+    ~[contact doctor medium$VALJEAN Jean]
+    ~[contact doctor medium$VALJEAN]
+    ~[contact doctor simple$MACRON Emmanuel]
+    ~[contact doctor simple$MACRON]
+    ~[contact doctor medium$MACRON Emmanuel]
+    ~[contact doctor medium$MACRON]
+    ~[contact doctor simple$DIEU Vivant]
+    ~[contact doctor simple$DIEU]
+    ~[contact doctor medium$DIEU Vivant]
+    ~[contact doctor medium$DIEU]
+    ~[contact doctor simple$CHRIST Jesus]
+    ~[contact doctor simple$CHRIST]
+    ~[contact doctor medium$CHRIST Jesus]
+    ~[contact doctor medium$CHRIST]
+    ~[contact doctor simple$ZIDANE Zinedine]
+    ~[contact doctor simple$ZIDANE]
+    ~[contact doctor medium$ZIDANE Zinedine]
+    ~[contact doctor medium$ZIDANE]
+    ~[contact doctor simple$CASTEX Jean]
+    ~[contact doctor simple$CASTEX]
+    ~[contact doctor medium$CASTEX Jean]
+    ~[contact doctor medium$CASTEX]
+    ~[contact doctor simple$DUPONT philipe]
+    ~[contact doctor simple$DUPONT]
+    ~[contact doctor medium$DUPONT philipe]
+    ~[contact doctor medium$DUPONT]
+    ~[contact doctor simple$CHRISTIE Agatha]
+    ~[contact doctor simple$CHRISTIE]
+    ~[contact doctor medium$CHRISTIE Agatha]
+    ~[contact doctor medium$CHRISTIE]
+    ~[contact doctor simple$D'Arc Jeanne]
+    ~[contact doctor simple$D'Arc]
+    ~[contact doctor medium$D'Arc Jeanne]
+    ~[contact doctor medium$D'Arc]
+    ~[contact doctor simple$SALDANA Ione]
+    ~[contact doctor simple$SALDANA]
+    ~[contact doctor medium$SALDANA Ione]
+    ~[contact doctor medium$SALDANA]
+    ~[contact doctor simple$DANOURA Kobushi]
+    ~[contact doctor simple$DANOURA]
+    ~[contact doctor medium$DANOURA Kobushi]
+    ~[contact doctor medium$DANOURA]
+    ~[contact doctor simple$WALKER helene]
+    ~[contact doctor simple$WALKER]
+    ~[contact doctor medium$WALKER helene]
+    ~[contact doctor medium$WALKER]
+    ~[contact doctor simple$HAMPTON Kelsie]
+    ~[contact doctor simple$HAMPTON]
+    ~[contact doctor medium$HAMPTON Kelsie]
+    ~[contact doctor medium$HAMPTON]
+    ~[contact doctor simple$CURRY Marie]
+    ~[contact doctor simple$CURRY]
+    ~[contact doctor medium$CURRY Marie]
+    ~[contact doctor medium$CURRY]
+
+
+%[&contact_service_unknown]('train': '100', 'test': '100')
+    ~[contact service simple$lune]
+    ~[contact service medium$lune]
+    ~[contact service simple$soleil]
+    ~[contact service medium$soleil]
+    ~[contact service simple$Paris]
+    ~[contact service medium$Paris]
+    ~[contact service simple$gouvernement]
+    ~[contact service medium$gouvernement]
+    ~[contact service simple$tour effeil]
+    ~[contact service medium$tour effeil]
+    ~[contact service simple$paradis]
+    ~[contact service medium$paradis]
+    ~[contact service simple$perpet les alouettes]
+    ~[contact service medium$perpet les alouettes]
+    ~[contact service simple$clinique]
+    ~[contact service medium$clinique]
+    ~[contact service simple$hopital]
+    ~[contact service medium$hopital]
+    ~[contact service simple$charité]
+    ~[contact service medium$charité]
+    ~[contact service simple$église]
+    ~[contact service medium$église]
+    ~[contact service simple$mer]
+    ~[contact service medium$mer]
+    ~[contact service simple$caserne]
+    ~[contact service medium$caserne]
+    ~[contact service simple$restaurant]
+    ~[contact service medium$restaurant]
+    ~[contact service simple$magasins]
+    ~[contact service medium$magasins]
+    ~[contact service simple$coiffeur]
+    ~[contact service medium$coiffeur]
+    ~[contact service simple$pizzeria]
+    ~[contact service medium$pizzeria]
+    ~[contact service simple$cabinet]
+    ~[contact service medium$cabinet]
+
+
+%[&out_of_scope]('train': '100', 'test': '100')
+    ~[start noise]
+    ~[problems]
+    ~[from doctor]
+    ~[end noise]
+    ~[random]
+
+
+|doctors.chatette
+|services.chatette
+|noises.chatette
+|verbs.chatette
+|others.chatette

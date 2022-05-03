@@ -1,0 +1,13 @@
+~[contact service medium$TARGET]
+    ~[start noise?] ~[problems?p] ~[from doctor?p] ~[contact service] $TARGET ~[end noise?]
+    ~[start noise?] ~[contact service] $TARGET ~[problems?p] ~[from doctor?!p] ~[end noise?]
+    ~[start noise?] ~[med act?p] ~[from doctor?!p] ~[contact service] $TARGET ~[end noise?]
+    ~[start noise?] ~[contact service] $TARGET ~[med act?p] ~[from doctor?!p] ~[end noise?]
+
+~[contact service simple$TARGET]
+    ~[start noise?] ~[contact service] ~[end noise?] $TARGET
+
+~[contact service]
+    ~[vouloir] ~[contact commun?c/75] ~[contact rare?!c] [avec le|au] service
+    ~[vouloir] ~[contact commun?c/75] ~[contact rare?!c] [avec le|au] [avec le|au] secrétariat du [service?]
+    ~[vouloir] ~[contact commun?c/75] ~[contact rare?!c] [avec|a] l'acceuil du [service?]

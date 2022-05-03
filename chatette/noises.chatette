@@ -1,0 +1,155 @@
+~[role]
+    pédiatre
+    assistant[e?] sociale
+    assistant[e?] logistique
+    assistant[e?] hôtelier[e]
+    anesthésite
+    angiologue
+    chirurgien
+    ophtalmologue
+    rythmologue
+    sophrologue
+    stomatologue
+    rhumatologue
+
+~[doctor role] 
+    qui est ~[role] [je crois|je pense|de mémoire?]
+    qui officie en tant que ~[role] [je crois|je pense|de mémoire?]
+
+~[doctor service]
+    qui fait partie du service ~[service] [je crois|je pense|de mémoire?]
+    qui appartient au service ~[service] [je crois|je pense|de mémoire?]
+    qui est membre du service ~[service] [je crois|je pense|de mémoire?]
+
+~[from doctor]
+    sur recommandation de ~[doctor] ~[doctor role?][.|,?] 
+    sur recommandation de ~[doctor] ~[doctor service?][.|,?] 
+    à la demannde du ~[doctor] ~[doctor role?][.|,?]
+    à la demannde du ~[doctor] ~[doctor service?][.|,?]
+    comme me l'a [conseillé|demandé] ~[doctor] ~[doctor role?][.|,?]
+    comme me l'a [conseillé|demandé] ~[doctor] ~[doctor service?][.|,?]
+
+~[problems]
+    [Mon fils|Ma fille] est [très?] malade[.|,?]
+    Je me suis [coupé|brulé|fait mal][.|,?]
+    [Il|Elle] se sent [pas bien|malade][.|,?]
+    Je me sens [pas bien|malade][.|,?]
+    [j'ai|il a|elle a] eu [un accident|une attaque|un problème|une complication][.|,?]
+
+~[med act]
+    [J'ai|il a|elle a] [passé|fais] [une scintigraphie|une radio|un examen|une analyse][.|,?]
+    [Je suis|il est|elle est] en cure [de radiothérapie|de chimiothérapie?][.|,?]
+    [Je|Il|Elle] dois faire une [une scintigraphie|un examen|une analyse|une prise de sang|anesthésie][.|,?]
+
+~[start noise]
+    ~[hello?] ~[greets?] ~[help?]
+
+~[end noise]
+   ~[plz?!plz] ~[thanks?] ~[bye?]
+
+~[hello]
+    bonjour,
+    bonsoir,
+    yo,
+    salut,
+    coucou,
+    bien le bonjour,
+    salutation,
+
+~[greets]
+    ca va ?
+    la forme ?
+    bien ?
+    comment vas-tu ?
+    comment allez-vous ?
+
+~[help]
+    tu peux m'aider ? ~[plz?plz]
+    j'aurais besoins d'aide, ~[plz?plz] 
+    Pourriez vous m'aidez ~[plz?plz] ?
+    j'ai besoins d'aide !
+    me faut de l'aide,
+    faut que tu m'aide !
+    Nous avons besoins d'aide d'urgence !
+    Aide moi ~[plz?plz]
+
+~[thanks]
+    ca m'aiderais beaucoup, [merci?]
+    ca serait super, [merci?]
+    tu m'enlèverais une épine du pied, [merci?]
+    ce serait [bien aimable|apprécié], [merci?]
+
+~[bye]
+    Au revoir [!?]
+    A+ [!?]
+    Salut [!?]
+    Ciao [!?]
+
+~[plz]
+    s'il [te|vous] plait,
+    [svp|stp],
+    plz,
+
+~[doctor]
+    [Mme|Docteur?] ABOAB [Jennifer?]
+    [Mr|Docteur?] ABOUCAYA [Jean-Paul?]
+    [Mr|Docteur?] AL MOUSSARIH [Abdallah?]
+    [Mme|Docteur?] ALLARD [Anne?]
+    [Mr|Docteur?] ALONSO [Enrique?]
+    [Mr|Docteur?] APTECAR [Eduardo?]
+    [Mr|Docteur?] ARISTIZABAL [Patrick?]
+    [Mr|Docteur?] ARMANDON [Denis?]
+    [Mr|Docteur?] BADO [Fabrice?]
+    [Mr|Docteur?] BAUER [Bertrand?]
+    [Mr|Docteur?] BECHEREL [Pierre-André?]
+    [Mr|Docteur?] BELDA [Eric?]
+    [Mr|Docteur?] BELHASSEN [Laurent?]
+    [Mme|Docteur?] BELMAGHNI [Fatma?]
+    [Mr|Docteur?] BENHAMOU [Claude?]
+    [Mme|Docteur?] BENOSMAN [Hedi?]
+    [Mme|Docteur?] BENOUAICHE [Laurence?]
+    [Mme|Docteur?] BENSAID [Cherazade?]
+    [Mme|Docteur?] BLAVIER [Bénédicte?]
+    [Mr|Docteur?] BLIN [Jean-Louis?]
+    [Mr|Docteur?] BORIE [Hervé?]
+    [Mr|Docteur?] BOSSI [Philippe?]
+    [Mr|Docteur?] BOUCHAREB [Adam?]
+    [Mr|Docteur?] BOULET [Stéphane?]
+    [Mme|Docteur?] BRUN [Magali?]
+    [Mr|Docteur?] BRUN [Laurent?]
+    [Mr|Docteur?] BRUNET [Morgan?]
+    [Mme|Docteur?] BRUNET [Océane?]
+    [Mme|Docteur?] BRYON [Dominique?]
+    [Mr|Docteur?] CADOT [Bernard?]
+
+~[service]
+    Gastro-entérologie
+    Angiologie
+    Ophtalmologie
+    ORL
+    Accueil
+    Admissions
+    Soins ambulatoire
+    Planification
+    Urgence
+    Anesthésie
+    Unité de Soins continus
+    Angiographie
+    Stomatologie
+    Stomathérapie
+    Assistante hôtelière
+    Sophrologie
+    Assistante logistique
+    Oncologie
+    Assistante sociale
+    Biomédical
+    Chirurgie de la main
+    Scintigraphie
+    Rythmologie
+    Rhumatologie
+    Ressources Humaines
+    Chirurgie vasculaire
+    Chirurgie Viscérale
+    Pédiatrie
+    Chirurgie digestive
+    Chirurgie orthopédique
