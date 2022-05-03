@@ -1,9 +1,9 @@
 ~[role]
-    pédiatre
+    pediatre
     assistant[e?] sociale
     assistant[e?] logistique
-    assistant[e?] hôtelier[e]
-    anesthésite
+    assistant[e?] hetelier[e]
+    anesthesite
     angiologue
     chirurgien
     ophtalmologue
@@ -13,33 +13,33 @@
     rhumatologue
 
 ~[doctor role] 
-    qui est ~[role] [je crois|je pense|de mémoire?]
-    qui officie en tant que ~[role] [je crois|je pense|de mémoire?]
+    qui est ~[role] [je crois|je pense|de memoire?]
+    qui officie en tant que ~[role] [je crois|je pense|de memoire?]
 
 ~[doctor service]
-    qui fait partie du service ~[service] [je crois|je pense|de mémoire?]
-    qui appartient au service ~[service] [je crois|je pense|de mémoire?]
-    qui est membre du service ~[service] [je crois|je pense|de mémoire?]
+    qui fait partie du service ~[service] [je crois|je pense|de memoire?]
+    qui appartient au service ~[service] [je crois|je pense|de memoire?]
+    qui est membre du service ~[service] [je crois|je pense|de memoire?]
 
 ~[from doctor]
     sur recommandation de ~[doctor] ~[doctor role?][.|,?] 
     sur recommandation de ~[doctor] ~[doctor service?][.|,?] 
-    à la demannde du ~[doctor] ~[doctor role?][.|,?]
-    à la demannde du ~[doctor] ~[doctor service?][.|,?]
-    comme me l'a [conseillé|demandé] ~[doctor] ~[doctor role?][.|,?]
-    comme me l'a [conseillé|demandé] ~[doctor] ~[doctor service?][.|,?]
+    a la demande du ~[doctor] ~[doctor role?][.|,?]
+    a la demande du ~[doctor] ~[doctor service?][.|,?]
+    comme me l'a [conseille|demande] ~[doctor] ~[doctor role?][.|,?]
+    comme me l'a [conseille|demande] ~[doctor] ~[doctor service?][.|,?]
 
 ~[problems]
-    [Mon fils|Ma fille] est [très?] malade[.|,?]
-    Je me suis [coupé|brulé|fait mal][.|,?]
+    [Mon fils|Ma fille] est [tres?] malade[.|,?]
+    Je me suis [coupe|brule|fait mal][.|,?]
     [Il|Elle] se sent [pas bien|malade][.|,?]
     Je me sens [pas bien|malade][.|,?]
-    [j'ai|il a|elle a] eu [un accident|une attaque|un problème|une complication][.|,?]
+    [j'ai|il a|elle a] eu [un accident|une attaque|un probleme|une complication][.|,?]
 
 ~[med act]
-    [J'ai|il a|elle a] [passé|fais] [une scintigraphie|une radio|un examen|une analyse][.|,?]
-    [Je suis|il est|elle est] en cure [de radiothérapie|de chimiothérapie?][.|,?]
-    [Je|Il|Elle] dois faire une [une scintigraphie|un examen|une analyse|une prise de sang|anesthésie][.|,?]
+    [J'ai|il a|elle a] [passe|fais] [une scintigraphie|une radio|un examen|une analyse][.|,?]
+    [Je suis|il est|elle est] en cure [de radiotherapie|de chimiotherapie?][.|,?]
+    [Je|Il|Elle] dois faire une [une scintigraphie|un examen|une analyse|une prise de sang|anesthesie][.|,?]
 
 ~[start noise]
     ~[hello?] ~[greets?] ~[help?]
@@ -76,8 +76,8 @@
 ~[thanks]
     ca m'aiderais beaucoup, [merci?]
     ca serait super, [merci?]
-    tu m'enlèverais une épine du pied, [merci?]
-    ce serait [bien aimable|apprécié], [merci?]
+    tu m'enleverais une epine du pied, [merci?]
+    ce serait [bien aimable|apprecie], [merci?]
 
 ~[bye]
     Au revoir [!?]
@@ -101,7 +101,7 @@
     [Mr|Docteur?] ARMANDON [Denis?]
     [Mr|Docteur?] BADO [Fabrice?]
     [Mr|Docteur?] BAUER [Bertrand?]
-    [Mr|Docteur?] BECHEREL [Pierre-André?]
+    [Mr|Docteur?] BECHEREL [Pierre-Andre?]
     [Mr|Docteur?] BELDA [Eric?]
     [Mr|Docteur?] BELHASSEN [Laurent?]
     [Mme|Docteur?] BELMAGHNI [Fatma?]
@@ -109,21 +109,21 @@
     [Mme|Docteur?] BENOSMAN [Hedi?]
     [Mme|Docteur?] BENOUAICHE [Laurence?]
     [Mme|Docteur?] BENSAID [Cherazade?]
-    [Mme|Docteur?] BLAVIER [Bénédicte?]
+    [Mme|Docteur?] BLAVIER [Benedicte?]
     [Mr|Docteur?] BLIN [Jean-Louis?]
-    [Mr|Docteur?] BORIE [Hervé?]
+    [Mr|Docteur?] BORIE [Herve?]
     [Mr|Docteur?] BOSSI [Philippe?]
     [Mr|Docteur?] BOUCHAREB [Adam?]
-    [Mr|Docteur?] BOULET [Stéphane?]
+    [Mr|Docteur?] BOULET [Stephane?]
     [Mme|Docteur?] BRUN [Magali?]
     [Mr|Docteur?] BRUN [Laurent?]
     [Mr|Docteur?] BRUNET [Morgan?]
-    [Mme|Docteur?] BRUNET [Océane?]
+    [Mme|Docteur?] BRUNET [Oceane?]
     [Mme|Docteur?] BRYON [Dominique?]
     [Mr|Docteur?] CADOT [Bernard?]
 
 ~[service]
-    Gastro-entérologie
+    Gastro-enterologie
     Angiologie
     Ophtalmologie
     ORL
@@ -132,24 +132,24 @@
     Soins ambulatoire
     Planification
     Urgence
-    Anesthésie
-    Unité de Soins continus
+    Anesthesie
+    Unite de Soins continus
     Angiographie
     Stomatologie
-    Stomathérapie
-    Assistante hôtelière
+    Stomatherapie
+    Assistante heteliere
     Sophrologie
     Assistante logistique
     Oncologie
     Assistante sociale
-    Biomédical
+    Biomedical
     Chirurgie de la main
     Scintigraphie
     Rythmologie
     Rhumatologie
     Ressources Humaines
     Chirurgie vasculaire
-    Chirurgie Viscérale
-    Pédiatrie
+    Chirurgie Viscerale
+    Pediatrie
     Chirurgie digestive
-    Chirurgie orthopédique
+    Chirurgie orthopedique

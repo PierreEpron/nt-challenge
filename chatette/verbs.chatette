@@ -92,225 +92,225 @@
     ~[vouloir_conditional_first past_5_commun?1-vouloir_conditional_first past_5/75] ~[vouloir_conditional_first past_5_rare?!1-vouloir_conditional_first past_5]
 
 ~[vouloir_indicative_present_0_commun]
-    je demande à
+    je demande a
     je peux
     je veux
-    je désire
+    je desire
     je souhaite
 
 ~[vouloir_indicative_present_0_rare]
     j'exige de
-    je rêve de
-    je réclame de
-    j'espère
-    j'aspire à
+    je reve de
+    je reclame de
+    j'espere
+    j'aspire a
 
 ~[vouloir_indicative_present_2_commun]
-    il demande à
+    il demande a
     il peut
     il veut
-    il désire
+    il desire
     il souhaite
 
 ~[vouloir_indicative_present_2_rare]
     il exige de
-    il rêve de
-    il réclame de
-    il espère
-    il aspire à
+    il reve de
+    il reclame de
+    il espere
+    il aspire a
 
 ~[vouloir_indicative_present_3_commun]
-    nous demandons à
+    nous demandons a
     nous pouvons
     nous voulons
-    nous désirons
+    nous desirons
     nous souhaitons
 
 ~[vouloir_indicative_present_3_rare]
     nous exigeons de
-    nous rêvons de
-    nous réclamons de
-    nous espérons
-    nous aspirons à
+    nous revons de
+    nous reclamons de
+    nous esperons
+    nous aspirons a
 
 ~[vouloir_indicative_present_5_commun]
-    ils demandent à
+    ils demandent a
     ils peuvent
     ils veulent
-    ils désirent
+    ils desirent
     ils souhaitent
 
 ~[vouloir_indicative_present_5_rare]
     ils exigent de
-    ils rêvent de
-    ils réclament de
-    ils espèrent
-    ils aspirent à
+    ils revent de
+    ils reclament de
+    ils esperent
+    ils aspirent a
 
 ~[vouloir_indicative_imperfect_0_commun]
-    je demandais à
+    je demandais a
     je voulais
-    je désirais
+    je desirais
     je souhaitais
 
 ~[vouloir_indicative_imperfect_0_rare]
     j'exigeais de
-    je rêvais de
-    je réclamais de
-    j'espérais
-    j'aspirais à
+    je revais de
+    je reclamais de
+    j'esperais
+    j'aspirais a
 
 ~[vouloir_indicative_imperfect_2_commun]
-    il demandait à
+    il demandait a
     il voulait
-    il désirait
+    il desirait
     il souhaitait
 
 ~[vouloir_indicative_imperfect_2_rare]
     il exigeait de
-    il rêvait de
-    il réclamait de
-    il espérait
-    il aspirait à
+    il revait de
+    il reclamait de
+    il esperait
+    il aspirait a
 
 ~[vouloir_indicative_imperfect_3_commun]
-    nous demandions à
+    nous demandions a
     nous voulions
-    nous désirions
+    nous desirions
     nous souhaitions
 
 ~[vouloir_indicative_imperfect_3_rare]
     nous exigions de
-    nous rêvions de
-    nous réclamions de
-    nous espérions
-    nous aspirions à
+    nous revions de
+    nous reclamions de
+    nous esperions
+    nous aspirions a
 
 ~[vouloir_indicative_imperfect_5_commun]
-    ils demandaient à
+    ils demandaient a
     ils voulaient
-    ils désiraient
+    ils desiraient
     ils souhaitaient
 
 ~[vouloir_indicative_imperfect_5_rare]
     ils exigeaient de
-    ils rêvaient de
-    ils réclamaient de
-    ils espéraient
-    ils aspiraient à
+    ils revaient de
+    ils reclamaient de
+    ils esperaient
+    ils aspiraient a
 
 ~[vouloir_conditional_present_0_commun]
-    je demanderais à
+    je demanderais a
     je pourrais
     je voudrais
-    je désirerais
+    je desirerais
     je souhaiterais
     j'aimerais
 
 ~[vouloir_conditional_present_0_rare]
     j'exigerais de
-    je rêverais de
-    je réclamerais de
-    j'espérerais
-    j'aspirerais à
+    je reverais de
+    je reclamerais de
+    j'espererais
+    j'aspirerais a
 
 ~[vouloir_conditional_present_2_commun]
-    il demanderait à
+    il demanderait a
     il pourrait
     il voudrait
-    il désirerait
+    il desirerait
     il souhaiterait
     il aimerait
 
 ~[vouloir_conditional_present_2_rare]
     il exigerait de
-    il rêverait de
-    il réclamerait de
-    il espérerait
-    il aspirerait à
+    il reverait de
+    il reclamerait de
+    il espererait
+    il aspirerait a
 
 ~[vouloir_conditional_present_3_commun]
-    nous demanderions à
+    nous demanderions a
     nous pourrions
     nous voudrions
-    nous désirerions
+    nous desirerions
     nous souhaiterions
     nous aimerions
 
 ~[vouloir_conditional_present_3_rare]
     nous exigerions de
-    nous rêverions de
-    nous réclamerions de
-    nous espérerions
-    nous aspirerions à
+    nous reverions de
+    nous reclamerions de
+    nous espererions
+    nous aspirerions a
 
 ~[vouloir_conditional_present_5_commun]
-    ils demanderaient à
+    ils demanderaient a
     ils pourraient
     ils voudraient
-    ils désireraient
+    ils desireraient
     ils souhaiteraient
     ils aimeraient
 
 ~[vouloir_conditional_present_5_rare]
     ils exigeraient de
-    ils rêveraient de
-    ils réclameraient de
-    ils espéreraient
-    ils aspireraient à
+    ils reveraient de
+    ils reclameraient de
+    ils espereraient
+    ils aspireraient a
 
 ~[vouloir_conditional_first past_0_commun]
-    j'aurais demandé à
+    j'aurais demande a
     j'aurais voulu
-    j'aurais désiré
-    j'aurais souhaité
-    j'aurais aimé
+    j'aurais desire
+    j'aurais souhaite
+    j'aurais aime
 
 ~[vouloir_conditional_first past_0_rare]
-    j'aurais exigé de
-    j'aurais rêvé de
-    j'aurais réclamé de
-    j'aurais espéré
-    j'aurais aspiré à
+    j'aurais exige de
+    j'aurais reve de
+    j'aurais reclame de
+    j'aurais espere
+    j'aurais aspire a
 
 ~[vouloir_conditional_first past_2_commun]
-    il aurait demandé à
+    il aurait demande a
     il aurait voulu
-    il aurait désiré
-    il aurait souhaité
-    il aurait aimé
+    il aurait desire
+    il aurait souhaite
+    il aurait aime
 
 ~[vouloir_conditional_first past_2_rare]
-    il aurait exigé de
-    il aurait rêvé de
-    il aurait réclamé de
-    il aurait espéré
-    il aurait aspiré à
+    il aurait exige de
+    il aurait reve de
+    il aurait reclame de
+    il aurait espere
+    il aurait aspire a
 
 ~[vouloir_conditional_first past_3_commun]
-    nous aurions demandé à
+    nous aurions demande a
     nous aurions voulu
-    nous aurions désiré
-    nous aurions souhaité
-    nous aurions aimé
+    nous aurions desire
+    nous aurions souhaite
+    nous aurions aime
 
 ~[vouloir_conditional_first past_3_rare]
-    nous aurions exigé de
-    nous aurions rêvé de
-    nous aurions réclamé de
-    nous aurions espéré
-    nous aurions aspiré à
+    nous aurions exige de
+    nous aurions reve de
+    nous aurions reclame de
+    nous aurions espere
+    nous aurions aspire a
 
 ~[vouloir_conditional_first past_5_commun]
-    ils auraient demandé à
+    ils auraient demande a
     ils auraient voulu
-    ils auraient désiré
-    ils auraient souhaité
-    ils auraient aimé
+    ils auraient desire
+    ils auraient souhaite
+    ils auraient aime
 
 ~[vouloir_conditional_first past_5_rare]
-    ils auraient exigé de
-    ils auraient rêvé de
-    ils auraient réclamé de
-    ils auraient espéré
-    ils auraient aspiré à
+    ils auraient exige de
+    ils auraient reve de
+    ils auraient reclame de
+    ils auraient espere
+    ils auraient aspire a

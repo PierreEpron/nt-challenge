@@ -69,9 +69,9 @@
 
 
 %[&contact_doctor_becherel_pierre_andre]('train': '30', 'test': '15')
-    ~[contact doctor simple$BECHEREL Pierre-André]
+    ~[contact doctor simple$BECHEREL Pierre-Andre]
     ~[contact doctor simple$BECHEREL]
-    ~[contact doctor medium$BECHEREL Pierre-André]
+    ~[contact doctor medium$BECHEREL Pierre-Andre]
     ~[contact doctor medium$BECHEREL]
 
 
@@ -125,9 +125,9 @@
 
 
 %[&contact_doctor_blavier_benedicte]('train': '30', 'test': '15')
-    ~[contact doctor simple$BLAVIER Bénédicte]
+    ~[contact doctor simple$BLAVIER Benedicte]
     ~[contact doctor simple$BLAVIER]
-    ~[contact doctor medium$BLAVIER Bénédicte]
+    ~[contact doctor medium$BLAVIER Benedicte]
     ~[contact doctor medium$BLAVIER]
 
 
@@ -139,9 +139,9 @@
 
 
 %[&contact_doctor_borie_herve]('train': '30', 'test': '15')
-    ~[contact doctor simple$BORIE Hervé]
+    ~[contact doctor simple$BORIE Herve]
     ~[contact doctor simple$BORIE]
-    ~[contact doctor medium$BORIE Hervé]
+    ~[contact doctor medium$BORIE Herve]
     ~[contact doctor medium$BORIE]
 
 
@@ -160,9 +160,9 @@
 
 
 %[&contact_doctor_boulet_stephane]('train': '30', 'test': '15')
-    ~[contact doctor simple$BOULET Stéphane]
+    ~[contact doctor simple$BOULET Stephane]
     ~[contact doctor simple$BOULET]
-    ~[contact doctor medium$BOULET Stéphane]
+    ~[contact doctor medium$BOULET Stephane]
     ~[contact doctor medium$BOULET]
 
 
@@ -188,9 +188,9 @@
 
 
 %[&contact_doctor_brunet_oceane]('train': '30', 'test': '15')
-    ~[contact doctor simple$BRUNET Océane]
+    ~[contact doctor simple$BRUNET Oceane]
     ~[contact doctor simple$BRUNET]
-    ~[contact doctor medium$BRUNET Océane]
+    ~[contact doctor medium$BRUNET Oceane]
     ~[contact doctor medium$BRUNET]
 
 
@@ -209,8 +209,8 @@
 
 
 %[&contact_service_gastro_enterologie]('train': '30', 'test': '15')
-    ~[contact service simple$Gastro-entérologie]
-    ~[contact service medium$Gastro-entérologie]
+    ~[contact service simple$Gastro-enterologie]
+    ~[contact service medium$Gastro-enterologie]
 
 
 %[&contact_service_angiologie]('train': '30', 'test': '15')
@@ -254,13 +254,13 @@
 
 
 %[&contact_service_anesthesie]('train': '30', 'test': '15')
-    ~[contact service simple$Anesthésie]
-    ~[contact service medium$Anesthésie]
+    ~[contact service simple$Anesthesie]
+    ~[contact service medium$Anesthesie]
 
 
 %[&contact_service_unite_de_soins_continus]('train': '30', 'test': '15')
-    ~[contact service simple$Unité de Soins continus]
-    ~[contact service medium$Unité de Soins continus]
+    ~[contact service simple$Unite de Soins continus]
+    ~[contact service medium$Unite de Soins continus]
 
 
 %[&contact_service_angiographie]('train': '30', 'test': '15')
@@ -274,13 +274,13 @@
 
 
 %[&contact_service_stomatherapie]('train': '30', 'test': '15')
-    ~[contact service simple$Stomathérapie]
-    ~[contact service medium$Stomathérapie]
+    ~[contact service simple$Stomatherapie]
+    ~[contact service medium$Stomatherapie]
 
 
 %[&contact_service_assistante_hoteliere]('train': '30', 'test': '15')
-    ~[contact service simple$Assistante hôtelière]
-    ~[contact service medium$Assistante hôtelière]
+    ~[contact service simple$Assistante heteliere]
+    ~[contact service medium$Assistante heteliere]
 
 
 %[&contact_service_sophrologie]('train': '30', 'test': '15')
@@ -304,8 +304,8 @@
 
 
 %[&contact_service_biomedical]('train': '30', 'test': '15')
-    ~[contact service simple$Biomédical]
-    ~[contact service medium$Biomédical]
+    ~[contact service simple$Biomedical]
+    ~[contact service medium$Biomedical]
 
 
 %[&contact_service_chirurgie_de_la_main]('train': '30', 'test': '15')
@@ -339,13 +339,13 @@
 
 
 %[&contact_service_chirurgie_viscerale]('train': '30', 'test': '15')
-    ~[contact service simple$Chirurgie Viscérale]
-    ~[contact service medium$Chirurgie Viscérale]
+    ~[contact service simple$Chirurgie Viscerale]
+    ~[contact service medium$Chirurgie Viscerale]
 
 
 %[&contact_service_pediatrie]('train': '30', 'test': '15')
-    ~[contact service simple$Pédiatrie]
-    ~[contact service medium$Pédiatrie]
+    ~[contact service simple$Pediatrie]
+    ~[contact service medium$Pediatrie]
 
 
 %[&contact_service_chirurgie_digestive]('train': '30', 'test': '15')
@@ -354,8 +354,8 @@
 
 
 %[&contact_service_chirurgie_orthopedique]('train': '30', 'test': '15')
-    ~[contact service simple$Chirurgie orthopédique]
-    ~[contact service medium$Chirurgie orthopédique]
+    ~[contact service simple$Chirurgie orthopedique]
+    ~[contact service medium$Chirurgie orthopedique]
 
 
 %[&contact_doctor_unknown]('train': '100', 'test': '100')
@@ -444,10 +444,10 @@
     ~[contact service medium$clinique]
     ~[contact service simple$hopital]
     ~[contact service medium$hopital]
-    ~[contact service simple$charité]
-    ~[contact service medium$charité]
-    ~[contact service simple$église]
-    ~[contact service medium$église]
+    ~[contact service simple$charite]
+    ~[contact service medium$charite]
+    ~[contact service simple$eglise]
+    ~[contact service medium$eglise]
     ~[contact service simple$mer]
     ~[contact service medium$mer]
     ~[contact service simple$caserne]
