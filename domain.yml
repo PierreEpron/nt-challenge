@@ -3,6 +3,7 @@ version: "3.0"
 intents:
   - contact_service
   - contact_doctor
+  - out_of_scope
 
 entities:
   - service
@@ -22,10 +23,11 @@ slots:
 
 responses:
   utter_contact_service:
-  - text: "Bonjour, je vais te mettre en relation avec le service : {service}"
+  - text: "Bonjour, je vais vous mettre en relation avec le service : {service}"
   utter_contact_doctor:
-  - text: "Bonjour, je vais te mettre en relation avec le docteur : {doctor}"
-
+  - text: "Bonjour, je vais vous mettre en relation avec le docteur : {doctor}"
+  utter_out_of_scope:
+  - text: "Bonjour, je ne peux pas répondre à votre demande"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

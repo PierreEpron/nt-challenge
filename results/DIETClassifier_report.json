@@ -1,37 +1,55 @@
 {
   "service": {
-    "precision": 0.5603448275862069,
-    "recall": 0.9558823529411765,
-    "f1-score": 0.7065217391304347,
-    "support": 68,
-    "confused_with": {}
-  },
-  "doctor": {
-    "precision": 0.7948717948717948,
-    "recall": 0.7560975609756098,
-    "f1-score": 0.7749999999999999,
-    "support": 41,
+    "precision": 1.0,
+    "recall": 0.11538461538461539,
+    "f1-score": 0.20689655172413793,
+    "support": 26,
     "confused_with": {
-      "service": 2
+      "service.target": 10
     }
   },
+  "doctor": {
+    "precision": 0.08333333333333333,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.1111111111111111,
+    "support": 6,
+    "confused_with": {
+      "doctor.target": 2
+    }
+  },
+  "doctor.target": {
+    "precision": 0.8846153846153846,
+    "recall": 0.6052631578947368,
+    "f1-score": 0.71875,
+    "support": 38,
+    "confused_with": {
+      "doctor": 10
+    }
+  },
+  "service.target": {
+    "precision": 0.6764705882352942,
+    "recall": 0.48936170212765956,
+    "f1-score": 0.5679012345679013,
+    "support": 47,
+    "confused_with": {}
+  },
   "micro avg": {
-    "precision": 0.6193548387096774,
-    "recall": 0.8807339449541285,
-    "f1-score": 0.7272727272727274,
-    "support": 109
+    "precision": 0.6666666666666666,
+    "recall": 0.42735042735042733,
+    "f1-score": 0.5208333333333333,
+    "support": 117
   },
   "macro avg": {
-    "precision": 0.6776083112290008,
-    "recall": 0.8559899569583931,
-    "f1-score": 0.7407608695652173,
-    "support": 109
+    "precision": 0.661104826546003,
+    "recall": 0.3441690355184196,
+    "f1-score": 0.4011647243507876,
+    "support": 117
   },
   "weighted avg": {
-    "precision": 0.6485613932624372,
-    "recall": 0.8807339449541285,
-    "f1-score": 0.7322796170721978,
-    "support": 109
+    "precision": 0.7855513013884055,
+    "recall": 0.42735042735042733,
+    "f1-score": 0.5132464533007317,
+    "support": 117
   },
-  "accuracy": 0.8958333333333334
+  "accuracy": 0.9115384615384615
 }
