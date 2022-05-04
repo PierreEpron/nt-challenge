@@ -91,6 +91,9 @@
     plz,
 
 ~[doctor]
+    \[~[doctor value]\](doctor)
+
+~[doctor value]
     [Mme|Docteur?] ABOAB [Jennifer?]
     [Mr|Docteur?] ABOUCAYA [Jean-Paul?]
     [Mr|Docteur?] AL MOUSSARIH [Abdallah?]
@@ -123,6 +126,9 @@
     [Mr|Docteur?] CADOT [Bernard?]
 
 ~[service]
+    \[~[service value]\](service)
+
+~[service value]
     Gastro-enterologie
     Angiologie
     Ophtalmologie

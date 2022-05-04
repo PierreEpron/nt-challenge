@@ -1,0 +1,8 @@
+%[test]('training': '10')
+    salut, \[entite\]\{"entity": "doctor", "role": "target"\}
+    salut, \[entite\](doctor)
+    ~[test_taget$\[entite\]\{"entity": "doctor", "role": "target"\}]
+    ~[test_taget$\[entite\](doctor)]
+
+~[test_taget$TARGET]
+    la target : $TARGET

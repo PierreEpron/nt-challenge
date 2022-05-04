@@ -1,470 +1,470 @@
-%[&contact_doctor_aboab_jennifer]('train': '30', 'test': '15')
-    ~[contact doctor simple$ABOAB Jennifer]
-    ~[contact doctor simple$ABOAB]
-    ~[contact doctor medium$ABOAB Jennifer]
-    ~[contact doctor medium$ABOAB]
+%[contact_doctor_aboab_jennifer]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[ABOAB Jennifer\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[ABOAB\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ABOAB Jennifer\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ABOAB\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_aboucaya_jean_paul]('train': '30', 'test': '15')
-    ~[contact doctor simple$ABOUCAYA Jean-Paul]
-    ~[contact doctor simple$ABOUCAYA]
-    ~[contact doctor medium$ABOUCAYA Jean-Paul]
-    ~[contact doctor medium$ABOUCAYA]
+%[contact_doctor_aboucaya_jean_paul]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[ABOUCAYA Jean-Paul\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[ABOUCAYA\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ABOUCAYA Jean-Paul\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ABOUCAYA\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_al_moussarih_abdallah]('train': '30', 'test': '15')
-    ~[contact doctor simple$AL MOUSSARIH Abdallah]
-    ~[contact doctor simple$AL]
-    ~[contact doctor medium$AL MOUSSARIH Abdallah]
-    ~[contact doctor medium$AL]
+%[contact_doctor_al_moussarih_abdallah]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[AL MOUSSARIH Abdallah\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[AL\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[AL MOUSSARIH Abdallah\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[AL\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_allard_anne]('train': '30', 'test': '15')
-    ~[contact doctor simple$ALLARD Anne]
-    ~[contact doctor simple$ALLARD]
-    ~[contact doctor medium$ALLARD Anne]
-    ~[contact doctor medium$ALLARD]
+%[contact_doctor_allard_anne]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[ALLARD Anne\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[ALLARD\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ALLARD Anne\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ALLARD\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_alonso_enrique]('train': '30', 'test': '15')
-    ~[contact doctor simple$ALONSO Enrique]
-    ~[contact doctor simple$ALONSO]
-    ~[contact doctor medium$ALONSO Enrique]
-    ~[contact doctor medium$ALONSO]
+%[contact_doctor_alonso_enrique]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[ALONSO Enrique\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[ALONSO\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ALONSO Enrique\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ALONSO\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_aptecar_eduardo]('train': '30', 'test': '15')
-    ~[contact doctor simple$APTECAR Eduardo]
-    ~[contact doctor simple$APTECAR]
-    ~[contact doctor medium$APTECAR Eduardo]
-    ~[contact doctor medium$APTECAR]
+%[contact_doctor_aptecar_eduardo]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[APTECAR Eduardo\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[APTECAR\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[APTECAR Eduardo\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[APTECAR\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_aristizabal_patrick]('train': '30', 'test': '15')
-    ~[contact doctor simple$ARISTIZABAL Patrick]
-    ~[contact doctor simple$ARISTIZABAL]
-    ~[contact doctor medium$ARISTIZABAL Patrick]
-    ~[contact doctor medium$ARISTIZABAL]
+%[contact_doctor_aristizabal_patrick]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[ARISTIZABAL Patrick\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[ARISTIZABAL\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ARISTIZABAL Patrick\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ARISTIZABAL\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_armandon_denis]('train': '30', 'test': '15')
-    ~[contact doctor simple$ARMANDON Denis]
-    ~[contact doctor simple$ARMANDON]
-    ~[contact doctor medium$ARMANDON Denis]
-    ~[contact doctor medium$ARMANDON]
+%[contact_doctor_armandon_denis]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[ARMANDON Denis\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[ARMANDON\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ARMANDON Denis\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ARMANDON\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_bado_fabrice]('train': '30', 'test': '15')
-    ~[contact doctor simple$BADO Fabrice]
-    ~[contact doctor simple$BADO]
-    ~[contact doctor medium$BADO Fabrice]
-    ~[contact doctor medium$BADO]
+%[contact_doctor_bado_fabrice]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BADO Fabrice\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BADO\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BADO Fabrice\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BADO\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_bauer_bertrand]('train': '30', 'test': '15')
-    ~[contact doctor simple$BAUER Bertrand]
-    ~[contact doctor simple$BAUER]
-    ~[contact doctor medium$BAUER Bertrand]
-    ~[contact doctor medium$BAUER]
+%[contact_doctor_bauer_bertrand]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BAUER Bertrand\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BAUER\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BAUER Bertrand\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BAUER\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_becherel_pierre_andre]('train': '30', 'test': '15')
-    ~[contact doctor simple$BECHEREL Pierre-Andre]
-    ~[contact doctor simple$BECHEREL]
-    ~[contact doctor medium$BECHEREL Pierre-Andre]
-    ~[contact doctor medium$BECHEREL]
+%[contact_doctor_becherel_pierre_andre]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BECHEREL Pierre-André\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BECHEREL\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BECHEREL Pierre-André\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BECHEREL\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_belda_eric]('train': '30', 'test': '15')
-    ~[contact doctor simple$BELDA Eric]
-    ~[contact doctor simple$BELDA]
-    ~[contact doctor medium$BELDA Eric]
-    ~[contact doctor medium$BELDA]
+%[contact_doctor_belda_eric]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BELDA Eric\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BELDA\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BELDA Eric\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BELDA\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_belhassen_laurent]('train': '30', 'test': '15')
-    ~[contact doctor simple$BELHASSEN Laurent]
-    ~[contact doctor simple$BELHASSEN]
-    ~[contact doctor medium$BELHASSEN Laurent]
-    ~[contact doctor medium$BELHASSEN]
+%[contact_doctor_belhassen_laurent]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BELHASSEN Laurent\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BELHASSEN\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BELHASSEN Laurent\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BELHASSEN\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_belmaghni_fatma]('train': '30', 'test': '15')
-    ~[contact doctor simple$BELMAGHNI Fatma]
-    ~[contact doctor simple$BELMAGHNI]
-    ~[contact doctor medium$BELMAGHNI Fatma]
-    ~[contact doctor medium$BELMAGHNI]
+%[contact_doctor_belmaghni_fatma]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BELMAGHNI Fatma\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BELMAGHNI\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BELMAGHNI Fatma\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BELMAGHNI\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_benhamou_claude]('train': '30', 'test': '15')
-    ~[contact doctor simple$BENHAMOU Claude]
-    ~[contact doctor simple$BENHAMOU]
-    ~[contact doctor medium$BENHAMOU Claude]
-    ~[contact doctor medium$BENHAMOU]
+%[contact_doctor_benhamou_claude]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BENHAMOU Claude\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BENHAMOU\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BENHAMOU Claude\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BENHAMOU\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_benosman_hedi]('train': '30', 'test': '15')
-    ~[contact doctor simple$BENOSMAN Hedi]
-    ~[contact doctor simple$BENOSMAN]
-    ~[contact doctor medium$BENOSMAN Hedi]
-    ~[contact doctor medium$BENOSMAN]
+%[contact_doctor_benosman_hedi]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BENOSMAN Hedi\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BENOSMAN\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BENOSMAN Hedi\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BENOSMAN\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_benouaiche_laurence]('train': '30', 'test': '15')
-    ~[contact doctor simple$BENOUAICHE Laurence]
-    ~[contact doctor simple$BENOUAICHE]
-    ~[contact doctor medium$BENOUAICHE Laurence]
-    ~[contact doctor medium$BENOUAICHE]
+%[contact_doctor_benouaiche_laurence]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BENOUAICHE Laurence\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BENOUAICHE\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BENOUAICHE Laurence\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BENOUAICHE\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_bensaid_cherazade]('train': '30', 'test': '15')
-    ~[contact doctor simple$BENSAID Cherazade]
-    ~[contact doctor simple$BENSAID]
-    ~[contact doctor medium$BENSAID Cherazade]
-    ~[contact doctor medium$BENSAID]
+%[contact_doctor_bensaid_cherazade]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BENSAID Cherazade\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BENSAID\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BENSAID Cherazade\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BENSAID\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_blavier_benedicte]('train': '30', 'test': '15')
-    ~[contact doctor simple$BLAVIER Benedicte]
-    ~[contact doctor simple$BLAVIER]
-    ~[contact doctor medium$BLAVIER Benedicte]
-    ~[contact doctor medium$BLAVIER]
+%[contact_doctor_blavier_benedicte]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BLAVIER Bénédicte\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BLAVIER\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BLAVIER Bénédicte\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BLAVIER\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_blin_jean_louis]('train': '30', 'test': '15')
-    ~[contact doctor simple$BLIN Jean-Louis]
-    ~[contact doctor simple$BLIN]
-    ~[contact doctor medium$BLIN Jean-Louis]
-    ~[contact doctor medium$BLIN]
+%[contact_doctor_blin_jean_louis]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BLIN Jean-Louis\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BLIN\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BLIN Jean-Louis\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BLIN\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_borie_herve]('train': '30', 'test': '15')
-    ~[contact doctor simple$BORIE Herve]
-    ~[contact doctor simple$BORIE]
-    ~[contact doctor medium$BORIE Herve]
-    ~[contact doctor medium$BORIE]
+%[contact_doctor_borie_herve]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BORIE Hervé\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BORIE\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BORIE Hervé\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BORIE\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_bossi_philippe]('train': '30', 'test': '15')
-    ~[contact doctor simple$BOSSI Philippe]
-    ~[contact doctor simple$BOSSI]
-    ~[contact doctor medium$BOSSI Philippe]
-    ~[contact doctor medium$BOSSI]
+%[contact_doctor_bossi_philippe]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BOSSI Philippe\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BOSSI\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BOSSI Philippe\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BOSSI\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_bouchareb_adam]('train': '30', 'test': '15')
-    ~[contact doctor simple$BOUCHAREB Adam]
-    ~[contact doctor simple$BOUCHAREB]
-    ~[contact doctor medium$BOUCHAREB Adam]
-    ~[contact doctor medium$BOUCHAREB]
+%[contact_doctor_bouchareb_adam]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BOUCHAREB Adam\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BOUCHAREB\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BOUCHAREB Adam\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BOUCHAREB\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_boulet_stephane]('train': '30', 'test': '15')
-    ~[contact doctor simple$BOULET Stephane]
-    ~[contact doctor simple$BOULET]
-    ~[contact doctor medium$BOULET Stephane]
-    ~[contact doctor medium$BOULET]
+%[contact_doctor_boulet_stephane]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BOULET Stéphane\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BOULET\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BOULET Stéphane\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BOULET\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_brun_magali]('train': '30', 'test': '15')
-    ~[contact doctor simple$BRUN Magali]
-    ~[contact doctor simple$BRUN]
-    ~[contact doctor medium$BRUN Magali]
-    ~[contact doctor medium$BRUN]
+%[contact_doctor_brun_magali]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BRUN Magali\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BRUN\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRUN Magali\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRUN\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_brun_laurent]('train': '30', 'test': '15')
-    ~[contact doctor simple$BRUN Laurent]
-    ~[contact doctor simple$BRUN]
-    ~[contact doctor medium$BRUN Laurent]
-    ~[contact doctor medium$BRUN]
+%[contact_doctor_brun_laurent]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BRUN Laurent\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BRUN\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRUN Laurent\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRUN\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_brunet_morgan]('train': '30', 'test': '15')
-    ~[contact doctor simple$BRUNET Morgan]
-    ~[contact doctor simple$BRUNET]
-    ~[contact doctor medium$BRUNET Morgan]
-    ~[contact doctor medium$BRUNET]
+%[contact_doctor_brunet_morgan]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BRUNET Morgan\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BRUNET\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRUNET Morgan\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRUNET\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_brunet_oceane]('train': '30', 'test': '15')
-    ~[contact doctor simple$BRUNET Oceane]
-    ~[contact doctor simple$BRUNET]
-    ~[contact doctor medium$BRUNET Oceane]
-    ~[contact doctor medium$BRUNET]
+%[contact_doctor_brunet_oceane]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BRUNET Océane\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BRUNET\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRUNET Océane\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRUNET\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_bryon_dominique]('train': '30', 'test': '15')
-    ~[contact doctor simple$BRYON Dominique]
-    ~[contact doctor simple$BRYON]
-    ~[contact doctor medium$BRYON Dominique]
-    ~[contact doctor medium$BRYON]
+%[contact_doctor_bryon_dominique]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[BRYON Dominique\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[BRYON\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRYON Dominique\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[BRYON\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_doctor_cadot_bernard]('train': '30', 'test': '15')
-    ~[contact doctor simple$CADOT Bernard]
-    ~[contact doctor simple$CADOT]
-    ~[contact doctor medium$CADOT Bernard]
-    ~[contact doctor medium$CADOT]
+%[contact_doctor_cadot_bernard]('train': '30', 'test': '15')
+    ~[contact doctor simple$\[CADOT Bernard\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[CADOT\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CADOT Bernard\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CADOT\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_service_gastro_enterologie]('train': '30', 'test': '15')
-    ~[contact service simple$Gastro-enterologie]
-    ~[contact service medium$Gastro-enterologie]
+%[contact_service_gastro_enterologie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Gastro-entérologie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Gastro-entérologie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_angiologie]('train': '30', 'test': '15')
-    ~[contact service simple$Angiologie]
-    ~[contact service medium$Angiologie]
+%[contact_service_angiologie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Angiologie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Angiologie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_ophtalmologie]('train': '30', 'test': '15')
-    ~[contact service simple$Ophtalmologie]
-    ~[contact service medium$Ophtalmologie]
+%[contact_service_ophtalmologie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Ophtalmologie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Ophtalmologie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_orl]('train': '30', 'test': '15')
-    ~[contact service simple$ORL]
-    ~[contact service medium$ORL]
+%[contact_service_orl]('train': '30', 'test': '15')
+    ~[contact service simple$\[ORL\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[ORL\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_accueil]('train': '30', 'test': '15')
-    ~[contact service simple$Accueil]
-    ~[contact service medium$Accueil]
+%[contact_service_accueil]('train': '30', 'test': '15')
+    ~[contact service simple$\[Accueil\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Accueil\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_admissions]('train': '30', 'test': '15')
-    ~[contact service simple$Admissions]
-    ~[contact service medium$Admissions]
+%[contact_service_admissions]('train': '30', 'test': '15')
+    ~[contact service simple$\[Admissions\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Admissions\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_soins_ambulatoire]('train': '30', 'test': '15')
-    ~[contact service simple$Soins ambulatoire]
-    ~[contact service medium$Soins ambulatoire]
+%[contact_service_soins_ambulatoire]('train': '30', 'test': '15')
+    ~[contact service simple$\[Soins ambulatoire\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Soins ambulatoire\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_planification]('train': '30', 'test': '15')
-    ~[contact service simple$Planification]
-    ~[contact service medium$Planification]
+%[contact_service_planification]('train': '30', 'test': '15')
+    ~[contact service simple$\[Planification\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Planification\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_urgence]('train': '30', 'test': '15')
-    ~[contact service simple$Urgence]
-    ~[contact service medium$Urgence]
+%[contact_service_urgence]('train': '30', 'test': '15')
+    ~[contact service simple$\[Urgence\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Urgence\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_anesthesie]('train': '30', 'test': '15')
-    ~[contact service simple$Anesthesie]
-    ~[contact service medium$Anesthesie]
+%[contact_service_anesthesie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Anesthésie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Anesthésie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_unite_de_soins_continus]('train': '30', 'test': '15')
-    ~[contact service simple$Unite de Soins continus]
-    ~[contact service medium$Unite de Soins continus]
+%[contact_service_unite_de_soins_continus]('train': '30', 'test': '15')
+    ~[contact service simple$\[Unité de Soins continus\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Unité de Soins continus\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_angiographie]('train': '30', 'test': '15')
-    ~[contact service simple$Angiographie]
-    ~[contact service medium$Angiographie]
+%[contact_service_angiographie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Angiographie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Angiographie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_stomatologie]('train': '30', 'test': '15')
-    ~[contact service simple$Stomatologie]
-    ~[contact service medium$Stomatologie]
+%[contact_service_stomatologie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Stomatologie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Stomatologie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_stomatherapie]('train': '30', 'test': '15')
-    ~[contact service simple$Stomatherapie]
-    ~[contact service medium$Stomatherapie]
+%[contact_service_stomatherapie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Stomathérapie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Stomathérapie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_assistante_hoteliere]('train': '30', 'test': '15')
-    ~[contact service simple$Assistante heteliere]
-    ~[contact service medium$Assistante heteliere]
+%[contact_service_assistante_hoteliere]('train': '30', 'test': '15')
+    ~[contact service simple$\[Assistante hôtelière\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Assistante hôtelière\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_sophrologie]('train': '30', 'test': '15')
-    ~[contact service simple$Sophrologie]
-    ~[contact service medium$Sophrologie]
+%[contact_service_sophrologie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Sophrologie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Sophrologie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_assistante_logistique]('train': '30', 'test': '15')
-    ~[contact service simple$Assistante logistique]
-    ~[contact service medium$Assistante logistique]
+%[contact_service_assistante_logistique]('train': '30', 'test': '15')
+    ~[contact service simple$\[Assistante logistique\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Assistante logistique\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_oncologie]('train': '30', 'test': '15')
-    ~[contact service simple$Oncologie]
-    ~[contact service medium$Oncologie]
+%[contact_service_oncologie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Oncologie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Oncologie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_assistante_sociale]('train': '30', 'test': '15')
-    ~[contact service simple$Assistante sociale]
-    ~[contact service medium$Assistante sociale]
+%[contact_service_assistante_sociale]('train': '30', 'test': '15')
+    ~[contact service simple$\[Assistante sociale\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Assistante sociale\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_biomedical]('train': '30', 'test': '15')
-    ~[contact service simple$Biomedical]
-    ~[contact service medium$Biomedical]
+%[contact_service_biomedical]('train': '30', 'test': '15')
+    ~[contact service simple$\[Biomédical\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Biomédical\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_chirurgie_de_la_main]('train': '30', 'test': '15')
-    ~[contact service simple$Chirurgie de la main]
-    ~[contact service medium$Chirurgie de la main]
+%[contact_service_chirurgie_de_la_main]('train': '30', 'test': '15')
+    ~[contact service simple$\[Chirurgie de la main\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Chirurgie de la main\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_scintigraphie]('train': '30', 'test': '15')
-    ~[contact service simple$Scintigraphie]
-    ~[contact service medium$Scintigraphie]
+%[contact_service_scintigraphie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Scintigraphie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Scintigraphie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_rythmologie]('train': '30', 'test': '15')
-    ~[contact service simple$Rythmologie]
-    ~[contact service medium$Rythmologie]
+%[contact_service_rythmologie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Rythmologie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Rythmologie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_rhumatologie]('train': '30', 'test': '15')
-    ~[contact service simple$rhumatologie]
-    ~[contact service medium$rhumatologie]
+%[contact_service_rhumatologie]('train': '30', 'test': '15')
+    ~[contact service simple$\[rhumatologie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[rhumatologie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_ressources_humaines]('train': '30', 'test': '15')
-    ~[contact service simple$Ressources Humaines]
-    ~[contact service medium$Ressources Humaines]
+%[contact_service_ressources_humaines]('train': '30', 'test': '15')
+    ~[contact service simple$\[Ressources Humaines\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Ressources Humaines\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_chirurgie_vasculaire]('train': '30', 'test': '15')
-    ~[contact service simple$Chirurgie vasculaire]
-    ~[contact service medium$Chirurgie vasculaire]
+%[contact_service_chirurgie_vasculaire]('train': '30', 'test': '15')
+    ~[contact service simple$\[Chirurgie vasculaire\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Chirurgie vasculaire\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_chirurgie_viscerale]('train': '30', 'test': '15')
-    ~[contact service simple$Chirurgie Viscerale]
-    ~[contact service medium$Chirurgie Viscerale]
+%[contact_service_chirurgie_viscerale]('train': '30', 'test': '15')
+    ~[contact service simple$\[Chirurgie Viscérale\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Chirurgie Viscérale\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_pediatrie]('train': '30', 'test': '15')
-    ~[contact service simple$Pediatrie]
-    ~[contact service medium$Pediatrie]
+%[contact_service_pediatrie]('train': '30', 'test': '15')
+    ~[contact service simple$\[Pédiatrie\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Pédiatrie\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_chirurgie_digestive]('train': '30', 'test': '15')
-    ~[contact service simple$Chirurgie digestive]
-    ~[contact service medium$Chirurgie digestive]
+%[contact_service_chirurgie_digestive]('train': '30', 'test': '15')
+    ~[contact service simple$\[Chirurgie digestive\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Chirurgie digestive\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_service_chirurgie_orthopedique]('train': '30', 'test': '15')
-    ~[contact service simple$Chirurgie orthopedique]
-    ~[contact service medium$Chirurgie orthopedique]
+%[contact_service_chirurgie_orthopedique]('train': '30', 'test': '15')
+    ~[contact service simple$\[Chirurgie orthopédique\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Chirurgie orthopédique\]\{"entity": "service", "role": "target"\}]
 
 
-%[&contact_doctor_unknown]('train': '100', 'test': '100')
-    ~[contact doctor simple$PRINCE Aladdin]
-    ~[contact doctor simple$PRINCE]
-    ~[contact doctor medium$PRINCE Aladdin]
-    ~[contact doctor medium$PRINCE]
-    ~[contact doctor simple$EPRON Pierre]
-    ~[contact doctor simple$EPRON]
-    ~[contact doctor medium$EPRON Pierre]
-    ~[contact doctor medium$EPRON]
-    ~[contact doctor simple$VALJEAN Jean]
-    ~[contact doctor simple$VALJEAN]
-    ~[contact doctor medium$VALJEAN Jean]
-    ~[contact doctor medium$VALJEAN]
-    ~[contact doctor simple$MACRON Emmanuel]
-    ~[contact doctor simple$MACRON]
-    ~[contact doctor medium$MACRON Emmanuel]
-    ~[contact doctor medium$MACRON]
-    ~[contact doctor simple$DIEU Vivant]
-    ~[contact doctor simple$DIEU]
-    ~[contact doctor medium$DIEU Vivant]
-    ~[contact doctor medium$DIEU]
-    ~[contact doctor simple$CHRIST Jesus]
-    ~[contact doctor simple$CHRIST]
-    ~[contact doctor medium$CHRIST Jesus]
-    ~[contact doctor medium$CHRIST]
-    ~[contact doctor simple$ZIDANE Zinedine]
-    ~[contact doctor simple$ZIDANE]
-    ~[contact doctor medium$ZIDANE Zinedine]
-    ~[contact doctor medium$ZIDANE]
-    ~[contact doctor simple$CASTEX Jean]
-    ~[contact doctor simple$CASTEX]
-    ~[contact doctor medium$CASTEX Jean]
-    ~[contact doctor medium$CASTEX]
-    ~[contact doctor simple$DUPONT philipe]
-    ~[contact doctor simple$DUPONT]
-    ~[contact doctor medium$DUPONT philipe]
-    ~[contact doctor medium$DUPONT]
-    ~[contact doctor simple$CHRISTIE Agatha]
-    ~[contact doctor simple$CHRISTIE]
-    ~[contact doctor medium$CHRISTIE Agatha]
-    ~[contact doctor medium$CHRISTIE]
-    ~[contact doctor simple$D'Arc Jeanne]
-    ~[contact doctor simple$D'Arc]
-    ~[contact doctor medium$D'Arc Jeanne]
-    ~[contact doctor medium$D'Arc]
-    ~[contact doctor simple$SALDANA Ione]
-    ~[contact doctor simple$SALDANA]
-    ~[contact doctor medium$SALDANA Ione]
-    ~[contact doctor medium$SALDANA]
-    ~[contact doctor simple$DANOURA Kobushi]
-    ~[contact doctor simple$DANOURA]
-    ~[contact doctor medium$DANOURA Kobushi]
-    ~[contact doctor medium$DANOURA]
-    ~[contact doctor simple$WALKER helene]
-    ~[contact doctor simple$WALKER]
-    ~[contact doctor medium$WALKER helene]
-    ~[contact doctor medium$WALKER]
-    ~[contact doctor simple$HAMPTON Kelsie]
-    ~[contact doctor simple$HAMPTON]
-    ~[contact doctor medium$HAMPTON Kelsie]
-    ~[contact doctor medium$HAMPTON]
-    ~[contact doctor simple$CURRY Marie]
-    ~[contact doctor simple$CURRY]
-    ~[contact doctor medium$CURRY Marie]
-    ~[contact doctor medium$CURRY]
+%[contact_doctor_unknown]('train': '100', 'test': '50')
+    ~[contact doctor simple$\[PRINCE Aladdin\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[PRINCE\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[PRINCE Aladdin\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[PRINCE\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[EPRON Pierre\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[EPRON\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[EPRON Pierre\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[EPRON\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[VALJEAN Jean\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[VALJEAN\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[VALJEAN Jean\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[VALJEAN\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[MACRON Emmanuel\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[MACRON\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[MACRON Emmanuel\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[MACRON\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[DIEU Vivant\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[DIEU\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[DIEU Vivant\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[DIEU\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[CHRIST Jesus\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[CHRIST\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CHRIST Jesus\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CHRIST\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[ZIDANE Zinedine\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[ZIDANE\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ZIDANE Zinedine\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[ZIDANE\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[CASTEX Jean\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[CASTEX\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CASTEX Jean\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CASTEX\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[DUPONT philipe\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[DUPONT\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[DUPONT philipe\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[DUPONT\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[CHRISTIE Agatha\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[CHRISTIE\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CHRISTIE Agatha\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CHRISTIE\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[D'Arc Jeanne\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[D'Arc\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[D'Arc Jeanne\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[D'Arc\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[SALDANA Ione\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[SALDANA\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[SALDANA Ione\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[SALDANA\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[DANOURA Kobushi\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[DANOURA\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[DANOURA Kobushi\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[DANOURA\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[WALKER helene\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[WALKER\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[WALKER helene\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[WALKER\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[HAMPTON Kelsie\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[HAMPTON\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[HAMPTON Kelsie\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[HAMPTON\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[CURRY Marie\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor simple$\[CURRY\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CURRY Marie\]\{"entity": "doctor", "role": "target"\}]
+    ~[contact doctor medium$\[CURRY\]\{"entity": "doctor", "role": "target"\}]
 
 
-%[&contact_service_unknown]('train': '100', 'test': '100')
-    ~[contact service simple$lune]
-    ~[contact service medium$lune]
-    ~[contact service simple$soleil]
-    ~[contact service medium$soleil]
-    ~[contact service simple$Paris]
-    ~[contact service medium$Paris]
-    ~[contact service simple$gouvernement]
-    ~[contact service medium$gouvernement]
-    ~[contact service simple$tour effeil]
-    ~[contact service medium$tour effeil]
-    ~[contact service simple$paradis]
-    ~[contact service medium$paradis]
-    ~[contact service simple$perpet les alouettes]
-    ~[contact service medium$perpet les alouettes]
-    ~[contact service simple$clinique]
-    ~[contact service medium$clinique]
-    ~[contact service simple$hopital]
-    ~[contact service medium$hopital]
-    ~[contact service simple$charite]
-    ~[contact service medium$charite]
-    ~[contact service simple$eglise]
-    ~[contact service medium$eglise]
-    ~[contact service simple$mer]
-    ~[contact service medium$mer]
-    ~[contact service simple$caserne]
-    ~[contact service medium$caserne]
-    ~[contact service simple$restaurant]
-    ~[contact service medium$restaurant]
-    ~[contact service simple$magasins]
-    ~[contact service medium$magasins]
-    ~[contact service simple$coiffeur]
-    ~[contact service medium$coiffeur]
-    ~[contact service simple$pizzeria]
-    ~[contact service medium$pizzeria]
-    ~[contact service simple$cabinet]
-    ~[contact service medium$cabinet]
+%[contact_service_unknown]('train': '100', 'test': '50')
+    ~[contact service simple$\[lune\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[lune\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[soleil\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[soleil\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[Paris\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[Paris\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[gouvernement\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[gouvernement\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[tour effeil\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[tour effeil\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[paradis\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[paradis\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[perpet les alouettes\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[perpet les alouettes\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[clinique\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[clinique\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[hopital\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[hopital\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[charité\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[charité\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[église\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[église\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[mer\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[mer\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[caserne\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[caserne\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[restaurant\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[restaurant\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[magasins\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[magasins\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[coiffeur\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[coiffeur\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[pizzeria\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[pizzeria\]\{"entity": "service", "role": "target"\}]
+    ~[contact service simple$\[cabinet\]\{"entity": "service", "role": "target"\}]
+    ~[contact service medium$\[cabinet\]\{"entity": "service", "role": "target"\}]
 
 
-%[&out_of_scope]('train': '100', 'test': '100')
+%[out_of_scope]('train': '100', 'test': '50')
     ~[start noise]
     ~[problems]
     ~[from doctor]
