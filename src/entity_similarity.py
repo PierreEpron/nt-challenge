@@ -20,9 +20,9 @@ class EntitySimilarity:
             scores =  sorted(scores, key=lambda x: x[1], reverse=True)
         return scores
 
-    def get_top_entity(self, target : Text, sort : bool = True) -> Tuple[Text, float]:
-        return self.compute_entities(target, sort)[0]
+    def get_top_entity(self, target : Text) -> Tuple[Text, float]:
+        return self.compute_entities(target)[0]
 
-    def get_top_entities(self, target : Text, n : int = 5, sort : bool = True) ->List[Tuple[Text, float]]:
-        return self.compute_entities(target, sort)[:n]
+    def get_top_entities(self, target : Text, n : int = 5) ->List[Tuple[Text, float]]:
+        return self.compute_entities(target)[:n]
 
