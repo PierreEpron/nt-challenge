@@ -1,316 +1,316 @@
 ~[vouloir-3]
-    ~[vouloir_conditional_present?3-vouloir/75] ~[vouloir_conditional_first past?!3-vouloir]
+    ~[vouloir_conditional_present?3-vouloir/72] ~[vouloir_conditional_first past?!3-vouloir]
 
 ~[vouloir-2]
-    ~[vouloir_indicative_imperfect?2-vouloir/75] ~[vouloir-3?!2-vouloir]
+    ~[vouloir_indicative_imperfect?2-vouloir/22] ~[vouloir-3?!2-vouloir]
 
 ~[vouloir]
-    ~[vouloir_indicative_present?1-vouloir/75] ~[vouloir-2?!1-vouloir]
+    ~[vouloir_indicative_present?1-vouloir/55] ~[vouloir-2?!1-vouloir]
 
 ~[vouloir_indicative_present-3]
-    ~[vouloir_indicative_present_3?3-vouloir_indicative_present/75] ~[vouloir_indicative_present_5?!3-vouloir_indicative_present]
+    ~[vouloir_indicative_present_3?3-vouloir_indicative_present/50] ~[vouloir_indicative_present_5?!3-vouloir_indicative_present]
 
 ~[vouloir_indicative_present-2]
-    ~[vouloir_indicative_present_2?2-vouloir_indicative_present/75] ~[vouloir_indicative_present-3?!2-vouloir_indicative_present]
+    ~[vouloir_indicative_present_2?2-vouloir_indicative_present/33] ~[vouloir_indicative_present-3?!2-vouloir_indicative_present]
 
 ~[vouloir_indicative_present]
-    ~[vouloir_indicative_present_0?1-vouloir_indicative_present/75] ~[vouloir_indicative_present-2?!1-vouloir_indicative_present]
+    ~[vouloir_indicative_present_0?1-vouloir_indicative_present/70] ~[vouloir_indicative_present-2?!1-vouloir_indicative_present]
 
 ~[vouloir_indicative_present_0]
-    ~[vouloir_indicative_present_0_commun?1-vouloir_indicative_present_0/75] ~[vouloir_indicative_present_0_rare?!1-vouloir_indicative_present_0]
+    ~[vouloir_indicative_present_0_commun?1-vouloir_indicative_present_0/80] ~[vouloir_indicative_present_0_rare?!1-vouloir_indicative_present_0]
 
 ~[vouloir_indicative_present_2]
-    ~[vouloir_indicative_present_2_commun?1-vouloir_indicative_present_2/75] ~[vouloir_indicative_present_2_rare?!1-vouloir_indicative_present_2]
+    ~[vouloir_indicative_present_2_commun?1-vouloir_indicative_present_2/80] ~[vouloir_indicative_present_2_rare?!1-vouloir_indicative_present_2]
 
 ~[vouloir_indicative_present_3]
-    ~[vouloir_indicative_present_3_commun?1-vouloir_indicative_present_3/75] ~[vouloir_indicative_present_3_rare?!1-vouloir_indicative_present_3]
+    ~[vouloir_indicative_present_3_commun?1-vouloir_indicative_present_3/80] ~[vouloir_indicative_present_3_rare?!1-vouloir_indicative_present_3]
 
 ~[vouloir_indicative_present_5]
-    ~[vouloir_indicative_present_5_commun?1-vouloir_indicative_present_5/75] ~[vouloir_indicative_present_5_rare?!1-vouloir_indicative_present_5]
+    ~[vouloir_indicative_present_5_commun?1-vouloir_indicative_present_5/80] ~[vouloir_indicative_present_5_rare?!1-vouloir_indicative_present_5]
 
 ~[vouloir_indicative_imperfect-3]
-    ~[vouloir_indicative_imperfect_3?3-vouloir_indicative_imperfect/75] ~[vouloir_indicative_imperfect_5?!3-vouloir_indicative_imperfect]
+    ~[vouloir_indicative_imperfect_3?3-vouloir_indicative_imperfect/50] ~[vouloir_indicative_imperfect_5?!3-vouloir_indicative_imperfect]
 
 ~[vouloir_indicative_imperfect-2]
-    ~[vouloir_indicative_imperfect_2?2-vouloir_indicative_imperfect/75] ~[vouloir_indicative_imperfect-3?!2-vouloir_indicative_imperfect]
+    ~[vouloir_indicative_imperfect_2?2-vouloir_indicative_imperfect/33] ~[vouloir_indicative_imperfect-3?!2-vouloir_indicative_imperfect]
 
 ~[vouloir_indicative_imperfect]
-    ~[vouloir_indicative_imperfect_0?1-vouloir_indicative_imperfect/75] ~[vouloir_indicative_imperfect-2?!1-vouloir_indicative_imperfect]
+    ~[vouloir_indicative_imperfect_0?1-vouloir_indicative_imperfect/70] ~[vouloir_indicative_imperfect-2?!1-vouloir_indicative_imperfect]
 
 ~[vouloir_indicative_imperfect_0]
-    ~[vouloir_indicative_imperfect_0_commun?1-vouloir_indicative_imperfect_0/75] ~[vouloir_indicative_imperfect_0_rare?!1-vouloir_indicative_imperfect_0]
+    ~[vouloir_indicative_imperfect_0_commun?1-vouloir_indicative_imperfect_0/80] ~[vouloir_indicative_imperfect_0_rare?!1-vouloir_indicative_imperfect_0]
 
 ~[vouloir_indicative_imperfect_2]
-    ~[vouloir_indicative_imperfect_2_commun?1-vouloir_indicative_imperfect_2/75] ~[vouloir_indicative_imperfect_2_rare?!1-vouloir_indicative_imperfect_2]
+    ~[vouloir_indicative_imperfect_2_commun?1-vouloir_indicative_imperfect_2/80] ~[vouloir_indicative_imperfect_2_rare?!1-vouloir_indicative_imperfect_2]
 
 ~[vouloir_indicative_imperfect_3]
-    ~[vouloir_indicative_imperfect_3_commun?1-vouloir_indicative_imperfect_3/75] ~[vouloir_indicative_imperfect_3_rare?!1-vouloir_indicative_imperfect_3]
+    ~[vouloir_indicative_imperfect_3_commun?1-vouloir_indicative_imperfect_3/80] ~[vouloir_indicative_imperfect_3_rare?!1-vouloir_indicative_imperfect_3]
 
 ~[vouloir_indicative_imperfect_5]
-    ~[vouloir_indicative_imperfect_5_commun?1-vouloir_indicative_imperfect_5/75] ~[vouloir_indicative_imperfect_5_rare?!1-vouloir_indicative_imperfect_5]
+    ~[vouloir_indicative_imperfect_5_commun?1-vouloir_indicative_imperfect_5/80] ~[vouloir_indicative_imperfect_5_rare?!1-vouloir_indicative_imperfect_5]
 
 ~[vouloir_conditional_present-3]
-    ~[vouloir_conditional_present_3?3-vouloir_conditional_present/75] ~[vouloir_conditional_present_5?!3-vouloir_conditional_present]
+    ~[vouloir_conditional_present_3?3-vouloir_conditional_present/50] ~[vouloir_conditional_present_5?!3-vouloir_conditional_present]
 
 ~[vouloir_conditional_present-2]
-    ~[vouloir_conditional_present_2?2-vouloir_conditional_present/75] ~[vouloir_conditional_present-3?!2-vouloir_conditional_present]
+    ~[vouloir_conditional_present_2?2-vouloir_conditional_present/33] ~[vouloir_conditional_present-3?!2-vouloir_conditional_present]
 
 ~[vouloir_conditional_present]
-    ~[vouloir_conditional_present_0?1-vouloir_conditional_present/75] ~[vouloir_conditional_present-2?!1-vouloir_conditional_present]
+    ~[vouloir_conditional_present_0?1-vouloir_conditional_present/70] ~[vouloir_conditional_present-2?!1-vouloir_conditional_present]
 
 ~[vouloir_conditional_present_0]
-    ~[vouloir_conditional_present_0_commun?1-vouloir_conditional_present_0/75] ~[vouloir_conditional_present_0_rare?!1-vouloir_conditional_present_0]
+    ~[vouloir_conditional_present_0_commun?1-vouloir_conditional_present_0/80] ~[vouloir_conditional_present_0_rare?!1-vouloir_conditional_present_0]
 
 ~[vouloir_conditional_present_2]
-    ~[vouloir_conditional_present_2_commun?1-vouloir_conditional_present_2/75] ~[vouloir_conditional_present_2_rare?!1-vouloir_conditional_present_2]
+    ~[vouloir_conditional_present_2_commun?1-vouloir_conditional_present_2/80] ~[vouloir_conditional_present_2_rare?!1-vouloir_conditional_present_2]
 
 ~[vouloir_conditional_present_3]
-    ~[vouloir_conditional_present_3_commun?1-vouloir_conditional_present_3/75] ~[vouloir_conditional_present_3_rare?!1-vouloir_conditional_present_3]
+    ~[vouloir_conditional_present_3_commun?1-vouloir_conditional_present_3/80] ~[vouloir_conditional_present_3_rare?!1-vouloir_conditional_present_3]
 
 ~[vouloir_conditional_present_5]
-    ~[vouloir_conditional_present_5_commun?1-vouloir_conditional_present_5/75] ~[vouloir_conditional_present_5_rare?!1-vouloir_conditional_present_5]
+    ~[vouloir_conditional_present_5_commun?1-vouloir_conditional_present_5/80] ~[vouloir_conditional_present_5_rare?!1-vouloir_conditional_present_5]
 
 ~[vouloir_conditional_first past-3]
-    ~[vouloir_conditional_first past_3?3-vouloir_conditional_first past/75] ~[vouloir_conditional_first past_5?!3-vouloir_conditional_first past]
+    ~[vouloir_conditional_first past_3?3-vouloir_conditional_first past/50] ~[vouloir_conditional_first past_5?!3-vouloir_conditional_first past]
 
 ~[vouloir_conditional_first past-2]
-    ~[vouloir_conditional_first past_2?2-vouloir_conditional_first past/75] ~[vouloir_conditional_first past-3?!2-vouloir_conditional_first past]
+    ~[vouloir_conditional_first past_2?2-vouloir_conditional_first past/33] ~[vouloir_conditional_first past-3?!2-vouloir_conditional_first past]
 
 ~[vouloir_conditional_first past]
-    ~[vouloir_conditional_first past_0?1-vouloir_conditional_first past/75] ~[vouloir_conditional_first past-2?!1-vouloir_conditional_first past]
+    ~[vouloir_conditional_first past_0?1-vouloir_conditional_first past/70] ~[vouloir_conditional_first past-2?!1-vouloir_conditional_first past]
 
 ~[vouloir_conditional_first past_0]
-    ~[vouloir_conditional_first past_0_commun?1-vouloir_conditional_first past_0/75] ~[vouloir_conditional_first past_0_rare?!1-vouloir_conditional_first past_0]
+    ~[vouloir_conditional_first past_0_commun?1-vouloir_conditional_first past_0/80] ~[vouloir_conditional_first past_0_rare?!1-vouloir_conditional_first past_0]
 
 ~[vouloir_conditional_first past_2]
-    ~[vouloir_conditional_first past_2_commun?1-vouloir_conditional_first past_2/75] ~[vouloir_conditional_first past_2_rare?!1-vouloir_conditional_first past_2]
+    ~[vouloir_conditional_first past_2_commun?1-vouloir_conditional_first past_2/80] ~[vouloir_conditional_first past_2_rare?!1-vouloir_conditional_first past_2]
 
 ~[vouloir_conditional_first past_3]
-    ~[vouloir_conditional_first past_3_commun?1-vouloir_conditional_first past_3/75] ~[vouloir_conditional_first past_3_rare?!1-vouloir_conditional_first past_3]
+    ~[vouloir_conditional_first past_3_commun?1-vouloir_conditional_first past_3/80] ~[vouloir_conditional_first past_3_rare?!1-vouloir_conditional_first past_3]
 
 ~[vouloir_conditional_first past_5]
-    ~[vouloir_conditional_first past_5_commun?1-vouloir_conditional_first past_5/75] ~[vouloir_conditional_first past_5_rare?!1-vouloir_conditional_first past_5]
+    ~[vouloir_conditional_first past_5_commun?1-vouloir_conditional_first past_5/80] ~[vouloir_conditional_first past_5_rare?!1-vouloir_conditional_first past_5]
 
 ~[vouloir_indicative_present_0_commun]
-    je demande a
+    je demande à
     je peux
     je veux
-    je desire
+    je désire
     je souhaite
 
 ~[vouloir_indicative_present_0_rare]
     j'exige de
-    je reve de
-    je reclame de
-    j'espere
-    j'aspire a
+    je rêve de
+    je réclame de
+    j'espère
+    j'aspire à
 
 ~[vouloir_indicative_present_2_commun]
-    il demande a
+    il demande à
     il peut
     il veut
-    il desire
+    il désire
     il souhaite
 
 ~[vouloir_indicative_present_2_rare]
     il exige de
-    il reve de
-    il reclame de
-    il espere
-    il aspire a
+    il rêve de
+    il réclame de
+    il espère
+    il aspire à
 
 ~[vouloir_indicative_present_3_commun]
-    nous demandons a
+    nous demandons à
     nous pouvons
     nous voulons
-    nous desirons
+    nous désirons
     nous souhaitons
 
 ~[vouloir_indicative_present_3_rare]
     nous exigeons de
-    nous revons de
-    nous reclamons de
-    nous esperons
-    nous aspirons a
+    nous rêvons de
+    nous réclamons de
+    nous espérons
+    nous aspirons à
 
 ~[vouloir_indicative_present_5_commun]
-    ils demandent a
+    ils demandent à
     ils peuvent
     ils veulent
-    ils desirent
+    ils désirent
     ils souhaitent
 
 ~[vouloir_indicative_present_5_rare]
     ils exigent de
-    ils revent de
-    ils reclament de
-    ils esperent
-    ils aspirent a
+    ils rêvent de
+    ils réclament de
+    ils espèrent
+    ils aspirent à
 
 ~[vouloir_indicative_imperfect_0_commun]
-    je demandais a
+    je demandais à
     je voulais
-    je desirais
+    je désirais
     je souhaitais
 
 ~[vouloir_indicative_imperfect_0_rare]
     j'exigeais de
-    je revais de
-    je reclamais de
-    j'esperais
-    j'aspirais a
+    je rêvais de
+    je réclamais de
+    j'espérais
+    j'aspirais à
 
 ~[vouloir_indicative_imperfect_2_commun]
-    il demandait a
+    il demandait à
     il voulait
-    il desirait
+    il désirait
     il souhaitait
 
 ~[vouloir_indicative_imperfect_2_rare]
     il exigeait de
-    il revait de
-    il reclamait de
-    il esperait
-    il aspirait a
+    il rêvait de
+    il réclamait de
+    il espérait
+    il aspirait à
 
 ~[vouloir_indicative_imperfect_3_commun]
-    nous demandions a
+    nous demandions à
     nous voulions
-    nous desirions
+    nous désirions
     nous souhaitions
 
 ~[vouloir_indicative_imperfect_3_rare]
     nous exigions de
-    nous revions de
-    nous reclamions de
-    nous esperions
-    nous aspirions a
+    nous rêvions de
+    nous réclamions de
+    nous espérions
+    nous aspirions à
 
 ~[vouloir_indicative_imperfect_5_commun]
-    ils demandaient a
+    ils demandaient à
     ils voulaient
-    ils desiraient
+    ils désiraient
     ils souhaitaient
 
 ~[vouloir_indicative_imperfect_5_rare]
     ils exigeaient de
-    ils revaient de
-    ils reclamaient de
-    ils esperaient
-    ils aspiraient a
+    ils rêvaient de
+    ils réclamaient de
+    ils espéraient
+    ils aspiraient à
 
 ~[vouloir_conditional_present_0_commun]
-    je demanderais a
+    je demanderais à
     je pourrais
     je voudrais
-    je desirerais
+    je désirerais
     je souhaiterais
     j'aimerais
 
 ~[vouloir_conditional_present_0_rare]
     j'exigerais de
-    je reverais de
-    je reclamerais de
-    j'espererais
-    j'aspirerais a
+    je rêverais de
+    je réclamerais de
+    j'espérerais
+    j'aspirerais à
 
 ~[vouloir_conditional_present_2_commun]
-    il demanderait a
+    il demanderait à
     il pourrait
     il voudrait
-    il desirerait
+    il désirerait
     il souhaiterait
     il aimerait
 
 ~[vouloir_conditional_present_2_rare]
     il exigerait de
-    il reverait de
-    il reclamerait de
-    il espererait
-    il aspirerait a
+    il rêverait de
+    il réclamerait de
+    il espérerait
+    il aspirerait à
 
 ~[vouloir_conditional_present_3_commun]
-    nous demanderions a
+    nous demanderions à
     nous pourrions
     nous voudrions
-    nous desirerions
+    nous désirerions
     nous souhaiterions
     nous aimerions
 
 ~[vouloir_conditional_present_3_rare]
     nous exigerions de
-    nous reverions de
-    nous reclamerions de
-    nous espererions
-    nous aspirerions a
+    nous rêverions de
+    nous réclamerions de
+    nous espérerions
+    nous aspirerions à
 
 ~[vouloir_conditional_present_5_commun]
-    ils demanderaient a
+    ils demanderaient à
     ils pourraient
     ils voudraient
-    ils desireraient
+    ils désireraient
     ils souhaiteraient
     ils aimeraient
 
 ~[vouloir_conditional_present_5_rare]
     ils exigeraient de
-    ils reveraient de
-    ils reclameraient de
-    ils espereraient
-    ils aspireraient a
+    ils rêveraient de
+    ils réclameraient de
+    ils espéreraient
+    ils aspireraient à
 
 ~[vouloir_conditional_first past_0_commun]
-    j'aurais demande a
+    j'aurais demandé à
     j'aurais voulu
-    j'aurais desire
-    j'aurais souhaite
-    j'aurais aime
+    j'aurais désiré
+    j'aurais souhaité
+    j'aurais aimé
 
 ~[vouloir_conditional_first past_0_rare]
-    j'aurais exige de
-    j'aurais reve de
-    j'aurais reclame de
-    j'aurais espere
-    j'aurais aspire a
+    j'aurais exigé de
+    j'aurais rêvé de
+    j'aurais réclamé de
+    j'aurais espéré
+    j'aurais aspiré à
 
 ~[vouloir_conditional_first past_2_commun]
-    il aurait demande a
+    il aurait demandé à
     il aurait voulu
-    il aurait desire
-    il aurait souhaite
-    il aurait aime
+    il aurait désiré
+    il aurait souhaité
+    il aurait aimé
 
 ~[vouloir_conditional_first past_2_rare]
-    il aurait exige de
-    il aurait reve de
-    il aurait reclame de
-    il aurait espere
-    il aurait aspire a
+    il aurait exigé de
+    il aurait rêvé de
+    il aurait réclamé de
+    il aurait espéré
+    il aurait aspiré à
 
 ~[vouloir_conditional_first past_3_commun]
-    nous aurions demande a
+    nous aurions demandé à
     nous aurions voulu
-    nous aurions desire
-    nous aurions souhaite
-    nous aurions aime
+    nous aurions désiré
+    nous aurions souhaité
+    nous aurions aimé
 
 ~[vouloir_conditional_first past_3_rare]
-    nous aurions exige de
-    nous aurions reve de
-    nous aurions reclame de
-    nous aurions espere
-    nous aurions aspire a
+    nous aurions exigé de
+    nous aurions rêvé de
+    nous aurions réclamé de
+    nous aurions espéré
+    nous aurions aspiré à
 
 ~[vouloir_conditional_first past_5_commun]
-    ils auraient demande a
+    ils auraient demandé à
     ils auraient voulu
-    ils auraient desire
-    ils auraient souhaite
-    ils auraient aime
+    ils auraient désiré
+    ils auraient souhaité
+    ils auraient aimé
 
 ~[vouloir_conditional_first past_5_rare]
-    ils auraient exige de
-    ils auraient reve de
-    ils auraient reclame de
-    ils auraient espere
-    ils auraient aspire a
+    ils auraient exigé de
+    ils auraient rêvé de
+    ils auraient réclamé de
+    ils auraient espéré
+    ils auraient aspiré à
