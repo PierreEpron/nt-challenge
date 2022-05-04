@@ -1,10 +1,6 @@
 from typing import Text, List, Tuple
 from spacy.tokens import Doc
 
-import spacy
-
-MODEL_NAME = 'fr_core_news_md'
-
 class EntitySimilarity:
     def __init__(self, spacy_model, entities : List[Text]) -> None:
         self.spacy_model = spacy_model
@@ -30,7 +26,3 @@ class EntitySimilarity:
     def get_top_entities(self, target : Text, n : int = 5, sort : bool = True) ->List[Tuple[Text, float]]:
         return self.compute_entities(target, sort)[:n]
 
-if __name__ == '__main__':
-    import pandas as pd
-    entities = pd.read_csv('.data/entities.csv')['label'].values
-    print(EntitySimilarity(spacy.load(MODEL_NAME), entities).get_top_entities('chirurgie de la main'))
