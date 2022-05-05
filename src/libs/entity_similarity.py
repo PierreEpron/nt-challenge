@@ -25,6 +25,7 @@ class EntitySimilarity:
             self.method = methods[method_name]
 
         self.treshold = treshold
+        self.n = n
 
     def get_best_entities(self, target : Text, entities : List[Text]) -> Any:
         target = target.lower()
@@ -44,5 +45,5 @@ class EntitySimilarity:
         # If first entity has ratio greater than self.treshold, return first entity text
         # Else return self.n best entities text
         if scores[0][1] > self.treshold:
-            return scores[0]
+            return scores[0][0]
         return [text for text, _ in scores[:self.n]]
