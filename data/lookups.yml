@@ -1,6 +1,6 @@
 version : "3.1"
 nlu:
-- lookup: services
+- lookup: service
   examples: |
     - Gastro-entérologie
     - Angiologie
@@ -32,7 +32,7 @@ nlu:
     - Pédiatrie
     - Chirurgie digestive
     - Chirurgie orthopédique
-- lookup: doctors
+- lookup: doctor
   examples: |
     - ABOAB Jennifer
     - ABOUCAYA Jean-Paul
