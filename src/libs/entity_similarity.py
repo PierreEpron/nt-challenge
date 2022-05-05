@@ -28,8 +28,7 @@ class EntitySimilarity:
 
     def get_best_entities(self, target : Text, entities : List[Text]) -> Any:
         target = target.lower()
-
-        entities = []
+        scores = []
         for entity in entities:
             # Get similarity ratio
             ratio = self.method(target, entity.lower())
@@ -39,11 +38,11 @@ class EntitySimilarity:
             if ratio == 1:
                 return entity
             else:
-                entities.append((entity, ratio))
-        entities = sorted(entities, key=lambda x: x[1], reverse=True)
+                scores.append((entity, ratio))
+        scores = sorted(scores, key=lambda x: x[1], reverse=True)
 
         # If first entity has ratio greater than self.treshold, return first entity text
         # Else return self.n best entities text
-        if entities[0][1] > self.treshold:
-            return entities[0]
-        return [text for text, _ in entities[:self.n]]
+        if scores[0][1] > self.treshold:
+            return scores[0]
+        return [text for text, _ in scores[:self.n]]
