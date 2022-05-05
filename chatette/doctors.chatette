@@ -2,10 +2,17 @@
     ~[start noise?] ~[problems?p] ~[from doctor?p] ~[contact doctor] $TARGET ~[end noise?]
     ~[start noise?] ~[contact doctor] $TARGET ~[problems?p] ~[from doctor?!p] ~[end noise?]
     ~[start noise?] ~[med act?p] ~[from doctor?!p] ~[contact doctor] $TARGET ~[end noise?]
+    ~[start noise?] ~[contact doctor] $TARGET ~[doctor service] ~[end noise?]
     ~[start noise?] ~[contact doctor] $TARGET ~[med act?p] ~[from doctor?!p] ~[end noise?]
+    ~[service], [Mme|Mr|Docteur|Dr?] $TARGET ~[plz?]
+    [Mme|Mr|Docteur|Dr?] $TARGET, ~[service] ~[plz?]
 
 ~[contact doctor simple$TARGET]
     ~[start noise?] ~[contact doctor] $TARGET ~[end noise?]
+    ~[start noise?] ~[contact reverse avoir] un [rendez-vous|rdv] [avec|auprès du] [Mme|Mr|Docteur|Dr?] $TARGET ~[contact reverse end?] ~[end noise?]
+    ~[start noise?] ~[vouloir] avoir un [rendez-vous|rdv] [avec|auprès du] [Mme|Mr|Docteur|Dr?] $TARGET ~[contact reverse end?] ~[end noise?]
+    ~[start noise?] On m'a dit que [Mme|Mr|Docteur|Dr?] $TARGET [travaillait|était|travaille|est|bosse|bossait] ici ~[contact reverse end] ~[end noise?]
+    ~[start noise?] [Mme|Mr|Docteur|Dr?] $TARGET est-[il|elle] [dispo|disponible|joignable|contactable|libre|occupé|] ~[end noise?]
 
 ~[contact doctor$TARGET]
-    ~[vouloir] ~[contact commun?c/75] ~[contact rare?!c] [Mme|Mr|Docteur?]
+    ~[vouloir] ~[contact commun?c/60] ~[contact rare?!c] [Mme|Mr|Docteur|Dr?]

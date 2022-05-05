@@ -6,8 +6,17 @@
 
 ~[contact service simple$TARGET]
     ~[start noise?] ~[contact service] ~[end noise?] $TARGET
+    ~[start noise?] ~[contact reverse avoir] un [rendez-vous|rdv] ~[service prefix] $TARGET ~[contact reverse end?] ~[end noise?]
+    ~[start noise?] ~[vouloir] avoir un [rendez-vous|rdv] ~[service prefix] $TARGET ~[contact reverse end?] ~[end noise?]
+    [le secretariat du|l'acceuil du?] [service?] $TARGET, [ca urge|c'est ugent|vite?], ~[plz]
+    ~[contact reverse avoir] besoin [service?] $TARGET, [ca urge|c'est ugent|vite?], ~[plz]
 
 ~[contact service]
-    ~[vouloir] ~[contact commun?c/75] ~[contact rare?!c] [avec le|au] service
-    ~[vouloir] ~[contact commun?c/75] ~[contact rare?!c] [avec le|au] [avec le|au] secretariat du [service?]
-    ~[vouloir] ~[contact commun?c/75] ~[contact rare?!c] [avec|a] l'acceuil du [service?]
+    ~[vouloir] ~[contact commun?c/60] ~[contact rare?!c] ~[service prefix]
+    ~[vouloir] ~[contact commun?c/60] ~[contact rare?!c] ~[service prefix]
+    ~[vouloir] ~[contact commun?c/60] ~[contact rare?!c] ~[service prefix]
+
+~[service prefix]
+    [avec le|au|auprès du] service
+    [avec le|au|auprès du] secretariat du [service?]
+    [avec|a|auprès de] l'acceuil du [service?]
