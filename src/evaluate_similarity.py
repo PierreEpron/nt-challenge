@@ -109,8 +109,13 @@ def has_role(role):
     return wrapped_has_role if role != '' else lambda x: True
 
 def is_intent(intent):
+    intent = intent.split('/')
+    if len(intent) < 2:
+        return lambda x: True
+
     def wrapped_is_intent(entity):
-        return get_slug(entity[1][0]) == intent.split('/')[1]
+        return get_slug(entity[1][0]) == intent[1]
+
     return wrapped_is_intent
 
 def compute_similarities(target, entities, method):
@@ -134,13 +139,16 @@ def set_score_stats(score, values):
 def report_for_criteria(criteria):
     for k_lookup, lookup in scores.items():
         best_method = None
+        k_best_method = ''
         for k_method, method in lookup.items():
             if best_method == None:
                 best_method = method
+                k_best_method = k_method
             elif method['rank'][criteria] < best_method['rank'][criteria]:
                 best_method = method
+                k_best_method = k_method
         print(f'''
-    {k_lookup} best method : {k_method} ({criteria})
+    {k_lookup} best method : {k_best_method} ({criteria})
         rank : 
             mean : {best_method['rank']['mean']}
             min : {best_method['rank']['min']}
@@ -192,6 +200,11 @@ for k_lookup, lookup in lookups.items():
                 example.data['entities']):
 
                 value = entity['value']
+
+                # skip intent with no response key
+                if 'intent_response_key' not in example.data:
+                    continue
+
                 intent = example.data['intent_response_key']
 
                 # Get ranking of intent in entity similarities 
