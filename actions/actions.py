@@ -25,13 +25,18 @@ def run_contact(
     tracker: Tracker) -> List[Dict[Text, Any]]:
         
         target = tracker.get_slot(entity_key)
+
+        if target == None:        
+            dispatcher.utter_message(text=f'Bonjour, j\'ai compris que vous cherchiez à contacter un {entity_key} mais je n\'ai aucune idée duquel !')
+            return [SlotSet(entity_key, None)]
+ 
         entities = es[entity_key].get_best_entities(target, lookups[entity_key])
-       
+
         if isinstance(entities, str):
             dispatcher.utter_message(text=f'Bonjour, j\'ai compris que vous cherchiez à contacter le {entity_key} {entities}!')
         else:
-            entities = [f'\n\t{entity}' for entity in entities]
-            dispatcher.utter_message(text=f'Bonjour, j\'ai compris que vous cherchiez à contacter un {entity_key} mais je ne suis pas sur du quel :\n{entities}')
+            entities = '\n'.join([f'\n  - {entity}' for entity in entities])
+            dispatcher.utter_message(text=f'Bonjour, j\'ai compris que vous cherchiez à contacter un {entity_key} mais je ne suis pas sur duquel :\n{entities}')
     
         return [SlotSet(entity_key, None)]
 
