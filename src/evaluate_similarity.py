@@ -10,7 +10,7 @@ import argparse
 
 
 DEFAULT_MODEL_NAME = 'fr_core_news_md'
-DEFAULT_LOOKUPS_PATH = '.data/nlu_0.yml'
+DEFAULT_LOOKUPS_PATH = 'data/lookups.yml'
 DEFAULT_EXAMPLES_PATH = 'tests/nlu.yml'
 DEFAULT_ROLE = 'target'
 DEFAULT_OUTPUT_DIR = 'results/'
