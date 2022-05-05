@@ -1,0 +1,66 @@
+version : "3.1"
+nlu:
+- lookup: services
+  examples: |
+    - Gastro-entérologie
+    - Angiologie
+    - Ophtalmologie
+    - ORL
+    - Accueil
+    - Admissions
+    - Soins ambulatoire
+    - Planification
+    - Urgence
+    - Anesthésie
+    - Unité de Soins continus
+    - Angiographie
+    - Stomatologie
+    - Stomathérapie
+    - Assistante hôtelière
+    - Sophrologie
+    - Assistante logistique
+    - Oncologie
+    - Assistante sociale
+    - Biomédical
+    - Chirurgie de la main
+    - Scintigraphie
+    - Rythmologie
+    - rhumatologie
+    - Ressources Humaines
+    - Chirurgie vasculaire
+    - Chirurgie Viscérale
+    - Pédiatrie
+    - Chirurgie digestive
+    - Chirurgie orthopédique
+- lookup: doctors
+  examples: |
+    - ABOAB Jennifer
+    - ABOUCAYA Jean-Paul
+    - AL MOUSSARIH Abdallah
+    - ALLARD Anne
+    - ALONSO Enrique
+    - APTECAR Eduardo
+    - ARISTIZABAL Patrick
+    - ARMANDON Denis
+    - BADO Fabrice
+    - BAUER Bertrand
+    - BECHEREL Pierre-André
+    - BELDA Eric
+    - BELHASSEN Laurent
+    - BELMAGHNI Fatma
+    - BENHAMOU Claude
+    - BENOSMAN Hedi
+    - BENOUAICHE Laurence
+    - BENSAID Cherazade
+    - BLAVIER Bénédicte
+    - BLIN Jean-Louis
+    - BORIE Hervé
+    - BOSSI Philippe
+    - BOUCHAREB Adam
+    - BOULET Stéphane
+    - BRUN Magali
+    - BRUN Laurent
+    - BRUNET Morgan
+    - BRUNET Océane
+    - BRYON Dominique
+    - CADOT Bernard
