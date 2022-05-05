@@ -1,6 +1,9 @@
-from typing import Text, List, Tuple
+from typing import Text, List, Any
+import spacy
 from spacy.tokens import Doc
 import Levenshtein
+
+SPACY_MODEL_NAME = 'fr_core_news_md'
 
 def create_methods(spacy_model):
     return {
@@ -11,29 +14,36 @@ def create_methods(spacy_model):
     }
 
 class EntitySimilarity:
-    def __init__(self, spacy_model, entities : List[Text]) -> None:
-        self.spacy_model = spacy_model
-        # Process entities with spacy pipeline
-        self.entities = [spacy_model(entity.lower()) for entity in entities]
+    def __init__(self, method_name : Text, treshold : float = .75, n : int = 5) -> None:
+        # if method name is spacy load spacy model and retrieve method
+        # else ensures that method name is correct and retrieve method
+        if method_name == 'spacy':
+            self.method = create_methods(spacy.load(SPACY_MODEL_NAME))['spacy']
+        else:
+            methods = create_methods(None)
+            assert method_name in methods, f'You should provide a method name among those m {list(methods.keys())}.'
+            self.method = methods[method_name]
 
-    def compute_entity(self, target : Doc, entity : Doc) -> Tuple[Text, float]:
-        similarity = target.similarity(entity)
-        similarity = similarity if similarity != 0 else Levenshtein.jaro(str(target), str(entity))
-        return (str(entity), similarity)
-        
-    def compute_entities(self, target : Text, sort : bool = True) -> List[Tuple[Text, float]]:
-        # Process target with spacy pipeline
-        target = self.spacy_model(target.lower())
-        # Compute similarity scores 
-        scores = [self.compute_entity(target, entity) for entity in self.entities]
-        # Sort scores if sort is true : higher score > lower score
-        if sort:
-            scores =  sorted(scores, key=lambda x: x[1], reverse=True)
-        return scores
+        self.treshold = treshold
 
-    def get_top_entity(self, target : Text) -> Tuple[Text, float]:
-        return self.compute_entities(target)[0]
+    def get_best_entities(self, target : Text, entities : List[Text]) -> Any:
+        target = target.lower()
 
-    def get_top_entities(self, target : Text, n : int = 5) ->List[Tuple[Text, float]]:
-        return self.compute_entities(target)[:n]
+        entities = []
+        for entity in entities:
+            # Get similarity ratio
+            ratio = self.method(target, entity.lower())
+            
+            # If ratio is 1 return directy the entity text
+            # Else store entity text and ratio
+            if ratio == 1:
+                return entity
+            else:
+                entities.append((entity, ratio))
+        entities = sorted(entities, key=lambda x: x[1], reverse=True)
 
+        # If first entity has ratio greater than self.treshold, return first entity text
+        # Else return self.n best entities text
+        if entities[0][1] > self.treshold:
+            return entities[0]
+        return [text for text, _ in entities[:self.n]]
