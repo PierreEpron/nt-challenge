@@ -16,15 +16,16 @@ pipeline:
   - name: DIETClassifier
     epochs: 100
     constrain_similarities: True
-    tensorboard_log_directory: ".tensorboard/3intents-0-e-md"
+    tensorboard_log_directory: ".tensorboard/3intents-1-e-md"
     tensorboard_log_level: "epoch"
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
     constrain_similarities: True
-    tensorboard_log_directory: ".tensorboard/3intents-0-e-md"
+    tensorboard_log_directory: ".tensorboard/3intents-1-e-md"
     tensorboard_log_level: "epoch"
-policies:# # No configuration for policies was provided. The following default policies were used to train your model.
+policies:
+# # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.
 #   - name: MemoizationPolicy
