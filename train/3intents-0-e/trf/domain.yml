@@ -32,7 +32,7 @@ responses:
     - text: "Bonjour, je ne suis pas entrainé a répondre à votre demande !"
 
 actions:
-  - action_contact_docor
+  - action_contact_doctor
   - action_contact_service
 
 
