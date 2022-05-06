@@ -1,0 +1,41 @@
+version: "3.1"
+
+intents:
+  - contact_doctor
+  - contact_service
+  - out_of_scope
+
+entities:
+  - service:
+      roles:
+      - target
+  - doctor:
+      roles:
+      - target
+
+slots:
+  service:
+    type: any
+    mappings:
+    - type: from_entity
+      entity: service
+      role: target
+  doctor:
+    type: any
+    mappings:
+    - type: from_entity
+      entity: doctor
+      role: target
+
+responses:
+  utter_out_of_scope:
+    - text: "Bonjour, je ne suis pas entrainé a répondre à votre demande !"
+
+actions:
+  - action_contact_doctor
+  - action_contact_service
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
