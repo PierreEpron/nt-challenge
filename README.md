@@ -1,5 +1,40 @@
 # nt-challenge
 
+## Sommaire
+
+  * [Introduction](#introduction)
+    + [Rappel de l'énoncé](#rappel-de-l--nonc-)
+    + [Distinction d'intention](#distinction-d-intention)
+  * [Librairies utilisées](#librairies-utilis-es)
+    + [Rasa et Rasa X](#rasa-et-rasa-x)
+    + [Spacy](#spacy)
+    + [Chatette](#chatette)
+  * [Data](#data)
+    + [Données utilisateurs](#donn-es-utilisateurs)
+    + [Première tentative de génération](#premi-re-tentative-de-g-n-ration)
+    + [Deuxième tentative de generation](#deuxi-me-tentative-de-generation)
+    + [Conclusion sur les données](#conclusion-sur-les-donn-es)
+  * [Pipelines](#pipelines)
+    + [Entité](#entit-)
+    + [Similarité entre les entités](#similarit--entre-les-entit-s)
+    + [Response Selector](#response-selector)
+    + [Spacy](#spacy-1)
+    + [Epochs et loss](#epochs-et-loss)
+    + [Conclusion sur les pipelines](#conclusion-sur-les-pipelines)
+  * [Résultats](#r-sultats)
+    + [Le code](#le-code)
+      - [Installation](#installation)
+      - [Generation de phrases](#generation-de-phrases)
+      - [EntitySimilarity](#entitysimilarity)
+      - [Similarity Evaluation](#similarity-evaluation)
+      - [ResponseSelector to Entity](#responseselector-to-entity)
+      - [Autres](#autres)
+    + [Rasa X](#rasa-x)
+    + [Les modèles](#les-mod-les)
+      - [Organisation](#organisation)
+      - [Le metrics](#le-metrics)
+  * [Conclusion](#conclusion)
+
 ## Introduction
 
 ### Rappel de l'énoncé 
