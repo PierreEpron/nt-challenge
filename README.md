@@ -292,6 +292,16 @@ Pour ma part, j'ai fait des tests avec :
 
 Une des options possibles est d'utiliser le NER des pipelines spacy pour extraire les entités PER (personne) et les utiliser comme doctor. Je n'ai pas utilisé cette méthode par manque de temps et parce que je n'ai aucune idée de comment se comporterait le modèle en utilisant le NER d'une pipeline spacy et en définissant le rôle target.
 
+### Epochs et loss
+
+La configuration de base de rasa programme chaque composant pour être entraîné sur 100 epochs.
+Avec tensorboard on voit que la loss se stabilise au bout de 50 epochs à peu près.
+J'ai laissé le nombre d'epoch a 100 parceque le training n'est pas trop long (45 min pour les trf).
+Je suppose que rasa implémente un algorithme de non-régression dans ça boucle d'entraînement.
+
+J'ai activé constrain_similarities pour tous les composants qui le nécessite comme conseillé par la doc de rasa.
+Je n'ai pas touché aux autres paramètres.
+
 ### Conclusion sur les pipelines
 
 J'ai aussi utilisé les composants classiques de rasa :
@@ -306,6 +316,8 @@ Il y a encore beaucoup de composants que je n'ai pas pu tester :
 - Knowledge Base Actions, j'ai découvert ce composant à la fin, quand j'ai développé les actions de similarités. Je pense que ça entre de le cadre d'utilisation de ce bot et qu'il aurait été intéressant de mettre en place cette fonctionnalité.
 
 Je n'ai pas eu le temps de tester l'approche une intention et/ou une entité. Elle consisterait à réunir docteur et service en une seul entité objet et/ou contact_service et contact_docteur en une seule intention contact. Je n'ai aucune idée de la faisabilité/viabilité de cette approche, mais il aurait été intéressant de s'y pencher.
+
+https://rasa.com/docs/rasa/components
 
 ## Résultats
 
@@ -333,6 +345,8 @@ Les actions qui l'utilisent dans le fichier : actions/actions.py
 
 Une autre option aurait été de développer cette fonctionnalité comme un composant de la pipeline rasa.
 Mais cela me semblait trop compliqué dans le temps qui m'était imparti.
+
+Au finaln la class aurait pu très bien être une fonction mais j'avais anticipé fonctionnalités que je n'ai pas implémenté.
 
 Rien de plus à dire de dessus. Il est commenté et il y a des docstrings.
 
