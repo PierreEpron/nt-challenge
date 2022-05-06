@@ -1,0 +1,26 @@
+[
+  {
+    "text": "comme me l'a conseille BELHASSEN Laurent, je demande à discuter avec ALONSO",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.8362364172935486
+    }
+  },
+  {
+    "text": "Jacques Attali cherche querelle a des brigands...",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999831914901733
+    }
+  },
+  {
+    "text": "s'il vous plait, ca serait super,",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.8635894060134888
+    }
+  }
+]

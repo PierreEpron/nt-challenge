@@ -1,0 +1,1042 @@
+[
+  {
+    "text": "sur recommandation de APTECAR j'aimerais converser avec ALONSO Enrique",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "APTECAR",
+        "entity": "doctor"
+      },
+      {
+        "start": 56,
+        "end": 70,
+        "value": "ALONSO Enrique",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.9973918199539185,
+        "role": "target",
+        "confidence_role": 0.9427749514579773,
+        "value": "APTECAR",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 56,
+        "end": 70,
+        "confidence_entity": 0.9995618462562561,
+        "role": "target",
+        "confidence_role": 0.9987533092498779,
+        "value": "ALONSO Enrique",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aurais voulu telephoner a Mr BAUER Bertrand a la demande du BAUER Bertrand",
+    "entities": [
+      {
+        "start": 31,
+        "end": 45,
+        "value": "BAUER Bertrand",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 62,
+        "end": 76,
+        "value": "BAUER Bertrand",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 31,
+        "end": 45,
+        "confidence_entity": 0.9999504089355469,
+        "role": "target",
+        "confidence_role": 0.9999648332595825,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 62,
+        "end": 67,
+        "confidence_entity": 0.9982597231864929,
+        "value": "BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 68,
+        "end": 76,
+        "confidence_entity": 0.9999970197677612,
+        "role": "target",
+        "confidence_role": 0.6248499155044556,
+        "value": "Bertrand",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonsoir, bien ? il a eu une attaque a la demande du Mme BELMAGHNI Fatma. nous voulons voir BELMAGHNI Fatma A+ !",
+    "entities": [
+      {
+        "start": 52,
+        "end": 71,
+        "value": "Mme BELMAGHNI Fatma",
+        "entity": "doctor"
+      },
+      {
+        "start": 91,
+        "end": 106,
+        "value": "BELMAGHNI Fatma",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 52,
+        "end": 55,
+        "confidence_entity": 0.9701669812202454,
+        "value": "Mme",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 56,
+        "end": 65,
+        "confidence_entity": 0.9294538497924805,
+        "role": "target",
+        "confidence_role": 0.9330060482025146,
+        "value": "BELMAGHNI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 66,
+        "end": 71,
+        "confidence_entity": 0.9999884366989136,
+        "value": "Fatma",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 91,
+        "end": 106,
+        "confidence_entity": 0.9996649026870728,
+        "role": "target",
+        "confidence_role": 0.9986588954925537,
+        "value": "BELMAGHNI Fatma",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salut, la forme ? nous pouvons que vous me passiez Docteur BELMAGHNI sur recommandation de BELDA qui est assistante heteliere je pense svp, Ciao",
+    "entities": [
+      {
+        "start": 59,
+        "end": 68,
+        "value": "BELMAGHNI",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 91,
+        "end": 96,
+        "value": "BELDA",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 59,
+        "end": 68,
+        "confidence_entity": 0.9992085099220276,
+        "role": "target",
+        "confidence_role": 0.8608766794204712,
+        "value": "BELMAGHNI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 91,
+        "end": 96,
+        "confidence_entity": 0.998380184173584,
+        "role": "target",
+        "confidence_role": 0.6132150292396545,
+        "value": "BELDA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ils voulaient joindre BENHAMOU comme me l'a conseille Docteur BADO Fabrice.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "value": "BENHAMOU",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 54,
+        "end": 74,
+        "value": "Docteur BADO Fabrice",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.9641727805137634,
+        "value": "BENHAMOU",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 54,
+        "end": 74,
+        "confidence_entity": 0.9998026490211487,
+        "value": "Docteur BADO Fabrice",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je souhaiterais voir Docteur BENHAMOU sur recommandation de Dr BRUN Magali qui est rhumatologue je crois.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 37,
+        "value": "BENHAMOU",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 60,
+        "end": 74,
+        "value": "Dr BRUN Magali",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 29,
+        "end": 37,
+        "confidence_entity": 0.9791116118431091,
+        "value": "BENHAMOU",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 60,
+        "end": 74,
+        "confidence_entity": 0.9996387958526611,
+        "value": "Dr BRUN Magali",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Pourriez vous m'aidez ? Je me suis coupe sur recommandation de BLAVIER il veut echanger avec BENOSMAN",
+    "entities": [
+      {
+        "start": 63,
+        "end": 70,
+        "value": "BLAVIER",
+        "entity": "doctor"
+      },
+      {
+        "start": 93,
+        "end": 101,
+        "value": "BENOSMAN",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 63,
+        "end": 70,
+        "confidence_entity": 0.9999502897262573,
+        "role": "target",
+        "confidence_role": 0.7457535862922668,
+        "value": "BLAVIER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 93,
+        "end": 101,
+        "confidence_entity": 0.999649167060852,
+        "role": "target",
+        "confidence_role": 0.9982220530509949,
+        "value": "BENOSMAN",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a la demande du BOULET, je veux avoir Docteur BLIN Jean-Louis",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "BOULET",
+        "entity": "doctor"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "value": "BLIN Jean-Louis",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.8455402851104736,
+        "value": "BOULET",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 50,
+        "confidence_entity": 0.866504430770874,
+        "value": "BLIN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 51,
+        "end": 61,
+        "confidence_entity": 0.9999969005584717,
+        "role": "target",
+        "confidence_role": 0.9991231560707092,
+        "value": "Jean-Louis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a la demande du ARMANDON qui est rhumatologue nous exigions de voir Mr BOULET plz, ca serait super,",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "ARMANDON",
+        "entity": "doctor"
+      },
+      {
+        "start": 71,
+        "end": 77,
+        "value": "BOULET",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9992842078208923,
+        "value": "ARMANDON",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 68,
+        "end": 70,
+        "confidence_entity": 0.8818188905715942,
+        "value": "Mr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 71,
+        "end": 77,
+        "confidence_entity": 0.8417845964431763,
+        "role": "target",
+        "confidence_role": 0.993591845035553,
+        "value": "BOULET",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je me suis fait mal sur recommandation de Dr BOUCHAREB qui est membre du service Chirurgie de la main je voudrais avoir avec le service Anesthésie ce serait bien aimable,",
+    "entities": [
+      {
+        "start": 42,
+        "end": 54,
+        "value": "Dr BOUCHAREB",
+        "entity": "doctor"
+      },
+      {
+        "start": 81,
+        "end": 101,
+        "value": "Chirurgie de la main",
+        "entity": "service"
+      },
+      {
+        "start": 136,
+        "end": 146,
+        "value": "Anesthésie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 42,
+        "end": 54,
+        "confidence_entity": 0.9998767375946045,
+        "value": "Dr BOUCHAREB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 81,
+        "end": 101,
+        "confidence_entity": 0.9952325224876404,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 125,
+        "end": 127,
+        "confidence_entity": 0.9362031817436218,
+        "role": "target",
+        "confidence_role": 0.8494775891304016,
+        "value": "le",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 136,
+        "end": 146,
+        "confidence_entity": 0.9999814033508301,
+        "role": "target",
+        "confidence_role": 0.9969424605369568,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "la forme ? faut que tu m'aide ! ils aimeraient parler avec avec le avec le secretariat du service Anesthésie comme me l'a conseille Dr BELMAGHNI Fatma qui appartient au service Chirurgie orthopedique je pense tu m'enleverais une epine du pied, merci",
+    "entities": [
+      {
+        "start": 98,
+        "end": 108,
+        "value": "Anesthésie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 132,
+        "end": 150,
+        "value": "Dr BELMAGHNI Fatma",
+        "entity": "doctor"
+      },
+      {
+        "start": 177,
+        "end": 199,
+        "value": "Chirurgie orthopedique",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 98,
+        "end": 108,
+        "confidence_entity": 0.9999803304672241,
+        "role": "target",
+        "confidence_role": 0.9959510564804077,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 132,
+        "end": 150,
+        "confidence_entity": 0.9963212013244629,
+        "value": "Dr BELMAGHNI Fatma",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 177,
+        "end": 186,
+        "confidence_entity": 0.9999847412109375,
+        "role": "target",
+        "confidence_role": 0.9299788475036621,
+        "value": "Chirurgie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 187,
+        "end": 199,
+        "confidence_entity": 0.9999595880508423,
+        "value": "orthopedique",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, comment allez-vous ? Aide moi plz, je peux que vous me passiez avec l'acceuil du Stomatologie sur recommandation de BELHASSEN Laurent qui est membre du service Chirurgie vasculaire, s'il te plait, A+ !",
+    "entities": [
+      {
+        "start": 98,
+        "end": 110,
+        "value": "Stomatologie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 133,
+        "end": 150,
+        "value": "BELHASSEN Laurent",
+        "entity": "doctor"
+      },
+      {
+        "start": 177,
+        "end": 197,
+        "value": "Chirurgie vasculaire",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 98,
+        "end": 110,
+        "confidence_entity": 0.9999973773956299,
+        "role": "target",
+        "confidence_role": 0.9795239567756653,
+        "value": "Stomatologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 133,
+        "end": 150,
+        "confidence_entity": 0.9991963505744934,
+        "value": "BELHASSEN Laurent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 177,
+        "end": 197,
+        "confidence_entity": 0.9999740123748779,
+        "role": "target",
+        "confidence_role": 0.9932048320770264,
+        "value": "Chirurgie vasculaire",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Pourriez vous m'aidez ? J'ai fais une scintigraphie, je voudrais m'entretenir avec avec le avec le secretariat du Chirurgie de la main ca m'aiderais beaucoup,",
+    "entities": [
+      {
+        "start": 114,
+        "end": 134,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 88,
+        "end": 90,
+        "confidence_entity": 0.510345995426178,
+        "role": "target",
+        "confidence_role": 0.9014147520065308,
+        "value": "le",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 96,
+        "end": 98,
+        "confidence_entity": 0.8383436799049377,
+        "role": "target",
+        "confidence_role": 0.977676272392273,
+        "value": "le",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 111,
+        "end": 113,
+        "confidence_entity": 0.6840471029281616,
+        "role": "target",
+        "confidence_role": 0.9370152950286865,
+        "value": "du",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 114,
+        "end": 134,
+        "confidence_entity": 0.9940770864486694,
+        "role": "target",
+        "confidence_role": 0.998497724533081,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a la demande du Mr AL MOUSSARIH Abdallah. je veux avoir a l'acceuil du Chirurgie de la main",
+    "entities": [
+      {
+        "start": 16,
+        "end": 40,
+        "value": "Mr AL MOUSSARIH Abdallah",
+        "entity": "doctor"
+      },
+      {
+        "start": 71,
+        "end": 91,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 16,
+        "end": 40,
+        "confidence_entity": 0.998083233833313,
+        "value": "Mr AL MOUSSARIH Abdallah",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 58,
+        "end": 60,
+        "confidence_entity": 0.7785058617591858,
+        "role": "target",
+        "confidence_role": 0.9514429569244385,
+        "value": "l'",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 71,
+        "end": 91,
+        "confidence_entity": 0.9893162250518799,
+        "role": "target",
+        "confidence_role": 0.9944140911102295,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, comment vas-tu ? je souhaite que vous me passiez avec le avec le secretariat du service Chirurgie de la main a la demande du BAUER Bertrand qui officie en tant que pediatre je pense s'il te plait,",
+    "entities": [
+      {
+        "start": 105,
+        "end": 125,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 142,
+        "end": 156,
+        "value": "BAUER Bertrand",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 79,
+        "end": 81,
+        "confidence_entity": 0.6046665906906128,
+        "role": "target",
+        "confidence_role": 0.9123576879501343,
+        "value": "le",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 105,
+        "end": 125,
+        "confidence_entity": 0.9814113974571228,
+        "role": "target",
+        "confidence_role": 0.9865759611129761,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 128,
+        "end": 130,
+        "confidence_entity": 0.5527895092964172,
+        "role": "target",
+        "confidence_role": 0.8132920861244202,
+        "value": "la",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 142,
+        "end": 156,
+        "confidence_entity": 0.9991173148155212,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je désire voir avec l'acceuil du service Chirurgie de la main",
+    "entities": [
+      {
+        "start": 41,
+        "end": 61,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 20,
+        "end": 22,
+        "confidence_entity": 0.5931652784347534,
+        "role": "target",
+        "confidence_role": 0.8863064646720886,
+        "value": "l'",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 41,
+        "end": 61,
+        "confidence_entity": 0.994376540184021,
+        "role": "target",
+        "confidence_role": 0.9979484677314758,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je voulais avoir avec l'acceuil du Au revoir Chirurgie de la main",
+    "entities": [
+      {
+        "start": 45,
+        "end": 65,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 22,
+        "end": 24,
+        "confidence_entity": 0.6990997791290283,
+        "role": "target",
+        "confidence_role": 0.9302102327346802,
+        "value": "l'",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 45,
+        "end": 65,
+        "confidence_entity": 0.9948945045471191,
+        "role": "target",
+        "confidence_role": 0.9983096122741699,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nous souhaitons parler avec avec le service svp, Chirurgie de la main",
+    "entities": [
+      {
+        "start": 49,
+        "end": 69,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 33,
+        "end": 35,
+        "confidence_entity": 0.6800479292869568,
+        "role": "target",
+        "confidence_role": 0.9297698736190796,
+        "value": "le",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 49,
+        "end": 69,
+        "confidence_entity": 0.9944735169410706,
+        "role": "target",
+        "confidence_role": 0.9979444146156311,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yo, je réclame de discuter avec avec l'acceuil du Chirurgie de la main plz, tu m'enleverais une epine du pied,",
+    "entities": [
+      {
+        "start": 50,
+        "end": 70,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 50,
+        "end": 70,
+        "confidence_entity": 0.996137797832489,
+        "role": "target",
+        "confidence_role": 0.9991036057472229,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 102,
+        "end": 104,
+        "confidence_entity": 0.7212570309638977,
+        "role": "target",
+        "confidence_role": 0.9250198006629944,
+        "value": "du",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yo, tu peux m'aider ? nous désirons discuter avec a l'acceuil du service Chirurgie de la main a la demande du BENOUAICHE qui officie en tant que pediatre je crois",
+    "entities": [
+      {
+        "start": 73,
+        "end": 93,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 110,
+        "end": 120,
+        "value": "BENOUAICHE",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 73,
+        "end": 93,
+        "confidence_entity": 0.9895424842834473,
+        "role": "target",
+        "confidence_role": 0.9979141354560852,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 96,
+        "end": 98,
+        "confidence_entity": 0.6741669774055481,
+        "role": "target",
+        "confidence_role": 0.8746644258499146,
+        "value": "la",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 110,
+        "end": 120,
+        "confidence_entity": 0.9986366629600525,
+        "value": "BENOUAICHE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, bien ? Nous avons besoins d'aide d'urgence ! il a eu une attaque comme me l'a conseille Docteur ALONSO Enrique qui est membre du service Ophtalmologie je veux parler a avec le service magasins s'il vous plait, ca m'aiderais beaucoup, merci",
+    "entities": [
+      {
+        "start": 105,
+        "end": 127,
+        "value": "Docteur ALONSO Enrique",
+        "entity": "doctor"
+      },
+      {
+        "start": 154,
+        "end": 167,
+        "value": "Ophtalmologie",
+        "entity": "service"
+      },
+      {
+        "start": 201,
+        "end": 209,
+        "value": "magasins",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 105,
+        "end": 127,
+        "confidence_entity": 0.9995158910751343,
+        "value": "Docteur ALONSO Enrique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 154,
+        "end": 167,
+        "confidence_entity": 0.9999961853027344,
+        "role": "target",
+        "confidence_role": 0.7660380601882935,
+        "value": "Ophtalmologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 201,
+        "end": 209,
+        "confidence_entity": 0.9999969005584717,
+        "role": "target",
+        "confidence_role": 0.9994114637374878,
+        "value": "magasins",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "elle a fais une radio je demanderais à voir avec le avec le secretariat du service perpet les alouettes",
+    "entities": [
+      {
+        "start": 83,
+        "end": 103,
+        "value": "perpet les alouettes",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 57,
+        "end": 59,
+        "confidence_entity": 0.6906866431236267,
+        "role": "target",
+        "confidence_role": 0.9469395279884338,
+        "value": "le",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 83,
+        "end": 103,
+        "confidence_entity": 0.9980925917625427,
+        "role": "target",
+        "confidence_role": 0.9996317625045776,
+        "value": "perpet les alouettes",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cette fille telephone aux pieds de celeri a voiles.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.7230355739593506,
+        "role": "target",
+        "confidence_role": 0.8436388373374939,
+        "value": "celeri",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Jacques Attali cherche querelle a des brigands...",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9999836683273315,
+        "role": "target",
+        "confidence_role": 0.9998854398727417,
+        "value": "cherche",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.999911904335022,
+        "role": "target",
+        "confidence_role": 0.8188543319702148,
+        "value": "brigands",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
