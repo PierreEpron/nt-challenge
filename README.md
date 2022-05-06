@@ -368,13 +368,13 @@ $ pip install -r requirements.txt
 
 #### Generation de phrases
 
-La partie génération de phrases se trouve dans le notebook : sentences_generation.ipynb
+La partie génération de phrases se trouve dans le notebook : https://github.com/PierreEpron/nt-challenge/blob/main/sentences_generation.ipynb
 
 Le code est fouilli et absolument pas commenté. Comme j'ai déjà expliqué plus haut, je ne suis pas sûr qu'elle vaille vraiment le coup d'être retravaillée. Il vaudrait mieux opter pour des templates chatette plus simple. À la rigueur, seule la partie qui génère le template main pour qu'il soit adapté au ResponseSelector est intéressante.
 
 #### EntitySimilarity
 
-L'objet en lui-même est dans le fichier : src/libs/entity_similarity.py
+L'objet en lui-même est dans le fichier : https://github.com/PierreEpron/nt-challenge/blob/main/src/libs/entity_similarity.py
 
 Les actions qui l'utilisent dans le fichier : actions/actions.py
 
@@ -387,7 +387,7 @@ Rien de plus à dire de dessus. Il est commenté et il y a des docstrings.
 
 #### Similarity Evaluation
 
-Le script se trouve dans le fichier src/similarity_evaluation.py
+Le script se trouve dans le fichier https://github.com/PierreEpron/nt-challenge/blob/main/src/evaluate_similarity.py
 
 Il s'utilise comme ceci :
 
@@ -436,11 +436,11 @@ optional arguments:
 
 À la base, je voulais sortir des graphiques en output pour mieux visualiser les résultats, mais les boxplots et barchart sont peu lisibles à cause des petites valeurs. Faire un histogramme pour chaque méthode aurait généré trop de fichiers.
 
-Les résultats détaillés pour le jeu de test utilisateur sont trouvables à cet endroit : results/similarity_report.json
+Les résultats détaillés pour le jeu de test utilisateur sont trouvables à cet endroit : https://github.com/PierreEpron/nt-challenge/blob/main/results/similarity_report.json
 
 #### ResponseSelector to Entity
 
-Le script se trouve dans le fichier src/rs_to_entity.py
+Le script se trouve dans le fichier https://github.com/PierreEpron/nt-challenge/blob/main/src/rs_to_entity.py
 
 Il s'utilise comme ceci :
 
@@ -471,9 +471,13 @@ J'ai ajouté l'option --fill-role parce que je voulais tester si le model se com
 
 #### Autres 
 
-Le fichier src/libs/helpers.py qui contient quelques fonctions generiques que j'utilise dans d'autres partie du code (docstring complète).
+Le fichier https://github.com/PierreEpron/nt-challenge/blob/main/src/libs/helpers.py
 
-Le fichier train/train.sh, un script bash qui lance le train du modèle puis le test sur son jeu de test généré par chatette et sur le jeu de test utilisateur.
+Il contient quelques fonctions generiques que j'utilise dans d'autres partie du code (docstring complète).
+
+Le fichier https://github.com/PierreEpron/nt-challenge/blob/main/train/train.sh
+
+Un script bash qui lance le train du modèle puis le test sur son jeu de test généré par chatette et sur le jeu de test utilisateur.
 
 ### Rasa X
 
@@ -539,33 +543,73 @@ Ce sont les metrics classiques utilisées dans une classification. Il existe des
 
 Chaque composant est évalué indépendamment. Cela donne :
 
-|FIELD1            |Intent   |||Entity   |||Response |||
+|            |Intent   |||Entity   |||Response |||
 |------------------|---------|------|------|---------|------|------|---------|------|-------|
 |                  |precision|recall|f1    |precision|recall|f1    |precision|recall|f1     |
-|3intents-0-rs-base|*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-0-rs-news|*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-0-rs-trf |*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-0-e-base |*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-0-e-news |*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-0-e-trf  |*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-1-rs-base|*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-1-rs-news|*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-1-rs-trf |*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-1-e-base |*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-1-e-news |*        |*     |*     |*        |*     |*     |*        |*     |*      |
-|3intents-1-e-trf  |*        |*     |*     |*        |*     |*     |*        |*     |*      |
+|3intents-0-rs-base|.60      |.54   |.53   |*        |*     |*     |.89      |.75   |.77    |
+|3intents-0-rs-md  |.50      |.50   |.50   |*        |*     |*     |.75      |.72   |.70    |
+|3intents-0-rs-trf |.62      |.62   |.62   |*        |*     |*     |.93      |.76   |.78    |
+|3intents-0-e-base |.53      |.54   |.54   |.55      |.45   |.47   |*        |*     |*      |
+|3intents-0-e-md   |.49      |.49   |.49   |.56      |.47   |.48   |*        |*     |*      |
+|3intents-0-e-trf  |.60      |.59   |.59   |.59      |.50   |.49   |*        |*     |*      |
+|3intents-1-rs-base|.70      |.70   |.70   |*        |*     |*     |.90      |.82   |.83    |
+|3intents-1-rs-md  |.64      |.64   |.63   |*        |*     |*     |.83      |.77   |.78    |
+|3intents-1-rs-trf |.60      |.60   |.59   |*        |*     |*     |.92      |.82   |.83    |
+|3intents-1-e-base |.70      |.70   |.70   |.64      |.62   |.60   |*        |*     |*      |
+|3intents-1-e-md   |.60      |.60   |.60   |.56      |.55   |.53   |*        |*     |*      |
+|3intents-1-e-trf  |.69      |.69   |.69   |.65      |.60   |.60   |*        |*     |*      |
 
-J'ai mis ici les performances sur le jeu de test utilisateurs.
+J'ai mis ici les performances sur le jeu de test utilisateurs. Le f1 score ne correspond pas toujours à la moyenne de la précision et du recall parce les trois valeurs sont faites les moyennes pour chaque intentions/entités.
 
 Les résulats sur le jeu de test généré par chatette sont tous très proches de 1 et présentent peu d'intérêt à mon sens. D'une part parce que la géneration de phrases présente de gros défauts, d'autre part parce que ce qui nous intéresse, ce sont les performances du modèle sur des données proches du réel.
 
 Les résultats sont difficilement interpretables pour plusieurs raisons :
-    - Le jeu de test contient seulement X phrase (X contact_doctor, X contact_service, X out_of_scope). C'est encore pire pour ce qui concerne le ResponseSelector, certains docteurs ne sont même pas représentés.
-    - Les utilisateurs test ont principalement cherché à piéger le model ce qui n'aide pas à l'évaluer correctement
-    - L'annotation d'entité et la classification des intentions par une seule personne (moi) est souvent biaisée ou même incorrecte.
+- Le jeu de test contient seulement 190 phrase 
+    - 78 contact_doctor 
+    - 69 contact_service
+    - 43 out_of_scope
+    - 251 entitées
+    - 25 doctor et 89 doctor.target
+    - 45 service et 92 service.target
+- C'est encore pire pour ce qui concerne le ResponseSelector, certains docteurs ne sont même pas représentés.
+- Les utilisateurs test ont principalement cherché à piéger le model ce qui n'aide pas à l'évaluer correctement
+- L'annotation d'entité et la classification des intentions par une seule personne (moi) est souvent biaisée ou même incorrecte.
 
 On peut quand même constater ceci :
+- md a de très mauvaises performances quel que soit la tâche. Cela me surprend puisque dans nos travaux aux CHRU, c'est le modèle qui fonctionnait le mieux.
+- trf s'en mieux sur la partie ResponseSelector et est assez équivalent à base sur la partie Entity.
+- le jeu 2 est globalement plus performant que le jeu 1. Résultats qui sont rassurants et qui confirme que les petites modifications sur la génération et l'augmentation du nombre de phrases on eu un impact.
 
+##### Détails du modèle 3intents-1-rs-trf :
+
+Pour la partie ResponseSelector, on a 28 erreurs sur les 190 phrases.
+
+Parmi les erreurs, certaines ne sont pas évitable comme (4 erreurs de ce type) :
+- "puis-je voir Mr Brunet ?" Prédit "contact_doctor/brunet_oceane" à la place de "contact_doctor/brunet_morgan"
+
+Je n'ai pas réfléchi à une solution efficace pour gérer ce genre de cas. On voit là l'avantage de la pipeline entity qui aurait sûrement proposé les deux docteurs
+
+Les autres concernent souvent les "contact_x_unknown". Il est difficile de générer un ensemble de phrases représentatif pour ce domaine.
+
+C'est le modèle que j'ai laissé actif sur Rasa-X
+
+https://github.com/PierreEpron/nt-challenge/blob/main/train/3intents-1-rs/trf/user_results/response_selection_errors.json
+
+##### Détails du modèle 3intents-1-e-trf :
+
+Le problème majeur pour ce qui est de la partie NER vient de la confusion entre X et X.target. Je l'explique en partie par des manques aux niveaux des données d'entraînements, mais aussi très certainement de la démarche. Peut-être que vouloir différencier les target n'est pas la bonne méthode. Il faudrait tester sur un jeu de donnée réel et avec une guideline stricte pour l'annotation.
+
+Pour la partie intention, il y a 58 erreurs / 190 phrases ce qui fait 2 fois plus d'erreurs que le ResponseSelector.
+
+https://github.com/PierreEpron/nt-challenge/blob/main/train/3intents-1-e/trf/user_results/DIETClassifier_report.json
+
+https://github.com/PierreEpron/nt-challenge/blob/main/train/3intents-1-e/trf/user_results/intent_errors.json
+
+##### Conclusion
+
+Pour conclure sur les résultats, je pense qu'une bonne stratégie à adopter serait de commencer par développer un chatbot en utilisant un ResponseSelector. Une fois une quantité suffisante de donnée réelle acquise et correctement annotée, passer sur une solution de type Entité.
+
+C'est aussi le feeling qu'on eu la plupart des utilisateurs test. Leurs retours étaient plus favorables sur le modèle ResponseSelector (ils n'ont testé que le jeu de donnée 0 et sans EntitySimilarity)
 
 Les résultats complets pour chaque models sont trouvables dans les dossiers : train/*/*/results et train/*/*/user_results 
 
@@ -585,4 +629,4 @@ De manière générale, j'ai voulu tester trop de choses en trop peu de temps. J
 
 J'ai quand même pu mettre un pied dans la nlu et la conception de chatbots. J'ai appris beaucoup de choses lors du déploiement de rasa-x. Échanger tout du long avec des utilisateurs tests était bénéfique et au final, j'ai exploré pas mal de choses en une semaine.
 
-Je concluerai en vous remerciant d'avoir lu jusqu'au bout et en précisant qu'il est possible que je finisse certaines parties après vendredi 06/05 mais que tous les ajouts seront mis sur une autres branch que la branch main pour ne pas tricher.
+Je concluerai en vous remerciant d'avoir lu jusqu'au bout et en précisant qu'il est possible que je finisse certaines parties après samedis 07/05 2h00   mais que tous les ajouts seront mis sur une autres branch que la branch main pour ne pas tricher.
