@@ -8,27 +8,11 @@
     }
   },
   {
-    "text": "je voudrais un rendez-vous avec le docteur aboab svp",
-    "intent": "contact_doctor",
-    "intent_prediction": {
-      "name": "contact_service",
-      "confidence": 0.9998975992202759
-    }
-  },
-  {
-    "text": "Je cherche à joindre le Dr Aboab pour prendre un rendez-vous.",
-    "intent": "contact_doctor",
-    "intent_prediction": {
-      "name": "contact_service",
-      "confidence": 1.0
-    }
-  },
-  {
     "text": "Est-ce que le Dr Alonso est disponible ce matin ?",
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.9999858140945435
+      "confidence": 0.999589741230011
     }
   },
   {
@@ -36,7 +20,15 @@
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 0.9998119473457336
+      "confidence": 0.7441389560699463
+    }
+  },
+  {
+    "text": "mon anesthésiste m'a demandé de prendre rendez-vous avec le docteur boulet",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9998438358306885
     }
   },
   {
@@ -52,15 +44,7 @@
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 0.9999895095825195
-    }
-  },
-  {
-    "text": "le dr superman m'a demandé d'aller voir le docteur batman",
-    "intent": "contact_doctor",
-    "intent_prediction": {
-      "name": "out_of_scope",
-      "confidence": 0.9406139850616455
+      "confidence": 0.9999997615814209
     }
   },
   {
@@ -68,7 +52,7 @@
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.9996516704559326
+      "confidence": 0.9931902289390564
     }
   },
   {
@@ -76,15 +60,7 @@
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 0.9997319579124451
-    }
-  },
-  {
-    "text": "Je veux voir le directeur",
-    "intent": "contact_doctor",
-    "intent_prediction": {
-      "name": "contact_service",
-      "confidence": 0.9098186492919922
+      "confidence": 0.9999836683273315
     }
   },
   {
@@ -92,15 +68,15 @@
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 0.6725071668624878
+      "confidence": 1.0
     }
   },
   {
     "text": "docteur BAUER Bertrand, service Anesthésie svp",
     "intent": "contact_doctor",
     "intent_prediction": {
-      "name": "out_of_scope",
-      "confidence": 0.999806821346283
+      "name": "contact_service",
+      "confidence": 1.0
     }
   },
   {
@@ -123,8 +99,8 @@
     "text": "service Anesthésie, docteur BAUER Bertrand svp",
     "intent": "contact_doctor",
     "intent_prediction": {
-      "name": "out_of_scope",
-      "confidence": 0.9998016953468323
+      "name": "contact_service",
+      "confidence": 1.0
     }
   },
   {
@@ -180,7 +156,7 @@
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 1.0
+      "confidence": 0.9999268054962158
     }
   },
   {
@@ -188,7 +164,7 @@
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 1.0
+      "confidence": 0.9999998807907104
     }
   },
   {
@@ -197,14 +173,6 @@
     "intent_prediction": {
       "name": "contact_service",
       "confidence": 1.0
-    }
-  },
-  {
-    "text": "Puis-je avoir le madame Laurence Benouaiche au téléphone ?",
-    "intent": "contact_doctor",
-    "intent_prediction": {
-      "name": "contact_service",
-      "confidence": 0.9999977350234985
     }
   },
   {
@@ -220,15 +188,7 @@
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.9999809265136719
-    }
-  },
-  {
-    "text": "le docteur bado doit vérifier mes analyses biomédical",
-    "intent": "contact_doctor",
-    "intent_prediction": {
-      "name": "contact_service",
-      "confidence": 0.6226156949996948
+      "confidence": 0.9999997615814209
     }
   },
   {
@@ -236,23 +196,23 @@
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 0.9864739179611206
+      "confidence": 0.9949748516082764
     }
   },
   {
     "text": "Puis-je être mis en relation avec le docteur Bouchareb du bureau des admissions ?",
     "intent": "contact_doctor",
     "intent_prediction": {
-      "name": "contact_service",
-      "confidence": 0.7464733123779297
+      "name": "out_of_scope",
+      "confidence": 0.6933110952377319
     }
   },
   {
-    "text": "Bonjour est  ce que le docteur Aboukaya est dispo maintenant",
+    "text": "J'ai un besoin urgent de contacter le docteur Bescherelle !!",
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.92420494556427
+      "confidence": 0.8617359399795532
     }
   },
   {
@@ -260,7 +220,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.8471923470497131
+      "confidence": 0.9934223294258118
     }
   },
   {
@@ -268,7 +228,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9999516010284424
+      "confidence": 0.999996542930603
     }
   },
   {
@@ -276,15 +236,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9997722506523132
-    }
-  },
-  {
-    "text": "j'ai compris comment marche le bot",
-    "intent": "out_of_scope",
-    "intent_prediction": {
-      "name": "contact_service",
-      "confidence": 0.5702744722366333
+      "confidence": 0.989424467086792
     }
   },
   {
@@ -292,7 +244,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 1.0
+      "confidence": 0.8519848585128784
     }
   },
   {
@@ -300,7 +252,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9999154806137085
+      "confidence": 1.0
     }
   },
   {
@@ -308,7 +260,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9986686706542969
+      "confidence": 0.9553365707397461
     }
   },
   {
@@ -332,7 +284,15 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9985632300376892
+      "confidence": 0.9999949932098389
+    }
+  },
+  {
+    "text": "J'aime la chirurgie orthopédique",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9999440908432007
     }
   },
   {
@@ -340,7 +300,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 1.0
+      "confidence": 0.9998661279678345
     }
   },
   {
@@ -348,7 +308,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9995161294937134
+      "confidence": 0.9999984502792358
     }
   },
   {
@@ -356,7 +316,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 0.9995133876800537
+      "confidence": 1.0
     }
   },
   {
@@ -364,7 +324,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9999845027923584
+      "confidence": 0.9999971389770508
     }
   },
   {
@@ -372,7 +332,15 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.979488730430603
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "docteur Bertrand BAUER du service cardiologie",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
     }
   },
   {
@@ -380,15 +348,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9157487154006958
-    }
-  },
-  {
-    "text": "j'ai des problemes d'ORL",
-    "intent": "out_of_scope",
-    "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.938950777053833
+      "confidence": 0.9506340622901917
     }
   },
   {
@@ -396,7 +356,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9989062547683716
+      "confidence": 0.9999994039535522
     }
   },
   {
@@ -404,7 +364,31 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9956814050674438
+      "confidence": 0.7381720542907715
+    }
+  },
+  {
+    "text": "non, Magali BRUN",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "la docteur Brun ne travaille plus",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "quoi, la Dr Brun",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.999914288520813
     }
   },
   {
@@ -412,15 +396,15 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.999555766582489
+      "confidence": 1.0
     }
   },
   {
-    "text": "bonjour",
+    "text": "cardiologie",
     "intent": "out_of_scope",
     "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.9925808906555176
+      "name": "contact_service",
+      "confidence": 0.9133623838424683
     }
   },
   {
@@ -428,7 +412,31 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.996692419052124
+      "confidence": 0.9999966621398926
+    }
+  },
+  {
+    "text": "Je dois prendre un rendez-vous en chirurgie viscérale.",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9823729991912842
+    }
+  },
+  {
+    "text": "On m'a dit de m'adresser à une assistante sociale.",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9424057602882385
+    }
+  },
+  {
+    "text": "il faut absolument que je parle à l'assistante sociale, je suis enceinte !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
     }
   },
   {
@@ -436,7 +444,15 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9998922348022461
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "Pouvez-vous me passer une assistante sociale ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9533597826957703
     }
   },
   {
@@ -460,7 +476,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9999954700469971
+      "confidence": 0.9706597924232483
     }
   },
   {
@@ -468,15 +484,23 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.8877869844436646
+      "confidence": 0.9890151619911194
     }
   },
   {
     "text": "Comment dois-je faire pour une urgence ?",
     "intent": "contact_service",
     "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.9978958368301392
+      "name": "out_of_scope",
+      "confidence": 0.9820583462715149
+    }
+  },
+  {
+    "text": "je veux les urgences !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9678166508674622
     }
   },
   {
@@ -484,7 +508,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.7497798800468445
+      "confidence": 0.9896683692932129
     }
   },
   {
@@ -492,7 +516,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9999977350234985
+      "confidence": 0.9999833106994629
     }
   },
   {
@@ -500,7 +524,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9999990463256836
+      "confidence": 0.9999947547912598
     }
   },
   {
@@ -508,7 +532,15 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9999995231628418
+      "confidence": 0.9715140461921692
+    }
+  },
+  {
+    "text": "j'aimerais consulter un ORL le plus vite possible svp",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.7693201899528503
     }
   },
   {
@@ -516,7 +548,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.999546229839325
+      "confidence": 0.9999921321868896
     }
   },
   {
@@ -524,23 +556,31 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.9945014715194702
+      "confidence": 1.0
     }
   },
   {
     "text": "cadiologie stp",
     "intent": "contact_service",
     "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.99998939037323
+      "name": "out_of_scope",
+      "confidence": 0.9999662637710571
     }
   },
   {
     "text": "cadiologie svp",
     "intent": "contact_service",
     "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.9999792575836182
+      "name": "out_of_scope",
+      "confidence": 0.9999661445617676
+    }
+  },
+  {
+    "text": "j'aimerais consulter un cardiologue le plus vite possible svp",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.837213933467865
     }
   },
   {
@@ -548,15 +588,15 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.9640068411827087
+      "confidence": 0.7812544703483582
     }
   },
   {
     "text": "faudrait que je prenne un rdv avec un cardiologue, c'est possible stp ?",
     "intent": "contact_service",
     "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.990714430809021
+      "name": "out_of_scope",
+      "confidence": 0.9694038033485413
     }
   },
   {
@@ -564,7 +604,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9996353387832642
+      "confidence": 0.9987677335739136
     }
   },
   {
@@ -572,7 +612,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9999109506607056
+      "confidence": 0.9811381101608276
     }
   },
   {
@@ -580,7 +620,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.8352260589599609
+      "confidence": 1.0
     }
   },
   {
@@ -588,7 +628,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9917803406715393
+      "confidence": 0.9990574717521667
     }
   },
   {
@@ -596,7 +636,23 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9470049738883972
+      "confidence": 0.9879786968231201
+    }
+  },
+  {
+    "text": "j'aimerais un rdv ophtalmo",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9956496357917786
+    }
+  },
+  {
+    "text": "appelez moi le directeru de soins ambulatoire",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8575586080551147
     }
   },
   {
@@ -604,15 +660,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.9999995231628418
-    }
-  },
-  {
-    "text": "J'ai besoin d'un anesthesiste pour préparer une opération",
-    "intent": "contact_service",
-    "intent_prediction": {
-      "name": "out_of_scope",
-      "confidence": 0.8859220147132874
+      "confidence": 0.9992601275444031
     }
   },
   {
@@ -620,15 +668,15 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 1.0
+      "confidence": 0.6938713192939758
     }
   },
   {
     "text": "on m'a dit d'appeler un pédiatre ?",
     "intent": "contact_service",
     "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.7067434191703796
+      "name": "out_of_scope",
+      "confidence": 1.0
     }
   },
   {
@@ -644,7 +692,15 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 1.0
+      "confidence": 0.9981677532196045
+    }
+  },
+  {
+    "text": "J'ai besoin de mon dossier concernant mes analyses biomédicales",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.8730001449584961
     }
   },
   {
@@ -652,15 +708,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9985274076461792
-    }
-  },
-  {
-    "text": "J'ai besoin d'un chirurgien vasculaire je suis dans le brun",
-    "intent": "contact_service",
-    "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.9963496923446655
+      "confidence": 0.9944838881492615
     }
   },
   {
@@ -668,15 +716,15 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.6224479675292969
+      "confidence": 0.5431873798370361
     }
   },
   {
     "text": "Ma main est blessée, j'ai besoin d'une chirurgie !",
     "intent": "contact_service",
     "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.6287946701049805
+      "name": "out_of_scope",
+      "confidence": 0.9993014335632324
     }
   },
   {
@@ -684,7 +732,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.9997478127479553
+      "confidence": 0.905609667301178
     }
   },
   {
@@ -692,7 +740,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 1.0
+      "confidence": 0.9999985694885254
     }
   },
   {
@@ -700,7 +748,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "out_of_scope",
-      "confidence": 0.9830105304718018
+      "confidence": 0.9969342947006226
     }
   },
   {
@@ -708,7 +756,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.523472011089325
+      "confidence": 0.838351309299469
     }
   },
   {
@@ -716,7 +764,7 @@
     "intent": "contact_service",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.638733446598053
+      "confidence": 0.9531794190406799
     }
   }
 ]

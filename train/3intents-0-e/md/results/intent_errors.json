@@ -1,18 +1,10 @@
 [
   {
-    "text": "salutation, ca va ? Nous avons besoins d'aide d'urgence ! j'ai eu une attaque, comme me l'a conseille BAUER Bertrand qui appartient au service Urgence nous désirons joindre Mr BRUN Laurent",
+    "text": "je souhaite telephoner avec BOULET comme me l'a demande BENOUAICHE qui est membre du service Stomatologie",
     "intent": "contact_doctor",
     "intent_prediction": {
       "name": "contact_service",
-      "confidence": 0.5509983897209167
-    }
-  },
-  {
-    "text": "Cette fille telephone aux pieds de celeri a voiles.",
-    "intent": "out_of_scope",
-    "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.987975001335144
+      "confidence": 0.9970393180847168
     }
   },
   {
@@ -20,39 +12,7 @@
     "intent": "out_of_scope",
     "intent_prediction": {
       "name": "contact_doctor",
-      "confidence": 0.9999991655349731
-    }
-  },
-  {
-    "text": "bonsoir, j'aurais besoins d'aide,",
-    "intent": "out_of_scope",
-    "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.9991017580032349
-    }
-  },
-  {
-    "text": "comme me l'a conseille Dr BELHASSEN Laurent qui est chirurgien de memoire.",
-    "intent": "out_of_scope",
-    "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.994085431098938
-    }
-  },
-  {
-    "text": "sur recommandation de BELHASSEN Laurent qui fait partie du service ORL je crois",
-    "intent": "out_of_scope",
-    "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.9255031943321228
-    }
-  },
-  {
-    "text": "sur recommandation de Mr BELDA qui officie en tant que assistant logistique je crois.",
-    "intent": "out_of_scope",
-    "intent_prediction": {
-      "name": "contact_doctor",
-      "confidence": 0.7127498388290405
+      "confidence": 0.9998044371604919
     }
   }
 ]
