@@ -1,0 +1,356 @@
+[
+  {
+    "text": "bien le bonjour, bien ? j'ai besoins d'aide ! je désirais dialoguer avec ALLARD a la demande du Docteur BLIN Jean-Louis qui est assistante logistique,",
+    "entities": [
+      {
+        "start": 73,
+        "end": 79,
+        "value": "ALLARD",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 96,
+        "end": 119,
+        "value": "Docteur BLIN Jean-Louis",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 73,
+        "end": 79,
+        "confidence_entity": 0.9855136275291443,
+        "value": "ALLARD",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 96,
+        "end": 119,
+        "confidence_entity": 0.9995148181915283,
+        "value": "Docteur BLIN Jean-Louis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je me suis fait mal sur recommandation de Dr BOUCHAREB qui est membre du service Chirurgie de la main je voudrais avoir avec le service Anesthésie ce serait bien aimable,",
+    "entities": [
+      {
+        "start": 42,
+        "end": 54,
+        "value": "Dr BOUCHAREB",
+        "entity": "doctor"
+      },
+      {
+        "start": 81,
+        "end": 101,
+        "value": "Chirurgie de la main",
+        "entity": "service"
+      },
+      {
+        "start": 136,
+        "end": 146,
+        "value": "Anesthésie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 42,
+        "end": 54,
+        "confidence_entity": 0.9996567964553833,
+        "value": "Dr BOUCHAREB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 81,
+        "end": 101,
+        "confidence_entity": 0.9992666840553284,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 125,
+        "end": 127,
+        "confidence_entity": 0.8344817161560059,
+        "value": "le",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 136,
+        "end": 146,
+        "confidence_entity": 0.9999414682388306,
+        "role": "target",
+        "confidence_role": 0.9781777858734131,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "elle a eu un probleme. comme me l'a conseille Mr CADOT Bernard qui est stomatologue je pense je peux voir au service Stomathérapie",
+    "entities": [
+      {
+        "start": 46,
+        "end": 62,
+        "value": "Mr CADOT Bernard",
+        "entity": "doctor"
+      },
+      {
+        "start": 117,
+        "end": 130,
+        "value": "Stomathérapie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 62,
+        "confidence_entity": 0.9991742968559265,
+        "value": "Mr CADOT Bernard",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 117,
+        "end": 130,
+        "confidence_entity": 0.9999954700469971,
+        "value": "Stomathérapie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, comment vas-tu ? je souhaite que vous me passiez avec le avec le secretariat du service Chirurgie de la main a la demande du BAUER Bertrand qui officie en tant que pediatre je pense s'il te plait,",
+    "entities": [
+      {
+        "start": 105,
+        "end": 125,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 142,
+        "end": 156,
+        "value": "BAUER Bertrand",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 105,
+        "end": 125,
+        "confidence_entity": 0.999016284942627,
+        "role": "target",
+        "confidence_role": 0.9990673661231995,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 128,
+        "end": 130,
+        "confidence_entity": 0.9046223163604736,
+        "role": "target",
+        "confidence_role": 0.7770267724990845,
+        "value": "la",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 142,
+        "end": 156,
+        "confidence_entity": 0.9891026020050049,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ils souhaitent echanger avec avec le service Chirurgie de la main il a passe une scintigraphie.",
+    "entities": [
+      {
+        "start": 45,
+        "end": 65,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 34,
+        "end": 36,
+        "confidence_entity": 0.9750728011131287,
+        "role": "target",
+        "confidence_role": 0.9822759628295898,
+        "value": "le",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 45,
+        "end": 65,
+        "confidence_entity": 0.9994630217552185,
+        "role": "target",
+        "confidence_role": 0.9992094039916992,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yo, tu peux m'aider ? nous désirons discuter avec a l'acceuil du service Chirurgie de la main a la demande du BENOUAICHE qui officie en tant que pediatre je crois",
+    "entities": [
+      {
+        "start": 73,
+        "end": 93,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 110,
+        "end": 120,
+        "value": "BENOUAICHE",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 73,
+        "end": 93,
+        "confidence_entity": 0.9992538094520569,
+        "role": "target",
+        "confidence_role": 0.9989268183708191,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 96,
+        "end": 98,
+        "confidence_entity": 0.9956596493721008,
+        "role": "target",
+        "confidence_role": 0.9808222651481628,
+        "value": "la",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 110,
+        "end": 120,
+        "confidence_entity": 0.9979867935180664,
+        "value": "BENOUAICHE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonjour, ca va ? Aide moi svp, j'ai eu un probleme, a la demande du Docteur BELHASSEN Laurent qui fait partie du service Biomedical je crois je souhaitais parler avec au service Chirurgie digestive",
+    "entities": [
+      {
+        "start": 68,
+        "end": 93,
+        "value": "Docteur BELHASSEN Laurent",
+        "entity": "doctor"
+      },
+      {
+        "start": 121,
+        "end": 131,
+        "value": "Biomedical",
+        "entity": "service"
+      },
+      {
+        "start": 178,
+        "end": 197,
+        "value": "Chirurgie digestive",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 68,
+        "end": 93,
+        "confidence_entity": 0.9994125366210938,
+        "value": "Docteur BELHASSEN Laurent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 121,
+        "end": 131,
+        "confidence_entity": 0.9996885061264038,
+        "value": "Biomedical",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 178,
+        "end": 197,
+        "confidence_entity": 0.9999746084213257,
+        "value": "Chirurgie digestive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Jacques Attali cherche querelle a des brigands...",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 8,
+        "end": 22,
+        "confidence_entity": 0.9204635620117188,
+        "role": "target",
+        "confidence_role": 0.5573732852935791,
+        "value": "Attali cherche",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.9595754742622375,
+        "role": "target",
+        "confidence_role": 0.7377747893333435,
+        "value": "brigands",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Joe Dalton mime un competiteur a des cartomanciens.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.996070146560669,
+        "role": "target",
+        "confidence_role": 0.9809836745262146,
+        "value": "Dalton",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -35,4 +35,4 @@ pipeline:
     constrain_similarities: True
     retrieval_intent: contact_service
     tensorboard_log_directory: ".tensorboard/3intents-1-rs-trf"
-    tensorboard_log_level: "epoch"
+    tensorboard_log_level: "epoch"policies:

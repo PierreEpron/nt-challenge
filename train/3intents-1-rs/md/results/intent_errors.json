@@ -1,0 +1,50 @@
+[
+  {
+    "text": "je souhaite discuter avec ALLARD Anne a la demande du BADO Fabrice qui est membre du service Scintigraphie je crois",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.8733001947402954
+    }
+  },
+  {
+    "text": "Pourriez vous m'aidez plz, ? Je me suis fait mal comme me l'a demande AL MOUSSARIH Abdallah qui officie en tant que ophtalmologue de memoire, je souhaitais telephoner a au service tour effeil",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999953508377075
+    }
+  },
+  {
+    "text": "Cette fille telephone aux pieds de celeri a voiles.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999946355819702
+    }
+  },
+  {
+    "text": "Jacques Attali cherche querelle a des brigands...",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Joe Dalton mime un competiteur a des cartomanciens.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "comme me l'a conseille Dr BELHASSEN Laurent qui est chirurgien de memoire.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  }
+]

@@ -1,0 +1,564 @@
+{
+  "contact_service/oncologie": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 15,
+    "confused_with": {
+      "contact_service/planification": 1
+    }
+  },
+  "contact_doctor/aboab_jennifer": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_doctor/al_moussarih_abdallah": {
+    "precision": 0.9285714285714286,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.896551724137931,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/benhamou_claude": 1,
+      "contact_doctor/bensaid_cherazade": 1
+    }
+  },
+  "contact_doctor/aptecar_eduardo": {
+    "precision": 0.7777777777777778,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8484848484848485,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/brun_magali": 1
+    }
+  },
+  "contact_doctor/benosman_hedi": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/bauer_bertrand": 1,
+      "contact_doctor/borie_herve": 1
+    }
+  },
+  "contact_service/assistante_logistique": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 15,
+    "confused_with": {
+      "contact_service/assistante_sociale": 1
+    }
+  },
+  "contact_service/unknown": {
+    "precision": 1.0,
+    "recall": 0.98,
+    "f1-score": 0.98989898989899,
+    "support": 50,
+    "confused_with": {
+      "contact_service/assistante_sociale": 1
+    }
+  },
+  "contact_service/biomedical": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/chirurgie_vasculaire": {
+    "precision": 0.8823529411764706,
+    "recall": 1.0,
+    "f1-score": 0.9375,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_doctor/alonso_enrique": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/benhamou_claude": 1,
+      "contact_doctor/belhassen_laurent": 1
+    }
+  },
+  "contact_doctor/belda_eric": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8148148148148148,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/benouaiche_laurence": 1,
+      "contact_doctor/belhassen_laurent": 1
+    }
+  },
+  "contact_doctor/brun_laurent": {
+    "precision": 0.8,
+    "recall": 0.5333333333333333,
+    "f1-score": 0.64,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/aboab_jennifer": 1,
+      "contact_doctor/becherel_pierre_andre": 1
+    }
+  },
+  "contact_service/stomatologie": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 15,
+    "confused_with": {
+      "contact_service/angiologie": 1,
+      "contact_service/chirurgie_vasculaire": 1
+    }
+  },
+  "contact_service/assistante_sociale": {
+    "precision": 0.7368421052631579,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8235294117647058,
+    "support": 15,
+    "confused_with": {
+      "contact_service/accueil": 1
+    }
+  },
+  "contact_doctor/aristizabal_patrick": {
+    "precision": 0.7222222222222222,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.7878787878787877,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/belmaghni_fatma": 1,
+      "contact_doctor/allard_anne": 1
+    }
+  },
+  "contact_doctor/borie_herve": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/aristizabal_patrick": 1
+    }
+  },
+  "contact_doctor/benhamou_claude": {
+    "precision": 0.8235294117647058,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8749999999999999,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/belmaghni_fatma": 1
+    }
+  },
+  "contact_service/urgence": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/ressources_humaines": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_doctor/allard_anne": {
+    "precision": 0.8666666666666667,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8666666666666667,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/bado_fabrice": 1,
+      "contact_doctor/blin_jean_louis": 1
+    }
+  },
+  "contact_doctor/bauer_bertrand": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/aboab_jennifer": 1,
+      "contact_doctor/aptecar_eduardo": 1
+    }
+  },
+  "contact_doctor/bado_fabrice": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8148148148148148,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/belhassen_laurent": 2,
+      "contact_doctor/cadot_bernard": 1
+    }
+  },
+  "contact_doctor/brunet_oceane": {
+    "precision": 0.6111111111111112,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.6666666666666666,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/brunet_morgan": 3,
+      "contact_doctor/belmaghni_fatma": 1
+    }
+  },
+  "contact_service/angiographie": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/ophtalmologie": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 15,
+    "confused_with": {
+      "contact_service/urgence": 1,
+      "contact_service/assistante_sociale": 1
+    }
+  },
+  "contact_doctor/brun_magali": {
+    "precision": 0.875,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9032258064516129,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/brun_laurent": 1
+    }
+  },
+  "contact_doctor/bouchareb_adam": {
+    "precision": 0.7777777777777778,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8484848484848485,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/belda_eric": 1
+    }
+  },
+  "contact_service/pediatrie": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_doctor/cadot_bernard": {
+    "precision": 0.875,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9032258064516129,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/bensaid_cherazade": 1
+    }
+  },
+  "contact_doctor/blavier_benedicte": {
+    "precision": 1.0,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9285714285714286,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/blin_jean_louis": 1,
+      "contact_doctor/belmaghni_fatma": 1
+    }
+  },
+  "contact_doctor/belmaghni_fatma": {
+    "precision": 0.6842105263157895,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.7647058823529413,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/belhassen_laurent": 1,
+      "contact_doctor/bensaid_cherazade": 1
+    }
+  },
+  "contact_doctor/benouaiche_laurence": {
+    "precision": 0.875,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9032258064516129,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/allard_anne": 1
+    }
+  },
+  "contact_doctor/blin_jean_louis": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/boulet_stephane": 2,
+      "contact_doctor/belmaghni_fatma": 1
+    }
+  },
+  "contact_service/rythmologie": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_doctor/becherel_pierre_andre": {
+    "precision": 0.8235294117647058,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8749999999999999,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/aristizabal_patrick": 1
+    }
+  },
+  "contact_service/chirurgie_orthopedique": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_doctor/bossi_philippe": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/bouchareb_adam": 1
+    }
+  },
+  "contact_doctor/brunet_morgan": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4,
+    "f1-score": 0.5,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/brunet_oceane": 6,
+      "contact_doctor/benhamou_claude": 1
+    }
+  },
+  "contact_service/accueil": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "contact_service/orl": 1
+    }
+  },
+  "contact_service/rhumatologie": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "contact_service/admissions": 1
+    }
+  },
+  "contact_service/scintigraphie": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 15,
+    "confused_with": {
+      "contact_service/assistante_sociale": 1
+    }
+  },
+  "contact_service/anesthesie": {
+    "precision": 1.0,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9285714285714286,
+    "support": 15,
+    "confused_with": {
+      "contact_service/stomatherapie": 1,
+      "contact_service/chirurgie_de_la_main": 1
+    }
+  },
+  "contact_doctor/armandon_denis": {
+    "precision": 0.8235294117647058,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8749999999999999,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/brun_magali": 1
+    }
+  },
+  "contact_service/sophrologie": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/admissions": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "contact_service/sophrologie": 1
+    }
+  },
+  "contact_doctor/bensaid_cherazade": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/orl": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/chirurgie_de_la_main": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/planification": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "contact_service/chirurgie_vasculaire": 1
+    }
+  },
+  "contact_service/assistante_hoteliere": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/soins_ambulatoire": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 15,
+    "confused_with": {
+      "contact_service/angiologie": 1
+    }
+  },
+  "contact_doctor/aboucaya_jean_paul": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8148148148148148,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/aboab_jennifer": 1,
+      "contact_doctor/brun_laurent": 1
+    }
+  },
+  "contact_service/chirurgie_viscerale": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_doctor/bryon_dominique": {
+    "precision": 0.9230769230769231,
+    "recall": 0.8,
+    "f1-score": 0.8571428571428571,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/cadot_bernard": 1,
+      "contact_doctor/aptecar_eduardo": 1
+    }
+  },
+  "contact_service/chirurgie_digestive": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/gastro_enterologie": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_service/angiologie": {
+    "precision": 0.8823529411764706,
+    "recall": 1.0,
+    "f1-score": 0.9375,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_doctor/unknown": {
+    "precision": 1.0,
+    "recall": 0.94,
+    "f1-score": 0.9690721649484536,
+    "support": 50,
+    "confused_with": {
+      "contact_doctor/bauer_bertrand": 1,
+      "contact_doctor/al_moussarih_abdallah": 1
+    }
+  },
+  "contact_service/stomatherapie": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "contact_service/assistante_sociale": 1
+    }
+  },
+  "contact_service/unite_de_soins_continus": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 15,
+    "confused_with": {
+      "contact_service/ressources_humaines": 1
+    }
+  },
+  "contact_doctor/belhassen_laurent": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/bouchareb_adam": 2,
+      "contact_doctor/benouaiche_laurence": 1
+    }
+  },
+  "contact_doctor/boulet_stephane": {
+    "precision": 0.7777777777777778,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8484848484848485,
+    "support": 15,
+    "confused_with": {
+      "contact_doctor/armandon_denis": 1
+    }
+  },
+  "accuracy": 0.904,
+  "macro avg": {
+    "precision": 0.9028171252829197,
+    "recall": 0.8997849462365589,
+    "f1-score": 0.897203348570836,
+    "support": 1000
+  },
+  "weighted avg": {
+    "precision": 0.9096199265131154,
+    "recall": 0.904,
+    "f1-score": 0.9029631045905382,
+    "support": 1000
+  },
+  "micro avg": {
+    "precision": 0.904,
+    "recall": 0.904,
+    "f1-score": 0.904,
+    "support": 1000
+  }
+}

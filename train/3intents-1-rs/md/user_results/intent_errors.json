@@ -1,0 +1,546 @@
+[
+  {
+    "text": "Pouvez-vous laisser un message au Dr Brun ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Est-ce que pour un problème d'intestin, c'est bien la stomatologie ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.99998939037323
+    }
+  },
+  {
+    "text": "le docteur brunet m'a demandé de faire une angiographie ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "je me suis trompé de service",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9765655398368835
+    }
+  },
+  {
+    "text": "t'as intérêt à me faire rencontrer castex ou je t'explose, machine à la con",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "appelle maman",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9715868234634399
+    }
+  },
+  {
+    "text": "je souhaiterais déplacer mon rdv avec le docteur Benhamou svp. C'est possible ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "J'ai besoin de savoir la chambre pour aller voir un ami au service du soin continus",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Le docteur Aptecar loue t'il des voitures?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "J'aime la chirurgie orthopédique",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9995794892311096
+    }
+  },
+  {
+    "text": "J'ai rendez vous avec le docteur Belda cette apres-midi pouvez-vous SVP me confirmé l'heure",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "le docteur brunet m'a demandé de faire une angiographie",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Est-ce que le Dr Alonso consulte aujourd'hui ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9844983220100403
+    }
+  },
+  {
+    "text": "Bonjour, les admissions à l'unité de soins continus sont-elles toujours ouverte ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "docteur cooper",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "docteur bauer",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "docteur Bertrand BAUER du service cardiologie",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9999209642410278
+    }
+  },
+  {
+    "text": "Ah je me suis trompe, ce n'est pas le docteur Brun mais Cador",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "non, Magali BRUN",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "la docteur Brun ne travaille plus",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "quoi, la Dr Brun",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "wesh, elle est free la magali, j'ai toujours mal au cul depuis qu'elle a trifouille mes hemoroides",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cardiologie",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.8781611323356628
+    }
+  },
+  {
+    "text": "Apparemment il me faut une intervention en chirurgie viscérale",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999610185623169
+    }
+  },
+  {
+    "text": "On m'a dit de m'adresser à une assistante sociale.",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9975032210350037
+    }
+  },
+  {
+    "text": "j'ai des problèmes familiaux ! pouvez vous m'assistez socialement ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9360606074333191
+    }
+  },
+  {
+    "text": "Pouvez-vous me passer une assistante sociale ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999208450317383
+    }
+  },
+  {
+    "text": "Je c pa commant il fau faire mé je veu quelqun en urgance",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Allo les urgences ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999972581863403
+    }
+  },
+  {
+    "text": "Bonjour le docteur Gadot m'a dit de contacter les urgences. Est-ce que je pourrais les avoir ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Comment dois-je faire pour les urgences ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999725818634033
+    }
+  },
+  {
+    "text": "Comment dois-je faire pour une urgence ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999704360961914
+    }
+  },
+  {
+    "text": "je veux les urgences !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999915361404419
+    }
+  },
+  {
+    "text": "Je veux avoir le service Urgenc",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999029636383057
+    }
+  },
+  {
+    "text": "madame Black WIDOW du service de neurologie m'a récemment demandé d'aller voir mademoiselle super GIRL du service de chirurgie, pourrais-je avoir un rendez-vous avec elle svp ?",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mon radiologue, le docteur GREENLANTERN, m'a conseillé le dr hulk pour la kinésithérapie",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "je veux voir quelqu'un de l'administration, c'est un scandale !",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.9992026686668396
+    }
+  },
+  {
+    "text": "Je veux voir le directeur",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.49953967332839966
+    }
+  },
+  {
+    "text": "bonjour, je voudrais voir un médecin charé de l'orthopédie",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "bonjour, je voudrais voir un médecin charé de l'ortophédi",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "il me faut mes résultats de ma chirurgie digestive",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.5159796476364136
+    }
+  },
+  {
+    "text": "Le docteur Cadot m'a dit de prendre un rendez-vous avec un ORL est-ce que vous pouvez me mettre en lien ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cadiologie urgent !!",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cadiologie stp",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999822378158569
+    }
+  },
+  {
+    "text": "cadiologie svp",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999163150787354
+    }
+  },
+  {
+    "text": "faudrait que je prenne un rdv avec un cardiologue, c'est possible stp ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9814479351043701
+    }
+  },
+  {
+    "text": "j'ai regardé une eclipse sans lunette de protection !! passe moi un ophtalmo, j'ai mal !!!",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9791092872619629
+    }
+  },
+  {
+    "text": "j'aimerais un rdv chez l'opthtamo, j'ai mal !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9225806593894958
+    }
+  },
+  {
+    "text": "j'aimerais me plaindre auprès des ophtalmo, ils prennent trop cher !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9868825078010559
+    }
+  },
+  {
+    "text": "bonjour je cherche un ophtalmo",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9837455749511719
+    }
+  },
+  {
+    "text": "j'aimerais un rdv ophtalmo",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9510272145271301
+    }
+  },
+  {
+    "text": "j'exige de voir le dr BAUER du service cardiologie !!",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'exige de voir le docteur BAUER du service cardiologie !!",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'exige de voir le docteur Bertrand BAUER du service cardiologie !!",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'exige de voir le dr Bertrand BAUER du service cardiologie !!",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "service cardiologie, le docteur bauer svp",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.5761237144470215
+    }
+  },
+  {
+    "text": "j'aimerais contacter le dr bauer, du service cardiologie",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'aimerais prendre un rdv au service de Scintigraphie, auprès du docteur BOSSI Philippe",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.912164032459259
+    }
+  },
+  {
+    "text": "appelez moi le directeru de soins ambulatoire",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999412298202515
+    }
+  },
+  {
+    "text": "puis-je voir un anesthésiste ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9816527962684631
+    }
+  },
+  {
+    "text": "je dois faire une anesthésie",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999868869781494
+    }
+  },
+  {
+    "text": "on m'a dit d'appeler un pédiatre ?",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999949932098389
+    }
+  },
+  {
+    "text": "Mon fils vomi ! appelez le pédiatre !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mon docteur m'a demandé de prendre un rendez-vous avec un pédiatre",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9946529865264893
+    }
+  },
+  {
+    "text": "J'ai besoin d'un chirurgien vasculaire je suis dans le brun",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Need rdv pour oncologie",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "non je veux un stomatologue",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9584864377975464
+    }
+  },
+  {
+    "text": "Bonjour je cherche un Gastro",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9975569248199463
+    }
+  }
+]
