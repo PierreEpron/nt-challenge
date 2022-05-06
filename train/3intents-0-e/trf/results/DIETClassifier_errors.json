@@ -1,0 +1,5754 @@
+[
+  {
+    "text": "nous pouvons m'entretenir avec Docteur ABOAB Jennifer comme me l'a conseille BOSSI Philippe,",
+    "entities": [
+      {
+        "start": 39,
+        "end": 53,
+        "value": "ABOAB Jennifer",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 77,
+        "end": 91,
+        "value": "BOSSI Philippe",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 39,
+        "end": 53,
+        "confidence_entity": 0.999923586845398,
+        "role": "target",
+        "confidence_role": 0.9999220371246338,
+        "value": "ABOAB Jennifer",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 77,
+        "end": 91,
+        "confidence_entity": 0.9980068802833557,
+        "role": "target",
+        "confidence_role": 0.9586941003799438,
+        "value": "BOSSI Philippe",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a la demande du Docteur ARMANDON Denis, j'aurais souhaité converser avec ABOUCAYA",
+    "entities": [
+      {
+        "start": 16,
+        "end": 38,
+        "value": "Docteur ARMANDON Denis",
+        "entity": "doctor"
+      },
+      {
+        "start": 73,
+        "end": 81,
+        "value": "ABOUCAYA",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.5836172103881836,
+        "value": "Docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 24,
+        "end": 38,
+        "confidence_entity": 0.7705824375152588,
+        "role": "target",
+        "confidence_role": 0.5344701409339905,
+        "value": "ARMANDON Denis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 73,
+        "end": 81,
+        "confidence_entity": 0.5409157872200012,
+        "role": "target",
+        "confidence_role": 0.6979085803031921,
+        "value": "ABOUCAYA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonsoir, je demande à echanger avec ABOUCAYA Jean-Paul sur recommandation de Dr ALLARD",
+    "entities": [
+      {
+        "start": 36,
+        "end": 54,
+        "value": "ABOUCAYA Jean-Paul",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 77,
+        "end": 86,
+        "value": "Dr ALLARD",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 36,
+        "end": 54,
+        "confidence_entity": 0.9997056126594543,
+        "role": "target",
+        "confidence_role": 0.9956949949264526,
+        "value": "ABOUCAYA Jean-Paul",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 80,
+        "end": 86,
+        "confidence_entity": 0.6694208979606628,
+        "value": "ALLARD",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salutation, j'ai besoins d'aide ! a la demande du BENSAID qui fait partie du service Chirurgie digestive je crois, je désire avoir Mme AL plz, ce serait bien aimable, merci Ciao",
+    "entities": [
+      {
+        "start": 50,
+        "end": 57,
+        "value": "BENSAID",
+        "entity": "doctor"
+      },
+      {
+        "start": 85,
+        "end": 104,
+        "value": "Chirurgie digestive",
+        "entity": "service"
+      },
+      {
+        "start": 135,
+        "end": 137,
+        "value": "AL",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 50,
+        "end": 57,
+        "confidence_entity": 0.9997261166572571,
+        "value": "BENSAID",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 85,
+        "end": 104,
+        "confidence_entity": 0.9996659755706787,
+        "value": "Chirurgie digestive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 135,
+        "end": 137,
+        "confidence_entity": 0.9754323363304138,
+        "value": "AL",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mon fils est tres malade, sur recommandation de Dr BOSSI qui officie en tant que assistant sociale je crois j'exige de que vous me passiez Docteur ALLARD Anne svp, Ciao",
+    "entities": [
+      {
+        "start": 48,
+        "end": 56,
+        "value": "Dr BOSSI",
+        "entity": "doctor"
+      },
+      {
+        "start": 147,
+        "end": 158,
+        "value": "ALLARD Anne",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 51,
+        "end": 56,
+        "confidence_entity": 0.5480883121490479,
+        "value": "BOSSI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 147,
+        "end": 158,
+        "confidence_entity": 0.8265154957771301,
+        "role": "target",
+        "confidence_role": 0.7617274522781372,
+        "value": "ALLARD Anne",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, bien ? j'ai besoins d'aide ! je désirais dialoguer avec ALLARD a la demande du Docteur BLIN Jean-Louis qui est assistante logistique,",
+    "entities": [
+      {
+        "start": 73,
+        "end": 79,
+        "value": "ALLARD",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 96,
+        "end": 119,
+        "value": "Docteur BLIN Jean-Louis",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 73,
+        "end": 79,
+        "confidence_entity": 0.4937984049320221,
+        "value": "ALLARD",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 96,
+        "end": 103,
+        "confidence_entity": 0.9969602227210999,
+        "value": "Docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 104,
+        "end": 119,
+        "confidence_entity": 0.9725214242935181,
+        "role": "target",
+        "confidence_role": 0.9979301691055298,
+        "value": "BLIN Jean-Louis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salut, Aide moi il pourrait discuter avec ALONSO comme me l'a demande Dr BLIN Jean-Louis qui est anesthesite. Salut",
+    "entities": [
+      {
+        "start": 42,
+        "end": 48,
+        "value": "ALONSO",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 70,
+        "end": 88,
+        "value": "Dr BLIN Jean-Louis",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.6748961806297302,
+        "role": "target",
+        "confidence_role": 0.550075888633728,
+        "value": "ALONSO",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 73,
+        "end": 88,
+        "confidence_entity": 0.9968982934951782,
+        "value": "BLIN Jean-Louis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sur recommandation de APTECAR j'aimerais converser avec ALONSO Enrique",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "APTECAR",
+        "entity": "doctor"
+      },
+      {
+        "start": 56,
+        "end": 70,
+        "value": "ALONSO Enrique",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.7427001595497131,
+        "value": "APTECAR",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 56,
+        "end": 62,
+        "confidence_entity": 0.9998900890350342,
+        "role": "target",
+        "confidence_role": 0.9990535378456116,
+        "value": "ALONSO",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 63,
+        "end": 70,
+        "confidence_entity": 0.999993085861206,
+        "value": "Enrique",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ca va ? tu peux m'aider ? comme me l'a demande BENSAID. je rêvais de voir Mr APTECAR",
+    "entities": [
+      {
+        "start": 47,
+        "end": 54,
+        "value": "BENSAID",
+        "entity": "doctor"
+      },
+      {
+        "start": 77,
+        "end": 84,
+        "value": "APTECAR",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 47,
+        "end": 54,
+        "confidence_entity": 0.9624899625778198,
+        "value": "BENSAID",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 74,
+        "end": 76,
+        "confidence_entity": 0.9852402210235596,
+        "value": "Mr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 77,
+        "end": 84,
+        "confidence_entity": 0.8979848623275757,
+        "role": "target",
+        "confidence_role": 0.9669160842895508,
+        "value": "APTECAR",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "me faut de l'aide, Mon fils est tres malade a la demande du ALLARD Anne j'espère discuter avec APTECAR Eduardo",
+    "entities": [
+      {
+        "start": 60,
+        "end": 71,
+        "value": "ALLARD Anne",
+        "entity": "doctor"
+      },
+      {
+        "start": 95,
+        "end": 110,
+        "value": "APTECAR Eduardo",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 60,
+        "end": 66,
+        "confidence_entity": 0.9873417019844055,
+        "value": "ALLARD",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 67,
+        "end": 71,
+        "confidence_entity": 0.999996542930603,
+        "role": "target",
+        "confidence_role": 0.9997435212135315,
+        "value": "Anne",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 95,
+        "end": 110,
+        "confidence_entity": 0.9935075044631958,
+        "role": "target",
+        "confidence_role": 0.9935712814331055,
+        "value": "APTECAR Eduardo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nous pouvons m'entretenir avec Mr APTECAR Eduardo sur recommandation de Mr BENHAMOU qui appartient au service Accueil stp, ce serait apprecie, merci Au revoir",
+    "entities": [
+      {
+        "start": 34,
+        "end": 49,
+        "value": "APTECAR Eduardo",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 72,
+        "end": 83,
+        "value": "Mr BENHAMOU",
+        "entity": "doctor"
+      },
+      {
+        "start": 110,
+        "end": 117,
+        "value": "Accueil",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 34,
+        "end": 41,
+        "confidence_entity": 0.7106602787971497,
+        "value": "APTECAR",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 42,
+        "end": 49,
+        "confidence_entity": 0.9997755885124207,
+        "role": "target",
+        "confidence_role": 0.9992403984069824,
+        "value": "Eduardo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 72,
+        "end": 83,
+        "confidence_entity": 0.8879911303520203,
+        "value": "Mr BENHAMOU",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 110,
+        "end": 117,
+        "confidence_entity": 0.9928887486457825,
+        "value": "Accueil",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yo, j'aurais besoins d'aide, s'il te plait, ils demandent à echanger avec Mr APTECAR comme me l'a demande BRUN Magali",
+    "entities": [
+      {
+        "start": 77,
+        "end": 84,
+        "value": "APTECAR",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 106,
+        "end": 117,
+        "value": "BRUN Magali",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 77,
+        "end": 84,
+        "confidence_entity": 0.5098029375076294,
+        "value": "APTECAR",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 106,
+        "end": 117,
+        "confidence_entity": 0.999904990196228,
+        "role": "target",
+        "confidence_role": 0.9994958639144897,
+        "value": "BRUN Magali",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yo, je souhaiterais causer a APTECAR sur recommandation de Dr BRUNET Morgan qui est rhumatologue de memoire stp, tu m'enleverais une epine du pied, merci",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "APTECAR",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 59,
+        "end": 75,
+        "value": "Dr BRUNET Morgan",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 29,
+        "end": 36,
+        "confidence_entity": 0.9891785383224487,
+        "role": "target",
+        "confidence_role": 0.9828197956085205,
+        "value": "APTECAR",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 62,
+        "end": 75,
+        "confidence_entity": 0.9000479578971863,
+        "value": "BRUNET Morgan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ca va ? faut que tu m'aide ! sur recommandation de Dr ALLARD Anne qui fait partie du service Ressources Humaines nous voulons causer avec ARISTIZABAL Patrick plz,",
+    "entities": [
+      {
+        "start": 51,
+        "end": 65,
+        "value": "Dr ALLARD Anne",
+        "entity": "doctor"
+      },
+      {
+        "start": 93,
+        "end": 112,
+        "value": "Ressources Humaines",
+        "entity": "service"
+      },
+      {
+        "start": 138,
+        "end": 157,
+        "value": "ARISTIZABAL Patrick",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 54,
+        "end": 60,
+        "confidence_entity": 0.972622811794281,
+        "value": "ALLARD",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 61,
+        "end": 65,
+        "confidence_entity": 0.9999935626983643,
+        "role": "target",
+        "confidence_role": 0.9998303651809692,
+        "value": "Anne",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 93,
+        "end": 103,
+        "confidence_entity": 0.9970830082893372,
+        "value": "Ressources",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 104,
+        "end": 112,
+        "confidence_entity": 0.9999383687973022,
+        "role": "target",
+        "confidence_role": 0.8494846224784851,
+        "value": "Humaines",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 138,
+        "end": 157,
+        "confidence_entity": 0.9998908042907715,
+        "role": "target",
+        "confidence_role": 0.9983900785446167,
+        "value": "ARISTIZABAL Patrick",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nous avons besoins d'aide d'urgence ! ils aimeraient causer avec Mr ARMANDON sur recommandation de Dr ABOUCAYA qui est sophrologue,",
+    "entities": [
+      {
+        "start": 68,
+        "end": 76,
+        "value": "ARMANDON",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 99,
+        "end": 110,
+        "value": "Dr ABOUCAYA",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 65,
+        "end": 76,
+        "confidence_entity": 0.9310038089752197,
+        "value": "Mr ARMANDON",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 102,
+        "end": 110,
+        "confidence_entity": 0.9751889109611511,
+        "role": "target",
+        "confidence_role": 0.8807902932167053,
+        "value": "ABOUCAYA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comme me l'a conseille Docteur BRUN ils désirent telephoner a ARMANDON",
+    "entities": [
+      {
+        "start": 23,
+        "end": 35,
+        "value": "Docteur BRUN",
+        "entity": "doctor"
+      },
+      {
+        "start": 62,
+        "end": 70,
+        "value": "ARMANDON",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.998275876045227,
+        "value": "Docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 31,
+        "end": 35,
+        "confidence_entity": 0.9968339800834656,
+        "role": "target",
+        "confidence_role": 0.9997217059135437,
+        "value": "BRUN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 62,
+        "end": 70,
+        "confidence_entity": 0.8724936246871948,
+        "value": "ARMANDON",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salutation, tu peux m'aider ? Je me sens malade sur recommandation de Dr ALONSO qui est ophtalmologue j'aimerais joindre ARMANDON",
+    "entities": [
+      {
+        "start": 70,
+        "end": 79,
+        "value": "Dr ALONSO",
+        "entity": "doctor"
+      },
+      {
+        "start": 121,
+        "end": 129,
+        "value": "ARMANDON",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 73,
+        "end": 79,
+        "confidence_entity": 0.99996018409729,
+        "role": "target",
+        "confidence_role": 0.9444739818572998,
+        "value": "ALONSO",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 121,
+        "end": 129,
+        "confidence_entity": 0.9998807907104492,
+        "role": "target",
+        "confidence_role": 0.994050920009613,
+        "value": "ARMANDON",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yo, il souhaite discuter avec Mr ARMANDON Denis a la demande du Docteur BRUN Magali",
+    "entities": [
+      {
+        "start": 33,
+        "end": 47,
+        "value": "ARMANDON Denis",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 64,
+        "end": 83,
+        "value": "Docteur BRUN Magali",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 33,
+        "end": 47,
+        "confidence_entity": 0.9794990420341492,
+        "role": "target",
+        "confidence_role": 0.9092501401901245,
+        "value": "ARMANDON Denis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 64,
+        "end": 76,
+        "confidence_entity": 0.9893597364425659,
+        "value": "Docteur BRUN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 77,
+        "end": 83,
+        "confidence_entity": 0.9999738931655884,
+        "role": "target",
+        "confidence_role": 0.9996975660324097,
+        "value": "Magali",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comme me l'a conseille BLIN qui est assistante sociale, je désirerais causer a Docteur BADO Fabrice",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "BLIN",
+        "entity": "doctor"
+      },
+      {
+        "start": 87,
+        "end": 99,
+        "value": "BADO Fabrice",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9991493225097656,
+        "role": "target",
+        "confidence_role": 0.9940173625946045,
+        "value": "BLIN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 87,
+        "end": 99,
+        "confidence_entity": 0.9961782693862915,
+        "role": "target",
+        "confidence_role": 0.9937627911567688,
+        "value": "BADO Fabrice",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comme me l'a demande BELHASSEN qui appartient au service Assistante sociale j'espère telephoner a BADO Fabrice",
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "BELHASSEN",
+        "entity": "doctor"
+      },
+      {
+        "start": 57,
+        "end": 75,
+        "value": "Assistante sociale",
+        "entity": "service"
+      },
+      {
+        "start": 98,
+        "end": 110,
+        "value": "BADO Fabrice",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.9767045974731445,
+        "role": "target",
+        "confidence_role": 0.5343351364135742,
+        "value": "BELHASSEN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 57,
+        "end": 75,
+        "confidence_entity": 0.996861457824707,
+        "value": "Assistante sociale",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 98,
+        "end": 110,
+        "confidence_entity": 0.9987510442733765,
+        "role": "target",
+        "confidence_role": 0.9885566234588623,
+        "value": "BADO Fabrice",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nous aurions demandé à joindre Mme BADO comme me l'a conseille Mr BELHASSEN Laurent",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "BADO",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 63,
+        "end": 83,
+        "value": "Mr BELHASSEN Laurent",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.4708598852157593,
+        "value": "BADO",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 63,
+        "end": 75,
+        "confidence_entity": 0.8329029083251953,
+        "value": "Mr BELHASSEN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 76,
+        "end": 83,
+        "confidence_entity": 0.9999970197677612,
+        "role": "target",
+        "confidence_role": 0.9674679636955261,
+        "value": "Laurent",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Elle se sent malade. sur recommandation de Mme BRUNET j'exigeais de m'entretenir avec Mr BAUER plz, ce serait apprecie, Ciao",
+    "entities": [
+      {
+        "start": 43,
+        "end": 53,
+        "value": "Mme BRUNET",
+        "entity": "doctor"
+      },
+      {
+        "start": 89,
+        "end": 94,
+        "value": "BAUER",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 43,
+        "end": 46,
+        "confidence_entity": 0.9993257522583008,
+        "value": "Mme",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 47,
+        "end": 53,
+        "confidence_entity": 0.9714338183403015,
+        "role": "target",
+        "confidence_role": 0.5531446933746338,
+        "value": "BRUNET",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 89,
+        "end": 94,
+        "confidence_entity": 0.6677281260490417,
+        "value": "BAUER",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ils réclament de discuter avec BAUER Bertrand comme me l'a demande Dr BENOUAICHE. stp, ca m'aiderais beaucoup,",
+    "entities": [
+      {
+        "start": 31,
+        "end": 45,
+        "value": "BAUER Bertrand",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 67,
+        "end": 80,
+        "value": "Dr BENOUAICHE",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 31,
+        "end": 45,
+        "confidence_entity": 0.9999188184738159,
+        "role": "target",
+        "confidence_role": 0.9999349117279053,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 70,
+        "end": 80,
+        "confidence_entity": 0.8776605725288391,
+        "value": "BENOUAICHE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aurais voulu telephoner a Mr BAUER Bertrand a la demande du BAUER Bertrand",
+    "entities": [
+      {
+        "start": 31,
+        "end": 45,
+        "value": "BAUER Bertrand",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 62,
+        "end": 76,
+        "value": "BAUER Bertrand",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 31,
+        "end": 45,
+        "confidence_entity": 0.9995667338371277,
+        "role": "target",
+        "confidence_role": 0.9999077320098877,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 62,
+        "end": 76,
+        "confidence_entity": 0.9995365142822266,
+        "role": "target",
+        "confidence_role": 0.9983890056610107,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je souhaite que vous me passiez BAUER comme me l'a conseille Mme ABOAB Jennifer. s'il te plait, tu m'enleverais une epine du pied, merci A+",
+    "entities": [
+      {
+        "start": 32,
+        "end": 37,
+        "value": "BAUER",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 61,
+        "end": 79,
+        "value": "Mme ABOAB Jennifer",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 32,
+        "end": 37,
+        "confidence_entity": 0.9243099093437195,
+        "role": "target",
+        "confidence_role": 0.9970677495002747,
+        "value": "BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 61,
+        "end": 70,
+        "confidence_entity": 0.8599258661270142,
+        "value": "Mme ABOAB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 71,
+        "end": 79,
+        "confidence_entity": 0.9999935626983643,
+        "role": "target",
+        "confidence_role": 0.9971991777420044,
+        "value": "Jennifer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salut, je pourrais joindre Docteur BAUER Bertrand a la demande du Dr APTECAR Eduardo qui officie en tant que assistant sociale je pense. tu m'enleverais une epine du pied,",
+    "entities": [
+      {
+        "start": 35,
+        "end": 49,
+        "value": "BAUER Bertrand",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 66,
+        "end": 84,
+        "value": "Dr APTECAR Eduardo",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 35,
+        "end": 49,
+        "confidence_entity": 0.9987169504165649,
+        "role": "target",
+        "confidence_role": 0.9996053576469421,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 69,
+        "end": 76,
+        "confidence_entity": 0.9394567012786865,
+        "value": "APTECAR",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 77,
+        "end": 84,
+        "confidence_entity": 0.9999755620956421,
+        "role": "target",
+        "confidence_role": 0.863480269908905,
+        "value": "Eduardo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yo, me faut de l'aide, je veux echanger avec Mme BAUER Bertrand comme me l'a demande BRUNET s'il te plait, Salut",
+    "entities": [
+      {
+        "start": 49,
+        "end": 63,
+        "value": "BAUER Bertrand",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 85,
+        "end": 91,
+        "value": "BRUNET",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 49,
+        "end": 54,
+        "confidence_entity": 0.9642577171325684,
+        "value": "BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 55,
+        "end": 63,
+        "confidence_entity": 0.99998939037323,
+        "role": "target",
+        "confidence_role": 0.6261942982673645,
+        "value": "Bertrand",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 85,
+        "end": 91,
+        "confidence_entity": 0.8462549448013306,
+        "role": "target",
+        "confidence_role": 0.8632476329803467,
+        "value": "BRUNET",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a la demande du Mr BLIN. je veux telephoner a BECHEREL Pierre-André",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "Mr BLIN",
+        "entity": "doctor"
+      },
+      {
+        "start": 46,
+        "end": 67,
+        "value": "BECHEREL Pierre-André",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9171716570854187,
+        "role": "target",
+        "confidence_role": 0.9962027668952942,
+        "value": "BLIN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 67,
+        "confidence_entity": 0.9672076106071472,
+        "role": "target",
+        "confidence_role": 0.9955087900161743,
+        "value": "BECHEREL Pierre-André",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'espérais causer avec Mme BECHEREL comme me l'a conseille Docteur ARISTIZABAL Patrick qui appartient au service Oncologie de memoire ce serait apprecie, Au revoir !",
+    "entities": [
+      {
+        "start": 27,
+        "end": 35,
+        "value": "BECHEREL",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 59,
+        "end": 86,
+        "value": "Docteur ARISTIZABAL Patrick",
+        "entity": "doctor"
+      },
+      {
+        "start": 113,
+        "end": 122,
+        "value": "Oncologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.8136445879936218,
+        "role": "target",
+        "confidence_role": 0.988298773765564,
+        "value": "BECHEREL",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 59,
+        "end": 66,
+        "confidence_entity": 0.9989145994186401,
+        "value": "Docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 67,
+        "end": 78,
+        "confidence_entity": 0.5728172063827515,
+        "value": "ARISTIZABAL",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 79,
+        "end": 86,
+        "confidence_entity": 0.999992847442627,
+        "role": "target",
+        "confidence_role": 0.9988025426864624,
+        "value": "Patrick",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 113,
+        "end": 122,
+        "confidence_entity": 0.9957756400108337,
+        "value": "Oncologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien ? je souhaite causer a Docteur BELDA Eric a la demande du Dr BENSAID Cherazade. svp,",
+    "entities": [
+      {
+        "start": 36,
+        "end": 46,
+        "value": "BELDA Eric",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 63,
+        "end": 83,
+        "value": "Dr BENSAID Cherazade",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 36,
+        "end": 46,
+        "confidence_entity": 0.9955340623855591,
+        "role": "target",
+        "confidence_role": 0.9997195601463318,
+        "value": "BELDA Eric",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 66,
+        "end": 73,
+        "confidence_entity": 0.9363350868225098,
+        "value": "BENSAID",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 74,
+        "end": 83,
+        "confidence_entity": 0.99997878074646,
+        "role": "target",
+        "confidence_role": 0.9735832214355469,
+        "value": "Cherazade",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comme me l'a conseille Mme BENOUAICHE Laurence, je peux voir BELDA",
+    "entities": [
+      {
+        "start": 23,
+        "end": 46,
+        "value": "Mme BENOUAICHE Laurence",
+        "entity": "doctor"
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "value": "BELDA",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 37,
+        "confidence_entity": 0.9718509316444397,
+        "value": "Mme BENOUAICHE",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.999997615814209,
+        "role": "target",
+        "confidence_role": 0.971964418888092,
+        "value": "Laurence",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 61,
+        "end": 66,
+        "confidence_entity": 0.9762508273124695,
+        "value": "BELDA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salutation, me faut de l'aide, je demande à voir Mme BELDA Eric a la demande du ARISTIZABAL qui fait partie du service Stomatherapie, ca serait super,",
+    "entities": [
+      {
+        "start": 53,
+        "end": 63,
+        "value": "BELDA Eric",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 80,
+        "end": 91,
+        "value": "ARISTIZABAL",
+        "entity": "doctor"
+      },
+      {
+        "start": 119,
+        "end": 132,
+        "value": "Stomatherapie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 53,
+        "end": 58,
+        "confidence_entity": 0.963161289691925,
+        "value": "BELDA",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 59,
+        "end": 63,
+        "confidence_entity": 0.99996018409729,
+        "role": "target",
+        "confidence_role": 0.9998112320899963,
+        "value": "Eric",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 80,
+        "end": 91,
+        "confidence_entity": 0.9991975426673889,
+        "role": "target",
+        "confidence_role": 0.996098518371582,
+        "value": "ARISTIZABAL",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 119,
+        "end": 132,
+        "confidence_entity": 0.9978646636009216,
+        "value": "Stomatherapie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Aide moi Je me suis coupe. a la demande du BOUCHAREB ils voudraient dialoguer avec Docteur BELHASSEN Laurent",
+    "entities": [
+      {
+        "start": 43,
+        "end": 52,
+        "value": "BOUCHAREB",
+        "entity": "doctor"
+      },
+      {
+        "start": 91,
+        "end": 108,
+        "value": "BELHASSEN Laurent",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 43,
+        "end": 52,
+        "confidence_entity": 0.5815849304199219,
+        "role": "target",
+        "confidence_role": 0.9950743317604065,
+        "value": "BOUCHAREB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 83,
+        "end": 100,
+        "confidence_entity": 0.6596134901046753,
+        "value": "Docteur BELHASSEN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 101,
+        "end": 108,
+        "confidence_entity": 0.9999964237213135,
+        "role": "target",
+        "confidence_role": 0.9974853992462158,
+        "value": "Laurent",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonsoir, la forme ? j'aurais désiré echanger avec BELHASSEN Laurent a la demande du Dr BENOUAICHE. s'il te plait, ca serait super,",
+    "entities": [
+      {
+        "start": 50,
+        "end": 67,
+        "value": "BELHASSEN Laurent",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 84,
+        "end": 97,
+        "value": "Dr BENOUAICHE",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 50,
+        "end": 67,
+        "confidence_entity": 0.9999479055404663,
+        "role": "target",
+        "confidence_role": 0.9981694221496582,
+        "value": "BELHASSEN Laurent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 87,
+        "end": 97,
+        "confidence_entity": 0.9899885058403015,
+        "role": "target",
+        "confidence_role": 0.8796606063842773,
+        "value": "BENOUAICHE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "coucou, bien ? Pourriez vous m'aidez plz, ? je désire joindre BELHASSEN Laurent a la demande du ABOUCAYA Jean-Paul.",
+    "entities": [
+      {
+        "start": 62,
+        "end": 79,
+        "value": "BELHASSEN Laurent",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 96,
+        "end": 114,
+        "value": "ABOUCAYA Jean-Paul",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 62,
+        "end": 71,
+        "confidence_entity": 0.9978004097938538,
+        "value": "BELHASSEN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 72,
+        "end": 79,
+        "confidence_entity": 0.9999980926513672,
+        "role": "target",
+        "confidence_role": 0.8284398317337036,
+        "value": "Laurent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 96,
+        "end": 114,
+        "confidence_entity": 0.9998652935028076,
+        "role": "target",
+        "confidence_role": 0.9933075904846191,
+        "value": "ABOUCAYA Jean-Paul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tu peux m'aider ? s'il te plait, Je me suis brule. comme me l'a demande BOUCHAREB Adam qui appartient au service Chirurgie orthopedique j'exigerais de dialoguer avec BELHASSEN Ciao !",
+    "entities": [
+      {
+        "start": 72,
+        "end": 86,
+        "value": "BOUCHAREB Adam",
+        "entity": "doctor"
+      },
+      {
+        "start": 113,
+        "end": 135,
+        "value": "Chirurgie orthopedique",
+        "entity": "service"
+      },
+      {
+        "start": 166,
+        "end": 175,
+        "value": "BELHASSEN",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 72,
+        "end": 86,
+        "confidence_entity": 0.9981297850608826,
+        "role": "target",
+        "confidence_role": 0.9746602177619934,
+        "value": "BOUCHAREB Adam",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 113,
+        "end": 135,
+        "confidence_entity": 0.9933359622955322,
+        "value": "Chirurgie orthopedique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 166,
+        "end": 175,
+        "confidence_entity": 0.904400646686554,
+        "role": "target",
+        "confidence_role": 0.7224815487861633,
+        "value": "BELHASSEN",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mon fils est tres malade, a la demande du Dr BRYON Dominique. je souhaite discuter avec BELMAGHNI Fatma ca serait super, merci",
+    "entities": [
+      {
+        "start": 42,
+        "end": 60,
+        "value": "Dr BRYON Dominique",
+        "entity": "doctor"
+      },
+      {
+        "start": 88,
+        "end": 103,
+        "value": "BELMAGHNI Fatma",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 45,
+        "end": 60,
+        "confidence_entity": 0.9124769568443298,
+        "value": "BRYON Dominique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 88,
+        "end": 103,
+        "confidence_entity": 0.9996322393417358,
+        "role": "target",
+        "confidence_role": 0.9997625946998596,
+        "value": "BELMAGHNI Fatma",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonsoir, bien ? il a eu une attaque a la demande du Mme BELMAGHNI Fatma. nous voulons voir BELMAGHNI Fatma A+ !",
+    "entities": [
+      {
+        "start": 52,
+        "end": 71,
+        "value": "Mme BELMAGHNI Fatma",
+        "entity": "doctor"
+      },
+      {
+        "start": 91,
+        "end": 106,
+        "value": "BELMAGHNI Fatma",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 56,
+        "end": 71,
+        "confidence_entity": 0.9966254234313965,
+        "role": "target",
+        "confidence_role": 0.9698508977890015,
+        "value": "BELMAGHNI Fatma",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 91,
+        "end": 106,
+        "confidence_entity": 0.998809814453125,
+        "role": "target",
+        "confidence_role": 0.9721736907958984,
+        "value": "BELMAGHNI Fatma",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ca va ? je souhaiterais que vous me passiez BELMAGHNI comme me l'a conseille Docteur BLAVIER qui est pediatre,",
+    "entities": [
+      {
+        "start": 44,
+        "end": 53,
+        "value": "BELMAGHNI",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 77,
+        "end": 92,
+        "value": "Docteur BLAVIER",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 44,
+        "end": 53,
+        "confidence_entity": 0.9089713096618652,
+        "value": "BELMAGHNI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 77,
+        "end": 84,
+        "confidence_entity": 0.9571341276168823,
+        "value": "Docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 85,
+        "end": 92,
+        "confidence_entity": 0.6091453433036804,
+        "role": "target",
+        "confidence_role": 0.9794890880584717,
+        "value": "BLAVIER",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "il voulait telephoner a BELMAGHNI Fatma comme me l'a conseille BORIE qui est angiologue de memoire,",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "value": "BELMAGHNI Fatma",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 63,
+        "end": 68,
+        "value": "BORIE",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 24,
+        "end": 39,
+        "confidence_entity": 0.9965851306915283,
+        "value": "BELMAGHNI Fatma",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 63,
+        "end": 68,
+        "confidence_entity": 0.9862717390060425,
+        "role": "target",
+        "confidence_role": 0.7786815166473389,
+        "value": "BORIE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salut, la forme ? nous pouvons que vous me passiez Docteur BELMAGHNI sur recommandation de BELDA qui est assistante heteliere je pense svp, Ciao",
+    "entities": [
+      {
+        "start": 59,
+        "end": 68,
+        "value": "BELMAGHNI",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 91,
+        "end": 96,
+        "value": "BELDA",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 51,
+        "end": 68,
+        "confidence_entity": 0.9548648595809937,
+        "value": "Docteur BELMAGHNI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 91,
+        "end": 96,
+        "confidence_entity": 0.7485302090644836,
+        "role": "target",
+        "confidence_role": 0.9308262467384338,
+        "value": "BELDA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comme me l'a conseille ABOAB Jennifer qui officie en tant que stomatologue je pense il aspire à discuter avec BENHAMOU stp, ca m'aiderais beaucoup,",
+    "entities": [
+      {
+        "start": 23,
+        "end": 37,
+        "value": "ABOAB Jennifer",
+        "entity": "doctor"
+      },
+      {
+        "start": 110,
+        "end": 118,
+        "value": "BENHAMOU",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 37,
+        "confidence_entity": 0.9998546838760376,
+        "role": "target",
+        "confidence_role": 0.9999297857284546,
+        "value": "ABOAB Jennifer",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 110,
+        "end": 118,
+        "confidence_entity": 0.785455584526062,
+        "role": "target",
+        "confidence_role": 0.9773926138877869,
+        "value": "BENHAMOU",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je souhaiterais voir Docteur BENHAMOU sur recommandation de Dr BRUN Magali qui est rhumatologue je crois.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 37,
+        "value": "BENHAMOU",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 60,
+        "end": 74,
+        "value": "Dr BRUN Magali",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 29,
+        "end": 37,
+        "confidence_entity": 0.9991891980171204,
+        "role": "target",
+        "confidence_role": 0.9998511075973511,
+        "value": "BENHAMOU",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 63,
+        "end": 74,
+        "confidence_entity": 0.9711927175521851,
+        "value": "BRUN Magali",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien ? me faut de l'aide, je pourrais voir Docteur BENOSMAN Hedi sur recommandation de Docteur ARMANDON qui est anesthesite je pense, plz, ce serait bien aimable, merci",
+    "entities": [
+      {
+        "start": 51,
+        "end": 64,
+        "value": "BENOSMAN Hedi",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 87,
+        "end": 103,
+        "value": "Docteur ARMANDON",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 43,
+        "end": 59,
+        "confidence_entity": 0.9927911758422852,
+        "value": "Docteur BENOSMAN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 60,
+        "end": 64,
+        "confidence_entity": 0.9999864101409912,
+        "role": "target",
+        "confidence_role": 0.9998575448989868,
+        "value": "Hedi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 95,
+        "end": 103,
+        "confidence_entity": 0.9993512034416199,
+        "role": "target",
+        "confidence_role": 0.9998370409011841,
+        "value": "ARMANDON",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je veux m'entretenir avec Mme BENOSMAN a la demande du Docteur BORIE",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "BENOSMAN",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 55,
+        "end": 68,
+        "value": "Docteur BORIE",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 30,
+        "end": 38,
+        "confidence_entity": 0.9938786625862122,
+        "value": "BENOSMAN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 55,
+        "end": 68,
+        "confidence_entity": 0.9964644908905029,
+        "value": "Docteur BORIE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je me suis coupe sur recommandation de Mme ALLARD Anne je voulais telephoner avec Mr BENOUAICHE",
+    "entities": [
+      {
+        "start": 39,
+        "end": 54,
+        "value": "Mme ALLARD Anne",
+        "entity": "doctor"
+      },
+      {
+        "start": 85,
+        "end": 95,
+        "value": "BENOUAICHE",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 39,
+        "end": 49,
+        "confidence_entity": 0.9925520420074463,
+        "value": "Mme ALLARD",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 50,
+        "end": 54,
+        "confidence_entity": 0.9999966621398926,
+        "role": "target",
+        "confidence_role": 0.9399913549423218,
+        "value": "Anne",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 85,
+        "end": 95,
+        "confidence_entity": 0.7074422836303711,
+        "role": "target",
+        "confidence_role": 0.562144935131073,
+        "value": "BENOUAICHE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Elle se sent malade, comme me l'a conseille Dr BRYON qui est membre du service Scintigraphie. nous demandons à converser avec Mr BENSAID",
+    "entities": [
+      {
+        "start": 44,
+        "end": 52,
+        "value": "Dr BRYON",
+        "entity": "doctor"
+      },
+      {
+        "start": 79,
+        "end": 92,
+        "value": "Scintigraphie",
+        "entity": "service"
+      },
+      {
+        "start": 129,
+        "end": 136,
+        "value": "BENSAID",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 44,
+        "end": 52,
+        "confidence_entity": 0.5162956714630127,
+        "value": "Dr BRYON",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 79,
+        "end": 92,
+        "confidence_entity": 0.9980239868164062,
+        "value": "Scintigraphie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 126,
+        "end": 128,
+        "confidence_entity": 0.9805492758750916,
+        "value": "Mr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 129,
+        "end": 136,
+        "confidence_entity": 0.9980150461196899,
+        "role": "target",
+        "confidence_role": 0.9998530149459839,
+        "value": "BENSAID",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a la demande du BOULET, je veux avoir Docteur BLIN Jean-Louis",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "BOULET",
+        "entity": "doctor"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "value": "BLIN Jean-Louis",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.8216806650161743,
+        "role": "target",
+        "confidence_role": 0.9669027924537659,
+        "value": "BOULET",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 61,
+        "confidence_entity": 0.9990392923355103,
+        "role": "target",
+        "confidence_role": 0.9993579983711243,
+        "value": "BLIN Jean-Louis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, comme me l'a conseille Mme BLAVIER il souhaiterait parler a BLIN Jean-Louis ca m'aiderais beaucoup, merci",
+    "entities": [
+      {
+        "start": 40,
+        "end": 51,
+        "value": "Mme BLAVIER",
+        "entity": "doctor"
+      },
+      {
+        "start": 77,
+        "end": 92,
+        "value": "BLIN Jean-Louis",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 40,
+        "end": 43,
+        "confidence_entity": 0.988796591758728,
+        "value": "Mme",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 44,
+        "end": 51,
+        "confidence_entity": 0.8756330013275146,
+        "role": "target",
+        "confidence_role": 0.9993658661842346,
+        "value": "BLAVIER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 77,
+        "end": 92,
+        "confidence_entity": 0.8239554166793823,
+        "value": "BLIN Jean-Louis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aimerais dialoguer avec Docteur BLIN Jean-Louis sur recommandation de Dr ABOUCAYA Jean-Paul ca m'aiderais beaucoup, A+",
+    "entities": [
+      {
+        "start": 34,
+        "end": 49,
+        "value": "BLIN Jean-Louis",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 72,
+        "end": 93,
+        "value": "Dr ABOUCAYA Jean-Paul",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 34,
+        "end": 49,
+        "confidence_entity": 0.9608834981918335,
+        "value": "BLIN Jean-Louis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 75,
+        "end": 93,
+        "confidence_entity": 0.9993576407432556,
+        "role": "target",
+        "confidence_role": 0.9997801184654236,
+        "value": "ABOUCAYA Jean-Paul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je veux converser avec BORIE Hervé sur recommandation de Dr ARMANDON Denis qui est assistant logistique.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 34,
+        "value": "BORIE Hervé",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 57,
+        "end": 74,
+        "value": "Dr ARMANDON Denis",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 34,
+        "confidence_entity": 0.9992862343788147,
+        "role": "target",
+        "confidence_role": 0.9999052286148071,
+        "value": "BORIE Hervé",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 60,
+        "end": 74,
+        "confidence_entity": 0.5670558214187622,
+        "value": "ARMANDON Denis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yo, je désire converser avec BORIE Hervé comme me l'a demande Dr ARISTIZABAL qui est membre du service Chirurgie vasculaire. ca serait super,",
+    "entities": [
+      {
+        "start": 29,
+        "end": 40,
+        "value": "BORIE Hervé",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 62,
+        "end": 76,
+        "value": "Dr ARISTIZABAL",
+        "entity": "doctor"
+      },
+      {
+        "start": 103,
+        "end": 123,
+        "value": "Chirurgie vasculaire",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 29,
+        "end": 40,
+        "confidence_entity": 0.9999226331710815,
+        "role": "target",
+        "confidence_role": 0.999927282333374,
+        "value": "BORIE Hervé",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 65,
+        "end": 76,
+        "confidence_entity": 0.9804010987281799,
+        "value": "ARISTIZABAL",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 103,
+        "end": 123,
+        "confidence_entity": 0.9895656108856201,
+        "value": "Chirurgie vasculaire",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comme me l'a conseille CADOT, je désirais discuter avec Mr BOSSI",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "CADOT",
+        "entity": "doctor"
+      },
+      {
+        "start": 59,
+        "end": 64,
+        "value": "BOSSI",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.5395236611366272,
+        "value": "CADOT",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 56,
+        "end": 58,
+        "confidence_entity": 0.9785946011543274,
+        "value": "Mr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 59,
+        "end": 64,
+        "confidence_entity": 0.618151843547821,
+        "role": "target",
+        "confidence_role": 0.9591370820999146,
+        "value": "BOSSI",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salut, comment allez-vous ? j'aspirerais à telephoner a Docteur BOSSI Philippe a la demande du BLAVIER plz, tu m'enleverais une epine du pied, merci",
+    "entities": [
+      {
+        "start": 64,
+        "end": 78,
+        "value": "BOSSI Philippe",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 95,
+        "end": 102,
+        "value": "BLAVIER",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 64,
+        "end": 78,
+        "confidence_entity": 0.969598114490509,
+        "role": "target",
+        "confidence_role": 0.9890897870063782,
+        "value": "BOSSI Philippe",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 95,
+        "end": 102,
+        "confidence_entity": 0.9974838495254517,
+        "role": "target",
+        "confidence_role": 0.9997172951698303,
+        "value": "BLAVIER",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sur recommandation de Dr BOUCHAREB je désirais telephoner avec BOSSI Philippe tu m'enleverais une epine du pied, A+ !",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "value": "Dr BOUCHAREB",
+        "entity": "doctor"
+      },
+      {
+        "start": 63,
+        "end": 77,
+        "value": "BOSSI Philippe",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.6003373265266418,
+        "role": "target",
+        "confidence_role": 0.9915757775306702,
+        "value": "BOUCHAREB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 63,
+        "end": 68,
+        "confidence_entity": 0.9984194040298462,
+        "value": "BOSSI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 69,
+        "end": 77,
+        "confidence_entity": 0.9999603033065796,
+        "role": "target",
+        "confidence_role": 0.9962642788887024,
+        "value": "Philippe",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a la demande du ARMANDON qui est rhumatologue nous exigions de voir Mr BOULET plz, ca serait super,",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "ARMANDON",
+        "entity": "doctor"
+      },
+      {
+        "start": 71,
+        "end": 77,
+        "value": "BOULET",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9964413046836853,
+        "role": "target",
+        "confidence_role": 0.9002223014831543,
+        "value": "ARMANDON",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 68,
+        "end": 77,
+        "confidence_entity": 0.9654534459114075,
+        "value": "Mr BOULET",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "il peut dialoguer avec BOULET Stéphane a la demande du Dr BRUNET Oceane.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 38,
+        "value": "BOULET Stéphane",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 55,
+        "end": 71,
+        "value": "Dr BRUNET Oceane",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 38,
+        "confidence_entity": 0.9997838139533997,
+        "role": "target",
+        "confidence_role": 0.9999253749847412,
+        "value": "BOULET Stéphane",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 58,
+        "end": 71,
+        "confidence_entity": 0.972824215888977,
+        "value": "BRUNET Oceane",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ils aspirent à que vous me passiez BRUN Magali sur recommandation de Dr ARISTIZABAL Patrick s'il vous plait, ca m'aiderais beaucoup,",
+    "entities": [
+      {
+        "start": 35,
+        "end": 46,
+        "value": "BRUN Magali",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 69,
+        "end": 91,
+        "value": "Dr ARISTIZABAL Patrick",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 35,
+        "end": 46,
+        "confidence_entity": 0.9997214674949646,
+        "role": "target",
+        "confidence_role": 0.97384113073349,
+        "value": "BRUN Magali",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 72,
+        "end": 91,
+        "confidence_entity": 0.9998278617858887,
+        "role": "target",
+        "confidence_role": 0.9096522927284241,
+        "value": "ARISTIZABAL Patrick",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comment allez-vous ? Nous avons besoins d'aide d'urgence ! je voudrais causer avec Mr BRUN Laurent comme me l'a demande ARISTIZABAL Patrick qui est rhumatologue je pense ce serait apprecie, merci Salut",
+    "entities": [
+      {
+        "start": 86,
+        "end": 98,
+        "value": "BRUN Laurent",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 120,
+        "end": 139,
+        "value": "ARISTIZABAL Patrick",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 83,
+        "end": 98,
+        "confidence_entity": 0.9588510394096375,
+        "value": "Mr BRUN Laurent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 120,
+        "end": 139,
+        "confidence_entity": 0.998672604560852,
+        "role": "target",
+        "confidence_role": 0.9968697428703308,
+        "value": "ARISTIZABAL Patrick",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comment vas-tu ? comme me l'a demande Mme ABOAB ils rêvent de echanger avec Docteur BRUN",
+    "entities": [
+      {
+        "start": 38,
+        "end": 47,
+        "value": "Mme ABOAB",
+        "entity": "doctor"
+      },
+      {
+        "start": 84,
+        "end": 88,
+        "value": "BRUN",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 38,
+        "end": 47,
+        "confidence_entity": 0.9961953163146973,
+        "value": "Mme ABOAB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 76,
+        "end": 83,
+        "confidence_entity": 0.9811340570449829,
+        "value": "Docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 84,
+        "end": 88,
+        "confidence_entity": 0.9937506318092346,
+        "role": "target",
+        "confidence_role": 0.9999425411224365,
+        "value": "BRUN",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "faut que tu m'aide ! je demandais à converser avec Docteur BRUN comme me l'a demande BRUN Laurent,",
+    "entities": [
+      {
+        "start": 59,
+        "end": 63,
+        "value": "BRUN",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 85,
+        "end": 97,
+        "value": "BRUN Laurent",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 59,
+        "end": 63,
+        "confidence_entity": 0.6532029509544373,
+        "value": "BRUN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 85,
+        "end": 97,
+        "confidence_entity": 0.9939940571784973,
+        "role": "target",
+        "confidence_role": 0.7481732368469238,
+        "value": "BRUN Laurent",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "il aurait désiré discuter avec Mr BRUN Laurent comme me l'a conseille Dr BENOUAICHE qui fait partie du service Stomatherapie",
+    "entities": [
+      {
+        "start": 34,
+        "end": 46,
+        "value": "BRUN Laurent",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 70,
+        "end": 83,
+        "value": "Dr BENOUAICHE",
+        "entity": "doctor"
+      },
+      {
+        "start": 111,
+        "end": 124,
+        "value": "Stomatherapie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 34,
+        "end": 46,
+        "confidence_entity": 0.9995025396347046,
+        "role": "target",
+        "confidence_role": 0.9996961355209351,
+        "value": "BRUN Laurent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 73,
+        "end": 83,
+        "confidence_entity": 0.42751798033714294,
+        "value": "BENOUAICHE",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 111,
+        "end": 124,
+        "confidence_entity": 0.9996534585952759,
+        "value": "Stomatherapie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salut, faut que tu m'aide ! elle a eu une attaque. a la demande du Dr BRUN Magali il souhaite avoir BRUN Laurent",
+    "entities": [
+      {
+        "start": 67,
+        "end": 81,
+        "value": "Dr BRUN Magali",
+        "entity": "doctor"
+      },
+      {
+        "start": 100,
+        "end": 112,
+        "value": "BRUN Laurent",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 70,
+        "end": 81,
+        "confidence_entity": 0.9915940761566162,
+        "value": "BRUN Magali",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 100,
+        "end": 112,
+        "confidence_entity": 0.9999773502349854,
+        "role": "target",
+        "confidence_role": 0.9989927411079407,
+        "value": "BRUN Laurent",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'exigerais de dialoguer avec Mr BRUNET a la demande du BECHEREL",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "BRUNET",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "value": "BECHEREL",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 30,
+        "end": 32,
+        "confidence_entity": 0.8184855580329895,
+        "value": "Mr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.9976880550384521,
+        "role": "target",
+        "confidence_role": 0.9999399185180664,
+        "value": "BRUNET",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 56,
+        "end": 64,
+        "confidence_entity": 0.9208431839942932,
+        "value": "BECHEREL",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je voulais dialoguer avec BRUNET a la demande du Dr BOULET qui est chirurgien",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "BRUNET",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 49,
+        "end": 58,
+        "value": "Dr BOULET",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.999527096748352,
+        "role": "target",
+        "confidence_role": 0.999480664730072,
+        "value": "BRUNET",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 52,
+        "end": 58,
+        "confidence_entity": 0.746336042881012,
+        "value": "BOULET",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Aide moi j'exige de avoir Mr BRUNET Océane a la demande du ALLARD qui officie en tant que assistante logistique Ciao !",
+    "entities": [
+      {
+        "start": 29,
+        "end": 42,
+        "value": "BRUNET Océane",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 59,
+        "end": 65,
+        "value": "ALLARD",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.7835714221000671,
+        "value": "Mr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 29,
+        "end": 42,
+        "confidence_entity": 0.9743399620056152,
+        "role": "target",
+        "confidence_role": 0.6065360903739929,
+        "value": "BRUNET Océane",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 59,
+        "end": 65,
+        "confidence_entity": 0.9489462375640869,
+        "value": "ALLARD",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonsoir, la forme ? me faut de l'aide, je souhaite telephoner avec Mme BRUNET a la demande du Mr AL MOUSSARIH qui fait partie du service Chirurgie digestive.",
+    "entities": [
+      {
+        "start": 71,
+        "end": 77,
+        "value": "BRUNET",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 94,
+        "end": 109,
+        "value": "Mr AL MOUSSARIH",
+        "entity": "doctor"
+      },
+      {
+        "start": 137,
+        "end": 156,
+        "value": "Chirurgie digestive",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 67,
+        "end": 70,
+        "confidence_entity": 0.6753941774368286,
+        "value": "Mme",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 71,
+        "end": 77,
+        "confidence_entity": 0.7153223752975464,
+        "role": "target",
+        "confidence_role": 0.9131510257720947,
+        "value": "BRUNET",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 94,
+        "end": 109,
+        "confidence_entity": 0.9785856008529663,
+        "value": "Mr AL MOUSSARIH",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 137,
+        "end": 146,
+        "confidence_entity": 0.9996495246887207,
+        "value": "Chirurgie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 147,
+        "end": 156,
+        "confidence_entity": 0.9999446868896484,
+        "role": "target",
+        "confidence_role": 0.5351594090461731,
+        "value": "digestive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ils demanderaient à avoir Mme BRYON Dominique a la demande du BELMAGHNI qui fait partie du service Chirurgie de la main je pense,",
+    "entities": [
+      {
+        "start": 30,
+        "end": 45,
+        "value": "BRYON Dominique",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 62,
+        "end": 71,
+        "value": "BELMAGHNI",
+        "entity": "doctor"
+      },
+      {
+        "start": 99,
+        "end": 119,
+        "value": "Chirurgie de la main",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.64252108335495,
+        "value": "Mme BRYON",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 36,
+        "end": 45,
+        "confidence_entity": 0.9999958276748657,
+        "role": "target",
+        "confidence_role": 0.8010854721069336,
+        "value": "Dominique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 62,
+        "end": 71,
+        "confidence_entity": 0.6972110271453857,
+        "value": "BELMAGHNI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 99,
+        "end": 119,
+        "confidence_entity": 0.9746209383010864,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je souhaiterais converser avec BRYON Dominique comme me l'a conseille APTECAR qui est assistante sociale je crois s'il te plait, tu m'enleverais une epine du pied, merci",
+    "entities": [
+      {
+        "start": 31,
+        "end": 46,
+        "value": "BRYON Dominique",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 70,
+        "end": 77,
+        "value": "APTECAR",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 31,
+        "end": 46,
+        "confidence_entity": 0.9992237091064453,
+        "role": "target",
+        "confidence_role": 0.767035961151123,
+        "value": "BRYON Dominique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 70,
+        "end": 77,
+        "confidence_entity": 0.8776314854621887,
+        "role": "target",
+        "confidence_role": 0.8974451422691345,
+        "value": "APTECAR",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salutation, je veux parler avec BRYON Dominique a la demande du Dr ALONSO Enrique. s'il vous plait, Au revoir !",
+    "entities": [
+      {
+        "start": 32,
+        "end": 47,
+        "value": "BRYON Dominique",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 64,
+        "end": 81,
+        "value": "Dr ALONSO Enrique",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 32,
+        "end": 37,
+        "confidence_entity": 0.9975760579109192,
+        "value": "BRYON",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 38,
+        "end": 47,
+        "confidence_entity": 0.999953031539917,
+        "role": "target",
+        "confidence_role": 0.9998078942298889,
+        "value": "Dominique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 67,
+        "end": 73,
+        "confidence_entity": 0.996659517288208,
+        "role": "target",
+        "confidence_role": 0.9470153450965881,
+        "value": "ALONSO",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 74,
+        "end": 81,
+        "confidence_entity": 0.9999516010284424,
+        "value": "Enrique",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonjour, la forme ? Ma fille est tres malade a la demande du BELHASSEN Laurent qui est rhumatologue nous demandions à converser avec CADOT Bernard",
+    "entities": [
+      {
+        "start": 61,
+        "end": 78,
+        "value": "BELHASSEN Laurent",
+        "entity": "doctor"
+      },
+      {
+        "start": 133,
+        "end": 146,
+        "value": "CADOT Bernard",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 61,
+        "end": 78,
+        "confidence_entity": 0.9998247027397156,
+        "role": "target",
+        "confidence_role": 0.8122325539588928,
+        "value": "BELHASSEN Laurent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 133,
+        "end": 146,
+        "confidence_entity": 0.9999154806137085,
+        "role": "target",
+        "confidence_role": 0.9997021555900574,
+        "value": "CADOT Bernard",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sur recommandation de Dr BENSAID. je souhaiterais echanger avec CADOT",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "value": "Dr BENSAID",
+        "entity": "doctor"
+      },
+      {
+        "start": 64,
+        "end": 69,
+        "value": "CADOT",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9885234236717224,
+        "value": "BENSAID",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 64,
+        "end": 69,
+        "confidence_entity": 0.9992378950119019,
+        "role": "target",
+        "confidence_role": 0.9914599657058716,
+        "value": "CADOT",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ma fille est tres malade a la demande du BRUNET Morgan qui appartient au service Biomedical de memoire nous demandons à discuter avec CURRY Marie s'il vous plait,",
+    "entities": [
+      {
+        "start": 41,
+        "end": 54,
+        "value": "BRUNET Morgan",
+        "entity": "doctor"
+      },
+      {
+        "start": 81,
+        "end": 91,
+        "value": "Biomedical",
+        "entity": "service"
+      },
+      {
+        "start": 134,
+        "end": 145,
+        "value": "CURRY Marie",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 41,
+        "end": 47,
+        "confidence_entity": 0.9962769150733948,
+        "value": "BRUNET",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 48,
+        "end": 54,
+        "confidence_entity": 0.999984860420227,
+        "role": "target",
+        "confidence_role": 0.7140584588050842,
+        "value": "Morgan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 81,
+        "end": 91,
+        "confidence_entity": 0.9935848116874695,
+        "value": "Biomedical",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 134,
+        "end": 145,
+        "confidence_entity": 0.998524010181427,
+        "role": "target",
+        "confidence_role": 0.9997386336326599,
+        "value": "CURRY Marie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, faut que tu m'aide ! j'aurais souhaité m'entretenir avec Mr CHRIST comme me l'a demande BELHASSEN qui appartient au service Oncologie, ce serait apprecie, Ciao !",
+    "entities": [
+      {
+        "start": 77,
+        "end": 83,
+        "value": "CHRIST",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 105,
+        "end": 114,
+        "value": "BELHASSEN",
+        "entity": "doctor"
+      },
+      {
+        "start": 141,
+        "end": 150,
+        "value": "Oncologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 74,
+        "end": 83,
+        "confidence_entity": 0.9557451605796814,
+        "value": "Mr CHRIST",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 105,
+        "end": 114,
+        "confidence_entity": 0.9967291355133057,
+        "value": "BELHASSEN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 141,
+        "end": 150,
+        "confidence_entity": 0.9997721314430237,
+        "value": "Oncologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comme me l'a demande BLIN qui est stomatologue je souhaite avoir Docteur CASTEX Jean",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "BLIN",
+        "entity": "doctor"
+      },
+      {
+        "start": 73,
+        "end": 84,
+        "value": "CASTEX Jean",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.9995384216308594,
+        "role": "target",
+        "confidence_role": 0.987138032913208,
+        "value": "BLIN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 65,
+        "end": 72,
+        "confidence_entity": 0.9849071502685547,
+        "value": "Docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 73,
+        "end": 84,
+        "confidence_entity": 0.8104857206344604,
+        "role": "target",
+        "confidence_role": 0.7667770981788635,
+        "value": "CASTEX Jean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comment allez-vous ? je peux telephoner a Mr DUPONT comme me l'a conseille ARMANDON Denis",
+    "entities": [
+      {
+        "start": 45,
+        "end": 51,
+        "value": "DUPONT",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 75,
+        "end": 89,
+        "value": "ARMANDON Denis",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 42,
+        "end": 44,
+        "confidence_entity": 0.9895233511924744,
+        "value": "Mr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.9902695417404175,
+        "role": "target",
+        "confidence_role": 0.9595634341239929,
+        "value": "DUPONT",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 75,
+        "end": 83,
+        "confidence_entity": 0.7912062406539917,
+        "value": "ARMANDON",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 84,
+        "end": 89,
+        "confidence_entity": 0.9999977350234985,
+        "role": "target",
+        "confidence_role": 0.9896997809410095,
+        "value": "Denis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sur recommandation de Docteur BLAVIER Benedicte qui officie en tant que ophtalmologue de memoire, je souhaiterais converser avec Mme ZIDANE Zinedine",
+    "entities": [
+      {
+        "start": 22,
+        "end": 47,
+        "value": "Docteur BLAVIER Benedicte",
+        "entity": "doctor"
+      },
+      {
+        "start": 133,
+        "end": 148,
+        "value": "ZIDANE Zinedine",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.9998409748077393,
+        "role": "target",
+        "confidence_role": 0.9999277591705322,
+        "value": "BLAVIER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 38,
+        "end": 47,
+        "confidence_entity": 0.9999608993530273,
+        "value": "Benedicte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 133,
+        "end": 148,
+        "confidence_entity": 0.9992695450782776,
+        "role": "target",
+        "confidence_role": 0.9998853206634521,
+        "value": "ZIDANE Zinedine",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tu peux m'aider ? il réclamerait de telephoner a CHRISTIE Agatha a la demande du Dr BOULET,",
+    "entities": [
+      {
+        "start": 49,
+        "end": 64,
+        "value": "CHRISTIE Agatha",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 81,
+        "end": 90,
+        "value": "Dr BOULET",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 49,
+        "end": 64,
+        "confidence_entity": 0.9999151229858398,
+        "role": "target",
+        "confidence_role": 0.9998784065246582,
+        "value": "CHRISTIE Agatha",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 84,
+        "end": 90,
+        "confidence_entity": 0.8116252422332764,
+        "value": "BOULET",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comment allez-vous ? me faut de l'aide, a la demande du Dr BELMAGHNI Fatma. ils veulent causer a au avec le secretariat du Gastro-entérologie plz, Salut !",
+    "entities": [
+      {
+        "start": 56,
+        "end": 74,
+        "value": "Dr BELMAGHNI Fatma",
+        "entity": "doctor"
+      },
+      {
+        "start": 123,
+        "end": 141,
+        "value": "Gastro-entérologie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 59,
+        "end": 74,
+        "confidence_entity": 0.9783229827880859,
+        "value": "BELMAGHNI Fatma",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 123,
+        "end": 141,
+        "confidence_entity": 0.9999699592590332,
+        "role": "target",
+        "confidence_role": 0.9999717473983765,
+        "value": "Gastro-entérologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien ? a la demande du BENSAID qui est membre du service Scintigraphie de memoire, je demandais à dialoguer avec a l'acceuil du Angiologie s'il vous plait,",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "BENSAID",
+        "entity": "doctor"
+      },
+      {
+        "start": 57,
+        "end": 70,
+        "value": "Scintigraphie",
+        "entity": "service"
+      },
+      {
+        "start": 128,
+        "end": 138,
+        "value": "Angiologie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.9979555606842041,
+        "value": "BENSAID",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 57,
+        "end": 70,
+        "confidence_entity": 0.9999017715454102,
+        "value": "Scintigraphie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 128,
+        "end": 138,
+        "confidence_entity": 0.9999747276306152,
+        "value": "Angiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "il a eu une complication a la demande du Dr ARISTIZABAL Patrick j'espère converser avec au service Angiologie",
+    "entities": [
+      {
+        "start": 41,
+        "end": 63,
+        "value": "Dr ARISTIZABAL Patrick",
+        "entity": "doctor"
+      },
+      {
+        "start": 99,
+        "end": 109,
+        "value": "Angiologie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 44,
+        "end": 63,
+        "confidence_entity": 0.9989830851554871,
+        "value": "ARISTIZABAL Patrick",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 99,
+        "end": 109,
+        "confidence_entity": 0.9999939203262329,
+        "role": "target",
+        "confidence_role": 0.9999809265136719,
+        "value": "Angiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, j'aurais besoins d'aide, je rêverais de converser avec avec l'acceuil du Ophtalmologie comme me l'a conseille Dr BECHEREL qui officie en tant que rythmologue de memoire,",
+    "entities": [
+      {
+        "start": 90,
+        "end": 103,
+        "value": "Ophtalmologie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 127,
+        "end": 138,
+        "value": "Dr BECHEREL",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 90,
+        "end": 103,
+        "confidence_entity": 0.9999892711639404,
+        "role": "target",
+        "confidence_role": 0.9999884366989136,
+        "value": "Ophtalmologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 130,
+        "end": 138,
+        "confidence_entity": 0.515278160572052,
+        "value": "BECHEREL",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, je voudrais avoir avec le avec le secretariat du service Ophtalmologie a la demande du AL MOUSSARIH qui fait partie du service Rhumatologie",
+    "entities": [
+      {
+        "start": 74,
+        "end": 87,
+        "value": "Ophtalmologie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 104,
+        "end": 116,
+        "value": "AL MOUSSARIH",
+        "entity": "doctor"
+      },
+      {
+        "start": 144,
+        "end": 156,
+        "value": "Rhumatologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 74,
+        "end": 87,
+        "confidence_entity": 0.9999938011169434,
+        "role": "target",
+        "confidence_role": 0.9309809803962708,
+        "value": "Ophtalmologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 104,
+        "end": 116,
+        "confidence_entity": 0.9879996180534363,
+        "value": "AL MOUSSARIH",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 144,
+        "end": 156,
+        "confidence_entity": 0.9999812841415405,
+        "role": "target",
+        "confidence_role": 0.9211135506629944,
+        "value": "Rhumatologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comme me l'a demande BENOUAICHE Laurence qui fait partie du service Assistante sociale je souhaite m'entretenir avec au service Ophtalmologie",
+    "entities": [
+      {
+        "start": 21,
+        "end": 40,
+        "value": "BENOUAICHE Laurence",
+        "entity": "doctor"
+      },
+      {
+        "start": 68,
+        "end": 86,
+        "value": "Assistante sociale",
+        "entity": "service"
+      },
+      {
+        "start": 128,
+        "end": 141,
+        "value": "Ophtalmologie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 21,
+        "end": 40,
+        "confidence_entity": 0.9847895503044128,
+        "value": "BENOUAICHE Laurence",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 68,
+        "end": 78,
+        "confidence_entity": 0.9998375177383423,
+        "role": "target",
+        "confidence_role": 0.6226873397827148,
+        "value": "Assistante",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 79,
+        "end": 86,
+        "confidence_entity": 0.9998419284820557,
+        "value": "sociale",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 128,
+        "end": 141,
+        "confidence_entity": 0.9999833106994629,
+        "role": "target",
+        "confidence_role": 0.523613452911377,
+        "value": "Ophtalmologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Elle se sent malade, sur recommandation de Dr ARISTIZABAL qui est assistante sociale je pourrais avoir au service Accueil Salut !",
+    "entities": [
+      {
+        "start": 43,
+        "end": 57,
+        "value": "Dr ARISTIZABAL",
+        "entity": "doctor"
+      },
+      {
+        "start": 114,
+        "end": 121,
+        "value": "Accueil",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 57,
+        "confidence_entity": 0.9900758862495422,
+        "value": "ARISTIZABAL",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 114,
+        "end": 121,
+        "confidence_entity": 0.9999850988388062,
+        "role": "target",
+        "confidence_role": 0.999931812286377,
+        "value": "Accueil",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mon fils est malade sur recommandation de Dr BRUNET Morgan qui officie en tant que stomatologue de memoire je veux echanger avec avec l'acceuil du service Accueil plz, ca serait super, merci",
+    "entities": [
+      {
+        "start": 42,
+        "end": 58,
+        "value": "Dr BRUNET Morgan",
+        "entity": "doctor"
+      },
+      {
+        "start": 155,
+        "end": 162,
+        "value": "Accueil",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 45,
+        "end": 58,
+        "confidence_entity": 0.8795416951179504,
+        "value": "BRUNET Morgan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 155,
+        "end": 162,
+        "confidence_entity": 0.9997828602790833,
+        "role": "target",
+        "confidence_role": 0.9997437596321106,
+        "value": "Accueil",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je me suis brule, sur recommandation de Dr BOUCHAREB. je voudrais discuter avec a l'acceuil du service Planification plz, A+",
+    "entities": [
+      {
+        "start": 40,
+        "end": 52,
+        "value": "Dr BOUCHAREB",
+        "entity": "doctor"
+      },
+      {
+        "start": 103,
+        "end": 116,
+        "value": "Planification",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 43,
+        "end": 52,
+        "confidence_entity": 0.9977407455444336,
+        "value": "BOUCHAREB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 103,
+        "end": 116,
+        "confidence_entity": 0.9999961853027344,
+        "role": "target",
+        "confidence_role": 0.9999037981033325,
+        "value": "Planification",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comme me l'a demande Mme BELMAGHNI qui est membre du service ORL je crois. je demande à parler a avec le service Planification stp, tu m'enleverais une epine du pied, A+ !",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "Mme BELMAGHNI",
+        "entity": "doctor"
+      },
+      {
+        "start": 61,
+        "end": 64,
+        "value": "ORL",
+        "entity": "service"
+      },
+      {
+        "start": 113,
+        "end": 126,
+        "value": "Planification",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 21,
+        "end": 34,
+        "confidence_entity": 0.9984715580940247,
+        "value": "Mme BELMAGHNI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 61,
+        "end": 64,
+        "confidence_entity": 0.9997792840003967,
+        "value": "ORL",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 113,
+        "end": 126,
+        "confidence_entity": 0.9999531507492065,
+        "value": "Planification",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aurais demandé à telephoner a au service Planification a la demande du Dr BRUNET qui est ophtalmologue,",
+    "entities": [
+      {
+        "start": 43,
+        "end": 56,
+        "value": "Planification",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 73,
+        "end": 82,
+        "value": "Dr BRUNET",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 43,
+        "end": 56,
+        "confidence_entity": 0.9999878406524658,
+        "role": "target",
+        "confidence_role": 0.9999614953994751,
+        "value": "Planification",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 76,
+        "end": 82,
+        "confidence_entity": 0.9039633274078369,
+        "value": "BRUNET",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je désirerais avoir avec le avec le secretariat du service Planification sur recommandation de BELHASSEN qui appartient au service Chirurgie vasculaire,",
+    "entities": [
+      {
+        "start": 59,
+        "end": 72,
+        "value": "Planification",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 95,
+        "end": 104,
+        "value": "BELHASSEN",
+        "entity": "doctor"
+      },
+      {
+        "start": 131,
+        "end": 151,
+        "value": "Chirurgie vasculaire",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 59,
+        "end": 72,
+        "confidence_entity": 0.9997850060462952,
+        "value": "Planification",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 95,
+        "end": 104,
+        "confidence_entity": 0.9995377063751221,
+        "value": "BELHASSEN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 131,
+        "end": 151,
+        "confidence_entity": 0.9993940591812134,
+        "value": "Chirurgie vasculaire",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je me sens malade a la demande du Dr BLIN Jean-Louis. ils souhaitent dialoguer avec au service Urgence",
+    "entities": [
+      {
+        "start": 34,
+        "end": 52,
+        "value": "Dr BLIN Jean-Louis",
+        "entity": "doctor"
+      },
+      {
+        "start": 95,
+        "end": 102,
+        "value": "Urgence",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.9971644282341003,
+        "value": "BLIN Jean-Louis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 95,
+        "end": 102,
+        "confidence_entity": 0.9999221563339233,
+        "role": "target",
+        "confidence_role": 0.9999431371688843,
+        "value": "Urgence",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je me suis fait mal sur recommandation de Dr BOUCHAREB qui est membre du service Chirurgie de la main je voudrais avoir avec le service Anesthésie ce serait bien aimable,",
+    "entities": [
+      {
+        "start": 42,
+        "end": 54,
+        "value": "Dr BOUCHAREB",
+        "entity": "doctor"
+      },
+      {
+        "start": 81,
+        "end": 101,
+        "value": "Chirurgie de la main",
+        "entity": "service"
+      },
+      {
+        "start": 136,
+        "end": 146,
+        "value": "Anesthésie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 45,
+        "end": 54,
+        "confidence_entity": 0.997715950012207,
+        "value": "BOUCHAREB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 81,
+        "end": 101,
+        "confidence_entity": 0.9696462154388428,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 136,
+        "end": 146,
+        "confidence_entity": 0.9999970197677612,
+        "role": "target",
+        "confidence_role": 0.9985631108283997,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "la forme ? faut que tu m'aide ! ils aimeraient parler avec avec le avec le secretariat du service Anesthésie comme me l'a conseille Dr BELMAGHNI Fatma qui appartient au service Chirurgie orthopedique je pense tu m'enleverais une epine du pied, merci",
+    "entities": [
+      {
+        "start": 98,
+        "end": 108,
+        "value": "Anesthésie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 132,
+        "end": 150,
+        "value": "Dr BELMAGHNI Fatma",
+        "entity": "doctor"
+      },
+      {
+        "start": 177,
+        "end": 199,
+        "value": "Chirurgie orthopedique",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 98,
+        "end": 108,
+        "confidence_entity": 0.9999842643737793,
+        "role": "target",
+        "confidence_role": 0.8185505867004395,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 135,
+        "end": 150,
+        "confidence_entity": 0.8077273368835449,
+        "value": "BELMAGHNI Fatma",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 177,
+        "end": 186,
+        "confidence_entity": 0.9998592138290405,
+        "role": "target",
+        "confidence_role": 0.9852060675621033,
+        "value": "Chirurgie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 187,
+        "end": 199,
+        "confidence_entity": 0.9995397329330444,
+        "value": "orthopedique",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, la forme ? je demande à dialoguer avec a l'acceuil du service Unité de Soins continus a la demande du Mr CADOT Bernard ca serait super, Au revoir",
+    "entities": [
+      {
+        "start": 79,
+        "end": 102,
+        "value": "Unité de Soins continus",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 119,
+        "end": 135,
+        "value": "Mr CADOT Bernard",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 79,
+        "end": 102,
+        "confidence_entity": 0.9977977275848389,
+        "role": "target",
+        "confidence_role": 0.9978420734405518,
+        "value": "Unité de Soins continus",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 105,
+        "end": 107,
+        "confidence_entity": 0.9734969735145569,
+        "role": "target",
+        "confidence_role": 0.9872848391532898,
+        "value": "la",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 116,
+        "end": 118,
+        "confidence_entity": 0.5089282989501953,
+        "role": "target",
+        "confidence_role": 0.6331044435501099,
+        "value": "du",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 119,
+        "end": 135,
+        "confidence_entity": 0.9990707635879517,
+        "value": "Mr CADOT Bernard",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salutation, faut que tu m'aide ! a la demande du AL MOUSSARIH qui est assistante heteliere, il rêve de avoir avec le service Unité de Soins continus",
+    "entities": [
+      {
+        "start": 49,
+        "end": 61,
+        "value": "AL MOUSSARIH",
+        "entity": "doctor"
+      },
+      {
+        "start": 125,
+        "end": 148,
+        "value": "Unité de Soins continus",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 49,
+        "end": 61,
+        "confidence_entity": 0.9691941738128662,
+        "value": "AL MOUSSARIH",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 70,
+        "end": 80,
+        "confidence_entity": 0.5300187468528748,
+        "role": "target",
+        "confidence_role": 0.9556949734687805,
+        "value": "assistante",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 125,
+        "end": 148,
+        "confidence_entity": 0.9958640336990356,
+        "role": "target",
+        "confidence_role": 0.9951927661895752,
+        "value": "Unité de Soins continus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salutation, la forme ? Il se sent pas bien, comme me l'a demande APTECAR Eduardo. je désirais joindre a l'acceuil du Unité de Soins continus svp, ca serait super,",
+    "entities": [
+      {
+        "start": 65,
+        "end": 80,
+        "value": "APTECAR Eduardo",
+        "entity": "doctor"
+      },
+      {
+        "start": 117,
+        "end": 140,
+        "value": "Unité de Soins continus",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 65,
+        "end": 80,
+        "confidence_entity": 0.9951761960983276,
+        "value": "APTECAR Eduardo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 104,
+        "end": 106,
+        "confidence_entity": 0.976448118686676,
+        "role": "target",
+        "confidence_role": 0.9892443418502808,
+        "value": "l'",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 114,
+        "end": 116,
+        "confidence_entity": 0.6133167743682861,
+        "role": "target",
+        "confidence_role": 0.6918356418609619,
+        "value": "du",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 117,
+        "end": 140,
+        "confidence_entity": 0.9976325035095215,
+        "role": "target",
+        "confidence_role": 0.9973311424255371,
+        "value": "Unité de Soins continus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mon fils est malade, sur recommandation de Dr CADOT ils aimeraient voir au au secretariat du Angiographie",
+    "entities": [
+      {
+        "start": 43,
+        "end": 51,
+        "value": "Dr CADOT",
+        "entity": "doctor"
+      },
+      {
+        "start": 93,
+        "end": 105,
+        "value": "Angiographie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 51,
+        "confidence_entity": 0.9798387289047241,
+        "value": "CADOT",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 93,
+        "end": 105,
+        "confidence_entity": 0.999996542930603,
+        "role": "target",
+        "confidence_role": 0.9999902248382568,
+        "value": "Angiographie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comment allez-vous ? sur recommandation de AL MOUSSARIH qui appartient au service Unite de Soins continus je crois nous souhaitons m'entretenir avec au service Angiographie plz, ca serait super, Salut !",
+    "entities": [
+      {
+        "start": 43,
+        "end": 55,
+        "value": "AL MOUSSARIH",
+        "entity": "doctor"
+      },
+      {
+        "start": 82,
+        "end": 105,
+        "value": "Unite de Soins continus",
+        "entity": "service"
+      },
+      {
+        "start": 160,
+        "end": 172,
+        "value": "Angiographie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 43,
+        "end": 55,
+        "confidence_entity": 0.99284428358078,
+        "value": "AL MOUSSARIH",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 82,
+        "end": 87,
+        "confidence_entity": 0.9994670748710632,
+        "value": "Unite",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 88,
+        "end": 90,
+        "confidence_entity": 0.7513534426689148,
+        "role": "target",
+        "confidence_role": 0.5025922656059265,
+        "value": "de",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 91,
+        "end": 105,
+        "confidence_entity": 0.9812266826629639,
+        "value": "Soins continus",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 160,
+        "end": 172,
+        "confidence_entity": 0.9999839067459106,
+        "value": "Angiographie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, comment allez-vous ? Aide moi plz, je peux que vous me passiez avec l'acceuil du Stomatologie sur recommandation de BELHASSEN Laurent qui est membre du service Chirurgie vasculaire, s'il te plait, A+ !",
+    "entities": [
+      {
+        "start": 98,
+        "end": 110,
+        "value": "Stomatologie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 133,
+        "end": 150,
+        "value": "BELHASSEN Laurent",
+        "entity": "doctor"
+      },
+      {
+        "start": 177,
+        "end": 197,
+        "value": "Chirurgie vasculaire",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 98,
+        "end": 110,
+        "confidence_entity": 0.9994857311248779,
+        "value": "Stomatologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 133,
+        "end": 150,
+        "confidence_entity": 0.9733387231826782,
+        "value": "BELHASSEN Laurent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 177,
+        "end": 197,
+        "confidence_entity": 0.9996906518936157,
+        "role": "target",
+        "confidence_role": 0.9977381229400635,
+        "value": "Chirurgie vasculaire",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aurais désiré joindre au avec le secretariat du service Stomatologie sur recommandation de ABOUCAYA Jean-Paul qui est membre du service Rhumatologie je crois svp, tu m'enleverais une epine du pied, Salut !",
+    "entities": [
+      {
+        "start": 58,
+        "end": 70,
+        "value": "Stomatologie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 93,
+        "end": 111,
+        "value": "ABOUCAYA Jean-Paul",
+        "entity": "doctor"
+      },
+      {
+        "start": 138,
+        "end": 150,
+        "value": "Rhumatologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 58,
+        "end": 70,
+        "confidence_entity": 0.9999798536300659,
+        "role": "target",
+        "confidence_role": 0.9945688247680664,
+        "value": "Stomatologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 93,
+        "end": 111,
+        "confidence_entity": 0.9737943410873413,
+        "value": "ABOUCAYA Jean-Paul",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 138,
+        "end": 150,
+        "confidence_entity": 0.9999830722808838,
+        "role": "target",
+        "confidence_role": 0.9874372482299805,
+        "value": "Rhumatologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mon fils est malade comme me l'a conseille Dr ABOAB Jennifer je demande à echanger avec avec l'acceuil du Sophrologie stp,",
+    "entities": [
+      {
+        "start": 43,
+        "end": 60,
+        "value": "Dr ABOAB Jennifer",
+        "entity": "doctor"
+      },
+      {
+        "start": 106,
+        "end": 117,
+        "value": "Sophrologie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 60,
+        "confidence_entity": 0.9952666759490967,
+        "value": "ABOAB Jennifer",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 106,
+        "end": 117,
+        "confidence_entity": 0.9999920129776001,
+        "role": "target",
+        "confidence_role": 0.9998904466629028,
+        "value": "Sophrologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonsoir, comment allez-vous ? j'aurais aimé discuter avec avec l'acceuil du service Assistante logistique a la demande du Dr BRUN Magali, tu m'enleverais une epine du pied, merci",
+    "entities": [
+      {
+        "start": 84,
+        "end": 105,
+        "value": "Assistante logistique",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 122,
+        "end": 136,
+        "value": "Dr BRUN Magali",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 84,
+        "end": 105,
+        "confidence_entity": 0.9996968507766724,
+        "role": "target",
+        "confidence_role": 0.9999635219573975,
+        "value": "Assistante logistique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 125,
+        "end": 136,
+        "confidence_entity": 0.9930785298347473,
+        "value": "BRUN Magali",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ils désireraient que vous me passiez au au secretariat du service Assistante logistique a la demande du Docteur BELMAGHNI qui est assistant sociale",
+    "entities": [
+      {
+        "start": 66,
+        "end": 87,
+        "value": "Assistante logistique",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 104,
+        "end": 121,
+        "value": "Docteur BELMAGHNI",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 66,
+        "end": 87,
+        "confidence_entity": 0.9998883008956909,
+        "role": "target",
+        "confidence_role": 0.999879002571106,
+        "value": "Assistante logistique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 104,
+        "end": 121,
+        "confidence_entity": 0.9949508905410767,
+        "value": "Docteur BELMAGHNI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 130,
+        "end": 147,
+        "confidence_entity": 0.9989582300186157,
+        "role": "target",
+        "confidence_role": 0.9943705201148987,
+        "value": "assistant sociale",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je peux avoir a l'acceuil du Oncologie a la demande du BRUN Laurent qui fait partie du service Planification",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "Oncologie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 55,
+        "end": 67,
+        "value": "BRUN Laurent",
+        "entity": "doctor"
+      },
+      {
+        "start": 95,
+        "end": 108,
+        "value": "Planification",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9999880790710449,
+        "role": "target",
+        "confidence_role": 0.993619978427887,
+        "value": "Oncologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 55,
+        "end": 67,
+        "confidence_entity": 0.9470383524894714,
+        "value": "BRUN Laurent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 95,
+        "end": 108,
+        "confidence_entity": 0.9999562501907349,
+        "role": "target",
+        "confidence_role": 0.9156090021133423,
+        "value": "Planification",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a la demande du Mr AL MOUSSARIH Abdallah. je veux avoir a l'acceuil du Chirurgie de la main",
+    "entities": [
+      {
+        "start": 16,
+        "end": 40,
+        "value": "Mr AL MOUSSARIH Abdallah",
+        "entity": "doctor"
+      },
+      {
+        "start": 71,
+        "end": 91,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 16,
+        "end": 40,
+        "confidence_entity": 0.9988662004470825,
+        "value": "Mr AL MOUSSARIH Abdallah",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 58,
+        "end": 60,
+        "confidence_entity": 0.6481978893280029,
+        "role": "target",
+        "confidence_role": 0.7902244329452515,
+        "value": "l'",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 71,
+        "end": 91,
+        "confidence_entity": 0.9936811923980713,
+        "role": "target",
+        "confidence_role": 0.9931764006614685,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, comment vas-tu ? je souhaite que vous me passiez avec le avec le secretariat du service Chirurgie de la main a la demande du BAUER Bertrand qui officie en tant que pediatre je pense s'il te plait,",
+    "entities": [
+      {
+        "start": 105,
+        "end": 125,
+        "value": "Chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 142,
+        "end": 156,
+        "value": "BAUER Bertrand",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 105,
+        "end": 125,
+        "confidence_entity": 0.9974585175514221,
+        "role": "target",
+        "confidence_role": 0.998150110244751,
+        "value": "Chirurgie de la main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 128,
+        "end": 130,
+        "confidence_entity": 0.7797434329986572,
+        "role": "target",
+        "confidence_role": 0.9117001891136169,
+        "value": "la",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 139,
+        "end": 141,
+        "confidence_entity": 0.6180996894836426,
+        "role": "target",
+        "confidence_role": 0.8892742991447449,
+        "value": "du",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 142,
+        "end": 156,
+        "confidence_entity": 0.9786084294319153,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ma fille est tres malade comme me l'a demande Dr APTECAR qui fait partie du service Scintigraphie je crois ils rêveraient de telephoner a au service Scintigraphie tu m'enleverais une epine du pied, merci A+ !",
+    "entities": [
+      {
+        "start": 46,
+        "end": 56,
+        "value": "Dr APTECAR",
+        "entity": "doctor"
+      },
+      {
+        "start": 84,
+        "end": 97,
+        "value": "Scintigraphie",
+        "entity": "service"
+      },
+      {
+        "start": 149,
+        "end": 162,
+        "value": "Scintigraphie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 49,
+        "end": 56,
+        "confidence_entity": 0.9986366629600525,
+        "value": "APTECAR",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 84,
+        "end": 97,
+        "confidence_entity": 0.99993896484375,
+        "value": "Scintigraphie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 149,
+        "end": 162,
+        "confidence_entity": 0.9999823570251465,
+        "role": "target",
+        "confidence_role": 0.6161943674087524,
+        "value": "Scintigraphie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonjour, j'ai besoins d'aide ! je souhaite dialoguer avec avec le service Scintigraphie a la demande du BENHAMOU qui appartient au service Assistante sociale",
+    "entities": [
+      {
+        "start": 74,
+        "end": 87,
+        "value": "Scintigraphie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 104,
+        "end": 112,
+        "value": "BENHAMOU",
+        "entity": "doctor"
+      },
+      {
+        "start": 139,
+        "end": 157,
+        "value": "Assistante sociale",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 74,
+        "end": 87,
+        "confidence_entity": 0.9935199618339539,
+        "value": "Scintigraphie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 104,
+        "end": 112,
+        "confidence_entity": 0.9992120265960693,
+        "value": "BENHAMOU",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 139,
+        "end": 157,
+        "confidence_entity": 0.9997879862785339,
+        "value": "Assistante sociale",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonsoir, Nous avons besoins d'aide d'urgence ! ils réclament de avoir a l'acceuil du Scintigraphie sur recommandation de APTECAR Eduardo qui fait partie du service Rhumatologie,",
+    "entities": [
+      {
+        "start": 85,
+        "end": 98,
+        "value": "Scintigraphie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 121,
+        "end": 136,
+        "value": "APTECAR Eduardo",
+        "entity": "doctor"
+      },
+      {
+        "start": 164,
+        "end": 176,
+        "value": "Rhumatologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 85,
+        "end": 98,
+        "confidence_entity": 0.9997171759605408,
+        "value": "Scintigraphie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 121,
+        "end": 136,
+        "confidence_entity": 0.9855914115905762,
+        "value": "APTECAR Eduardo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 164,
+        "end": 176,
+        "confidence_entity": 0.9999545812606812,
+        "role": "target",
+        "confidence_role": 0.7588222026824951,
+        "value": "Rhumatologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je peux que vous me passiez avec le service Scintigraphie comme me l'a demande BOUCHAREB qui est membre du service Chirurgie Viscerale de memoire plz,",
+    "entities": [
+      {
+        "start": 44,
+        "end": 57,
+        "value": "Scintigraphie",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 79,
+        "end": 88,
+        "value": "BOUCHAREB",
+        "entity": "doctor"
+      },
+      {
+        "start": 115,
+        "end": 134,
+        "value": "Chirurgie Viscerale",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 44,
+        "end": 57,
+        "confidence_entity": 0.99924635887146,
+        "value": "Scintigraphie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 79,
+        "end": 88,
+        "confidence_entity": 0.9892457127571106,
+        "value": "BOUCHAREB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 115,
+        "end": 134,
+        "confidence_entity": 0.9997231364250183,
+        "value": "Chirurgie Viscerale",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bien le bonjour, comment allez-vous ? sur recommandation de BOULET Stephane qui est assistant sociale. nous pouvons causer avec au service Ressources Humaines",
+    "entities": [
+      {
+        "start": 60,
+        "end": 75,
+        "value": "BOULET Stephane",
+        "entity": "doctor"
+      },
+      {
+        "start": 139,
+        "end": 158,
+        "value": "Ressources Humaines",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 60,
+        "end": 75,
+        "confidence_entity": 0.9733712673187256,
+        "value": "BOULET Stephane",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 84,
+        "end": 101,
+        "confidence_entity": 0.9652449488639832,
+        "role": "target",
+        "confidence_role": 0.9902393817901611,
+        "value": "assistant sociale",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 139,
+        "end": 158,
+        "confidence_entity": 0.9989004135131836,
+        "role": "target",
+        "confidence_role": 0.9999493360519409,
+        "value": "Ressources Humaines",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "coucou, comment vas-tu ? j'aurais besoins d'aide, a la demande du Dr BELDA qui appartient au service Sophrologie je pense j'aurais aimé que vous me passiez avec le service Ressources Humaines A+ !",
+    "entities": [
+      {
+        "start": 66,
+        "end": 74,
+        "value": "Dr BELDA",
+        "entity": "doctor"
+      },
+      {
+        "start": 101,
+        "end": 112,
+        "value": "Sophrologie",
+        "entity": "service"
+      },
+      {
+        "start": 172,
+        "end": 191,
+        "value": "Ressources Humaines",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 69,
+        "end": 74,
+        "confidence_entity": 0.9879469275474548,
+        "value": "BELDA",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 101,
+        "end": 112,
+        "confidence_entity": 0.995597779750824,
+        "value": "Sophrologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 172,
+        "end": 191,
+        "confidence_entity": 0.9997656941413879,
+        "role": "target",
+        "confidence_role": 0.9990453124046326,
+        "value": "Ressources Humaines",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aspirerais à discuter avec avec le avec le secretariat du service Ressources Humaines sur recommandation de BENOUAICHE Laurence qui est assistante heteliere",
+    "entities": [
+      {
+        "start": 68,
+        "end": 87,
+        "value": "Ressources Humaines",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 110,
+        "end": 129,
+        "value": "BENOUAICHE Laurence",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 68,
+        "end": 87,
+        "confidence_entity": 0.9997715353965759,
+        "role": "target",
+        "confidence_role": 0.9999727010726929,
+        "value": "Ressources Humaines",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 110,
+        "end": 129,
+        "confidence_entity": 0.9708961844444275,
+        "value": "BENOUAICHE Laurence",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 138,
+        "end": 148,
+        "confidence_entity": 0.9978845715522766,
+        "role": "target",
+        "confidence_role": 0.995650589466095,
+        "value": "assistante",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 149,
+        "end": 158,
+        "confidence_entity": 0.6394848823547363,
+        "value": "heteliere",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sur recommandation de Dr ALONSO qui officie en tant que rhumatologue, il veut parler avec avec le service Chirurgie vasculaire",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "Dr ALONSO",
+        "entity": "doctor"
+      },
+      {
+        "start": 106,
+        "end": 126,
+        "value": "Chirurgie vasculaire",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9982871413230896,
+        "value": "ALONSO",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 106,
+        "end": 126,
+        "confidence_entity": 0.9998125433921814,
+        "role": "target",
+        "confidence_role": 0.9997128844261169,
+        "value": "Chirurgie vasculaire",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "salut, ca va ? comme me l'a conseille Dr BADO qui fait partie du service Pediatrie je pense. j'exige de telephoner avec avec le au secretariat du service Pédiatrie s'il te plait, tu m'enleverais une epine du pied, Ciao",
+    "entities": [
+      {
+        "start": 38,
+        "end": 45,
+        "value": "Dr BADO",
+        "entity": "doctor"
+      },
+      {
+        "start": 73,
+        "end": 82,
+        "value": "Pediatrie",
+        "entity": "service"
+      },
+      {
+        "start": 154,
+        "end": 163,
+        "value": "Pédiatrie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.9946073889732361,
+        "value": "BADO",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 73,
+        "end": 82,
+        "confidence_entity": 0.999803364276886,
+        "value": "Pediatrie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 154,
+        "end": 163,
+        "confidence_entity": 0.999990701675415,
+        "role": "target",
+        "confidence_role": 0.9999309778213501,
+        "value": "Pédiatrie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "comment allez-vous ? sur recommandation de Docteur BELDA qui appartient au service Chirurgie vasculaire. il pourrait dialoguer avec a l'acceuil du service Chirurgie digestive",
+    "entities": [
+      {
+        "start": 43,
+        "end": 56,
+        "value": "Docteur BELDA",
+        "entity": "doctor"
+      },
+      {
+        "start": 83,
+        "end": 103,
+        "value": "Chirurgie vasculaire",
+        "entity": "service"
+      },
+      {
+        "start": 155,
+        "end": 174,
+        "value": "Chirurgie digestive",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 43,
+        "end": 56,
+        "confidence_entity": 0.9979920387268066,
+        "value": "Docteur BELDA",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 83,
+        "end": 92,
+        "confidence_entity": 0.9998316764831543,
+        "role": "target",
+        "confidence_role": 0.9080222249031067,
+        "value": "Chirurgie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 93,
+        "end": 103,
+        "confidence_entity": 0.9998238682746887,
+        "value": "vasculaire",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 155,
+        "end": 174,
+        "confidence_entity": 0.9999573230743408,
+        "role": "target",
+        "confidence_role": 0.9865899085998535,
+        "value": "Chirurgie digestive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je désirerais converser avec a l'acceuil du service Chirurgie digestive a la demande du Dr BENOSMAN Hedi qui officie en tant que pediatre je crois.",
+    "entities": [
+      {
+        "start": 52,
+        "end": 71,
+        "value": "Chirurgie digestive",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 88,
+        "end": 104,
+        "value": "Dr BENOSMAN Hedi",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 52,
+        "end": 71,
+        "confidence_entity": 0.9998049139976501,
+        "role": "target",
+        "confidence_role": 0.9999833106994629,
+        "value": "Chirurgie digestive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 91,
+        "end": 104,
+        "confidence_entity": 0.879112184047699,
+        "value": "BENOSMAN Hedi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je souhaiterais discuter avec au avec le secretariat du Chirurgie digestive comme me l'a demande Dr BELDA Eric, Au revoir",
+    "entities": [
+      {
+        "start": 56,
+        "end": 75,
+        "value": "Chirurgie digestive",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 97,
+        "end": 110,
+        "value": "Dr BELDA Eric",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 56,
+        "end": 75,
+        "confidence_entity": 0.9996134638786316,
+        "role": "target",
+        "confidence_role": 0.9999680519104004,
+        "value": "Chirurgie digestive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 100,
+        "end": 110,
+        "confidence_entity": 0.7166851162910461,
+        "value": "BELDA Eric",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "coucou, comment allez-vous ? tu peux m'aider ? svp, je souhaiterais m'entretenir avec avec le service Chirurgie orthopédique comme me l'a demande BENOSMAN Hedi qui fait partie du service Urgence je pense.",
+    "entities": [
+      {
+        "start": 102,
+        "end": 124,
+        "value": "Chirurgie orthopédique",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 146,
+        "end": 159,
+        "value": "BENOSMAN Hedi",
+        "entity": "doctor"
+      },
+      {
+        "start": 187,
+        "end": 194,
+        "value": "Urgence",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 102,
+        "end": 111,
+        "confidence_entity": 0.9998224377632141,
+        "value": "Chirurgie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 112,
+        "end": 124,
+        "confidence_entity": 0.9999352693557739,
+        "role": "target",
+        "confidence_role": 0.997407853603363,
+        "value": "orthopédique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 146,
+        "end": 159,
+        "confidence_entity": 0.9780879020690918,
+        "value": "BENOSMAN Hedi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 187,
+        "end": 194,
+        "confidence_entity": 0.9826646447181702,
+        "value": "Urgence",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nous voulons telephoner a avec le au secretariat du Chirurgie orthopédique a la demande du Dr AL MOUSSARIH qui fait partie du service Unite de Soins continus je crois,",
+    "entities": [
+      {
+        "start": 52,
+        "end": 74,
+        "value": "Chirurgie orthopédique",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 91,
+        "end": 106,
+        "value": "Dr AL MOUSSARIH",
+        "entity": "doctor"
+      },
+      {
+        "start": 134,
+        "end": 157,
+        "value": "Unite de Soins continus",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 52,
+        "end": 74,
+        "confidence_entity": 0.9999228715896606,
+        "role": "target",
+        "confidence_role": 0.9996523857116699,
+        "value": "Chirurgie orthopédique",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 94,
+        "end": 106,
+        "confidence_entity": 0.6811952590942383,
+        "value": "AL MOUSSARIH",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 134,
+        "end": 139,
+        "confidence_entity": 0.9990046620368958,
+        "value": "Unite",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 143,
+        "end": 157,
+        "confidence_entity": 0.5304194688796997,
+        "value": "Soins continus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Aide moi stp, je peux avoir avec le avec le secretariat du service tour effeil comme me l'a demande Dr BORIE Herve qui est assistante heteliere svp,",
+    "entities": [
+      {
+        "start": 67,
+        "end": 78,
+        "value": "tour effeil",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 100,
+        "end": 114,
+        "value": "Dr BORIE Herve",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 67,
+        "end": 78,
+        "confidence_entity": 0.9996150732040405,
+        "role": "target",
+        "confidence_role": 0.999946117401123,
+        "value": "tour effeil",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 103,
+        "end": 114,
+        "confidence_entity": 0.9523116946220398,
+        "value": "BORIE Herve",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 123,
+        "end": 143,
+        "confidence_entity": 0.9969633221626282,
+        "role": "target",
+        "confidence_role": 0.7974299192428589,
+        "value": "assistante heteliere",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mon fils est tres malade sur recommandation de Dr BLAVIER Benedicte j'espérerais voir au avec le secretariat du service clinique ce serait apprecie, merci Salut !",
+    "entities": [
+      {
+        "start": 47,
+        "end": 67,
+        "value": "Dr BLAVIER Benedicte",
+        "entity": "doctor"
+      },
+      {
+        "start": 120,
+        "end": 128,
+        "value": "clinique",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 50,
+        "end": 67,
+        "confidence_entity": 0.9896626472473145,
+        "value": "BLAVIER Benedicte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 120,
+        "end": 128,
+        "confidence_entity": 0.9999676942825317,
+        "role": "target",
+        "confidence_role": 0.9999887943267822,
+        "value": "clinique",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Jacques Attali cherche querelle a des brigands...",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.6461882591247559,
+        "value": "cherche",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.9495347738265991,
+        "value": "brigands",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "L'attache de presse de Bozo le clown mourait.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9389507174491882,
+        "value": "Bozo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Où le pleurnichard se cache-t-il pleinement ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 6,
+        "end": 18,
+        "confidence_entity": 0.94496089220047,
+        "value": "pleurnichard",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
