@@ -1,0 +1,2711 @@
+[
+  {
+    "text": "Mon généraliste m'a adressé au Dr. Aristizabal. Merci de me passer son secrétariat.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 46,
+        "value": "Aristizabal",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 4,
+        "end": 15,
+        "confidence_entity": 0.6149689555168152,
+        "role": "target",
+        "confidence_role": 0.9497585892677307,
+        "value": "généraliste",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 31,
+        "end": 33,
+        "confidence_entity": 0.5038667917251587,
+        "role": "target",
+        "confidence_role": 0.9210059642791748,
+        "value": "Dr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 35,
+        "end": 46,
+        "confidence_entity": 0.8837215304374695,
+        "role": "target",
+        "confidence_role": 0.9799097776412964,
+        "value": "Aristizabal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Est-ce que le Dr Alonso est disponible ce matin ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "Alonso",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.6643080711364746,
+        "value": "Dr Alonso",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je voudrais parler au Dr Bensaid, une femme, Cherazade de son prénom, je crois.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "Bensaid",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9455551505088806,
+        "role": "target",
+        "confidence_role": 0.9369397759437561,
+        "value": "Bensaid",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 45,
+        "end": 54,
+        "confidence_entity": 0.9999085664749146,
+        "role": "target",
+        "confidence_role": 0.9779564142227173,
+        "value": "Cherazade",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Pouvez-vous me passer le cabinet du Dr Bensaid ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 46,
+        "value": "Bensaid",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.996397852897644,
+        "role": "target",
+        "confidence_role": 0.9965664148330688,
+        "value": "cabinet",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.9911357164382935,
+        "role": "target",
+        "confidence_role": 0.9983963370323181,
+        "value": "Bensaid",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mon anesthésiste m'a demandé de prendre rendez-vous avec le docteur boulet",
+    "entities": [
+      {
+        "start": 4,
+        "end": 16,
+        "value": "anesthésiste",
+        "entity": "service"
+      },
+      {
+        "start": 68,
+        "end": 74,
+        "value": "boulet",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 4,
+        "end": 16,
+        "confidence_entity": 0.9935382008552551,
+        "role": "target",
+        "confidence_role": 0.9997968077659607,
+        "value": "anesthésiste",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 68,
+        "end": 74,
+        "confidence_entity": 0.9999406337738037,
+        "role": "target",
+        "confidence_role": 0.9073271751403809,
+        "value": "boulet",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'ai besoin de récupérer mon dossier chez le docteur bedo",
+    "entities": [
+      {
+        "start": 53,
+        "end": 57,
+        "value": "bedo",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 29,
+        "end": 36,
+        "confidence_entity": 0.9991750121116638,
+        "role": "target",
+        "confidence_role": 0.9997753500938416,
+        "value": "dossier",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.9910526871681213,
+        "role": "target",
+        "confidence_role": 0.9946902990341187,
+        "value": "bedo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "madame Black WIDOW du service de neurologie m'a récemment demandé d'aller voir mademoiselle super GIRL du service de chirurgie, pourrais-je avoir un rendez-vous avec elle svp ?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "value": "Black WIDOW ",
+        "entity": "doctor"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "value": "neurologie",
+        "entity": "service"
+      },
+      {
+        "start": 92,
+        "end": 103,
+        "value": "super GIRL ",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 117,
+        "end": 126,
+        "value": "chirurgie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 7,
+        "end": 18,
+        "confidence_entity": 0.5751135349273682,
+        "value": "Black WIDOW",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 33,
+        "end": 43,
+        "confidence_entity": 0.9909458160400391,
+        "role": "target",
+        "confidence_role": 0.9637739062309265,
+        "value": "neurologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 117,
+        "end": 126,
+        "confidence_entity": 0.9996708631515503,
+        "role": "target",
+        "confidence_role": 0.9964894652366638,
+        "value": "chirurgie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mon radiologue, le docteur GREENLANTERN, m'a conseillé le dr hulk pour la kinésithérapie",
+    "entities": [
+      {
+        "start": 27,
+        "end": 39,
+        "value": "GREENLANTERN",
+        "entity": "doctor"
+      },
+      {
+        "start": 61,
+        "end": 65,
+        "value": "hulk",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 74,
+        "end": 88,
+        "value": "kinésithérapie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.96307772397995,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 27,
+        "end": 39,
+        "confidence_entity": 0.4890555739402771,
+        "value": "GREENLANTERN",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 74,
+        "end": 88,
+        "confidence_entity": 0.9998071789741516,
+        "role": "target",
+        "confidence_role": 0.9998779296875,
+        "value": "kinésithérapie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je veux voir le docteur batman sur les conseil de mr superman",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "batman",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 53,
+        "end": 61,
+        "value": "superman",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.999516487121582,
+        "role": "target",
+        "confidence_role": 0.80422043800354,
+        "value": "batman",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "le dr superman m'a demandé d'aller voir le docteur batman",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "superman",
+        "entity": "doctor"
+      },
+      {
+        "start": 51,
+        "end": 57,
+        "value": "batman",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 51,
+        "end": 57,
+        "confidence_entity": 0.9982272982597351,
+        "role": "target",
+        "confidence_role": 0.9986701011657715,
+        "value": "batman",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je veux voir quelqu'un de l'administration, c'est un scandale !",
+    "entities": [
+      {
+        "start": 28,
+        "end": 42,
+        "value": "administration",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 28,
+        "end": 42,
+        "confidence_entity": 0.38879629969596863,
+        "value": "administration",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'ai perdu ma semelle orthopédique, mr Brignoli serait-il dispo pour un rdv ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "value": "orthopédique",
+        "entity": "service"
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "value": "Brignoli",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 39,
+        "end": 47,
+        "confidence_entity": 0.8973097801208496,
+        "role": "target",
+        "confidence_role": 0.9444669485092163,
+        "value": "Brignoli",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aimerais un rdv avec le dr cooper, j'ai affreusement mal à la tête",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "cooper",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Je veux voir le directeur",
+    "entities": [
+      {
+        "start": 16,
+        "end": 25,
+        "value": "directeur",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "j'aimerais un renouvellement d'ordonnance pour mon viagra, pourrais-je contacter le dr Hofstadter svp ?",
+    "entities": [
+      {
+        "start": 87,
+        "end": 97,
+        "value": "Hofstadter",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 31,
+        "end": 41,
+        "confidence_entity": 0.7773745656013489,
+        "role": "target",
+        "confidence_role": 0.9738590717315674,
+        "value": "ordonnance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "on m'a dit d'appeler Mr Benosman",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "Benosman",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 21,
+        "end": 32,
+        "confidence_entity": 0.7104896306991577,
+        "value": "Mr Benosman",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "docteur BAUER, service Anesthésie",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "BAUER",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "value": "Anesthésie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.5380657911300659,
+        "value": "docteur BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 23,
+        "end": 33,
+        "confidence_entity": 0.9999949932098389,
+        "role": "target",
+        "confidence_role": 0.999869704246521,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "docteur BAUER Bertrand, service Anesthésie svp",
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "value": "BAUER Bertrand",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "value": "Anesthésie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9251267313957214,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 8,
+        "end": 22,
+        "confidence_entity": 0.9778919219970703,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 32,
+        "end": 42,
+        "confidence_entity": 0.9999905824661255,
+        "role": "target",
+        "confidence_role": 0.999906063079834,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "docteur BAUER, service Anesthésie svp",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "BAUER",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "value": "Anesthésie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.760400652885437,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 8,
+        "end": 13,
+        "confidence_entity": 0.5536086559295654,
+        "value": "BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 23,
+        "end": 33,
+        "confidence_entity": 0.999992847442627,
+        "role": "target",
+        "confidence_role": 0.9999194145202637,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "service Anesthésie, docteur BAUER svp",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "Anesthésie",
+        "entity": "service"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "BAUER",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 8,
+        "end": 18,
+        "confidence_entity": 0.999992847442627,
+        "role": "target",
+        "confidence_role": 0.9999356269836426,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.8177648186683655,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.9857946634292603,
+        "value": "BAUER",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "service Anesthésie, docteur BAUER Bertrand svp",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "Anesthésie",
+        "entity": "service"
+      },
+      {
+        "start": 28,
+        "end": 42,
+        "value": "BAUER Bertrand",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 8,
+        "end": 18,
+        "confidence_entity": 0.9999922513961792,
+        "role": "target",
+        "confidence_role": 0.999927282333374,
+        "value": "Anesthésie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9627724289894104,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 28,
+        "end": 42,
+        "confidence_entity": 0.9834384322166443,
+        "value": "BAUER Bertrand",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'exige de voir le dr BAUER du service cardiologie !!",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "BAUER",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 39,
+        "end": 50,
+        "value": "cardiologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9995630383491516,
+        "value": "BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 39,
+        "end": 50,
+        "confidence_entity": 0.999984860420227,
+        "role": "target",
+        "confidence_role": 0.9999746084213257,
+        "value": "cardiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'exige de voir le docteur BAUER du service cardiologie !!",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "BAUER",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 44,
+        "end": 55,
+        "value": "cardiologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.9926314353942871,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9579331278800964,
+        "value": "BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 44,
+        "end": 55,
+        "confidence_entity": 0.9999687671661377,
+        "role": "target",
+        "confidence_role": 0.9999738931655884,
+        "value": "cardiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'exige de voir le docteur Bertrand BAUER du service cardiologie !!",
+    "entities": [
+      {
+        "start": 27,
+        "end": 42,
+        "value": "Bertrand BAUER ",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 53,
+        "end": 64,
+        "value": "cardiologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 19,
+        "end": 41,
+        "confidence_entity": 0.938616931438446,
+        "value": "docteur Bertrand BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 53,
+        "end": 64,
+        "confidence_entity": 0.9999619722366333,
+        "role": "target",
+        "confidence_role": 0.9999752044677734,
+        "value": "cardiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'exige de voir le dr Bertrand BAUER du service cardiologie !!",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "value": "Bertrand BAUER ",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 48,
+        "end": 59,
+        "value": "cardiologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 22,
+        "end": 36,
+        "confidence_entity": 0.8313116431236267,
+        "value": "Bertrand BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 48,
+        "end": 59,
+        "confidence_entity": 0.9999804496765137,
+        "role": "target",
+        "confidence_role": 0.9999709129333496,
+        "value": "cardiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "service cardiologie, le docteur bauer svp",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "cardiologie",
+        "entity": "service"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "bauer",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 8,
+        "end": 19,
+        "confidence_entity": 0.9999594688415527,
+        "role": "target",
+        "confidence_role": 0.9995408058166504,
+        "value": "cardiologie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 32,
+        "end": 37,
+        "confidence_entity": 0.9993357062339783,
+        "value": "bauer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aimerais contacter le dr bauer, du service cardiologie",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "bauer",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9996664524078369,
+        "value": "bauer",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 45,
+        "end": 56,
+        "confidence_entity": 0.9999909400939941,
+        "role": "target",
+        "confidence_role": 0.999964714050293,
+        "value": "cardiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aimerais prendre un rdv auprès du docteur BOSSI Philippe, du service de Scintigraphie",
+    "entities": [
+      {
+        "start": 44,
+        "end": 58,
+        "value": "BOSSI Philippe",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 74,
+        "end": 87,
+        "value": "Scintigraphie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 36,
+        "end": 43,
+        "confidence_entity": 0.9987239241600037,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 44,
+        "end": 58,
+        "confidence_entity": 0.7675697803497314,
+        "value": "BOSSI Philippe",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 74,
+        "end": 87,
+        "confidence_entity": 0.999984622001648,
+        "role": "target",
+        "confidence_role": 0.9999332427978516,
+        "value": "Scintigraphie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aimerais prendre un rdv au service de Scintigraphie, auprès du docteur BOSSI Philippe",
+    "entities": [
+      {
+        "start": 40,
+        "end": 53,
+        "value": "Scintigraphie",
+        "entity": "service"
+      },
+      {
+        "start": 73,
+        "end": 87,
+        "value": "BOSSI Philippe",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 40,
+        "end": 53,
+        "confidence_entity": 0.9999563694000244,
+        "role": "target",
+        "confidence_role": 0.9999219179153442,
+        "value": "Scintigraphie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 65,
+        "end": 72,
+        "confidence_entity": 0.9995521903038025,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 73,
+        "end": 87,
+        "confidence_entity": 0.6284635066986084,
+        "value": "BOSSI Philippe",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aimerais être mis en relation avec Laurence BENOUAICHE du service logistique svp",
+    "entities": [
+      {
+        "start": 37,
+        "end": 57,
+        "value": "Laurence BENOUAICHE ",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 68,
+        "end": 78,
+        "value": "logistique",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 37,
+        "end": 56,
+        "confidence_entity": 0.884368360042572,
+        "value": "Laurence BENOUAICHE",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 68,
+        "end": 78,
+        "confidence_entity": 0.7227199077606201,
+        "role": "target",
+        "confidence_role": 0.7099586129188538,
+        "value": "logistique",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aimerais être mis en relation avec Laurence BENOUAICHE pour un problème de logistique svp",
+    "entities": [
+      {
+        "start": 37,
+        "end": 57,
+        "value": "Laurence BENOUAICHE ",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 77,
+        "end": 87,
+        "value": "logistique",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 37,
+        "end": 45,
+        "confidence_entity": 0.9999390840530396,
+        "role": "target",
+        "confidence_role": 0.9959520101547241,
+        "value": "Laurence",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 56,
+        "confidence_entity": 0.9077209830284119,
+        "role": "target",
+        "confidence_role": 0.9753932356834412,
+        "value": "BENOUAICHE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je cherche à joindre le docteur Benouaiche  du service d'Angiologie, pouvez-vous m'aider ?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 42,
+        "value": "Benouaiche",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 57,
+        "end": 67,
+        "value": "Angiologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.866457998752594,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 32,
+        "end": 42,
+        "confidence_entity": 0.9905980229377747,
+        "value": "Benouaiche",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 57,
+        "end": 67,
+        "confidence_entity": 0.9999790191650391,
+        "role": "target",
+        "confidence_role": 0.9999046325683594,
+        "value": "Angiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'ai rendez vous avec une pédiatre qui se nomme Océane",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "pédiatre",
+        "entity": "service"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "value": "Océane",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 48,
+        "end": 54,
+        "confidence_entity": 0.9989249110221863,
+        "role": "target",
+        "confidence_role": 0.9958977103233337,
+        "value": "Océane",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "merci, c'est bien le docteur Cadot?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "Cadot",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.5268564820289612,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.9786851406097412,
+        "value": "Cadot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "le docteur bado doit vérifier mes analyses biomédical",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "bado",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.99978107213974,
+        "value": "bado",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 43,
+        "end": 53,
+        "confidence_entity": 0.9866243600845337,
+        "role": "target",
+        "confidence_role": 0.9999344348907471,
+        "value": "biomédical",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je voudrai prendre un rendez vous pour une scintigraphie avec le docteur Brun",
+    "entities": [
+      {
+        "start": 43,
+        "end": 56,
+        "value": "scintigraphie",
+        "entity": "service"
+      },
+      {
+        "start": 73,
+        "end": 77,
+        "value": "Brun",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 73,
+        "end": 77,
+        "confidence_entity": 0.9996254444122314,
+        "role": "target",
+        "confidence_role": 0.9996398687362671,
+        "value": "Brun",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Puis-je être mis en relation avec le docteur Bouchareb du bureau des admissions ?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 54,
+        "value": "Bouchareb",
+        "entity": "doctor",
+        "role": "target"
+      },
+      {
+        "start": 69,
+        "end": 79,
+        "value": "admissions",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 45,
+        "end": 54,
+        "confidence_entity": 0.9362174868583679,
+        "value": "Bouchareb",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 69,
+        "end": 79,
+        "confidence_entity": 0.998275637626648,
+        "role": "target",
+        "confidence_role": 0.9656932353973389,
+        "value": "admissions",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "J'ai une question concernant l'ordonnance que m'a fourni Mr. Apectar. Pouvez-vous nous mettre en relation ?",
+    "entities": [
+      {
+        "start": 61,
+        "end": 68,
+        "value": "Apectar",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 31,
+        "end": 41,
+        "confidence_entity": 0.8693205118179321,
+        "role": "target",
+        "confidence_role": 0.9211477637290955,
+        "value": "ordonnance",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 57,
+        "end": 59,
+        "confidence_entity": 0.5702067017555237,
+        "value": "Mr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 61,
+        "end": 68,
+        "confidence_entity": 0.87970370054245,
+        "value": "Apectar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "J'ai un besoin urgent de contacter le docteur Bescherelle !!",
+    "entities": [
+      {
+        "start": 46,
+        "end": 57,
+        "value": "Bescherelle",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 57,
+        "confidence_entity": 0.8031783699989319,
+        "value": "Bescherelle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Est-ce que le docteur Jean Louis Blin est disponible ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "value": "Jean Louis Blin ",
+        "entity": "doctor",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.9993577599525452,
+        "role": "target",
+        "confidence_role": 0.998105525970459,
+        "value": "Jean",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.8518626093864441,
+        "value": "Louis Blin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Pouvez-vous laisser un message au Dr Brun ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 41,
+        "value": "Brun",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.9988241791725159,
+        "role": "target",
+        "confidence_role": 0.993750274181366,
+        "value": "Brun",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Est-ce que pour un problème d'intestin, c'est bien la stomatologie ?",
+    "entities": [
+      {
+        "start": 54,
+        "end": 66,
+        "value": "stomatologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 54,
+        "end": 66,
+        "confidence_entity": 0.9998540878295898,
+        "role": "target",
+        "confidence_role": 0.9937468767166138,
+        "value": "stomatologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "le docteur brunet m'a demandé de faire une angiographie ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "brunet",
+        "entity": "doctor"
+      },
+      {
+        "start": 43,
+        "end": 55,
+        "value": "angiographie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9999376535415649,
+        "role": "target",
+        "confidence_role": 0.9911057353019714,
+        "value": "brunet",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 43,
+        "end": 55,
+        "confidence_entity": 0.9529907703399658,
+        "value": "angiographie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'ai compris comment marche le bot",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.8877313733100891,
+        "value": "marche",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "qu'est-ce que l'oncologie ?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 25,
+        "value": "oncologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.9999477863311768,
+        "role": "target",
+        "confidence_role": 0.9998127818107605,
+        "value": "oncologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "t'as intérêt à me faire rencontrer castex ou je t'explose, machine à la con",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.9994811415672302,
+        "role": "target",
+        "confidence_role": 0.9997093081474304,
+        "value": "castex",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "je souhaiterais déplacer mon rdv avec le docteur Benhamou svp. C'est possible ?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 57,
+        "value": "Benhamou",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 49,
+        "end": 57,
+        "confidence_entity": 0.9951891899108887,
+        "role": "target",
+        "confidence_role": 0.9999010562896729,
+        "value": "Benhamou",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "J'ai besoin de savoir la chambre pour aller voir un ami au service du soin continus",
+    "entities": [
+      {
+        "start": 70,
+        "end": 83,
+        "value": "soin continus",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 70,
+        "end": 83,
+        "confidence_entity": 0.41016510128974915,
+        "role": "target",
+        "confidence_role": 0.6994578838348389,
+        "value": "soin continus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'ai un problème administratif",
+    "entities": [
+      {
+        "start": 17,
+        "end": 30,
+        "value": "administratif",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 17,
+        "end": 30,
+        "confidence_entity": 0.9348555207252502,
+        "value": "administratif",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'ai une urgence",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "urgence",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Faites vous des cours de sophro ?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "sophro",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Disposez vous d'un labo de biomédical ?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 37,
+        "value": "biomédical",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.8955403566360474,
+        "role": "target",
+        "confidence_role": 0.999408483505249,
+        "value": "biomédical",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Le docteur Aptecar loue t'il des voitures?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "Aptecar",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.8717228174209595,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9973570108413696,
+        "role": "target",
+        "confidence_role": 0.6989161968231201,
+        "value": "Aptecar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "J'aime la chirurgie orthopédique",
+    "entities": [
+      {
+        "start": 10,
+        "end": 32,
+        "value": "chirurgie orthopédique",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 10,
+        "end": 32,
+        "confidence_entity": 0.9998109936714172,
+        "role": "target",
+        "confidence_role": 0.9989050626754761,
+        "value": "chirurgie orthopédique",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "J'ai rendez vous avec le docteur Belda cette apres-midi pouvez-vous SVP me confirmé l'heure",
+    "entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "Belda",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.9986448884010315,
+        "role": "target",
+        "confidence_role": 0.9986265897750854,
+        "value": "Belda",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "le docteur brunet m'a demandé de faire une angiographie",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "brunet",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9999376535415649,
+        "role": "target",
+        "confidence_role": 0.9911057353019714,
+        "value": "brunet",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 43,
+        "end": 55,
+        "confidence_entity": 0.9529907703399658,
+        "value": "angiographie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Est-ce que le Dr Alonso consulte aujourd'hui ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "Alonso",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.6173105239868164,
+        "value": "Dr Alonso",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bonjour, les admissions à l'unité de soins continus sont-elles toujours ouverte ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "admissions",
+        "entity": "service"
+      },
+      {
+        "start": 37,
+        "end": 52,
+        "value": "soins continus ",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.9975626468658447,
+        "role": "target",
+        "confidence_role": 0.9949658513069153,
+        "value": "les",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.9997883439064026,
+        "role": "target",
+        "confidence_role": 0.9975134134292603,
+        "value": "unité",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 37,
+        "end": 62,
+        "confidence_entity": 0.9787180423736572,
+        "role": "target",
+        "confidence_role": 0.9206929802894592,
+        "value": "soins continus sont-elles",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "docteur cooper",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "cooper",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "docteur bauer",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "bauer",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 8,
+        "end": 13,
+        "confidence_entity": 0.9989292025566101,
+        "role": "target",
+        "confidence_role": 0.9681538939476013,
+        "value": "bauer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "docteur Bertrand BAUER du service cardiologie",
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "value": "Bertrand BAUER ",
+        "entity": "doctor"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "value": "cardiologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 0,
+        "end": 22,
+        "confidence_entity": 0.9508814811706543,
+        "value": "docteur Bertrand BAUER",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 34,
+        "end": 45,
+        "confidence_entity": 0.9999923706054688,
+        "role": "target",
+        "confidence_role": 0.9998613595962524,
+        "value": "cardiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonjour, j'ai une urgence",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "urgence",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "j'ai des problemes d'ORL",
+    "entities": [
+      {
+        "start": 21,
+        "end": 24,
+        "value": "ORL",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.99896240234375,
+        "role": "target",
+        "confidence_role": 0.5157491564750671,
+        "value": "ORL",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hey ca vous dit une oncologie ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "oncologie",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ah je me suis trompe, ce n'est pas le docteur Brun mais Cador",
+    "entities": [
+      {
+        "start": 46,
+        "end": 50,
+        "value": "Brun",
+        "entity": "doctor"
+      },
+      {
+        "start": 56,
+        "end": 61,
+        "value": "Cador",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.9127469062805176,
+        "value": "docteur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 46,
+        "end": 50,
+        "confidence_entity": 0.9932987093925476,
+        "role": "target",
+        "confidence_role": 0.8987686038017273,
+        "value": "Brun",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "doctor",
+        "start": 56,
+        "end": 61,
+        "confidence_entity": 0.9927477240562439,
+        "role": "target",
+        "confidence_role": 0.9481614232063293,
+        "value": "Cador",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "la docteur Brun ne travaille plus",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "Brun",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9963468909263611,
+        "role": "target",
+        "confidence_role": 0.8168060779571533,
+        "value": "Brun",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quoi, la Dr Brun",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "Brun",
+        "entity": "doctor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.5724518299102783,
+        "value": "Dr Brun",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "On m'a dit de m'adresser à une assistante sociale.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 49,
+        "value": "assistante sociale",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "il faut absolument que je parle à l'assistante sociale, je suis enceinte !",
+    "entities": [
+      {
+        "start": 36,
+        "end": 54,
+        "value": "assistante sociale",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 36,
+        "end": 46,
+        "confidence_entity": 0.7176831364631653,
+        "value": "assistante",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'ai des problèmes familiaux ! pouvez vous m'assistez socialement ?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 65,
+        "value": "assistez socialement",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pouvez-vous me passer une assistante sociale ?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 46,
+        "value": "assistante sociale ?",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Le service des urgences, vite !",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "urgences",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9721278548240662,
+        "value": "urgences",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Je c pa commant il fau faire mé je veu quelqun en urgance",
+    "entities": [
+      {
+        "start": 50,
+        "end": 57,
+        "value": "urgance",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 50,
+        "end": 57,
+        "confidence_entity": 0.5798236131668091,
+        "role": "target",
+        "confidence_role": 0.9913328289985657,
+        "value": "urgance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Allo les urgences ?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "urgences",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bonjour le docteur Gadot m'a dit de contacter les urgences. Est-ce que je pourrais les avoir ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "Gadot",
+        "entity": "doctor"
+      },
+      {
+        "start": 50,
+        "end": 58,
+        "value": "urgences",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9851277470588684,
+        "role": "target",
+        "confidence_role": 0.9943671822547913,
+        "value": "Gadot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Comment dois-je faire pour les urgences ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 39,
+        "value": "urgences",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Comment dois-je faire pour une urgence ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "value": "urgence",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "je veux les urgences !",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "urgences",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "J'ai besoin d'une planification d'urgence",
+    "entities": [
+      {
+        "start": 18,
+        "end": 31,
+        "value": "planification",
+        "entity": "service",
+        "role": "target"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "value": "urgence",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 18,
+        "end": 31,
+        "confidence_entity": 0.9551184773445129,
+        "role": "target",
+        "confidence_role": 0.6663699746131897,
+        "value": "planification",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bonjour, je voudrais voir un médecin charé de l'orthopédie",
+    "entities": [
+      {
+        "start": 48,
+        "end": 58,
+        "value": "orthopédie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bonjour, je voudrais voir un médecin charé de l'ortophédi",
+    "entities": [
+      {
+        "start": 48,
+        "end": 57,
+        "value": "ortophédi",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Le docteur Cadot m'a dit de prendre un rendez-vous avec un ORL est-ce que vous pouvez me mettre en lien ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "Cadot",
+        "entity": "doctor"
+      },
+      {
+        "start": 59,
+        "end": 62,
+        "value": "ORL",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9996165037155151,
+        "role": "target",
+        "confidence_role": 0.9824482798576355,
+        "value": "Cadot",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 59,
+        "end": 62,
+        "confidence_entity": 0.9999359846115112,
+        "role": "target",
+        "confidence_role": 0.9939466118812561,
+        "value": "ORL",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cadiologie urgent !!",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "cadiologie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cadiologie stp",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "cadiologie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.939832329750061,
+        "value": "cadiologie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cadiologie svp",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "cadiologie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "j'aimerais consulter un cardiologue le plus vite possible svp",
+    "entities": [
+      {
+        "start": 24,
+        "end": 35,
+        "value": "cardiologue",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "je veux voir quelqu'un de l'administration svp",
+    "entities": [
+      {
+        "start": 28,
+        "end": 42,
+        "value": "administration",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 28,
+        "end": 42,
+        "confidence_entity": 0.45726385712623596,
+        "value": "administration",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "faudrait que je prenne un rdv avec un cardiologue, c'est possible stp ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 49,
+        "value": "cardiologue",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "pasez moi le service ripbibviseruv",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "ripbibviseruv",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "j'ai regardé une eclipse sans lunette de protection !! passe moi un ophtalmo, j'ai mal !!!",
+    "entities": [
+      {
+        "start": 68,
+        "end": 76,
+        "value": "ophtalmo",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.9704058170318604,
+        "role": "target",
+        "confidence_role": 0.9993793964385986,
+        "value": "lunette",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'aimerais un rdv chez l'opthtamo, j'ai mal !",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "opthtamo",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "j'aimerais me plaindre auprès des ophtalmo, ils prennent trop cher !",
+    "entities": [
+      {
+        "start": 34,
+        "end": 42,
+        "value": "ophtalmo",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bonjour je cherche un ophtalmo",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "value": "ophtalmo",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "j'aimerais un rdv ophtalmo",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "value": "ophtalmo",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "J'ai besoin d'un anesthesiste pour préparer une opération",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "anesthesiste",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "on m'a dit d'appeler un pédiatre ?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "pédiatre",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Mon fils vomi ! appelez le pédiatre !",
+    "entities": [
+      {
+        "start": 27,
+        "end": 35,
+        "value": "pédiatre",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "J'ai besoin d'un chirurgien vasculaire je suis dans le brun",
+    "entities": [
+      {
+        "start": 17,
+        "end": 38,
+        "value": "chirurgien vasculaire",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "doctor",
+        "start": 55,
+        "end": 59,
+        "confidence_entity": 0.9999251365661621,
+        "role": "target",
+        "confidence_role": 0.9883076548576355,
+        "value": "brun",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bonjour je cherche à me faire une chirurgie de la main",
+    "entities": [
+      {
+        "start": 34,
+        "end": 54,
+        "value": "chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.9923660159111023,
+        "value": "chirurgie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 50,
+        "end": 54,
+        "confidence_entity": 0.9986409544944763,
+        "role": "target",
+        "confidence_role": 0.993648111820221,
+        "value": "main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ma main est blessée, j'ai besoin d'une chirurgie !",
+    "entities": [
+      {
+        "start": 39,
+        "end": 48,
+        "value": "chirurgie",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.9997965693473816,
+        "role": "target",
+        "confidence_role": 0.9174180030822754,
+        "value": "main",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 39,
+        "end": 48,
+        "confidence_entity": 0.9943243265151978,
+        "role": "target",
+        "confidence_role": 0.9066137671470642,
+        "value": "chirurgie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "j'ai besoin d'une chirurgie de la main",
+    "entities": [
+      {
+        "start": 18,
+        "end": 38,
+        "value": "chirurgie de la main",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9951861500740051,
+        "value": "chirurgie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.9998953342437744,
+        "role": "target",
+        "confidence_role": 0.9701231122016907,
+        "value": "main",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "non je veux un stomatologue",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "value": "stomatologue",
+        "entity": "service",
+        "role": "target"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
