@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Cette fille telephone aux pieds de celeri a voiles.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.999670147895813
+    }
+  },
+  {
+    "text": "Jacques Attali cherche querelle a des brigands...",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9840620160102844
+    }
+  },
+  {
+    "text": "Joe Dalton mime un competiteur a des cartomanciens.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9569560885429382
+    }
+  },
+  {
+    "text": "comme me l'a conseille Dr BELHASSEN Laurent qui est chirurgien de memoire.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.599130392074585
+    }
+  }
+]

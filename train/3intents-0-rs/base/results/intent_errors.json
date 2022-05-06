@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Cette fille telephone aux pieds de celeri a voiles.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9999949932098389
+    }
+  }
+]

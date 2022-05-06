@@ -1,0 +1,128 @@
+version: "3.1"
+responses:
+  utter_contact_doctor/aboab_jennifer:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur ABOAB Jennifer
+  utter_contact_doctor/aboucaya_jean_paul:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur ABOUCAYA Jean-Paul
+  utter_contact_doctor/al_moussarih_abdallah:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur AL MOUSSARIH Abdallah
+  utter_contact_doctor/allard_anne:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur ALLARD Anne
+  utter_contact_doctor/alonso_enrique:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur ALONSO Enrique
+  utter_contact_doctor/aptecar_eduardo:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur APTECAR Eduardo
+  utter_contact_doctor/aristizabal_patrick:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur ARISTIZABAL Patrick
+  utter_contact_doctor/armandon_denis:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur ARMANDON Denis
+  utter_contact_doctor/bado_fabrice:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BADO Fabrice
+  utter_contact_doctor/bauer_bertrand:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BAUER Bertrand
+  utter_contact_doctor/becherel_pierre_andre:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BECHEREL Pierre-André
+  utter_contact_doctor/belda_eric:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BELDA Eric
+  utter_contact_doctor/belhassen_laurent:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BELHASSEN Laurent
+  utter_contact_doctor/belmaghni_fatma:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BELMAGHNI Fatma
+  utter_contact_doctor/benhamou_claude:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BENHAMOU Claude
+  utter_contact_doctor/benosman_hedi:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BENOSMAN Hedi
+  utter_contact_doctor/benouaiche_laurence:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BENOUAICHE Laurence
+  utter_contact_doctor/bensaid_cherazade:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BENSAID Cherazade
+  utter_contact_doctor/blavier_benedicte:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BLAVIER Bénédicte
+  utter_contact_doctor/blin_jean_louis:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BLIN Jean-Louis
+  utter_contact_doctor/borie_herve:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BORIE Hervé
+  utter_contact_doctor/bossi_philippe:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BOSSI Philippe
+  utter_contact_doctor/bouchareb_adam:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BOUCHAREB Adam
+  utter_contact_doctor/boulet_stephane:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BOULET Stéphane
+  utter_contact_doctor/brun_magali:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BRUN Magali
+  utter_contact_doctor/brun_laurent:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BRUN Laurent
+  utter_contact_doctor/brunet_morgan:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BRUNET Morgan
+  utter_contact_doctor/brunet_oceane:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BRUNET Océane
+  utter_contact_doctor/bryon_dominique:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur BRYON Dominique
+  utter_contact_doctor/cadot_bernard:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le docteur CADOT Bernard
+  utter_contact_service/gastro_enterologie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Gastro-entérologie
+  utter_contact_service/angiologie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Angiologie
+  utter_contact_service/ophtalmologie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Ophtalmologie
+  utter_contact_service/orl:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service ORL
+  utter_contact_service/accueil:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Accueil
+  utter_contact_service/admissions:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Admissions
+  utter_contact_service/soins_ambulatoire:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Soins ambulatoire
+  utter_contact_service/planification:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Planification
+  utter_contact_service/urgence:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Urgence
+  utter_contact_service/anesthesie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Anesthésie
+  utter_contact_service/unite_de_soins_continus:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Unité de Soins continus
+  utter_contact_service/angiographie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Angiographie
+  utter_contact_service/stomatologie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Stomatologie
+  utter_contact_service/stomatherapie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Stomathérapie
+  utter_contact_service/assistante_hoteliere:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Assistante hôtelière
+  utter_contact_service/sophrologie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Sophrologie
+  utter_contact_service/assistante_logistique:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Assistante logistique
+  utter_contact_service/oncologie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Oncologie
+  utter_contact_service/assistante_sociale:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Assistante sociale
+  utter_contact_service/biomedical:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Biomédical
+  utter_contact_service/chirurgie_de_la_main:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Chirurgie de la main
+  utter_contact_service/scintigraphie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Scintigraphie
+  utter_contact_service/rythmologie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Rythmologie
+  utter_contact_service/rhumatologie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service rhumatologie
+  utter_contact_service/ressources_humaines:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Ressources Humaines
+  utter_contact_service/chirurgie_vasculaire:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Chirurgie vasculaire
+  utter_contact_service/chirurgie_viscerale:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Chirurgie Viscérale
+  utter_contact_service/pediatrie:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Pédiatrie
+  utter_contact_service/chirurgie_digestive:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Chirurgie digestive
+  utter_contact_service/chirurgie_orthopedique:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter le service Chirurgie orthopédique
+  utter_contact_doctor/unknown:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter un docteur. Je n'ai pas compris lequel
+  utter_contact_service/unknown:
+  - text: Bonjour, j'ai compris que vous cherchiez à contacter un service. Je n'ai pas compris lequel
+  utter_out_of_scope:
+  - text: Bonjour, je ne suis pas entrainé a répondre à votre demande !

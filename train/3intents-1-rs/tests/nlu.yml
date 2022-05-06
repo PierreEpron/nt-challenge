@@ -1,0 +1,1178 @@
+version: "3.1"
+nlu:
+- intent: contact_doctor/aboab_jennifer
+  examples: |
+    - Elle dois faire une un examen j'aurais demandé à m'entretenir avec Mme [ABOAB Jennifer]{"entity": "doctor", "role": "target"} svp, ca m'aiderais beaucoup, merci Salut !
+    - bien ? je désirerais parler avec Mme [ABOAB Jennifer]{"entity": "doctor", "role": "target"}
+    - bien le bonjour, comment vas-tu ? me faut de l'aide, il veut discuter avec Mme [ABOAB Jennifer]{"entity": "doctor", "role": "target"}
+    - bonjour, je désire dialoguer avec [ABOAB Jennifer]{"entity": "doctor", "role": "target"} Il se sent malade. plz, ca m'aiderais beaucoup, merci Ciao
+    - il aurait demandé à m'entretenir avec [ABOAB]{"entity": "doctor", "role": "target"} s'il vous plait, ce serait bien aimable, merci Salut !
+    - j'aurais aimé discuter avec [ABOAB]{"entity": "doctor", "role": "target"}
+    - je pourrais avoir [ABOAB]{"entity": "doctor", "role": "target"} Je me sens pas bien. ca m'aiderais beaucoup,
+    - je rêve de joindre [ABOAB]{"entity": "doctor", "role": "target"} il a eu un accident,
+    - je souhaite telephoner a [ABOAB]{"entity": "doctor", "role": "target"}
+    - je souhaiterais que vous me passiez Mme [ABOAB Jennifer]{"entity": "doctor", "role": "target"} il a fais une scintigraphie
+    - je voulais voir [ABOAB]{"entity": "doctor", "role": "target"}
+    - la forme ? je peux que vous me passiez Mr [ABOAB Jennifer]{"entity": "doctor", "role": "target"}
+    - nous pouvons m'entretenir avec Docteur [ABOAB Jennifer]{"entity": "doctor", "role": "target"} comme me l'a conseille [BOSSI Philippe](doctor),
+    - nous pouvons m'entretenir avec [ABOAB]{"entity": "doctor", "role": "target"} Ciao
+    - salut, je souhaiterais telephoner a [ABOAB Jennifer]{"entity": "doctor", "role": "target"} Il dois faire une une analyse
+- intent: contact_doctor/aboucaya_jean_paul
+  examples: |
+    - a la demande du [Docteur ARMANDON Denis](doctor), j'aurais souhaité converser avec [ABOUCAYA]{"entity": "doctor", "role": "target"}
+    - bonsoir, je demande à echanger avec [ABOUCAYA Jean-Paul]{"entity": "doctor", "role": "target"} sur recommandation de [Dr ALLARD](doctor)
+    - comme me l'a demande [BENOUAICHE Laurence](doctor) qui est angiologue, je souhaitais que vous me passiez Mr [ABOUCAYA Jean-Paul]{"entity": "doctor", "role": "target"}
+    - coucou, ca va ? j'ai besoins d'aide ! Il dois faire une une prise de sang j'aurais souhaité causer a [ABOUCAYA]{"entity": "doctor", "role": "target"} Au revoir !
+    - coucou, comment allez-vous ? Pourriez vous m'aidez stp, ? je demandais à dialoguer avec [ABOUCAYA]{"entity": "doctor", "role": "target"} tu m'enleverais une epine du pied, A+ !
+    - il réclame de que vous me passiez [ABOUCAYA Jean-Paul]{"entity": "doctor", "role": "target"} s'il te plait,
+    - j'aurais besoins d'aide, comme me l'a demande [Docteur CADOT](doctor). nous espérons m'entretenir avec Mme [ABOUCAYA Jean-Paul]{"entity": "doctor", "role": "target"} ca serait super,
+    - j'aurais voulu converser avec [ABOUCAYA Jean-Paul]{"entity": "doctor", "role": "target"}
+    - j'espère dialoguer avec [ABOUCAYA Jean-Paul]{"entity": "doctor", "role": "target"} ce serait bien aimable, A+ !
+    - j'espérerais voir [ABOUCAYA Jean-Paul]{"entity": "doctor", "role": "target"}
+    - j'exige de que vous me passiez [ABOUCAYA]{"entity": "doctor", "role": "target"} a la demande du [BECHEREL](doctor).
+    - je réclame de causer avec [ABOUCAYA]{"entity": "doctor", "role": "target"}
+    - nous aspirons à telephoner a Mme [ABOUCAYA]{"entity": "doctor", "role": "target"}
+    - salut, comment vas-tu ? ils peuvent que vous me passiez Mme [ABOUCAYA Jean-Paul]{"entity": "doctor", "role": "target"}
+    - yo, je souhaite discuter avec [ABOUCAYA Jean-Paul]{"entity": "doctor", "role": "target"} il est en cure de radiotherapie.
+- intent: contact_doctor/al_moussarih_abdallah
+  examples: |
+    - Je me suis coupe comme me l'a conseille [Docteur BENHAMOU Claude](doctor) qui est assistante logistique de memoire je souhaiterais avoir Mr [AL]{"entity": "doctor", "role": "target"}
+    - Je me suis fait mal a la demande du [BELHASSEN](doctor) qui officie en tant que ophtalmologue je pense, j'aimerais que vous me passiez Docteur [AL]{"entity": "doctor", "role": "target"} stp, Au revoir
+    - Pourriez vous m'aidez plz, ? comme me l'a demande [AL MOUSSARIH](doctor) ils rêveraient de que vous me passiez [AL]{"entity": "doctor", "role": "target"} s'il te plait, tu m'enleverais une epine du pied, merci
+    - Pourriez vous m'aidez plz, ? ils veulent avoir [AL]{"entity": "doctor", "role": "target"}
+    - bonsoir, Aide moi il aurait demandé à voir Docteur [AL]{"entity": "doctor", "role": "target"}
+    - ca va ? je souhaite avoir Docteur [AL MOUSSARIH Abdallah]{"entity": "doctor", "role": "target"} Au revoir
+    - il aurait demandé à parler a Mme [AL]{"entity": "doctor", "role": "target"} s'il vous plait, tu m'enleverais une epine du pied, A+
+    - il demandait à converser avec [AL MOUSSARIH Abdallah]{"entity": "doctor", "role": "target"} Au revoir !
+    - je demande à converser avec Mr [AL MOUSSARIH Abdallah]{"entity": "doctor", "role": "target"}
+    - je demanderais à joindre [AL]{"entity": "doctor", "role": "target"}
+    - je peux que vous me passiez Mr [AL MOUSSARIH Abdallah]{"entity": "doctor", "role": "target"}
+    - je veux m'entretenir avec Mme [AL MOUSSARIH Abdallah]{"entity": "doctor", "role": "target"} Je me suis fait mal. s'il vous plait, ca m'aiderais beaucoup, merci Ciao !
+    - nous demanderions à telephoner a [AL]{"entity": "doctor", "role": "target"} s'il te plait,
+    - salutation, j'ai besoins d'aide ! a la demande du [BENSAID](doctor) qui fait partie du service [Chirurgie digestive](service) je crois, je désire avoir Mme [AL]{"entity": "doctor", "role": "target"} plz, ce serait bien aimable, merci Ciao
+    - yo, je demande à m'entretenir avec [AL]{"entity": "doctor", "role": "target"} ca m'aiderais beaucoup, Salut
+- intent: contact_doctor/allard_anne
+  examples: |
+    - Elle dois faire une une analyse. j'aurais souhaité joindre Mme [ALLARD]{"entity": "doctor", "role": "target"} plz, ce serait apprecie, Ciao
+    - J'ai passe un examen nous voudrions voir [ALLARD Anne]{"entity": "doctor", "role": "target"} stp, ce serait apprecie, Salut !
+    - Mon fils est tres malade, sur recommandation de [Dr BOSSI](doctor) qui officie en tant que assistant sociale je crois j'exige de que vous me passiez Docteur [ALLARD Anne]{"entity": "doctor", "role": "target"} svp, Ciao
+    - bien ? je veux causer avec [ALLARD]{"entity": "doctor", "role": "target"}
+    - bien le bonjour, bien ? j'ai besoins d'aide ! je désirais dialoguer avec [ALLARD]{"entity": "doctor", "role": "target"} a la demande du [Docteur BLIN Jean-Louis](doctor) qui est assistante logistique,
+    - bien le bonjour, je veux echanger avec [ALLARD Anne]{"entity": "doctor", "role": "target"}
+    - bonjour, comment vas-tu ? faut que tu m'aide ! je peux parler a Mme [ALLARD]{"entity": "doctor", "role": "target"}
+    - coucou, bien ? il aspirerait à dialoguer avec [ALLARD]{"entity": "doctor", "role": "target"}
+    - ils aimeraient dialoguer avec Mr [ALLARD]{"entity": "doctor", "role": "target"} comme me l'a conseille [CADOT Bernard](doctor) qui fait partie du service [Angiologie](service),
+    - j'aurais besoins d'aide, s'il te plait, je souhaite causer a [ALLARD]{"entity": "doctor", "role": "target"}
+    - je peux avoir Docteur [ALLARD Anne]{"entity": "doctor", "role": "target"} ca m'aiderais beaucoup,
+    - je souhaitais telephoner avec [ALLARD Anne]{"entity": "doctor", "role": "target"}
+    - je souhaite converser avec Mr [ALLARD]{"entity": "doctor", "role": "target"} s'il vous plait,
+    - je souhaite discuter avec [ALLARD Anne]{"entity": "doctor", "role": "target"} a la demande du [BADO Fabrice](doctor) qui est membre du service [Scintigraphie](service) je crois
+    - je veux avoir [ALLARD]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/alonso_enrique
+  examples: |
+    - bien le bonjour, comment vas-tu ? j'aimerais causer avec Mr [ALONSO]{"entity": "doctor", "role": "target"}
+    - bien le bonjour, j'ai besoins d'aide ! je demandais à m'entretenir avec Mr [ALONSO]{"entity": "doctor", "role": "target"} stp, ca m'aiderais beaucoup, Salut !
+    - comme me l'a conseille [BELHASSEN Laurent](doctor), je demande à discuter avec [ALONSO]{"entity": "doctor", "role": "target"}
+    - comment allez-vous ? je souhaite voir [ALONSO Enrique]{"entity": "doctor", "role": "target"} s'il vous plait, Ciao !
+    - j'aurais espéré joindre [ALONSO Enrique]{"entity": "doctor", "role": "target"}
+    - je désire avoir [ALONSO]{"entity": "doctor", "role": "target"} Elle se sent malade. stp, A+
+    - je réclame de joindre [ALONSO Enrique]{"entity": "doctor", "role": "target"} Je dois faire une anesthesie.
+    - je réclamerais de dialoguer avec Mme [ALONSO]{"entity": "doctor", "role": "target"}
+    - je souhaite parler avec Mr [ALONSO]{"entity": "doctor", "role": "target"} comme me l'a conseille [BENHAMOU Claude](doctor) plz, Ciao !
+    - la forme ? faut que tu m'aide ! je désire m'entretenir avec [ALONSO Enrique]{"entity": "doctor", "role": "target"} J'ai fais une scintigraphie,
+    - nous rêvons de discuter avec Mme [ALONSO]{"entity": "doctor", "role": "target"}
+    - salut, Aide moi il pourrait discuter avec [ALONSO]{"entity": "doctor", "role": "target"} comme me l'a demande [Dr BLIN Jean-Louis](doctor) qui est anesthesite. Salut
+    - salutation, la forme ? ils veulent echanger avec [ALONSO]{"entity": "doctor", "role": "target"}
+    - sur recommandation de [APTECAR](doctor) j'aimerais converser avec [ALONSO Enrique]{"entity": "doctor", "role": "target"}
+    - yo, faut que tu m'aide ! nous demandons à voir Docteur [ALONSO Enrique]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/aptecar_eduardo
+  examples: |
+    - bien ? j'ai besoins d'aide ! je peux dialoguer avec [APTECAR]{"entity": "doctor", "role": "target"}
+    - ca va ? il souhaite voir Mme [APTECAR]{"entity": "doctor", "role": "target"} Mon fils est tres malade
+    - ca va ? tu peux m'aider ? comme me l'a demande [BENSAID](doctor). je rêvais de voir Mr [APTECAR]{"entity": "doctor", "role": "target"}
+    - il a fais une scintigraphie, il aurait exigé de telephoner a Mr [APTECAR]{"entity": "doctor", "role": "target"} plz, Au revoir
+    - j'aurais aimé m'entretenir avec Docteur [APTECAR Eduardo]{"entity": "doctor", "role": "target"} svp, tu m'enleverais une epine du pied,
+    - je désirais avoir [APTECAR Eduardo]{"entity": "doctor", "role": "target"}
+    - je désire causer a [APTECAR Eduardo]{"entity": "doctor", "role": "target"} ce serait bien aimable, A+
+    - je désire echanger avec Mr [APTECAR Eduardo]{"entity": "doctor", "role": "target"}
+    - je peux m'entretenir avec Mr [APTECAR]{"entity": "doctor", "role": "target"} plz, Ciao
+    - la forme ? j'aurais besoins d'aide, je rêverais de telephoner a Mr [APTECAR Eduardo]{"entity": "doctor", "role": "target"} il a eu une complication
+    - me faut de l'aide, Mon fils est tres malade a la demande du [ALLARD Anne](doctor) j'espère discuter avec [APTECAR Eduardo]{"entity": "doctor", "role": "target"}
+    - nous pouvons m'entretenir avec Mr [APTECAR Eduardo]{"entity": "doctor", "role": "target"} sur recommandation de [Mr BENHAMOU](doctor) qui appartient au service [Accueil](service) stp, ce serait apprecie, merci Au revoir
+    - salutation, j'espère que vous me passiez [APTECAR Eduardo]{"entity": "doctor", "role": "target"} plz, tu m'enleverais une epine du pied,
+    - yo, j'aurais besoins d'aide, s'il te plait, ils demandent à echanger avec Mr [APTECAR]{"entity": "doctor", "role": "target"} comme me l'a demande [BRUN Magali](doctor)
+    - yo, je souhaiterais causer a [APTECAR]{"entity": "doctor", "role": "target"} sur recommandation de [Dr BRUNET Morgan](doctor) qui est rhumatologue de memoire stp, tu m'enleverais une epine du pied, merci
+- intent: contact_doctor/aristizabal_patrick
+  examples: |
+    - Aide moi je souhaiterais parler avec [ARISTIZABAL]{"entity": "doctor", "role": "target"} Ciao
+    - Elle dois faire une anesthesie je voudrais joindre Docteur [ARISTIZABAL]{"entity": "doctor", "role": "target"} s'il te plait, ca serait super, Au revoir
+    - bien le bonjour, bien ? tu peux m'aider ? je veux que vous me passiez Docteur [ARISTIZABAL Patrick]{"entity": "doctor", "role": "target"}
+    - bonsoir, j'ai besoins d'aide ! ils souhaitent que vous me passiez [ARISTIZABAL]{"entity": "doctor", "role": "target"} sur recommandation de [BADO](doctor).
+    - ca va ? faut que tu m'aide ! sur recommandation de [Dr ALLARD Anne](doctor) qui fait partie du service [Ressources Humaines](service) nous voulons causer avec [ARISTIZABAL Patrick]{"entity": "doctor", "role": "target"} plz,
+    - comment vas-tu ? faut que tu m'aide ! il rêverait de que vous me passiez Mr [ARISTIZABAL Patrick]{"entity": "doctor", "role": "target"}
+    - faut que tu m'aide ! Je me sens pas bien. a la demande du [BELMAGHNI Fatma](doctor), je demanderais à joindre Mme [ARISTIZABAL Patrick]{"entity": "doctor", "role": "target"} A+
+    - j'aurais désiré discuter avec [ARISTIZABAL Patrick]{"entity": "doctor", "role": "target"}
+    - j'aurais voulu telephoner a Mr [ARISTIZABAL Patrick]{"entity": "doctor", "role": "target"} s'il te plait, tu m'enleverais une epine du pied,
+    - j'espère m'entretenir avec Docteur [ARISTIZABAL Patrick]{"entity": "doctor", "role": "target"}
+    - je pourrais converser avec Mr [ARISTIZABAL]{"entity": "doctor", "role": "target"} a la demande du [Mr ARISTIZABAL Patrick](doctor).
+    - je souhaite causer a [ARISTIZABAL Patrick]{"entity": "doctor", "role": "target"}
+    - je souhaiterais que vous me passiez [ARISTIZABAL Patrick]{"entity": "doctor", "role": "target"} Ma fille est malade
+    - salut, comment vas-tu ? nous désirerions joindre Mme [ARISTIZABAL]{"entity": "doctor", "role": "target"} Salut
+    - salut, la forme ? j'aurais besoins d'aide, je peux voir [ARISTIZABAL]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/armandon_denis
+  examples: |
+    - Aide moi plz, je demanderais à echanger avec [ARMANDON]{"entity": "doctor", "role": "target"}
+    - Nous avons besoins d'aide d'urgence ! ils aimeraient causer avec Mr [ARMANDON]{"entity": "doctor", "role": "target"} sur recommandation de [Dr ABOUCAYA](doctor) qui est sophrologue,
+    - bien ? je peux echanger avec [ARMANDON]{"entity": "doctor", "role": "target"} Elle se sent malade tu m'enleverais une epine du pied, merci Au revoir
+    - bien le bonjour, bien ? je pourrais avoir Mme [ARMANDON]{"entity": "doctor", "role": "target"} Ciao !
+    - bien le bonjour, je demande à converser avec [ARMANDON]{"entity": "doctor", "role": "target"} Je me suis fait mal
+    - comme me l'a conseille [Docteur BRUN](doctor) ils désirent telephoner a [ARMANDON]{"entity": "doctor", "role": "target"}
+    - faut que tu m'aide ! nous demanderions à dialoguer avec Docteur [ARMANDON Denis]{"entity": "doctor", "role": "target"} stp,
+    - il aurait voulu avoir Mr [ARMANDON]{"entity": "doctor", "role": "target"}
+    - il est en cure de chimiotherapie je demande à converser avec Mme [ARMANDON Denis]{"entity": "doctor", "role": "target"}
+    - j'aspire à parler a [ARMANDON]{"entity": "doctor", "role": "target"}
+    - j'aurais souhaité echanger avec Mr [ARMANDON Denis]{"entity": "doctor", "role": "target"} Je me suis coupe.
+    - je désire telephoner a Docteur [ARMANDON Denis]{"entity": "doctor", "role": "target"} Il se sent malade.
+    - salutation, Pourriez vous m'aidez ? il désire avoir [ARMANDON Denis]{"entity": "doctor", "role": "target"}
+    - salutation, tu peux m'aider ? Je me sens malade sur recommandation de [Dr ALONSO](doctor) qui est ophtalmologue j'aimerais joindre [ARMANDON]{"entity": "doctor", "role": "target"}
+    - yo, il souhaite discuter avec Mr [ARMANDON Denis]{"entity": "doctor", "role": "target"} a la demande du [Docteur BRUN Magali](doctor)
+- intent: contact_doctor/bado_fabrice
+  examples: |
+    - comme me l'a conseille [BLIN](doctor) qui est assistante sociale, je désirerais causer a Docteur [BADO Fabrice]{"entity": "doctor", "role": "target"}
+    - comme me l'a demande [BELHASSEN](doctor) qui appartient au service [Assistante sociale](service) j'espère telephoner a [BADO Fabrice]{"entity": "doctor", "role": "target"}
+    - comment allez-vous ? je désirerais dialoguer avec [BADO Fabrice]{"entity": "doctor", "role": "target"}
+    - il aimerait joindre Mme [BADO]{"entity": "doctor", "role": "target"} tu m'enleverais une epine du pied, merci Ciao !
+    - il désire que vous me passiez [BADO Fabrice]{"entity": "doctor", "role": "target"} plz,
+    - j'aurais espéré telephoner a Docteur [BADO]{"entity": "doctor", "role": "target"} sur recommandation de [Mr CADOT](doctor) qui appartient au service [Assistante sociale](service)
+    - je demande à converser avec [BADO]{"entity": "doctor", "role": "target"} ca serait super, merci Au revoir
+    - je désirerais telephoner a [BADO Fabrice]{"entity": "doctor", "role": "target"}
+    - je pourrais parler a Mr [BADO Fabrice]{"entity": "doctor", "role": "target"} elle a fais une radio
+    - je pourrais voir [BADO Fabrice]{"entity": "doctor", "role": "target"}
+    - je souhaite dialoguer avec [BADO]{"entity": "doctor", "role": "target"} Au revoir
+    - nous aurions demandé à joindre Mme [BADO]{"entity": "doctor", "role": "target"} comme me l'a conseille [Mr BELHASSEN Laurent](doctor)
+    - salut, je demanderais à telephoner a Mme [BADO]{"entity": "doctor", "role": "target"} Je suis en cure,
+    - yo, comment allez-vous ? je rêve de discuter avec [BADO Fabrice]{"entity": "doctor", "role": "target"}
+    - yo, j'exige de converser avec Docteur [BADO Fabrice]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/bauer_bertrand
+  examples: |
+    - Aide moi plz, nous espérerions dialoguer avec [BAUER]{"entity": "doctor", "role": "target"} comme me l'a conseille [BOULET](doctor) qui fait partie du service [Admissions](service),
+    - Elle se sent malade. sur recommandation de [Mme BRUNET](doctor) j'exigeais de m'entretenir avec Mr [BAUER]{"entity": "doctor", "role": "target"} plz, ce serait apprecie, Ciao
+    - J'ai passe un examen, je peux que vous me passiez [BAUER]{"entity": "doctor", "role": "target"} stp, ce serait bien aimable, merci A+ !
+    - comment allez-vous ? j'aurais besoins d'aide, il aurait aimé parler avec [BAUER Bertrand]{"entity": "doctor", "role": "target"}
+    - comment vas-tu ? je peux converser avec [BAUER]{"entity": "doctor", "role": "target"}
+    - ils réclament de discuter avec [BAUER Bertrand]{"entity": "doctor", "role": "target"} comme me l'a demande [Dr BENOUAICHE](doctor). stp, ca m'aiderais beaucoup,
+    - j'aurais rêvé de converser avec Mr [BAUER Bertrand]{"entity": "doctor", "role": "target"} A+ !
+    - j'aurais voulu telephoner a Mr [BAUER Bertrand]{"entity": "doctor", "role": "target"} a la demande du [BAUER Bertrand](doctor)
+    - je demande à converser avec [BAUER Bertrand]{"entity": "doctor", "role": "target"} s'il te plait, ca m'aiderais beaucoup,
+    - je désire joindre [BAUER]{"entity": "doctor", "role": "target"} s'il vous plait,
+    - je peux joindre [BAUER]{"entity": "doctor", "role": "target"}
+    - je souhaite que vous me passiez [BAUER]{"entity": "doctor", "role": "target"} comme me l'a conseille [Mme ABOAB Jennifer](doctor). s'il te plait, tu m'enleverais une epine du pied, merci A+
+    - salut, je pourrais joindre Docteur [BAUER Bertrand]{"entity": "doctor", "role": "target"} a la demande du [Dr APTECAR Eduardo](doctor) qui officie en tant que assistant sociale je pense. tu m'enleverais une epine du pied,
+    - salutation, comment allez-vous ? Pourriez vous m'aidez ? ils souhaitaient dialoguer avec [BAUER]{"entity": "doctor", "role": "target"} Je dois faire une anesthesie svp,
+    - yo, me faut de l'aide, je veux echanger avec Mme [BAUER Bertrand]{"entity": "doctor", "role": "target"} comme me l'a demande [BRUNET](doctor) s'il te plait, Salut
+- intent: contact_doctor/becherel_pierre_andre
+  examples: |
+    - J'ai passe une scintigraphie je peux telephoner a [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"}
+    - a la demande du [Mr BLIN](doctor). je veux telephoner a [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"}
+    - ca va ? Pourriez vous m'aidez ? j'aspirais à telephoner a Mme [BECHEREL]{"entity": "doctor", "role": "target"} Ciao
+    - comment vas-tu ? je peux dialoguer avec [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"} Elle se sent pas bien, s'il te plait, Salut
+    - elle a passe une analyse, je souhaite discuter avec [BECHEREL]{"entity": "doctor", "role": "target"} ca serait super,
+    - il désire echanger avec Docteur [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"}
+    - ils souhaitent converser avec Mr [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"} plz, tu m'enleverais une epine du pied, A+ !
+    - j'aimerais joindre Mr [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"}
+    - j'aspirais à converser avec [BECHEREL]{"entity": "doctor", "role": "target"} Il se sent malade,
+    - j'espérais causer avec Mme [BECHEREL]{"entity": "doctor", "role": "target"} comme me l'a conseille [Docteur ARISTIZABAL Patrick](doctor) qui appartient au service [Oncologie](service) de memoire ce serait apprecie, Au revoir !
+    - je demande à telephoner a [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"} comme me l'a demande [ALONSO](doctor),
+    - je désirerais que vous me passiez Mme [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"}
+    - je pourrais converser avec [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"} Je suis en cure,
+    - je rêverais de avoir Docteur [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"}
+    - je souhaite telephoner a [BECHEREL Pierre-André]{"entity": "doctor", "role": "target"} s'il te plait, Au revoir !
+- intent: contact_doctor/belda_eric
+  examples: |
+    - Elle se sent pas bien, a la demande du [Docteur BORIE Herve](doctor). je désire que vous me passiez [BELDA Eric]{"entity": "doctor", "role": "target"} s'il vous plait, tu m'enleverais une epine du pied, merci
+    - Je me suis fait mal, a la demande du [BRYON Dominique](doctor) qui fait partie du service [Gastro-enterologie](service), je voudrais joindre Mme [BELDA Eric]{"entity": "doctor", "role": "target"}
+    - bien ? je souhaite causer a Docteur [BELDA Eric]{"entity": "doctor", "role": "target"} a la demande du [Dr BENSAID Cherazade](doctor). svp,
+    - bonjour, Aide moi plz, je désire telephoner a [BELDA]{"entity": "doctor", "role": "target"}
+    - bonjour, comment allez-vous ? j'aurais demandé à discuter avec Docteur [BELDA]{"entity": "doctor", "role": "target"}
+    - ca va ? je souhaite discuter avec Mr [BELDA]{"entity": "doctor", "role": "target"} Elle dois faire une une analyse, s'il te plait,
+    - comme me l'a conseille [Mme BENOUAICHE Laurence](doctor), je peux voir [BELDA]{"entity": "doctor", "role": "target"}
+    - coucou, la forme ? il veut converser avec Mr [BELDA Eric]{"entity": "doctor", "role": "target"}
+    - il voulait causer a [BELDA]{"entity": "doctor", "role": "target"}
+    - j'ai eu un probleme, a la demande du [Mr BECHEREL Pierre-Andre](doctor) qui fait partie du service [Chirurgie de la main](service). je peux discuter avec Docteur [BELDA]{"entity": "doctor", "role": "target"}
+    - j'espérerais parler avec [BELDA]{"entity": "doctor", "role": "target"} Au revoir
+    - j'exigerais de voir Mr [BELDA Eric]{"entity": "doctor", "role": "target"} sur recommandation de [Mme BRUNET Oceane](doctor). plz, ca m'aiderais beaucoup, merci Ciao
+    - je souhaite avoir [BELDA Eric]{"entity": "doctor", "role": "target"} elle a passe une radio
+    - me faut de l'aide, j'aspirerais à avoir Mme [BELDA]{"entity": "doctor", "role": "target"}
+    - salutation, me faut de l'aide, je demande à voir Mme [BELDA Eric]{"entity": "doctor", "role": "target"} a la demande du [ARISTIZABAL](doctor) qui fait partie du service [Stomatherapie](service), ca serait super,
+- intent: contact_doctor/belhassen_laurent
+  examples: |
+    - Aide moi Je me suis coupe. a la demande du [BOUCHAREB](doctor) ils voudraient dialoguer avec Docteur [BELHASSEN Laurent]{"entity": "doctor", "role": "target"}
+    - Je me sens pas bien sur recommandation de [BOULET Stephane](doctor) nous désirons causer a [BELHASSEN]{"entity": "doctor", "role": "target"}
+    - Je me suis brule comme me l'a demande [ALLARD](doctor). je souhaite causer a [BELHASSEN]{"entity": "doctor", "role": "target"} ce serait bien aimable, Ciao !
+    - Nous avons besoins d'aide d'urgence ! a la demande du [BRUNET](doctor) qui est membre du service [Unite de Soins continus](service) je crois. j'aurais désiré causer a [BELHASSEN Laurent]{"entity": "doctor", "role": "target"}
+    - bonsoir, j'ai besoins d'aide ! ils espèrent avoir Docteur [BELHASSEN]{"entity": "doctor", "role": "target"} ce serait apprecie, merci Ciao !
+    - bonsoir, la forme ? j'aurais désiré echanger avec [BELHASSEN Laurent]{"entity": "doctor", "role": "target"} a la demande du [Dr BENOUAICHE](doctor). s'il te plait, ca serait super,
+    - coucou, bien ? Pourriez vous m'aidez plz, ? je désire joindre [BELHASSEN Laurent]{"entity": "doctor", "role": "target"} a la demande du [ABOUCAYA Jean-Paul](doctor).
+    - il veut joindre [BELHASSEN]{"entity": "doctor", "role": "target"}
+    - j'ai besoins d'aide ! je désirerais m'entretenir avec [BELHASSEN Laurent]{"entity": "doctor", "role": "target"}
+    - j'espère causer avec Docteur [BELHASSEN Laurent]{"entity": "doctor", "role": "target"} s'il vous plait,
+    - je désirerais m'entretenir avec Mme [BELHASSEN]{"entity": "doctor", "role": "target"}
+    - je réclamerais de m'entretenir avec [BELHASSEN Laurent]{"entity": "doctor", "role": "target"} plz, Salut
+    - je veux causer a [BELHASSEN Laurent]{"entity": "doctor", "role": "target"}
+    - salut, la forme ? Nous avons besoins d'aide d'urgence ! nous désirons converser avec Docteur [BELHASSEN]{"entity": "doctor", "role": "target"} ca m'aiderais beaucoup, A+
+    - tu peux m'aider ? s'il te plait, Je me suis brule. comme me l'a demande [BOUCHAREB Adam](doctor) qui appartient au service [Chirurgie orthopedique](service) j'exigerais de dialoguer avec [BELHASSEN]{"entity": "doctor", "role": "target"} Ciao !
+- intent: contact_doctor/belmaghni_fatma
+  examples: |
+    - Mon fils est tres malade, a la demande du [Dr BRYON Dominique](doctor). je souhaite discuter avec [BELMAGHNI Fatma]{"entity": "doctor", "role": "target"} ca serait super, merci
+    - Nous avons besoins d'aide d'urgence ! je réclame de telephoner a Mme [BELMAGHNI]{"entity": "doctor", "role": "target"} s'il vous plait, tu m'enleverais une epine du pied, merci A+ !
+    - bien ? je voulais echanger avec [BELMAGHNI Fatma]{"entity": "doctor", "role": "target"} A+
+    - bien le bonjour, j'aurais besoins d'aide, s'il vous plait, je désire dialoguer avec [BELMAGHNI Fatma]{"entity": "doctor", "role": "target"} plz, ce serait apprecie, A+
+    - bonjour, ca va ? sur recommandation de [Mr BOULET Stephane](doctor) je peux parler avec [BELMAGHNI]{"entity": "doctor", "role": "target"}
+    - bonjour, comment allez-vous ? Aide moi s'il te plait, je réclame de parler a Docteur [BELMAGHNI Fatma]{"entity": "doctor", "role": "target"} svp, ca serait super, merci
+    - bonsoir, bien ? il a eu une attaque a la demande du [Mme BELMAGHNI Fatma](doctor). nous voulons voir [BELMAGHNI Fatma]{"entity": "doctor", "role": "target"} A+ !
+    - ca va ? je souhaiterais que vous me passiez [BELMAGHNI]{"entity": "doctor", "role": "target"} comme me l'a conseille [Docteur BLAVIER](doctor) qui est pediatre,
+    - il voulait telephoner a [BELMAGHNI Fatma]{"entity": "doctor", "role": "target"} comme me l'a conseille [BORIE](doctor) qui est angiologue de memoire,
+    - je demanderais à dialoguer avec Mr [BELMAGHNI]{"entity": "doctor", "role": "target"} comme me l'a conseille [BENHAMOU](doctor) qui officie en tant que angiologue
+    - je peux dialoguer avec [BELMAGHNI Fatma]{"entity": "doctor", "role": "target"}
+    - je peux parler avec Mr [BELMAGHNI Fatma]{"entity": "doctor", "role": "target"} plz, ca m'aiderais beaucoup, merci Salut
+    - je pourrais converser avec Mr [BELMAGHNI]{"entity": "doctor", "role": "target"}
+    - je rêverais de causer a [BELMAGHNI]{"entity": "doctor", "role": "target"} Ciao !
+    - salut, la forme ? nous pouvons que vous me passiez Docteur [BELMAGHNI]{"entity": "doctor", "role": "target"} sur recommandation de [BELDA](doctor) qui est assistante heteliere je pense svp, Ciao
+- intent: contact_doctor/benhamou_claude
+  examples: |
+    - Aide moi je demande à causer a [BENHAMOU Claude]{"entity": "doctor", "role": "target"} plz, tu m'enleverais une epine du pied,
+    - bien le bonjour, comment allez-vous ? Aide moi s'il vous plait, nous réclamons de telephoner a [BENHAMOU]{"entity": "doctor", "role": "target"} plz,
+    - bonsoir, je rêve de converser avec [BENHAMOU Claude]{"entity": "doctor", "role": "target"}
+    - ca va ? Aide moi je désirerais avoir [BENHAMOU]{"entity": "doctor", "role": "target"} Elle se sent malade
+    - comme me l'a conseille [ABOAB Jennifer](doctor) qui officie en tant que stomatologue je pense il aspire à discuter avec [BENHAMOU]{"entity": "doctor", "role": "target"} stp, ca m'aiderais beaucoup,
+    - il réclame de echanger avec [BENHAMOU]{"entity": "doctor", "role": "target"} comme me l'a conseille [BLAVIER Benedicte](doctor) qui est membre du service [Angiologie](service) stp, Au revoir !
+    - ils demandent à voir Mr [BENHAMOU Claude]{"entity": "doctor", "role": "target"} comme me l'a conseille [Mr BOSSI](doctor)
+    - ils voulaient joindre [BENHAMOU]{"entity": "doctor", "role": "target"} comme me l'a conseille [Docteur BADO Fabrice](doctor).
+    - je demande à joindre [BENHAMOU]{"entity": "doctor", "role": "target"}
+    - je désirerais dialoguer avec [BENHAMOU]{"entity": "doctor", "role": "target"}
+    - je désirerais joindre [BENHAMOU Claude]{"entity": "doctor", "role": "target"} a la demande du [Mme BELMAGHNI Fatma](doctor) stp,
+    - je souhaitais parler avec Mr [BENHAMOU Claude]{"entity": "doctor", "role": "target"} Mon fils est malade,
+    - je souhaite echanger avec [BENHAMOU Claude]{"entity": "doctor", "role": "target"} s'il te plait, ce serait apprecie,
+    - je souhaiterais voir Docteur [BENHAMOU]{"entity": "doctor", "role": "target"} sur recommandation de [Dr BRUN Magali](doctor) qui est rhumatologue je crois.
+    - nous voudrions m'entretenir avec Mr [BENHAMOU Claude]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/benosman_hedi
+  examples: |
+    - Pourriez vous m'aidez ? Je me suis coupe sur recommandation de [BLAVIER](doctor) il veut echanger avec [BENOSMAN]{"entity": "doctor", "role": "target"}
+    - bien ? Nous avons besoins d'aide d'urgence ! nous souhaiterions echanger avec [BENOSMAN]{"entity": "doctor", "role": "target"}
+    - bien ? me faut de l'aide, je pourrais voir Docteur [BENOSMAN Hedi]{"entity": "doctor", "role": "target"} sur recommandation de [Docteur ARMANDON](doctor) qui est anesthesite je pense, plz, ce serait bien aimable, merci
+    - bonsoir, nous pouvons parler avec Mr [BENOSMAN]{"entity": "doctor", "role": "target"} A+ !
+    - comment allez-vous ? sur recommandation de [BAUER Bertrand](doctor) qui officie en tant que sophrologue je pense. je rêvais de joindre [BENOSMAN]{"entity": "doctor", "role": "target"}
+    - faut que tu m'aide ! j'aurais exigé de discuter avec [BENOSMAN]{"entity": "doctor", "role": "target"} Je me sens malade s'il te plait, ca serait super, merci Ciao !
+    - il est en cure de radiotherapie. nous aurions désiré m'entretenir avec Mr [BENOSMAN Hedi]{"entity": "doctor", "role": "target"}
+    - j'espérerais avoir [BENOSMAN Hedi]{"entity": "doctor", "role": "target"}
+    - je peux joindre Mr [BENOSMAN]{"entity": "doctor", "role": "target"} ca serait super, merci
+    - je veux m'entretenir avec Mme [BENOSMAN]{"entity": "doctor", "role": "target"} a la demande du [Docteur BORIE](doctor)
+    - la forme ? j'aurais besoins d'aide, s'il vous plait, il aimerait echanger avec Mme [BENOSMAN]{"entity": "doctor", "role": "target"} svp, ca m'aiderais beaucoup, merci
+    - me faut de l'aide, il a passe une scintigraphie, je voudrais causer a Docteur [BENOSMAN]{"entity": "doctor", "role": "target"}
+    - nous demandons à joindre Mme [BENOSMAN]{"entity": "doctor", "role": "target"} plz, ca m'aiderais beaucoup, Salut
+    - nous pouvons telephoner avec [BENOSMAN Hedi]{"entity": "doctor", "role": "target"}
+    - nous souhaiterions causer avec Mme [BENOSMAN Hedi]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/benouaiche_laurence
+  examples: |
+    - Il dois faire une un examen, j'exigerais de m'entretenir avec [BENOUAICHE Laurence]{"entity": "doctor", "role": "target"}
+    - Je dois faire une un examen je souhaite converser avec [BENOUAICHE Laurence]{"entity": "doctor", "role": "target"}
+    - Je me suis coupe sur recommandation de [Mme ALLARD Anne](doctor) je voulais telephoner avec Mr [BENOUAICHE]{"entity": "doctor", "role": "target"}
+    - bien le bonjour, Aide moi s'il te plait, j'espère m'entretenir avec [BENOUAICHE]{"entity": "doctor", "role": "target"} tu m'enleverais une epine du pied,
+    - bonsoir, j'espère causer avec [BENOUAICHE]{"entity": "doctor", "role": "target"} Salut
+    - ca va ? j'ai besoins d'aide ! je demande à voir [BENOUAICHE]{"entity": "doctor", "role": "target"}
+    - comment vas-tu ? Il dois faire une anesthesie. je demandais à causer a [BENOUAICHE Laurence]{"entity": "doctor", "role": "target"} ca m'aiderais beaucoup, merci
+    - coucou, comment vas-tu ? me faut de l'aide, il voudrait joindre Mme [BENOUAICHE Laurence]{"entity": "doctor", "role": "target"} Il dois faire une une scintigraphie. s'il vous plait, ce serait bien aimable, merci Au revoir !
+    - il demande à voir Mr [BENOUAICHE]{"entity": "doctor", "role": "target"}
+    - ils réclament de parler a [BENOUAICHE]{"entity": "doctor", "role": "target"} ca serait super,
+    - je demande à discuter avec [BENOUAICHE Laurence]{"entity": "doctor", "role": "target"} Ma fille est malade,
+    - je demanderais à m'entretenir avec Mr [BENOUAICHE Laurence]{"entity": "doctor", "role": "target"} svp, A+ !
+    - je désire m'entretenir avec Mr [BENOUAICHE Laurence]{"entity": "doctor", "role": "target"} Il se sent pas bien.
+    - je réclame de que vous me passiez Docteur [BENOUAICHE Laurence]{"entity": "doctor", "role": "target"} Il se sent pas bien. svp, ca serait super, Salut !
+    - salut, il a fais une analyse. je pourrais discuter avec [BENOUAICHE Laurence]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/bensaid_cherazade
+  examples: |
+    - Elle se sent malade, comme me l'a conseille [Dr BRYON](doctor) qui est membre du service [Scintigraphie](service). nous demandons à converser avec Mr [BENSAID]{"entity": "doctor", "role": "target"}
+    - bien ? j'aurais besoins d'aide, ils désiraient que vous me passiez Mr [BENSAID]{"entity": "doctor", "role": "target"}
+    - bonsoir, elle a fais une analyse je souhaite avoir [BENSAID Cherazade]{"entity": "doctor", "role": "target"}
+    - ca va ? ils pourraient discuter avec Mme [BENSAID Cherazade]{"entity": "doctor", "role": "target"}
+    - comment vas-tu ? tu peux m'aider ? s'il vous plait, Il dois faire une anesthesie. je pourrais echanger avec [BENSAID Cherazade]{"entity": "doctor", "role": "target"} ca serait super, A+ !
+    - il demande à voir [BENSAID]{"entity": "doctor", "role": "target"}
+    - il désire telephoner a Mme [BENSAID]{"entity": "doctor", "role": "target"}
+    - j'aimerais que vous me passiez Docteur [BENSAID Cherazade]{"entity": "doctor", "role": "target"}
+    - j'aurais aimé voir Mme [BENSAID]{"entity": "doctor", "role": "target"} plz, Salut !
+    - j'espérerais avoir Docteur [BENSAID Cherazade]{"entity": "doctor", "role": "target"}
+    - je peux causer a [BENSAID]{"entity": "doctor", "role": "target"} il est en cure de chimiotherapie. s'il vous plait, ca serait super,
+    - je souhaiterais telephoner a Mme [BENSAID Cherazade]{"entity": "doctor", "role": "target"}
+    - je veux echanger avec [BENSAID]{"entity": "doctor", "role": "target"} elle est en cure de radiotherapie, plz, ce serait bien aimable, merci
+    - la forme ? j'aspirerais à voir [BENSAID Cherazade]{"entity": "doctor", "role": "target"} svp, A+
+    - nous pouvons echanger avec Docteur [BENSAID]{"entity": "doctor", "role": "target"} Je dois faire une une scintigraphie, s'il vous plait, tu m'enleverais une epine du pied, merci A+ !
+- intent: contact_doctor/blavier_benedicte
+  examples: |
+    - Je me sens malade a la demande du [Mme BELMAGHNI Fatma](doctor) qui officie en tant que ophtalmologue je pense je demande à voir Mme [BLAVIER]{"entity": "doctor", "role": "target"} plz, ca serait super, merci Salut !
+    - Nous avons besoins d'aide d'urgence ! je pourrais causer avec Mme [BLAVIER]{"entity": "doctor", "role": "target"} ca serait super, merci A+ !
+    - Pourriez vous m'aidez svp, ? j'aurais souhaité avoir Mr [BLAVIER]{"entity": "doctor", "role": "target"} plz, Salut
+    - bien ? je désirerais converser avec [BLAVIER Bénédicte]{"entity": "doctor", "role": "target"} il a passe une scintigraphie
+    - bonsoir, je désire parler a [BLAVIER]{"entity": "doctor", "role": "target"} Ma fille est tres malade
+    - coucou, j'aurais besoins d'aide, je réclame de joindre [BLAVIER]{"entity": "doctor", "role": "target"}
+    - faut que tu m'aide ! elle a fais une analyse il veut dialoguer avec [BLAVIER]{"entity": "doctor", "role": "target"}
+    - faut que tu m'aide ! j'espérais que vous me passiez [BLAVIER]{"entity": "doctor", "role": "target"}
+    - il demanderait à discuter avec Mr [BLAVIER]{"entity": "doctor", "role": "target"} ce serait apprecie, merci
+    - ils exigeraient de echanger avec Docteur [BLAVIER Bénédicte]{"entity": "doctor", "role": "target"}
+    - j'aurais besoins d'aide, svp, elle a passe une analyse je désirais que vous me passiez Docteur [BLAVIER]{"entity": "doctor", "role": "target"} stp, ce serait apprecie,
+    - je demandais à causer avec [BLAVIER Bénédicte]{"entity": "doctor", "role": "target"} a la demande du [Docteur BLIN Jean-Louis](doctor). plz,
+    - je souhaitais converser avec [BLAVIER Bénédicte]{"entity": "doctor", "role": "target"}
+    - je voudrais dialoguer avec Mme [BLAVIER Bénédicte]{"entity": "doctor", "role": "target"}
+    - nous demandions à dialoguer avec [BLAVIER]{"entity": "doctor", "role": "target"} Je me sens pas bien,
+- intent: contact_doctor/blin_jean_louis
+  examples: |
+    - a la demande du [BOULET](doctor), je veux avoir Docteur [BLIN Jean-Louis]{"entity": "doctor", "role": "target"}
+    - bien le bonjour, comme me l'a conseille [Mme BLAVIER](doctor) il souhaiterait parler a [BLIN Jean-Louis]{"entity": "doctor", "role": "target"} ca m'aiderais beaucoup, merci
+    - bonjour, je désire dialoguer avec [BLIN]{"entity": "doctor", "role": "target"} stp,
+    - bonsoir, comment vas-tu ? Je suis en cure de chimiotherapie il demande à dialoguer avec Mr [BLIN]{"entity": "doctor", "role": "target"}
+    - coucou, Nous avons besoins d'aide d'urgence ! j'aurais aimé m'entretenir avec Docteur [BLIN Jean-Louis]{"entity": "doctor", "role": "target"}
+    - ils aspireraient à converser avec Mr [BLIN Jean-Louis]{"entity": "doctor", "role": "target"}
+    - j'aimerais dialoguer avec Docteur [BLIN Jean-Louis]{"entity": "doctor", "role": "target"} sur recommandation de [Dr ABOUCAYA Jean-Paul](doctor) ca m'aiderais beaucoup, A+
+    - j'aurais espéré parler a Docteur [BLIN Jean-Louis]{"entity": "doctor", "role": "target"}
+    - j'aurais souhaité echanger avec [BLIN Jean-Louis]{"entity": "doctor", "role": "target"} ca serait super, merci Salut
+    - je veux joindre [BLIN Jean-Louis]{"entity": "doctor", "role": "target"} stp, ce serait bien aimable,
+    - je veux telephoner avec [BLIN Jean-Louis]{"entity": "doctor", "role": "target"} Je me sens malade s'il vous plait,
+    - nous aurions désiré discuter avec [BLIN Jean-Louis]{"entity": "doctor", "role": "target"} tu m'enleverais une epine du pied,
+    - nous désirons converser avec Mr [BLIN Jean-Louis]{"entity": "doctor", "role": "target"} a la demande du [BELMAGHNI](doctor) qui appartient au service [Admissions](service) je crois
+    - nous voulons que vous me passiez [BLIN Jean-Louis]{"entity": "doctor", "role": "target"} ce serait apprecie, merci Au revoir
+    - sur recommandation de [Docteur BENSAID](doctor) j'aspire à causer a [BLIN Jean-Louis]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/borie_herve
+  examples: |
+    - bien ? je veux discuter avec [BORIE Hervé]{"entity": "doctor", "role": "target"} sur recommandation de [BAUER Bertrand](doctor) qui est rythmologue.
+    - bonsoir, Nous avons besoins d'aide d'urgence ! je demandais à converser avec Mr [BORIE]{"entity": "doctor", "role": "target"} elle a passe un examen svp, ca serait super, merci
+    - ca va ? Je suis en cure, je peux echanger avec [BORIE Hervé]{"entity": "doctor", "role": "target"}
+    - comment vas-tu ? je voulais m'entretenir avec [BORIE Hervé]{"entity": "doctor", "role": "target"}
+    - ils demandent à echanger avec Docteur [BORIE Hervé]{"entity": "doctor", "role": "target"}
+    - j'aurais voulu voir Docteur [BORIE Hervé]{"entity": "doctor", "role": "target"} Il dois faire une une scintigraphie,
+    - je désirerais discuter avec [BORIE]{"entity": "doctor", "role": "target"} stp,
+    - je peux causer a Docteur [BORIE Hervé]{"entity": "doctor", "role": "target"} Il dois faire une un examen
+    - je peux telephoner a Mr [BORIE Hervé]{"entity": "doctor", "role": "target"}
+    - je souhaite echanger avec Docteur [BORIE Hervé]{"entity": "doctor", "role": "target"}
+    - je veux converser avec [BORIE Hervé]{"entity": "doctor", "role": "target"} sur recommandation de [Dr ARMANDON Denis](doctor) qui est assistant logistique.
+    - me faut de l'aide, a la demande du [BELDA](doctor) qui officie en tant que ophtalmologue je désirerais discuter avec [BORIE]{"entity": "doctor", "role": "target"}
+    - nous pouvons echanger avec [BORIE]{"entity": "doctor", "role": "target"} s'il vous plait,
+    - yo, comment allez-vous ? tu peux m'aider ? plz, je rêverais de joindre Mme [BORIE]{"entity": "doctor", "role": "target"} stp, Au revoir !
+    - yo, je désire converser avec [BORIE Hervé]{"entity": "doctor", "role": "target"} comme me l'a demande [Dr ARISTIZABAL](doctor) qui est membre du service [Chirurgie vasculaire](service). ca serait super,
+- intent: contact_doctor/bossi_philippe
+  examples: |
+    - ca va ? je souhaiterais joindre Mme [BOSSI Philippe]{"entity": "doctor", "role": "target"}
+    - comme me l'a conseille [CADOT](doctor), je désirais discuter avec Mr [BOSSI]{"entity": "doctor", "role": "target"}
+    - comment allez-vous ? ils exigent de echanger avec Mme [BOSSI]{"entity": "doctor", "role": "target"} stp, ca m'aiderais beaucoup, merci
+    - coucou, Aide moi svp, j'aurais demandé à parler avec [BOSSI]{"entity": "doctor", "role": "target"}
+    - elle est en cure de radiotherapie. il espérerait dialoguer avec [BOSSI Philippe]{"entity": "doctor", "role": "target"} s'il te plait, Salut !
+    - faut que tu m'aide ! il aspirerait à dialoguer avec Docteur [BOSSI Philippe]{"entity": "doctor", "role": "target"} plz, Au revoir
+    - il demanderait à voir Mr [BOSSI Philippe]{"entity": "doctor", "role": "target"}
+    - j'aurais aimé voir [BOSSI Philippe]{"entity": "doctor", "role": "target"} J'ai passe une analyse.
+    - je désire m'entretenir avec Mme [BOSSI Philippe]{"entity": "doctor", "role": "target"}
+    - je souhaitais converser avec Mr [BOSSI]{"entity": "doctor", "role": "target"}
+    - je voudrais converser avec [BOSSI]{"entity": "doctor", "role": "target"} plz, ce serait apprecie, merci Salut
+    - nous souhaiterions voir [BOSSI Philippe]{"entity": "doctor", "role": "target"}
+    - salut, ca va ? je désire echanger avec Docteur [BOSSI]{"entity": "doctor", "role": "target"} Il dois faire une une analyse.
+    - salut, comment allez-vous ? j'aspirerais à telephoner a Docteur [BOSSI Philippe]{"entity": "doctor", "role": "target"} a la demande du [BLAVIER](doctor) plz, tu m'enleverais une epine du pied, merci
+    - sur recommandation de [Dr BOUCHAREB](doctor) je désirais telephoner avec [BOSSI Philippe]{"entity": "doctor", "role": "target"} tu m'enleverais une epine du pied, A+ !
+- intent: contact_doctor/bouchareb_adam
+  examples: |
+    - bien le bonjour, je peux avoir Docteur [BOUCHAREB]{"entity": "doctor", "role": "target"} comme me l'a demande [BLAVIER](doctor),
+    - comment vas-tu ? faut que tu m'aide ! j'aimerais joindre Mr [BOUCHAREB]{"entity": "doctor", "role": "target"} Je me sens malade. ca serait super, Ciao !
+    - coucou, bien ? me faut de l'aide, il a passe une radio je désire discuter avec [BOUCHAREB Adam]{"entity": "doctor", "role": "target"} Salut !
+    - faut que tu m'aide ! je souhaite m'entretenir avec Docteur [BOUCHAREB]{"entity": "doctor", "role": "target"}
+    - j'aurais besoins d'aide, je veux avoir Mr [BOUCHAREB]{"entity": "doctor", "role": "target"} comme me l'a demande [BELDA Eric](doctor) qui est membre du service [Angiographie](service) je crois,
+    - j'aurais désiré causer avec Mme [BOUCHAREB Adam]{"entity": "doctor", "role": "target"} Il dois faire une une scintigraphie.
+    - je désirerais causer a Mme [BOUCHAREB Adam]{"entity": "doctor", "role": "target"} Je suis en cure,
+    - je rêve de parler a [BOUCHAREB Adam]{"entity": "doctor", "role": "target"}
+    - je souhaitais joindre Mr [BOUCHAREB]{"entity": "doctor", "role": "target"} a la demande du [Docteur BRYON](doctor) qui officie en tant que rythmologue ca serait super,
+    - je souhaiterais avoir Mme [BOUCHAREB]{"entity": "doctor", "role": "target"} Au revoir !
+    - je souhaiterais converser avec Mr [BOUCHAREB Adam]{"entity": "doctor", "role": "target"} Ma fille est malade,
+    - je veux echanger avec [BOUCHAREB]{"entity": "doctor", "role": "target"} s'il vous plait, tu m'enleverais une epine du pied, merci
+    - je voudrais causer avec [BOUCHAREB]{"entity": "doctor", "role": "target"}
+    - nous demandons à avoir Mr [BOUCHAREB Adam]{"entity": "doctor", "role": "target"}
+    - yo, j'aspire à parler avec Docteur [BOUCHAREB]{"entity": "doctor", "role": "target"} Je me sens pas bien.
+- intent: contact_doctor/boulet_stephane
+  examples: |
+    - a la demande du [ARMANDON](doctor) qui est rhumatologue nous exigions de voir Mr [BOULET]{"entity": "doctor", "role": "target"} plz, ca serait super,
+    - bonjour, ils demanderaient à joindre [BOULET]{"entity": "doctor", "role": "target"}
+    - bonjour, je souhaite voir Docteur [BOULET]{"entity": "doctor", "role": "target"}
+    - bonsoir, comment allez-vous ? nous voulons converser avec [BOULET]{"entity": "doctor", "role": "target"} s'il te plait,
+    - bonsoir, la forme ? j'aurais besoins d'aide, je réclamerais de telephoner a Mr [BOULET Stéphane]{"entity": "doctor", "role": "target"}
+    - coucou, ca va ? me faut de l'aide, je veux joindre Docteur [BOULET]{"entity": "doctor", "role": "target"} tu m'enleverais une epine du pied, Salut !
+    - il exigerait de joindre Mme [BOULET Stéphane]{"entity": "doctor", "role": "target"} Je me suis brule, stp, tu m'enleverais une epine du pied,
+    - il peut dialoguer avec [BOULET Stéphane]{"entity": "doctor", "role": "target"} a la demande du [Dr BRUNET Oceane](doctor).
+    - j'aimerais echanger avec [BOULET]{"entity": "doctor", "role": "target"}
+    - je pourrais discuter avec [BOULET Stéphane]{"entity": "doctor", "role": "target"} sur recommandation de [Mr BELHASSEN Laurent](doctor) qui fait partie du service [Assistante sociale](service) de memoire,
+    - je souhaite discuter avec [BOULET]{"entity": "doctor", "role": "target"} elle est en cure de chimiotherapie
+    - je souhaite telephoner avec [BOULET]{"entity": "doctor", "role": "target"} comme me l'a demande [BENOUAICHE](doctor) qui est membre du service [Stomatologie](service)
+    - la forme ? me faut de l'aide, j'espère telephoner avec Mme [BOULET Stéphane]{"entity": "doctor", "role": "target"} tu m'enleverais une epine du pied, merci Salut
+    - nous espérions converser avec [BOULET]{"entity": "doctor", "role": "target"} s'il vous plait, Au revoir !
+    - nous rêvons de causer a [BOULET Stéphane]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/brun_magali
+  examples: |
+    - bien le bonjour, ca va ? Aide moi je peux joindre Docteur [BRUN Magali]{"entity": "doctor", "role": "target"}
+    - bonsoir, la forme ? faut que tu m'aide ! ils auraient aimé dialoguer avec Docteur [BRUN Magali]{"entity": "doctor", "role": "target"}
+    - comment vas-tu ? j'aurais besoins d'aide, je voudrais converser avec Docteur [BRUN Magali]{"entity": "doctor", "role": "target"}
+    - coucou, ca va ? ils réclament de joindre [BRUN Magali]{"entity": "doctor", "role": "target"}
+    - il souhaite converser avec [BRUN]{"entity": "doctor", "role": "target"}
+    - ils aspirent à que vous me passiez [BRUN Magali]{"entity": "doctor", "role": "target"} sur recommandation de [Dr ARISTIZABAL Patrick](doctor) s'il vous plait, ca m'aiderais beaucoup,
+    - j'ai besoins d'aide ! j'aurais voulu dialoguer avec Mr [BRUN]{"entity": "doctor", "role": "target"}
+    - j'aspire à avoir [BRUN]{"entity": "doctor", "role": "target"}
+    - j'aurais réclamé de causer a Mme [BRUN Magali]{"entity": "doctor", "role": "target"}
+    - je désire joindre [BRUN Magali]{"entity": "doctor", "role": "target"}
+    - je désirerais avoir Mr [BRUN]{"entity": "doctor", "role": "target"} ce serait bien aimable, merci A+
+    - je veux parler a [BRUN]{"entity": "doctor", "role": "target"} Je me suis coupe.
+    - la forme ? je peux parler avec [BRUN]{"entity": "doctor", "role": "target"} a la demande du [BRUN](doctor) qui fait partie du service [Angiographie](service) de memoire
+    - salutation, j'aimerais telephoner a [BRUN]{"entity": "doctor", "role": "target"} stp, ca serait super, merci
+    - tu peux m'aider ? s'il vous plait, ils rêvaient de joindre Mme [BRUN Magali]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/brun_laurent
+  examples: |
+    - Nous avons besoins d'aide d'urgence ! je souhaiterais converser avec Docteur [BRUN Laurent]{"entity": "doctor", "role": "target"} Elle se sent malade tu m'enleverais une epine du pied,
+    - bien le bonjour, comment vas-tu ? je demandais à voir Docteur [BRUN Laurent]{"entity": "doctor", "role": "target"} plz, Au revoir
+    - bonjour, la forme ? je demande à m'entretenir avec [BRUN Laurent]{"entity": "doctor", "role": "target"} Je me suis brule Au revoir
+    - comment allez-vous ? Nous avons besoins d'aide d'urgence ! je voudrais causer avec Mr [BRUN Laurent]{"entity": "doctor", "role": "target"} comme me l'a demande [ARISTIZABAL Patrick](doctor) qui est rhumatologue je pense ce serait apprecie, merci Salut
+    - comment allez-vous ? a la demande du [BOSSI Philippe](doctor) qui est anesthesite nous voulons telephoner a Mme [BRUN Laurent]{"entity": "doctor", "role": "target"} plz, ce serait bien aimable,
+    - comment vas-tu ? comme me l'a demande [Mme ABOAB](doctor) ils rêvent de echanger avec Docteur [BRUN]{"entity": "doctor", "role": "target"}
+    - elle a fais une radio. j'espère dialoguer avec Mr [BRUN Laurent]{"entity": "doctor", "role": "target"} plz, Salut
+    - faut que tu m'aide ! je demandais à converser avec Docteur [BRUN]{"entity": "doctor", "role": "target"} comme me l'a demande [BRUN Laurent](doctor),
+    - il aurait désiré discuter avec Mr [BRUN Laurent]{"entity": "doctor", "role": "target"} comme me l'a conseille [Dr BENOUAICHE](doctor) qui fait partie du service [Stomatherapie](service)
+    - je souhaite dialoguer avec Mme [BRUN]{"entity": "doctor", "role": "target"} sur recommandation de [BECHEREL](doctor).
+    - je souhaite voir [BRUN Laurent]{"entity": "doctor", "role": "target"} comme me l'a demande [Docteur BADO](doctor), s'il te plait, Salut
+    - la forme ? je veux causer avec [BRUN Laurent]{"entity": "doctor", "role": "target"} sur recommandation de [Docteur BRYON Dominique](doctor),
+    - me faut de l'aide, il souhaiterait avoir [BRUN]{"entity": "doctor", "role": "target"} sur recommandation de [BOUCHAREB](doctor). svp, ca serait super, merci
+    - salut, faut que tu m'aide ! elle a eu une attaque. a la demande du [Dr BRUN Magali](doctor) il souhaite avoir [BRUN Laurent]{"entity": "doctor", "role": "target"}
+    - salutation, ca va ? Nous avons besoins d'aide d'urgence ! j'ai eu une attaque, comme me l'a conseille [BAUER Bertrand](doctor) qui appartient au service [Urgence](service) nous désirons joindre Mr [BRUN Laurent]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/brunet_morgan
+  examples: |
+    - Aide moi plz, je veux que vous me passiez [BRUNET Morgan]{"entity": "doctor", "role": "target"} comme me l'a conseille [Mr BENHAMOU](doctor),
+    - bien le bonjour, ca va ? Nous avons besoins d'aide d'urgence ! je demande à que vous me passiez [BRUNET]{"entity": "doctor", "role": "target"} Elle se sent pas bien
+    - bonjour, ca va ? il a eu une complication sur recommandation de [BRUNET](doctor) qui est membre du service [Biomedical](service). j'espère discuter avec [BRUNET Morgan]{"entity": "doctor", "role": "target"}
+    - bonsoir, j'ai besoins d'aide ! je demande à voir Mme [BRUNET Morgan]{"entity": "doctor", "role": "target"} s'il vous plait, ca serait super, merci
+    - elle est en cure de radiotherapie j'espère converser avec [BRUNET Morgan]{"entity": "doctor", "role": "target"}
+    - j'exigerais de avoir Docteur [BRUNET Morgan]{"entity": "doctor", "role": "target"} sur recommandation de [Mr ARISTIZABAL](doctor) s'il te plait, tu m'enleverais une epine du pied, merci A+ !
+    - j'exigerais de dialoguer avec Mr [BRUNET]{"entity": "doctor", "role": "target"} a la demande du [BECHEREL](doctor)
+    - je désirais que vous me passiez [BRUNET Morgan]{"entity": "doctor", "role": "target"}
+    - je peux echanger avec [BRUNET]{"entity": "doctor", "role": "target"} Ciao
+    - je peux telephoner avec [BRUNET Morgan]{"entity": "doctor", "role": "target"} plz, ca m'aiderais beaucoup, Salut
+    - je veux discuter avec Mr [BRUNET]{"entity": "doctor", "role": "target"}
+    - je voulais dialoguer avec [BRUNET]{"entity": "doctor", "role": "target"} a la demande du [Dr BOULET](doctor) qui est chirurgien
+    - salut, j'aurais souhaité dialoguer avec [BRUNET]{"entity": "doctor", "role": "target"} s'il vous plait,
+    - yo, ca va ? je désire converser avec [BRUNET]{"entity": "doctor", "role": "target"}
+    - yo, comment vas-tu ? faut que tu m'aide ! j'aspirerais à m'entretenir avec [BRUNET]{"entity": "doctor", "role": "target"} Je me sens pas bien.
+- intent: contact_doctor/brunet_oceane
+  examples: |
+    - Aide moi j'exige de avoir Mr [BRUNET Océane]{"entity": "doctor", "role": "target"} a la demande du [ALLARD](doctor) qui officie en tant que assistante logistique Ciao !
+    - Je me suis coupe a la demande du [Docteur BRUN Magali](doctor) je demande à telephoner avec [BRUNET Océane]{"entity": "doctor", "role": "target"} ca m'aiderais beaucoup, merci Au revoir !
+    - bien ? Je me sens pas bien sur recommandation de [BELMAGHNI](doctor) qui est angiologue de memoire. ils désirent parler avec Docteur [BRUNET]{"entity": "doctor", "role": "target"}
+    - bonsoir, la forme ? je peux causer avec Mr [BRUNET Océane]{"entity": "doctor", "role": "target"}
+    - bonsoir, la forme ? me faut de l'aide, je souhaite telephoner avec Mme [BRUNET]{"entity": "doctor", "role": "target"} a la demande du [Mr AL MOUSSARIH](doctor) qui fait partie du service [Chirurgie digestive](service).
+    - comment allez-vous ? j'ai besoins d'aide ! Il dois faire une une analyse je peux que vous me passiez Docteur [BRUNET Océane]{"entity": "doctor", "role": "target"} s'il te plait, ca serait super, merci Au revoir
+    - coucou, comment allez-vous ? j'aurais désiré causer avec [BRUNET]{"entity": "doctor", "role": "target"} Je dois faire une un examen.
+    - j'aspire à converser avec Mme [BRUNET]{"entity": "doctor", "role": "target"} plz, Ciao
+    - je demanderais à telephoner a Mr [BRUNET Océane]{"entity": "doctor", "role": "target"}
+    - je désire voir [BRUNET Océane]{"entity": "doctor", "role": "target"}
+    - je souhaiterais converser avec [BRUNET]{"entity": "doctor", "role": "target"} svp,
+    - je veux parler avec [BRUNET]{"entity": "doctor", "role": "target"}
+    - je veux que vous me passiez [BRUNET Océane]{"entity": "doctor", "role": "target"}
+    - nous aurions voulu converser avec Mme [BRUNET Océane]{"entity": "doctor", "role": "target"} plz, ce serait apprecie, merci
+    - tu peux m'aider ? Je me sens pas bien sur recommandation de [BOSSI](doctor), nous désirons voir [BRUNET Océane]{"entity": "doctor", "role": "target"} s'il te plait, Au revoir
+- intent: contact_doctor/bryon_dominique
+  examples: |
+    - bonsoir, ca va ? j'aurais besoins d'aide, s'il te plait, nous désirerions m'entretenir avec Mr [BRYON Dominique]{"entity": "doctor", "role": "target"}
+    - coucou, ca va ? je veux parler avec Mr [BRYON Dominique]{"entity": "doctor", "role": "target"} elle a eu une complication ce serait apprecie,
+    - coucou, il désirait dialoguer avec Docteur [BRYON Dominique]{"entity": "doctor", "role": "target"}
+    - elle a eu une attaque sur recommandation de [Mr CADOT Bernard](doctor) qui est membre du service [Assistante heteliere](service) je pense je rêve de avoir [BRYON Dominique]{"entity": "doctor", "role": "target"}
+    - il désirerait m'entretenir avec Mr [BRYON]{"entity": "doctor", "role": "target"}
+    - il désirerait que vous me passiez [BRYON]{"entity": "doctor", "role": "target"} Ciao !
+    - ils demanderaient à avoir Mme [BRYON Dominique]{"entity": "doctor", "role": "target"} a la demande du [BELMAGHNI](doctor) qui fait partie du service [Chirurgie de la main](service) je pense,
+    - je demandais à discuter avec Mr [BRYON Dominique]{"entity": "doctor", "role": "target"} svp, tu m'enleverais une epine du pied, Salut !
+    - je demanderais à joindre Mme [BRYON]{"entity": "doctor", "role": "target"}
+    - je demanderais à telephoner a [BRYON Dominique]{"entity": "doctor", "role": "target"} plz, ca serait super, merci
+    - je peux joindre Mme [BRYON]{"entity": "doctor", "role": "target"}
+    - je souhaiterais converser avec [BRYON Dominique]{"entity": "doctor", "role": "target"} comme me l'a conseille [APTECAR](doctor) qui est assistante sociale je crois s'il te plait, tu m'enleverais une epine du pied, merci
+    - salut, j'aurais besoins d'aide, je désire causer a [BRYON]{"entity": "doctor", "role": "target"} ce serait apprecie, A+
+    - salutation, je veux parler avec [BRYON Dominique]{"entity": "doctor", "role": "target"} a la demande du [Dr ALONSO Enrique](doctor). s'il vous plait, Au revoir !
+    - yo, faut que tu m'aide ! je pourrais m'entretenir avec Docteur [BRYON]{"entity": "doctor", "role": "target"}
+- intent: contact_doctor/cadot_bernard
+  examples: |
+    - Je suis en cure, j'aurais réclamé de causer a [CADOT Bernard]{"entity": "doctor", "role": "target"} Salut
+    - bien le bonjour, ca va ? tu peux m'aider ? stp, je voudrais que vous me passiez [CADOT]{"entity": "doctor", "role": "target"} Je suis en cure ce serait apprecie, merci Au revoir
+    - bien le bonjour, ils désireraient causer a Mme [CADOT]{"entity": "doctor", "role": "target"} Mon fils est tres malade. ca m'aiderais beaucoup, Au revoir
+    - bonjour, la forme ? Ma fille est tres malade a la demande du [BELHASSEN Laurent](doctor) qui est rhumatologue nous demandions à converser avec [CADOT Bernard]{"entity": "doctor", "role": "target"}
+    - bonsoir, Nous avons besoins d'aide d'urgence ! je souhaite avoir Docteur [CADOT]{"entity": "doctor", "role": "target"} Au revoir !
+    - coucou, la forme ? Nous avons besoins d'aide d'urgence ! je souhaiterais converser avec [CADOT Bernard]{"entity": "doctor", "role": "target"}
+    - je demande à causer avec [CADOT]{"entity": "doctor", "role": "target"}
+    - je peux causer avec [CADOT Bernard]{"entity": "doctor", "role": "target"}
+    - je pourrais parler a [CADOT]{"entity": "doctor", "role": "target"}
+    - je rêvais de causer a Mme [CADOT]{"entity": "doctor", "role": "target"} comme me l'a demande [Mme BRUN Magali](doctor),
+    - je veux discuter avec [CADOT]{"entity": "doctor", "role": "target"}
+    - nous demandons à avoir [CADOT]{"entity": "doctor", "role": "target"} elle a passe une analyse. plz, ca serait super, merci Au revoir !
+    - salut, j'espérerais echanger avec Mme [CADOT Bernard]{"entity": "doctor", "role": "target"} ce serait apprecie, merci
+    - salut, la forme ? je réclamais de m'entretenir avec [CADOT Bernard]{"entity": "doctor", "role": "target"}
+    - sur recommandation de [Dr BENSAID](doctor). je souhaiterais echanger avec [CADOT]{"entity": "doctor", "role": "target"}
+- intent: contact_service/gastro_enterologie
+  examples: |
+    - bonjour, ca va ? je demanderais à causer avec avec l'acceuil du [Gastro-entérologie]{"entity": "service", "role": "target"} sur recommandation de [BRUNET Morgan](doctor).
+    - bonsoir, je demandais à voir avec le avec le secretariat du [Gastro-entérologie]{"entity": "service", "role": "target"}
+    - comment allez-vous ? me faut de l'aide, a la demande du [Dr BELMAGHNI Fatma](doctor). ils veulent causer a au avec le secretariat du [Gastro-entérologie]{"entity": "service", "role": "target"} plz, Salut !
+    - il a eu une attaque. a la demande du [ARISTIZABAL Patrick](doctor) qui est assistante sociale. nous réclamerions de discuter avec au service [Gastro-entérologie]{"entity": "service", "role": "target"} s'il te plait, ca serait super,
+    - il voulait joindre avec le avec le secretariat du service s'il te plait, Ciao ! [Gastro-entérologie]{"entity": "service", "role": "target"}
+    - ils pourraient m'entretenir avec avec le service [Gastro-entérologie]{"entity": "service", "role": "target"} Je me sens malade
+    - j'aurais souhaité causer avec avec l'acceuil du [Gastro-entérologie]{"entity": "service", "role": "target"} J'ai passe une scintigraphie
+    - je demande à telephoner avec avec le avec le secretariat du service  [Gastro-entérologie]{"entity": "service", "role": "target"}
+    - je réclame de joindre au avec le secretariat du service [Gastro-entérologie]{"entity": "service", "role": "target"}
+    - je rêve de dialoguer avec avec le au secretariat du s'il te plait, Ciao ! [Gastro-entérologie]{"entity": "service", "role": "target"}
+    - la forme ? Aide moi il exigeait de causer avec avec l'acceuil du service [Gastro-entérologie]{"entity": "service", "role": "target"} a la demande du [Mme BENOUAICHE Laurence](doctor) qui fait partie du service [Soins ambulatoire](service). s'il vous plait, Ciao
+    - la forme ? comme me l'a conseille [ARMANDON](doctor), je désire causer a avec le au secretariat du [Gastro-entérologie]{"entity": "service", "role": "target"} s'il te plait, Ciao !
+    - nous voulons converser avec au avec le secretariat du service [Gastro-entérologie]{"entity": "service", "role": "target"} a la demande du [ALONSO Enrique](doctor) s'il te plait, ce serait apprecie,
+    - sur recommandation de [ABOUCAYA](doctor) qui appartient au service [Anesthesie](service) je pense je demande à voir au au secretariat du service [Gastro-entérologie]{"entity": "service", "role": "target"} svp, A+ !
+    - yo, la forme ? je veux voir au service [Gastro-entérologie]{"entity": "service", "role": "target"} comme me l'a conseille [Dr AL MOUSSARIH](doctor),
+- intent: contact_service/angiologie
+  examples: |
+    - bien ? a la demande du [BENSAID](doctor) qui est membre du service [Scintigraphie](service) de memoire, je demandais à dialoguer avec a l'acceuil du [Angiologie]{"entity": "service", "role": "target"} s'il vous plait,
+    - bien ? j'ai besoins d'aide ! Ma fille est tres malade, sur recommandation de [Mr ARISTIZABAL Patrick](doctor) qui officie en tant que rhumatologue je pense. j'aurais réclamé de avoir avec le au secretariat du [Angiologie]{"entity": "service", "role": "target"}
+    - bonjour, me faut de l'aide, j'espère discuter avec au avec le secretariat du [Angiologie]{"entity": "service", "role": "target"} svp, ca serait super, merci
+    - bonsoir, bien ? Aide moi stp, ils rêveraient de que vous me passiez a l'acceuil du  [Angiologie]{"entity": "service", "role": "target"}
+    - ca va ? je voudrais discuter avec avec le service [Angiologie]{"entity": "service", "role": "target"} elle a fais un examen.
+    - comment allez-vous ? Aide moi il est en cure, je réclame de voir avec l'acceuil du [Angiologie]{"entity": "service", "role": "target"}
+    - il a eu une complication a la demande du [Dr ARISTIZABAL Patrick](doctor) j'espère converser avec au service [Angiologie]{"entity": "service", "role": "target"}
+    - il est en cure de chimiotherapie nous souhaitons parler avec au service [Angiologie]{"entity": "service", "role": "target"}
+    - ils demandent à avoir avec le avec le secretariat du [Angiologie]{"entity": "service", "role": "target"} s'il te plait,
+    - ils souhaitaient joindre avec le avec le secretariat du s'il te plait, ce serait apprecie, merci A+ ! [Angiologie]{"entity": "service", "role": "target"}
+    - je peux discuter avec avec l'acceuil du service [Angiologie]{"entity": "service", "role": "target"} Il dois faire une une scintigraphie, plz, ca m'aiderais beaucoup,
+    - je veux echanger avec au avec le secretariat du plz, tu m'enleverais une epine du pied, Ciao ! [Angiologie]{"entity": "service", "role": "target"}
+    - nous aurions aimé m'entretenir avec avec le service [Angiologie]{"entity": "service", "role": "target"} Ma fille est tres malade
+    - nous souhaitons m'entretenir avec avec le service [Angiologie]{"entity": "service", "role": "target"}
+    - sur recommandation de [BLAVIER Benedicte](doctor) qui officie en tant que rythmologue, je pourrais avoir au au secretariat du service [Angiologie]{"entity": "service", "role": "target"}
+- intent: contact_service/ophtalmologie
+  examples: |
+    - Aide moi nous voulons echanger avec avec le au secretariat du plz, Au revoir [Ophtalmologie]{"entity": "service", "role": "target"}
+    - Elle se sent malade a la demande du [BECHEREL](doctor) je peux telephoner avec au au secretariat du [Ophtalmologie]{"entity": "service", "role": "target"}
+    - Mon fils est tres malade. a la demande du [Mr BOUCHAREB Adam](doctor), j'aurais rêvé de parler avec au service [Ophtalmologie]{"entity": "service", "role": "target"} stp,
+    - bien ? je réclame de avoir a l'acceuil du service stp, Au revoir ! [Ophtalmologie]{"entity": "service", "role": "target"}
+    - bien le bonjour, j'aurais besoins d'aide, je rêverais de converser avec avec l'acceuil du [Ophtalmologie]{"entity": "service", "role": "target"} comme me l'a conseille [Dr BECHEREL](doctor) qui officie en tant que rythmologue de memoire,
+    - bien le bonjour, je voudrais avoir avec le avec le secretariat du service [Ophtalmologie]{"entity": "service", "role": "target"} a la demande du [AL MOUSSARIH](doctor) qui fait partie du service [Rhumatologie](service)
+    - comme me l'a demande [BENOUAICHE Laurence](doctor) qui fait partie du service [Assistante sociale](service) je souhaite m'entretenir avec au service [Ophtalmologie]{"entity": "service", "role": "target"}
+    - comme me l'a demande [BENSAID Cherazade](doctor) qui est membre du service [Planification](service), je veux telephoner a avec le service [Ophtalmologie]{"entity": "service", "role": "target"}
+    - j'aspirerais à que vous me passiez au avec le secretariat du [Ophtalmologie]{"entity": "service", "role": "target"} comme me l'a demande [BRYON](doctor) qui appartient au service [Urgence](service) je crois
+    - j'aurais voulu converser avec a l'acceuil du svp, ce serait apprecie, merci A+ ! [Ophtalmologie]{"entity": "service", "role": "target"}
+    - je désire m'entretenir avec au service [Ophtalmologie]{"entity": "service", "role": "target"}
+    - je peux echanger avec avec l'acceuil du [Ophtalmologie]{"entity": "service", "role": "target"} Elle dois faire une une prise de sang,
+    - je réclame de causer a avec l'acceuil du service [Ophtalmologie]{"entity": "service", "role": "target"} Il dois faire une une scintigraphie.
+    - je souhaite avoir avec l'acceuil du service [Ophtalmologie]{"entity": "service", "role": "target"}
+    - je veux parler avec au service [Ophtalmologie]{"entity": "service", "role": "target"}
+- intent: contact_service/orl
+  examples: |
+    - bien le bonjour, Pourriez vous m'aidez ? je veux telephoner a au avec le secretariat du service [ORL]{"entity": "service", "role": "target"}
+    - bien le bonjour, ca va ? me faut de l'aide, j'aspire à m'entretenir avec a l'acceuil du  [ORL]{"entity": "service", "role": "target"}
+    - bonjour, Aide moi j'exige de voir avec le avec le secretariat du service [ORL]{"entity": "service", "role": "target"}
+    - bonjour, faut que tu m'aide ! j'exigerais de parler a au service [ORL]{"entity": "service", "role": "target"} Elle dois faire une une prise de sang
+    - comment allez-vous ? j'ai eu une attaque. comme me l'a demande [ALONSO](doctor) je voudrais telephoner avec avec le au secretariat du [ORL]{"entity": "service", "role": "target"} svp, A+ !
+    - ils exigent de joindre avec le avec le secretariat du [ORL]{"entity": "service", "role": "target"}
+    - j'ai besoins d'aide ! je souhaite parler avec avec l'acceuil du service [ORL]{"entity": "service", "role": "target"}
+    - je désire echanger avec avec l'acceuil du [ORL]{"entity": "service", "role": "target"} il a passe une scintigraphie
+    - je peux converser avec avec le service stp, Au revoir [ORL]{"entity": "service", "role": "target"}
+    - je peux discuter avec a l'acceuil du service [ORL]{"entity": "service", "role": "target"}
+    - je peux echanger avec au service [ORL]{"entity": "service", "role": "target"}
+    - la forme ? j'aspire à m'entretenir avec au service ca serait super, Ciao [ORL]{"entity": "service", "role": "target"}
+    - nous aspirons à dialoguer avec avec le au secretariat du service  [ORL]{"entity": "service", "role": "target"}
+    - nous voudrions voir a l'acceuil du Au revoir [ORL]{"entity": "service", "role": "target"}
+    - yo, tu peux m'aider ? je peux dialoguer avec avec l'acceuil du service [ORL]{"entity": "service", "role": "target"}
+- intent: contact_service/accueil
+  examples: |
+    - Elle se sent malade, sur recommandation de [Dr ARISTIZABAL](doctor) qui est assistante sociale je pourrais avoir au service [Accueil]{"entity": "service", "role": "target"} Salut !
+    - Mon fils est malade sur recommandation de [Dr BRUNET Morgan](doctor) qui officie en tant que stomatologue de memoire je veux echanger avec avec l'acceuil du service [Accueil]{"entity": "service", "role": "target"} plz, ca serait super, merci
+    - Mon fils est malade. comme me l'a conseille [BRUNET](doctor) qui est stomatologue je pense. je souhaite voir au avec le secretariat du [Accueil]{"entity": "service", "role": "target"}
+    - bien le bonjour, bien ? faut que tu m'aide ! comme me l'a demande [Dr ALLARD](doctor) qui fait partie du service [Angiologie](service) j'aurais aspiré à parler a avec le au secretariat du [Accueil]{"entity": "service", "role": "target"}
+    - bonsoir, la forme ? je souhaite avoir au au secretariat du service [Accueil]{"entity": "service", "role": "target"}
+    - comment vas-tu ? je demande à voir au avec le secretariat du service [Accueil]{"entity": "service", "role": "target"}
+    - j'aurais désiré echanger avec avec le service [Accueil]{"entity": "service", "role": "target"}
+    - j'espère discuter avec au avec le secretariat du [Accueil]{"entity": "service", "role": "target"} sur recommandation de [Docteur ABOUCAYA Jean-Paul](doctor) qui est assistant sociale,
+    - je demande à echanger avec au avec le secretariat du service s'il te plait, A+ [Accueil]{"entity": "service", "role": "target"}
+    - me faut de l'aide, j'espérerais voir avec l'acceuil du service [Accueil]{"entity": "service", "role": "target"}
+    - nous aurions espéré discuter avec avec le service [Accueil]{"entity": "service", "role": "target"} A+
+    - salut, bien ? faut que tu m'aide ! sur recommandation de [BRUNET](doctor) ils rêvent de discuter avec avec le service [Accueil]{"entity": "service", "role": "target"} plz, ca serait super,
+    - salutation, je désire m'entretenir avec avec le service s'il vous plait, ca m'aiderais beaucoup, merci [Accueil]{"entity": "service", "role": "target"}
+    - salutation, je rêve de joindre avec le service  [Accueil]{"entity": "service", "role": "target"}
+    - yo, bien ? il a fais un examen, je réclame de que vous me passiez avec le avec le secretariat du [Accueil]{"entity": "service", "role": "target"} Salut !
+- intent: contact_service/admissions
+  examples: |
+    - Ma fille est malade, sur recommandation de [BLAVIER](doctor) qui fait partie du service [Pediatrie](service) je crois, je veux causer a au au secretariat du service [Admissions]{"entity": "service", "role": "target"}
+    - bien ? je réclame de m'entretenir avec avec l'acceuil du service [Admissions]{"entity": "service", "role": "target"}
+    - ca va ? Je me sens pas bien, a la demande du [BENHAMOU Claude](doctor) qui est assistante logistique je désire joindre avec le au secretariat du service [Admissions]{"entity": "service", "role": "target"}
+    - comment allez-vous ? me faut de l'aide, J'ai fais un examen je demande à converser avec au au secretariat du service [Admissions]{"entity": "service", "role": "target"} plz,
+    - ils peuvent echanger avec avec le au secretariat du service plz, ca m'aiderais beaucoup, [Admissions]{"entity": "service", "role": "target"}
+    - j'exige de causer a a l'acceuil du [Admissions]{"entity": "service", "role": "target"}
+    - je peux discuter avec au au secretariat du service plz, ce serait bien aimable, merci [Admissions]{"entity": "service", "role": "target"}
+    - je réclamerais de telephoner avec a l'acceuil du [Admissions]{"entity": "service", "role": "target"}
+    - la forme ? j'ai besoins d'aide ! je voulais m'entretenir avec avec le service [Admissions]{"entity": "service", "role": "target"} a la demande du [Docteur APTECAR](doctor), Ciao
+    - nous désirerions que vous me passiez avec l'acceuil du service s'il te plait, [Admissions]{"entity": "service", "role": "target"}
+    - salut, comment vas-tu ? Nous avons besoins d'aide d'urgence ! il veut que vous me passiez avec le service [Admissions]{"entity": "service", "role": "target"}
+    - salut, comment vas-tu ? j'aurais souhaité discuter avec avec le service plz, [Admissions]{"entity": "service", "role": "target"}
+    - salutation, bien ? me faut de l'aide, je pourrais joindre au service [Admissions]{"entity": "service", "role": "target"}
+    - salutation, la forme ? je désire telephoner avec avec le service [Admissions]{"entity": "service", "role": "target"} sur recommandation de [BLIN Jean-Louis](doctor) qui est stomatologue de memoire,
+    - sur recommandation de [BLIN Jean-Louis](doctor) qui est ophtalmologue je crois je désirais joindre au au secretariat du service [Admissions]{"entity": "service", "role": "target"}
+- intent: contact_service/soins_ambulatoire
+  examples: |
+    - a la demande du [Docteur BENSAID](doctor) il peut discuter avec au au secretariat du [Soins ambulatoire]{"entity": "service", "role": "target"} s'il te plait, ca serait super,
+    - bien ? Aide moi stp, je désire causer avec a l'acceuil du service [Soins ambulatoire]{"entity": "service", "role": "target"} j'ai eu un accident
+    - bien le bonjour, je désirais echanger avec avec le service [Soins ambulatoire]{"entity": "service", "role": "target"} comme me l'a conseille [Mr BRUNET](doctor) qui fait partie du service [Angiologie](service) s'il te plait, ca serait super, merci
+    - bonsoir, ca va ? nous souhaiterions m'entretenir avec avec l'acceuil du service [Soins ambulatoire]{"entity": "service", "role": "target"}
+    - bonsoir, comment allez-vous ? Je me sens malade, a la demande du [BRUNET](doctor), je désirerais converser avec avec l'acceuil du [Soins ambulatoire]{"entity": "service", "role": "target"} plz,
+    - bonsoir, je souhaiterais voir avec l'acceuil du service [Soins ambulatoire]{"entity": "service", "role": "target"}
+    - comment allez-vous ? Je suis en cure je demande à converser avec a l'acceuil du service [Soins ambulatoire]{"entity": "service", "role": "target"} Ciao !
+    - il peut causer a a l'acceuil du s'il vous plait, [Soins ambulatoire]{"entity": "service", "role": "target"}
+    - j'aurais voulu causer a au service [Soins ambulatoire]{"entity": "service", "role": "target"}
+    - j'exige de m'entretenir avec avec le au secretariat du A+ [Soins ambulatoire]{"entity": "service", "role": "target"}
+    - je désirerais telephoner avec a l'acceuil du [Soins ambulatoire]{"entity": "service", "role": "target"}
+    - je réclame de echanger avec avec le au secretariat du service s'il vous plait, Salut [Soins ambulatoire]{"entity": "service", "role": "target"}
+    - je souhaite telephoner avec au service  [Soins ambulatoire]{"entity": "service", "role": "target"}
+    - je veux discuter avec au au secretariat du [Soins ambulatoire]{"entity": "service", "role": "target"}
+    - nous pouvons que vous me passiez au au secretariat du service  [Soins ambulatoire]{"entity": "service", "role": "target"}
+- intent: contact_service/planification
+  examples: |
+    - Je me sens pas bien. comme me l'a demande [Dr AL MOUSSARIH](doctor), nous demandons à m'entretenir avec au service [Planification]{"entity": "service", "role": "target"}
+    - Je me suis brule, sur recommandation de [Dr BOUCHAREB](doctor). je voudrais discuter avec a l'acceuil du service [Planification]{"entity": "service", "role": "target"} plz, A+
+    - a la demande du [ALONSO Enrique](doctor) qui est membre du service [Pediatrie](service) je souhaiterais joindre avec le service [Planification]{"entity": "service", "role": "target"} tu m'enleverais une epine du pied, merci
+    - comme me l'a demande [Mme BELMAGHNI](doctor) qui est membre du service [ORL](service) je crois. je demande à parler a avec le service [Planification]{"entity": "service", "role": "target"} stp, tu m'enleverais une epine du pied, A+ !
+    - comment vas-tu ? je rêvais de avoir avec le service s'il te plait, [Planification]{"entity": "service", "role": "target"}
+    - j'aurais demandé à telephoner a au service [Planification]{"entity": "service", "role": "target"} a la demande du [Dr BRUNET](doctor) qui est ophtalmologue,
+    - je demanderais à causer avec avec le service [Planification]{"entity": "service", "role": "target"} elle a fais une scintigraphie.
+    - je demanderais à m'entretenir avec a l'acceuil du service  [Planification]{"entity": "service", "role": "target"}
+    - je désirerais avoir avec le avec le secretariat du service [Planification]{"entity": "service", "role": "target"} sur recommandation de [BELHASSEN](doctor) qui appartient au service [Chirurgie vasculaire](service),
+    - je peux echanger avec au au secretariat du service ce serait bien aimable, Salut ! [Planification]{"entity": "service", "role": "target"}
+    - je voulais converser avec avec le service Salut ! [Planification]{"entity": "service", "role": "target"}
+    - salutation, comment vas-tu ? tu peux m'aider ? svp, je désirerais echanger avec avec le avec le secretariat du [Planification]{"entity": "service", "role": "target"}
+    - yo, bien ? j'aurais besoins d'aide, plz, comme me l'a demande [Dr BADO Fabrice](doctor) qui officie en tant que rythmologue de memoire, je souhaite voir avec le service [Planification]{"entity": "service", "role": "target"}
+    - yo, ca va ? ils rêveraient de echanger avec avec le avec le secretariat du service [Planification]{"entity": "service", "role": "target"}
+    - yo, j'ai besoins d'aide ! il pourrait parler a avec le avec le secretariat du [Planification]{"entity": "service", "role": "target"} ce serait apprecie, merci Ciao !
+- intent: contact_service/urgence
+  examples: |
+    - Je me sens malade a la demande du [Dr BLIN Jean-Louis](doctor). ils souhaitent dialoguer avec au service [Urgence]{"entity": "service", "role": "target"}
+    - a la demande du [Docteur ABOAB Jennifer](doctor) nous aurions aimé dialoguer avec au service [Urgence]{"entity": "service", "role": "target"}
+    - bien ? je peux converser avec a l'acceuil du [Urgence]{"entity": "service", "role": "target"}
+    - bonjour, j'ai besoins d'aide ! j'aurais voulu parler avec a l'acceuil du service svp, ce serait bien aimable, merci [Urgence]{"entity": "service", "role": "target"}
+    - ca va ? je souhaite dialoguer avec avec le service [Urgence]{"entity": "service", "role": "target"} elle est en cure
+    - comment vas-tu ? il souhaiterait telephoner a avec le service [Urgence]{"entity": "service", "role": "target"} Elle dois faire une une analyse
+    - coucou, faut que tu m'aide ! j'aimerais converser avec avec le avec le secretariat du service [Urgence]{"entity": "service", "role": "target"} a la demande du [BRUNET Morgan](doctor) qui est chirurgien je pense
+    - coucou, je demande à avoir au au secretariat du [Urgence]{"entity": "service", "role": "target"} elle est en cure de chimiotherapie
+    - il aurait aimé que vous me passiez avec l'acceuil du service [Urgence]{"entity": "service", "role": "target"} Je suis en cure de chimiotherapie, svp,
+    - il veut parler a avec le service [Urgence]{"entity": "service", "role": "target"} Je suis en cure de chimiotherapie ca m'aiderais beaucoup, merci
+    - ils veulent discuter avec au service  [Urgence]{"entity": "service", "role": "target"}
+    - j'aimerais m'entretenir avec a l'acceuil du service [Urgence]{"entity": "service", "role": "target"}
+    - j'aurais demandé à echanger avec a l'acceuil du service [Urgence]{"entity": "service", "role": "target"} a la demande du [Docteur BLIN Jean-Louis](doctor)
+    - je désire telephoner a avec l'acceuil du service [Urgence]{"entity": "service", "role": "target"}
+    - nous désirons echanger avec avec le avec le secretariat du service [Urgence]{"entity": "service", "role": "target"} sur recommandation de [Docteur BOUCHAREB Adam](doctor).
+- intent: contact_service/anesthesie
+  examples: |
+    - Aide moi s'il vous plait, je demande à converser avec au avec le secretariat du [Anesthésie]{"entity": "service", "role": "target"}
+    - Il se sent pas bien, comme me l'a conseille [Mr BAUER](doctor) ils réclament de causer a avec l'acceuil du service [Anesthésie]{"entity": "service", "role": "target"} stp, ce serait apprecie,
+    - Je me suis fait mal sur recommandation de [Dr BOUCHAREB](doctor) qui est membre du service [Chirurgie de la main](service) je voudrais avoir avec le service [Anesthésie]{"entity": "service", "role": "target"} ce serait bien aimable,
+    - bonsoir, Pourriez vous m'aidez ? nous aurions aimé avoir avec le service [Anesthésie]{"entity": "service", "role": "target"}
+    - ca va ? Pourriez vous m'aidez plz, ? j'exigerais de parler avec au au secretariat du ca m'aiderais beaucoup, A+ ! [Anesthésie]{"entity": "service", "role": "target"}
+    - comment vas-tu ? j'aimerais joindre au service [Anesthésie]{"entity": "service", "role": "target"} J'ai fais une scintigraphie
+    - coucou, j'aurais voulu que vous me passiez au service svp, [Anesthésie]{"entity": "service", "role": "target"}
+    - elle a fais une scintigraphie. je demande à que vous me passiez avec le service [Anesthésie]{"entity": "service", "role": "target"}
+    - il réclamait de avoir a l'acceuil du service [Anesthésie]{"entity": "service", "role": "target"} Elle se sent malade,
+    - je demandais à discuter avec avec le service [Anesthésie]{"entity": "service", "role": "target"} tu m'enleverais une epine du pied, Au revoir !
+    - je demande à causer avec avec le au secretariat du service [Anesthésie]{"entity": "service", "role": "target"} s'il te plait,
+    - la forme ? faut que tu m'aide ! ils aimeraient parler avec avec le avec le secretariat du service [Anesthésie]{"entity": "service", "role": "target"} comme me l'a conseille [Dr BELMAGHNI Fatma](doctor) qui appartient au service [Chirurgie orthopedique](service) je pense tu m'enleverais une epine du pied, merci
+    - la forme ? je veux dialoguer avec avec l'acceuil du service [Anesthésie]{"entity": "service", "role": "target"}
+    - salut, je veux que vous me passiez a l'acceuil du [Anesthésie]{"entity": "service", "role": "target"}
+    - tu peux m'aider ? stp, je désire parler avec avec l'acceuil du service [Anesthésie]{"entity": "service", "role": "target"} Elle dois faire une une prise de sang,
+- intent: contact_service/unite_de_soins_continus
+  examples: |
+    - bien le bonjour, la forme ? je demande à dialoguer avec a l'acceuil du service [Unité de Soins continus]{"entity": "service", "role": "target"} a la demande du [Mr CADOT Bernard](doctor) ca serait super, Au revoir
+    - bonjour, j'ai besoins d'aide ! je souhaite voir avec le avec le secretariat du service [Unité de Soins continus]{"entity": "service", "role": "target"}
+    - bonjour, la forme ? je demanderais à parler avec au au secretariat du service [Unité de Soins continus]{"entity": "service", "role": "target"} comme me l'a demande [BENOSMAN Hedi](doctor)
+    - coucou, je demande à joindre au avec le secretariat du [Unité de Soins continus]{"entity": "service", "role": "target"} comme me l'a demande [Mr CADOT](doctor) qui est membre du service [Gastro-enterologie](service) je pense.
+    - elle a fais une scintigraphie je demande à converser avec avec le au secretariat du service [Unité de Soins continus]{"entity": "service", "role": "target"} plz,
+    - j'aurais besoins d'aide, j'espérais causer avec au avec le secretariat du  [Unité de Soins continus]{"entity": "service", "role": "target"}
+    - j'aurais besoins d'aide, svp, Je me suis coupe comme me l'a demande [Docteur ALLARD](doctor) qui officie en tant que stomatologue. j'aurais demandé à parler avec au service [Unité de Soins continus]{"entity": "service", "role": "target"}
+    - j'espérais telephoner a a l'acceuil du [Unité de Soins continus]{"entity": "service", "role": "target"}
+    - je demanderais à joindre au service [Unité de Soins continus]{"entity": "service", "role": "target"}
+    - je peux que vous me passiez au au secretariat du [Unité de Soins continus]{"entity": "service", "role": "target"} a la demande du [Docteur ARISTIZABAL Patrick](doctor)
+    - je souhaite dialoguer avec au service [Unité de Soins continus]{"entity": "service", "role": "target"} sur recommandation de [BRYON](doctor) qui est membre du service [Rhumatologie](service) s'il vous plait,
+    - je souhaite parler avec au service [Unité de Soins continus]{"entity": "service", "role": "target"}
+    - salutation, faut que tu m'aide ! a la demande du [AL MOUSSARIH](doctor) qui est assistante heteliere, il rêve de avoir avec le service [Unité de Soins continus]{"entity": "service", "role": "target"}
+    - salutation, la forme ? Il se sent pas bien, comme me l'a demande [APTECAR Eduardo](doctor). je désirais joindre a l'acceuil du [Unité de Soins continus]{"entity": "service", "role": "target"} svp, ca serait super,
+    - yo, ca va ? j'aspire à parler avec a l'acceuil du s'il te plait, tu m'enleverais une epine du pied, merci [Unité de Soins continus]{"entity": "service", "role": "target"}
+- intent: contact_service/angiographie
+  examples: |
+    - Mon fils est malade, sur recommandation de [Dr CADOT](doctor) ils aimeraient voir au au secretariat du [Angiographie]{"entity": "service", "role": "target"}
+    - bien le bonjour, tu peux m'aider ? svp, je rêve de que vous me passiez au au secretariat du [Angiographie]{"entity": "service", "role": "target"}
+    - comment allez-vous ? il souhaite que vous me passiez a l'acceuil du service [Angiographie]{"entity": "service", "role": "target"} a la demande du [APTECAR](doctor) s'il vous plait, ca serait super, Au revoir !
+    - comment allez-vous ? sur recommandation de [AL MOUSSARIH](doctor) qui appartient au service [Unite de Soins continus](service) je crois nous souhaitons m'entretenir avec au service [Angiographie]{"entity": "service", "role": "target"} plz, ca serait super, Salut !
+    - ils aimeraient dialoguer avec avec le service [Angiographie]{"entity": "service", "role": "target"}
+    - ils souhaitent causer avec avec l'acceuil du [Angiographie]{"entity": "service", "role": "target"} elle a fais une scintigraphie stp, Salut
+    - j'aurais besoins d'aide, plz, a la demande du [Mr BAUER](doctor) je souhaitais m'entretenir avec avec le service [Angiographie]{"entity": "service", "role": "target"}
+    - je demande à echanger avec a l'acceuil du [Angiographie]{"entity": "service", "role": "target"}
+    - je désirerais telephoner a au service [Angiographie]{"entity": "service", "role": "target"}
+    - je peux echanger avec au au secretariat du service [Angiographie]{"entity": "service", "role": "target"} elle est en cure de chimiotherapie, s'il te plait, Ciao !
+    - je veux discuter avec avec l'acceuil du service [Angiographie]{"entity": "service", "role": "target"}
+    - je voulais converser avec a l'acceuil du service [Angiographie]{"entity": "service", "role": "target"} Mon fils est tres malade,
+    - nous demanderions à telephoner a au au secretariat du Ciao [Angiographie]{"entity": "service", "role": "target"}
+    - nous souhaiterions parler a au au secretariat du [Angiographie]{"entity": "service", "role": "target"}
+    - salutation, comment allez-vous ? j'ai besoins d'aide ! je pourrais joindre au avec le secretariat du  [Angiographie]{"entity": "service", "role": "target"}
+- intent: contact_service/stomatologie
+  examples: |
+    - Je me suis coupe sur recommandation de [Docteur BELMAGHNI](doctor) qui appartient au service [Sophrologie](service) je souhaite que vous me passiez avec le service [Stomatologie]{"entity": "service", "role": "target"}
+    - a la demande du [Docteur ARMANDON Denis](doctor) qui est membre du service [Gastro-enterologie](service) je crois, je peux que vous me passiez au avec le secretariat du [Stomatologie]{"entity": "service", "role": "target"}
+    - bien le bonjour, comment allez-vous ? Aide moi plz, je peux que vous me passiez avec l'acceuil du [Stomatologie]{"entity": "service", "role": "target"} sur recommandation de [BELHASSEN Laurent](doctor) qui est membre du service [Chirurgie vasculaire](service), s'il te plait, A+ !
+    - bien le bonjour, la forme ? Mon fils est malade, a la demande du [Mme BRUN](doctor) qui est anesthesite, je demande à discuter avec avec le service [Stomatologie]{"entity": "service", "role": "target"} Salut !
+    - bonjour, tu peux m'aider ? stp, je pourrais m'entretenir avec a l'acceuil du [Stomatologie]{"entity": "service", "role": "target"} Je dois faire une une scintigraphie svp, ca serait super, Ciao !
+    - ca va ? Aide moi stp, ils auraient aimé telephoner avec au au secretariat du service [Stomatologie]{"entity": "service", "role": "target"} il est en cure plz, A+ !
+    - comment allez-vous ? Pourriez vous m'aidez ? je peux discuter avec avec le service [Stomatologie]{"entity": "service", "role": "target"} Ciao
+    - comment vas-tu ? je voulais discuter avec au au secretariat du service [Stomatologie]{"entity": "service", "role": "target"}
+    - ils désireraient que vous me passiez au service stp, A+ [Stomatologie]{"entity": "service", "role": "target"}
+    - j'aurais désiré joindre au avec le secretariat du service [Stomatologie]{"entity": "service", "role": "target"} sur recommandation de [ABOUCAYA Jean-Paul](doctor) qui est membre du service [Rhumatologie](service) je crois svp, tu m'enleverais une epine du pied, Salut !
+    - je peux discuter avec avec l'acceuil du service [Stomatologie]{"entity": "service", "role": "target"}
+    - je pourrais joindre au service [Stomatologie]{"entity": "service", "role": "target"}
+    - salut, bien ? ils veulent dialoguer avec avec l'acceuil du [Stomatologie]{"entity": "service", "role": "target"} sur recommandation de [Docteur BLAVIER Benedicte](doctor) qui officie en tant que stomatologue, stp,
+    - salutation, bien ? me faut de l'aide, sur recommandation de [AL MOUSSARIH](doctor) j'aimerais discuter avec avec le service [Stomatologie]{"entity": "service", "role": "target"} s'il te plait, A+ !
+    - yo, ca va ? j'ai besoins d'aide ! nous voulons converser avec a l'acceuil du service ce serait bien aimable, merci Ciao [Stomatologie]{"entity": "service", "role": "target"}
+- intent: contact_service/stomatherapie
+  examples: |
+    - bien ? j'aurais désiré telephoner avec au avec le secretariat du service [Stomathérapie]{"entity": "service", "role": "target"}
+    - elle a eu un probleme. comme me l'a conseille [Mr CADOT Bernard](doctor) qui est stomatologue je pense je peux voir au service [Stomathérapie]{"entity": "service", "role": "target"}
+    - il peut telephoner avec a l'acceuil du service [Stomathérapie]{"entity": "service", "role": "target"} a la demande du [BLAVIER](doctor). plz, ca serait super, merci Au revoir !
+    - il souhaiterait telephoner a au au secretariat du [Stomathérapie]{"entity": "service", "role": "target"}
+    - j'aimerais avoir avec le service [Stomathérapie]{"entity": "service", "role": "target"}
+    - j'aspire à joindre a l'acceuil du [Stomathérapie]{"entity": "service", "role": "target"} a la demande du [BRUN](doctor) qui est membre du service [Assistante logistique](service),
+    - j'aurais aimé m'entretenir avec a l'acceuil du service stp, [Stomathérapie]{"entity": "service", "role": "target"}
+    - j'aurais réclamé de que vous me passiez avec le au secretariat du [Stomathérapie]{"entity": "service", "role": "target"}
+    - je désirerais discuter avec a l'acceuil du [Stomathérapie]{"entity": "service", "role": "target"} Je me sens malade, plz, Salut !
+    - je pourrais avoir au service s'il vous plait, ca m'aiderais beaucoup, merci Au revoir ! [Stomathérapie]{"entity": "service", "role": "target"}
+    - je rêve de telephoner avec avec l'acceuil du service  [Stomathérapie]{"entity": "service", "role": "target"}
+    - je veux discuter avec au service [Stomathérapie]{"entity": "service", "role": "target"}
+    - je voulais telephoner avec au au secretariat du ca m'aiderais beaucoup, [Stomathérapie]{"entity": "service", "role": "target"}
+    - la forme ? Aide moi s'il te plait, je souhaite m'entretenir avec avec le service [Stomathérapie]{"entity": "service", "role": "target"}
+    - salutation, me faut de l'aide, j'aurais rêvé de avoir a l'acceuil du service [Stomathérapie]{"entity": "service", "role": "target"} sur recommandation de [BADO](doctor),
+- intent: contact_service/assistante_hoteliere
+  examples: |
+    - comment vas-tu ? Nous avons besoins d'aide d'urgence ! j'espère echanger avec au au secretariat du service [Assistante hôtelière]{"entity": "service", "role": "target"}
+    - comment vas-tu ? Pourriez vous m'aidez ? je voudrais echanger avec a l'acceuil du service [Assistante hôtelière]{"entity": "service", "role": "target"} stp, ca serait super, Au revoir !
+    - coucou, je désire avoir au au secretariat du service [Assistante hôtelière]{"entity": "service", "role": "target"}
+    - elle a eu un accident, sur recommandation de [Mr BOUCHAREB](doctor) je demande à echanger avec au au secretariat du service [Assistante hôtelière]{"entity": "service", "role": "target"} stp, ca m'aiderais beaucoup, merci Salut !
+    - il demande à voir au service [Assistante hôtelière]{"entity": "service", "role": "target"}
+    - il désire dialoguer avec au service [Assistante hôtelière]{"entity": "service", "role": "target"}
+    - ils pourraient causer avec avec le service [Assistante hôtelière]{"entity": "service", "role": "target"} Elle se sent malade plz, ce serait bien aimable, Ciao
+    - j'aurais aspiré à telephoner a au service [Assistante hôtelière]{"entity": "service", "role": "target"} il a eu un accident ce serait apprecie, merci
+    - je peux discuter avec au au secretariat du service  [Assistante hôtelière]{"entity": "service", "role": "target"}
+    - je peux voir a l'acceuil du [Assistante hôtelière]{"entity": "service", "role": "target"}
+    - je réclamerais de converser avec avec le service plz, ce serait bien aimable, Salut ! [Assistante hôtelière]{"entity": "service", "role": "target"}
+    - je souhaite avoir a l'acceuil du service plz, [Assistante hôtelière]{"entity": "service", "role": "target"}
+    - je voudrais m'entretenir avec avec le service [Assistante hôtelière]{"entity": "service", "role": "target"} sur recommandation de [Mr BENHAMOU](doctor) qui est membre du service [Oncologie](service) je pense,
+    - nous pourrions converser avec avec le service s'il vous plait, A+ ! [Assistante hôtelière]{"entity": "service", "role": "target"}
+    - salut, Je me sens pas bien. a la demande du [ARMANDON](doctor) qui est membre du service [Anesthesie](service) je pense, je peux echanger avec avec le service [Assistante hôtelière]{"entity": "service", "role": "target"}
+- intent: contact_service/sophrologie
+  examples: |
+    - Mon fils est malade comme me l'a conseille [Dr ABOAB Jennifer](doctor) je demande à echanger avec avec l'acceuil du [Sophrologie]{"entity": "service", "role": "target"} stp,
+    - bien ? tu peux m'aider ? j'aurais exigé de causer a avec le service [Sophrologie]{"entity": "service", "role": "target"} sur recommandation de [BELHASSEN](doctor) qui officie en tant que chirurgien je crois.
+    - bonjour, ca va ? j'aurais besoins d'aide, s'il vous plait, je demande à causer a avec le service A+ [Sophrologie]{"entity": "service", "role": "target"}
+    - comment vas-tu ? ils désirent avoir avec l'acceuil du service [Sophrologie]{"entity": "service", "role": "target"}
+    - j'aspire à avoir a l'acceuil du [Sophrologie]{"entity": "service", "role": "target"}
+    - j'aurais demandé à discuter avec au service [Sophrologie]{"entity": "service", "role": "target"} Il dois faire une une analyse.
+    - je désire echanger avec avec l'acceuil du service [Sophrologie]{"entity": "service", "role": "target"}
+    - je désire telephoner a avec le service [Sophrologie]{"entity": "service", "role": "target"} Je dois faire une un examen. ca serait super, merci
+    - je voudrais que vous me passiez a l'acceuil du service [Sophrologie]{"entity": "service", "role": "target"} Je dois faire une un examen
+    - la forme ? me faut de l'aide, sur recommandation de [BRYON](doctor) qui est sophrologue j'aurais espéré m'entretenir avec au au secretariat du [Sophrologie]{"entity": "service", "role": "target"}
+    - me faut de l'aide, j'aurais souhaité joindre avec l'acceuil du [Sophrologie]{"entity": "service", "role": "target"} Je me sens malade
+    - salut, ca va ? je demande à m'entretenir avec avec l'acceuil du [Sophrologie]{"entity": "service", "role": "target"}
+    - salut, la forme ? Pourriez vous m'aidez stp, ? je rêverais de m'entretenir avec avec le service [Sophrologie]{"entity": "service", "role": "target"}
+    - salutation, comment allez-vous ? je veux dialoguer avec avec l'acceuil du service [Sophrologie]{"entity": "service", "role": "target"}
+    - yo, bien ? j'ai besoins d'aide ! je voulais m'entretenir avec avec l'acceuil du [Sophrologie]{"entity": "service", "role": "target"} s'il te plait,
+- intent: contact_service/assistante_logistique
+  examples: |
+    - Je dois faire une une scintigraphie j'aurais désiré discuter avec au service [Assistante logistique]{"entity": "service", "role": "target"}
+    - bonsoir, comment allez-vous ? j'aurais aimé discuter avec avec l'acceuil du service [Assistante logistique]{"entity": "service", "role": "target"} a la demande du [Dr BRUN Magali](doctor), tu m'enleverais une epine du pied, merci
+    - bonsoir, j'aimerais converser avec au service s'il te plait, tu m'enleverais une epine du pied, [Assistante logistique]{"entity": "service", "role": "target"}
+    - ca va ? je désire echanger avec au service [Assistante logistique]{"entity": "service", "role": "target"}
+    - comment allez-vous ? il aspire à causer avec avec l'acceuil du stp, ca m'aiderais beaucoup, merci A+ ! [Assistante logistique]{"entity": "service", "role": "target"}
+    - comment vas-tu ? ils auraient espéré joindre avec le avec le secretariat du service s'il vous plait, [Assistante logistique]{"entity": "service", "role": "target"}
+    - il est en cure, je demande à causer avec au service [Assistante logistique]{"entity": "service", "role": "target"} ca m'aiderais beaucoup, Ciao
+    - ils désireraient que vous me passiez au au secretariat du service [Assistante logistique]{"entity": "service", "role": "target"} a la demande du [Docteur BELMAGHNI](doctor) qui est assistant sociale
+    - j'aurais voulu converser avec avec le au secretariat du [Assistante logistique]{"entity": "service", "role": "target"}
+    - je désire echanger avec au avec le secretariat du service [Assistante logistique]{"entity": "service", "role": "target"}
+    - je désirerais joindre a l'acceuil du [Assistante logistique]{"entity": "service", "role": "target"}
+    - je voulais discuter avec avec le service [Assistante logistique]{"entity": "service", "role": "target"}
+    - la forme ? tu peux m'aider ? je désirerais voir avec le service [Assistante logistique]{"entity": "service", "role": "target"}
+    - yo, ca va ? j'aurais besoins d'aide, il veut joindre avec l'acceuil du [Assistante logistique]{"entity": "service", "role": "target"} Elle dois faire une un examen,
+    - yo, j'aimerais echanger avec avec l'acceuil du service [Assistante logistique]{"entity": "service", "role": "target"} J'ai passe une analyse, plz, ca serait super,
+- intent: contact_service/oncologie
+  examples: |
+    - Il se sent malade. comme me l'a conseille [Mr AL MOUSSARIH Abdallah](doctor). je souhaiterais que vous me passiez au avec le secretariat du service [Oncologie]{"entity": "service", "role": "target"} s'il te plait,
+    - Nous avons besoins d'aide d'urgence ! il est en cure de chimiotherapie ils aimeraient voir a l'acceuil du service [Oncologie]{"entity": "service", "role": "target"}
+    - bonsoir, Je me suis fait mal sur recommandation de [Docteur BENOUAICHE Laurence](doctor) je souhaite parler avec avec l'acceuil du [Oncologie]{"entity": "service", "role": "target"} plz, Au revoir
+    - ca va ? ils désirent dialoguer avec avec le service [Oncologie]{"entity": "service", "role": "target"}
+    - comment allez-vous ? je rêvais de echanger avec avec le au secretariat du  [Oncologie]{"entity": "service", "role": "target"}
+    - coucou, bien ? j'aurais demandé à dialoguer avec avec l'acceuil du [Oncologie]{"entity": "service", "role": "target"} Je suis en cure.
+    - ils désirent voir avec l'acceuil du service [Oncologie]{"entity": "service", "role": "target"}
+    - j'ai eu une attaque sur recommandation de [BELDA](doctor), je désire discuter avec avec l'acceuil du service [Oncologie]{"entity": "service", "role": "target"} s'il te plait, Au revoir
+    - j'aspire à que vous me passiez au au secretariat du service [Oncologie]{"entity": "service", "role": "target"}
+    - je peux avoir a l'acceuil du [Oncologie]{"entity": "service", "role": "target"} a la demande du [BRUN Laurent](doctor) qui fait partie du service [Planification](service)
+    - je réclame de causer avec avec le service ca m'aiderais beaucoup, [Oncologie]{"entity": "service", "role": "target"}
+    - je souhaiterais que vous me passiez avec le service s'il vous plait, ce serait apprecie, A+ ! [Oncologie]{"entity": "service", "role": "target"}
+    - nous exigerions de que vous me passiez avec le avec le secretariat du service [Oncologie]{"entity": "service", "role": "target"} s'il te plait, ca serait super,
+    - salutation, Aide moi je désirerais avoir avec l'acceuil du s'il te plait, [Oncologie]{"entity": "service", "role": "target"}
+    - salutation, comment allez-vous ? je désire dialoguer avec a l'acceuil du service [Oncologie]{"entity": "service", "role": "target"}
+- intent: contact_service/assistante_sociale
+  examples: |
+    - Je me sens malade comme me l'a conseille [APTECAR Eduardo](doctor) qui appartient au service [Accueil](service) je crois je désirais dialoguer avec avec le au secretariat du [Assistante sociale]{"entity": "service", "role": "target"}
+    - a la demande du [ALONSO Enrique](doctor). je demande à que vous me passiez a l'acceuil du service [Assistante sociale]{"entity": "service", "role": "target"} s'il te plait, tu m'enleverais une epine du pied,
+    - bien ? je réclamerais de joindre avec le au secretariat du service [Assistante sociale]{"entity": "service", "role": "target"}
+    - bien le bonjour, bien ? tu peux m'aider ? je demanderais à causer avec au service tu m'enleverais une epine du pied, [Assistante sociale]{"entity": "service", "role": "target"}
+    - bien le bonjour, faut que tu m'aide ! je souhaiterais converser avec avec l'acceuil du service s'il te plait, [Assistante sociale]{"entity": "service", "role": "target"}
+    - bonsoir, je réclamerais de joindre au avec le secretariat du [Assistante sociale]{"entity": "service", "role": "target"} elle est en cure ce serait bien aimable, A+ !
+    - ca va ? Je dois faire une anesthesie, je peux echanger avec avec l'acceuil du [Assistante sociale]{"entity": "service", "role": "target"}
+    - comment allez-vous ? me faut de l'aide, Mon fils est malade. a la demande du [Docteur ALONSO Enrique](doctor) je demanderais à joindre a l'acceuil du [Assistante sociale]{"entity": "service", "role": "target"}
+    - coucou, la forme ? nous demandons à converser avec au avec le secretariat du Au revoir ! [Assistante sociale]{"entity": "service", "role": "target"}
+    - coucou, me faut de l'aide, il rêve de que vous me passiez au au secretariat du service [Assistante sociale]{"entity": "service", "role": "target"} comme me l'a demande [APTECAR Eduardo](doctor) A+
+    - je demande à que vous me passiez avec le service [Assistante sociale]{"entity": "service", "role": "target"} comme me l'a demande [BELHASSEN Laurent](doctor),
+    - je désire avoir avec le avec le secretariat du [Assistante sociale]{"entity": "service", "role": "target"} elle a eu une attaque
+    - nous pouvons dialoguer avec au service [Assistante sociale]{"entity": "service", "role": "target"} elle a passe une analyse.
+    - yo, il aimerait voir avec l'acceuil du [Assistante sociale]{"entity": "service", "role": "target"}
+    - yo, j'aimerais avoir avec le au secretariat du [Assistante sociale]{"entity": "service", "role": "target"} il a fais une analyse
+- intent: contact_service/biomedical
+  examples: |
+    - Pourriez vous m'aidez s'il te plait, ? je demandais à dialoguer avec avec l'acceuil du plz, [Biomédical]{"entity": "service", "role": "target"}
+    - bien ? Pourriez vous m'aidez plz, ? il est en cure je peux discuter avec avec l'acceuil du service [Biomédical]{"entity": "service", "role": "target"}
+    - ca va ? Aide moi je désire echanger avec avec le service [Biomédical]{"entity": "service", "role": "target"}
+    - coucou, bien ? je demanderais à echanger avec avec le au secretariat du stp, [Biomédical]{"entity": "service", "role": "target"}
+    - il désirait avoir au service plz, [Biomédical]{"entity": "service", "role": "target"}
+    - il peut converser avec avec le service [Biomédical]{"entity": "service", "role": "target"}
+    - il rêvait de parler a au avec le secretariat du [Biomédical]{"entity": "service", "role": "target"}
+    - il souhaite voir avec le service svp, tu m'enleverais une epine du pied, merci [Biomédical]{"entity": "service", "role": "target"}
+    - ils voulaient dialoguer avec avec le au secretariat du  [Biomédical]{"entity": "service", "role": "target"}
+    - j'aurais aspiré à dialoguer avec au avec le secretariat du ca serait super, A+ ! [Biomédical]{"entity": "service", "role": "target"}
+    - je souhaitais converser avec au service [Biomédical]{"entity": "service", "role": "target"}
+    - je voulais parler a avec l'acceuil du service [Biomédical]{"entity": "service", "role": "target"} Je me suis fait mal
+    - salut, comment allez-vous ? j'aurais aimé joindre avec le service s'il vous plait, ca serait super, merci Au revoir [Biomédical]{"entity": "service", "role": "target"}
+    - salutation, comment vas-tu ? Aide moi j'aimerais echanger avec avec le au secretariat du  [Biomédical]{"entity": "service", "role": "target"}
+    - yo, comment vas-tu ? j'ai besoins d'aide ! Je dois faire une anesthesie ils veulent echanger avec au au secretariat du [Biomédical]{"entity": "service", "role": "target"}
+- intent: contact_service/chirurgie_de_la_main
+  examples: |
+    - Pourriez vous m'aidez ? J'ai fais une scintigraphie, je voudrais m'entretenir avec avec le avec le secretariat du [Chirurgie de la main]{"entity": "service", "role": "target"} ca m'aiderais beaucoup,
+    - a la demande du [Mr AL MOUSSARIH Abdallah](doctor). je veux avoir a l'acceuil du [Chirurgie de la main]{"entity": "service", "role": "target"}
+    - bien le bonjour, comment vas-tu ? je souhaite que vous me passiez avec le avec le secretariat du service [Chirurgie de la main]{"entity": "service", "role": "target"} a la demande du [BAUER Bertrand](doctor) qui officie en tant que pediatre je pense s'il te plait,
+    - ca va ? elle a passe une scintigraphie, il pourrait causer avec au service [Chirurgie de la main]{"entity": "service", "role": "target"}
+    - comment allez-vous ? ils espéreraient telephoner a au avec le secretariat du service ce serait apprecie, merci [Chirurgie de la main]{"entity": "service", "role": "target"}
+    - ils désirent discuter avec avec l'acceuil du service [Chirurgie de la main]{"entity": "service", "role": "target"} Je dois faire une un examen.
+    - ils souhaitent echanger avec avec le service [Chirurgie de la main]{"entity": "service", "role": "target"} il a passe une scintigraphie.
+    - je désirais avoir au avec le secretariat du  [Chirurgie de la main]{"entity": "service", "role": "target"}
+    - je désire voir avec l'acceuil du service [Chirurgie de la main]{"entity": "service", "role": "target"}
+    - je voulais avoir avec l'acceuil du Au revoir [Chirurgie de la main]{"entity": "service", "role": "target"}
+    - je voulais parler a a l'acceuil du service [Chirurgie de la main]{"entity": "service", "role": "target"} J'ai passe un examen
+    - je voulais telephoner avec a l'acceuil du service stp, ca m'aiderais beaucoup, merci [Chirurgie de la main]{"entity": "service", "role": "target"}
+    - nous souhaitons parler avec avec le service svp, [Chirurgie de la main]{"entity": "service", "role": "target"}
+    - yo, je réclame de discuter avec avec l'acceuil du [Chirurgie de la main]{"entity": "service", "role": "target"} plz, tu m'enleverais une epine du pied,
+    - yo, tu peux m'aider ? nous désirons discuter avec a l'acceuil du service [Chirurgie de la main]{"entity": "service", "role": "target"} a la demande du [BENOUAICHE](doctor) qui officie en tant que pediatre je crois
+- intent: contact_service/scintigraphie
+  examples: |
+    - Il dois faire une un examen, je veux discuter avec au service [Scintigraphie]{"entity": "service", "role": "target"} ca serait super, A+
+    - Il dois faire une une analyse je souhaitais causer avec avec le au secretariat du service [Scintigraphie]{"entity": "service", "role": "target"}
+    - Ma fille est tres malade comme me l'a demande [Dr APTECAR](doctor) qui fait partie du service [Scintigraphie](service) je crois ils rêveraient de telephoner a au service [Scintigraphie]{"entity": "service", "role": "target"} tu m'enleverais une epine du pied, merci A+ !
+    - Pourriez vous m'aidez svp, ? je désire discuter avec a l'acceuil du service svp, ce serait bien aimable, merci [Scintigraphie]{"entity": "service", "role": "target"}
+    - bonjour, j'ai besoins d'aide ! je souhaite dialoguer avec avec le service [Scintigraphie]{"entity": "service", "role": "target"} a la demande du [BENHAMOU](doctor) qui appartient au service [Assistante sociale](service)
+    - bonsoir, Nous avons besoins d'aide d'urgence ! ils réclament de avoir a l'acceuil du [Scintigraphie]{"entity": "service", "role": "target"} sur recommandation de [APTECAR Eduardo](doctor) qui fait partie du service [Rhumatologie](service),
+    - ils auraient espéré que vous me passiez a l'acceuil du service s'il te plait, [Scintigraphie]{"entity": "service", "role": "target"}
+    - ils espèrent avoir a l'acceuil du [Scintigraphie]{"entity": "service", "role": "target"} Ma fille est tres malade,
+    - je demanderais à parler avec au service [Scintigraphie]{"entity": "service", "role": "target"}
+    - je désirerais causer a avec l'acceuil du [Scintigraphie]{"entity": "service", "role": "target"}
+    - je peux que vous me passiez avec le service [Scintigraphie]{"entity": "service", "role": "target"} comme me l'a demande [BOUCHAREB](doctor) qui est membre du service [Chirurgie Viscerale](service) de memoire plz,
+    - je rêve de telephoner avec au service [Scintigraphie]{"entity": "service", "role": "target"}
+    - nous réclamons de converser avec avec le service [Scintigraphie]{"entity": "service", "role": "target"} Il dois faire une une analyse
+    - nous voulions converser avec avec le avec le secretariat du [Scintigraphie]{"entity": "service", "role": "target"}
+    - yo, comment vas-tu ? Aide moi s'il vous plait, j'aspirerais à que vous me passiez avec l'acceuil du  [Scintigraphie]{"entity": "service", "role": "target"}
+- intent: contact_service/rythmologie
+  examples: |
+    - Elle dois faire une anesthesie. je veux que vous me passiez a l'acceuil du [Rythmologie]{"entity": "service", "role": "target"} plz, Au revoir !
+    - bien ? je peux causer avec avec l'acceuil du service [Rythmologie]{"entity": "service", "role": "target"}
+    - bien le bonjour, bien ? me faut de l'aide, je demande à parler a a l'acceuil du service [Rythmologie]{"entity": "service", "role": "target"} sur recommandation de [Mr ALONSO Enrique](doctor) stp, tu m'enleverais une epine du pied, merci
+    - bien le bonjour, je veux echanger avec avec le avec le secretariat du service [Rythmologie]{"entity": "service", "role": "target"} comme me l'a demande [ABOAB](doctor).
+    - il aspire à telephoner a avec l'acceuil du service [Rythmologie]{"entity": "service", "role": "target"} a la demande du [CADOT Bernard](doctor) s'il te plait, ca m'aiderais beaucoup, merci
+    - il souhaite que vous me passiez avec le au secretariat du service [Rythmologie]{"entity": "service", "role": "target"} Ciao !
+    - j'exige de telephoner a a l'acceuil du [Rythmologie]{"entity": "service", "role": "target"} a la demande du [BOUCHAREB Adam](doctor), s'il vous plait, ca serait super,
+    - je demande à causer avec a l'acceuil du service [Rythmologie]{"entity": "service", "role": "target"} Il dois faire une une prise de sang s'il vous plait,
+    - je demande à que vous me passiez au service [Rythmologie]{"entity": "service", "role": "target"}
+    - je peux avoir au service [Rythmologie]{"entity": "service", "role": "target"} comme me l'a demande [Mme BRUN Magali](doctor). Salut !
+    - je veux converser avec au au secretariat du service plz, ca m'aiderais beaucoup, merci [Rythmologie]{"entity": "service", "role": "target"}
+    - je voulais echanger avec a l'acceuil du [Rythmologie]{"entity": "service", "role": "target"} Je me sens pas bien.
+    - nous rêverions de m'entretenir avec avec l'acceuil du service svp, ce serait apprecie, merci Ciao ! [Rythmologie]{"entity": "service", "role": "target"}
+    - salutation, tu peux m'aider ? j'aurais désiré converser avec au service ca serait super, Salut ! [Rythmologie]{"entity": "service", "role": "target"}
+    - sur recommandation de [BLAVIER Benedicte](doctor) qui est rythmologue je pense je veux dialoguer avec avec le au secretariat du service [Rythmologie]{"entity": "service", "role": "target"} ca serait super, merci
+- intent: contact_service/rhumatologie
+  examples: |
+    - Elle dois faire une un examen je demanderais à telephoner a avec le service [rhumatologie]{"entity": "service", "role": "target"} svp, Salut
+    - Pourriez vous m'aidez ? j'exige de avoir avec le avec le secretariat du [rhumatologie]{"entity": "service", "role": "target"} comme me l'a demande [Docteur BENHAMOU](doctor). s'il te plait,
+    - bien ? tu peux m'aider ? s'il te plait, Mon fils est tres malade a la demande du [BENHAMOU](doctor) je désire telephoner a au service [rhumatologie]{"entity": "service", "role": "target"}
+    - bien le bonjour, je demande à echanger avec avec le service [rhumatologie]{"entity": "service", "role": "target"}
+    - comme me l'a conseille [Docteur CADOT Bernard](doctor) qui est membre du service [Admissions](service) je demande à telephoner avec avec le service [rhumatologie]{"entity": "service", "role": "target"}
+    - coucou, Aide moi je rêve de dialoguer avec avec le service [rhumatologie]{"entity": "service", "role": "target"} il a fais une scintigraphie
+    - coucou, je voudrais converser avec avec le service [rhumatologie]{"entity": "service", "role": "target"}
+    - il exige de joindre au avec le secretariat du plz, Ciao [rhumatologie]{"entity": "service", "role": "target"}
+    - je demandais à m'entretenir avec au service [rhumatologie]{"entity": "service", "role": "target"}
+    - je demanderais à causer a au au secretariat du ca m'aiderais beaucoup, merci Ciao [rhumatologie]{"entity": "service", "role": "target"}
+    - je peux dialoguer avec a l'acceuil du plz, [rhumatologie]{"entity": "service", "role": "target"}
+    - je veux que vous me passiez avec le au secretariat du [rhumatologie]{"entity": "service", "role": "target"}
+    - je veux telephoner a avec le au secretariat du [rhumatologie]{"entity": "service", "role": "target"}
+    - je voulais avoir a l'acceuil du service [rhumatologie]{"entity": "service", "role": "target"} comme me l'a demande [BENSAID](doctor) qui est membre du service [Oncologie](service),
+    - la forme ? nous réclamons de m'entretenir avec au avec le secretariat du service s'il te plait, tu m'enleverais une epine du pied, merci Salut ! [rhumatologie]{"entity": "service", "role": "target"}
+- intent: contact_service/ressources_humaines
+  examples: |
+    - bien ? je demanderais à m'entretenir avec au service plz, ca m'aiderais beaucoup, Salut ! [Ressources Humaines]{"entity": "service", "role": "target"}
+    - bien le bonjour, bien ? ils souhaitent avoir avec le avec le secretariat du service [Ressources Humaines]{"entity": "service", "role": "target"} elle a fais un examen.
+    - bien le bonjour, comment allez-vous ? sur recommandation de [BOULET Stephane](doctor) qui est assistant sociale. nous pouvons causer avec au service [Ressources Humaines]{"entity": "service", "role": "target"}
+    - bonsoir, bien ? ils veulent causer avec avec le avec le secretariat du service [Ressources Humaines]{"entity": "service", "role": "target"}
+    - comme me l'a conseille [BENHAMOU Claude](doctor) je désirais dialoguer avec avec l'acceuil du [Ressources Humaines]{"entity": "service", "role": "target"} s'il te plait, ca m'aiderais beaucoup, merci
+    - coucou, ca va ? me faut de l'aide, il souhaitait m'entretenir avec a l'acceuil du service [Ressources Humaines]{"entity": "service", "role": "target"} J'ai fais une scintigraphie
+    - coucou, comment vas-tu ? j'aurais besoins d'aide, a la demande du [Dr BELDA](doctor) qui appartient au service [Sophrologie](service) je pense j'aurais aimé que vous me passiez avec le service [Ressources Humaines]{"entity": "service", "role": "target"} A+ !
+    - coucou, je réclame de que vous me passiez au service svp, ca m'aiderais beaucoup, merci [Ressources Humaines]{"entity": "service", "role": "target"}
+    - ils aspireraient à m'entretenir avec a l'acceuil du [Ressources Humaines]{"entity": "service", "role": "target"}
+    - j'aspirerais à discuter avec avec le avec le secretariat du service [Ressources Humaines]{"entity": "service", "role": "target"} sur recommandation de [BENOUAICHE Laurence](doctor) qui est assistante heteliere
+    - je demanderais à que vous me passiez a l'acceuil du service [Ressources Humaines]{"entity": "service", "role": "target"}
+    - je souhaite que vous me passiez au service [Ressources Humaines]{"entity": "service", "role": "target"} Il dois faire une un examen.
+    - nous réclamions de causer a a l'acceuil du service s'il te plait, ca serait super, merci [Ressources Humaines]{"entity": "service", "role": "target"}
+    - salut, j'aurais besoins d'aide, s'il te plait, je veux m'entretenir avec avec le au secretariat du [Ressources Humaines]{"entity": "service", "role": "target"}
+    - salut, la forme ? j'aurais aimé que vous me passiez a l'acceuil du service svp, A+ [Ressources Humaines]{"entity": "service", "role": "target"}
+- intent: contact_service/chirurgie_vasculaire
+  examples: |
+    - bonjour, je désire joindre avec le avec le secretariat du [Chirurgie vasculaire]{"entity": "service", "role": "target"} sur recommandation de [ALLARD Anne](doctor)
+    - ca va ? faut que tu m'aide ! je désire avoir a l'acceuil du [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+    - coucou, bien ? j'ai besoins d'aide ! je demande à telephoner a a l'acceuil du [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+    - faut que tu m'aide ! je souhaitais telephoner avec au service [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+    - il demande à discuter avec au avec le secretariat du service [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+    - j'ai besoins d'aide ! je demande à echanger avec avec l'acceuil du [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+    - j'espère joindre avec le service [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+    - je désire telephoner avec a l'acceuil du service [Chirurgie vasculaire]{"entity": "service", "role": "target"} il a eu un accident, ca serait super,
+    - je réclamerais de causer avec avec le service [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+    - je souhaite converser avec au avec le secretariat du [Chirurgie vasculaire]{"entity": "service", "role": "target"} comme me l'a demande [Mr BOSSI](doctor)
+    - je veux joindre avec le service [Chirurgie vasculaire]{"entity": "service", "role": "target"} a la demande du [Mr BORIE Herve](doctor) qui officie en tant que rythmologue
+    - je voudrais echanger avec avec l'acceuil du [Chirurgie vasculaire]{"entity": "service", "role": "target"} a la demande du [Docteur ALONSO](doctor) qui officie en tant que rythmologue, ca serait super,
+    - salut, ca va ? je peux dialoguer avec au service ca serait super, A+ [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+    - salut, comment vas-tu ? je rêverais de avoir au service ca serait super, [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+    - sur recommandation de [Dr ALONSO](doctor) qui officie en tant que rhumatologue, il veut parler avec avec le service [Chirurgie vasculaire]{"entity": "service", "role": "target"}
+- intent: contact_service/chirurgie_viscerale
+  examples: |
+    - J'ai fais une radio je demande à telephoner avec au service [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - bonsoir, comment allez-vous ? j'aimerais dialoguer avec avec le service [Chirurgie Viscérale]{"entity": "service", "role": "target"} comme me l'a demande [ALLARD](doctor). svp, Ciao !
+    - elle est en cure de radiotherapie nous rêverions de joindre avec l'acceuil du [Chirurgie Viscérale]{"entity": "service", "role": "target"} Au revoir !
+    - ils rêvent de joindre a l'acceuil du [Chirurgie Viscérale]{"entity": "service", "role": "target"} comme me l'a conseille [BADO](doctor) qui appartient au service [Angiographie](service) je crois
+    - ils veulent avoir au service [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - je demande à que vous me passiez a l'acceuil du service plz, Ciao [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - je demande à telephoner avec au avec le secretariat du [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - je demanderais à joindre au service s'il te plait, Salut ! [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - je désire causer a avec l'acceuil du ce serait bien aimable, merci [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - je pourrais voir avec le service [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - je veux parler a au service [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - nous pouvons converser avec au service  [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - nous réclamons de dialoguer avec au service [Chirurgie Viscérale]{"entity": "service", "role": "target"} sur recommandation de [Mme BRUNET Oceane](doctor) qui est chirurgien. svp, ca serait super, merci A+
+    - salutation, comment allez-vous ? faut que tu m'aide ! je veux joindre au au secretariat du service [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+    - yo, Nous avons besoins d'aide d'urgence ! ils demandent à telephoner avec au service ce serait bien aimable, A+ ! [Chirurgie Viscérale]{"entity": "service", "role": "target"}
+- intent: contact_service/pediatrie
+  examples: |
+    - bonjour, j'ai besoins d'aide ! nous souhaitons dialoguer avec a l'acceuil du service svp, tu m'enleverais une epine du pied, merci A+ ! [Pédiatrie]{"entity": "service", "role": "target"}
+    - comment vas-tu ? j'espérais causer avec avec le au secretariat du service [Pédiatrie]{"entity": "service", "role": "target"}
+    - comment vas-tu ? je souhaiterais telephoner a avec le service [Pédiatrie]{"entity": "service", "role": "target"}
+    - comment vas-tu ? tu peux m'aider ? plz, je peux avoir au avec le secretariat du service [Pédiatrie]{"entity": "service", "role": "target"}
+    - coucou, je peux echanger avec avec le service [Pédiatrie]{"entity": "service", "role": "target"}
+    - il espère discuter avec avec le service [Pédiatrie]{"entity": "service", "role": "target"} a la demande du [BADO](doctor).
+    - j'espérerais parler a a l'acceuil du service [Pédiatrie]{"entity": "service", "role": "target"} il a passe un examen
+    - j'exigerais de voir avec le avec le secretariat du [Pédiatrie]{"entity": "service", "role": "target"}
+    - je demande à joindre a l'acceuil du [Pédiatrie]{"entity": "service", "role": "target"}
+    - je désire que vous me passiez a l'acceuil du [Pédiatrie]{"entity": "service", "role": "target"}
+    - je pourrais avoir au service [Pédiatrie]{"entity": "service", "role": "target"} sur recommandation de [Mr ARMANDON Denis](doctor),
+    - je voudrais discuter avec avec l'acceuil du [Pédiatrie]{"entity": "service", "role": "target"} elle a fais un examen
+    - salut, ca va ? comme me l'a conseille [Dr BADO](doctor) qui fait partie du service [Pediatrie](service) je pense. j'exige de telephoner avec avec le au secretariat du service [Pédiatrie]{"entity": "service", "role": "target"} s'il te plait, tu m'enleverais une epine du pied, Ciao
+    - yo, comment vas-tu ? j'ai besoins d'aide ! il réclame de m'entretenir avec au service stp, ca m'aiderais beaucoup, Ciao [Pédiatrie]{"entity": "service", "role": "target"}
+    - yo, je réclame de que vous me passiez au service [Pédiatrie]{"entity": "service", "role": "target"}
+- intent: contact_service/chirurgie_digestive
+  examples: |
+    - Je suis en cure, ils rêveraient de echanger avec au au secretariat du service [Chirurgie digestive]{"entity": "service", "role": "target"} s'il vous plait, tu m'enleverais une epine du pied, merci A+ !
+    - bien le bonjour, comment vas-tu ? Nous avons besoins d'aide d'urgence ! Ma fille est tres malade comme me l'a conseille [Mr ARMANDON Denis](doctor). je demande à telephoner avec avec le avec le secretariat du [Chirurgie digestive]{"entity": "service", "role": "target"}
+    - bonjour, ca va ? Aide moi svp, j'ai eu un probleme, a la demande du [Docteur BELHASSEN Laurent](doctor) qui fait partie du service [Biomedical](service) je crois je souhaitais parler avec au service [Chirurgie digestive]{"entity": "service", "role": "target"}
+    - bonjour, comment allez-vous ? j'espérerais discuter avec avec l'acceuil du service ce serait bien aimable, A+ [Chirurgie digestive]{"entity": "service", "role": "target"}
+    - ca va ? me faut de l'aide, je désirerais parler a avec le avec le secretariat du service [Chirurgie digestive]{"entity": "service", "role": "target"} a la demande du [Docteur ARMANDON Denis](doctor).
+    - comment allez-vous ? Nous avons besoins d'aide d'urgence ! je peux avoir a l'acceuil du tu m'enleverais une epine du pied, merci [Chirurgie digestive]{"entity": "service", "role": "target"}
+    - comment allez-vous ? sur recommandation de [Docteur BELDA](doctor) qui appartient au service [Chirurgie vasculaire](service). il pourrait dialoguer avec a l'acceuil du service [Chirurgie digestive]{"entity": "service", "role": "target"}
+    - ils exigeraient de voir a l'acceuil du service [Chirurgie digestive]{"entity": "service", "role": "target"}
+    - je désire avoir au au secretariat du service [Chirurgie digestive]{"entity": "service", "role": "target"}
+    - je désirerais converser avec a l'acceuil du service [Chirurgie digestive]{"entity": "service", "role": "target"} a la demande du [Dr BENOSMAN Hedi](doctor) qui officie en tant que pediatre je crois.
+    - je souhaiterais discuter avec au avec le secretariat du [Chirurgie digestive]{"entity": "service", "role": "target"} comme me l'a demande [Dr BELDA Eric](doctor), Au revoir
+    - nous aspirons à telephoner avec au avec le secretariat du [Chirurgie digestive]{"entity": "service", "role": "target"} comme me l'a demande [ARMANDON](doctor) qui officie en tant que stomatologue je pense s'il vous plait, ca m'aiderais beaucoup,
+    - salutation, Pourriez vous m'aidez stp, ? nous demandons à discuter avec avec l'acceuil du service [Chirurgie digestive]{"entity": "service", "role": "target"}
+    - salutation, bien ? J'ai passe une scintigraphie j'aspire à parler avec au service [Chirurgie digestive]{"entity": "service", "role": "target"}
+    - salutation, faut que tu m'aide ! je désirerais avoir a l'acceuil du ca m'aiderais beaucoup, merci Salut ! [Chirurgie digestive]{"entity": "service", "role": "target"}
+- intent: contact_service/chirurgie_orthopedique
+  examples: |
+    - Nous avons besoins d'aide d'urgence ! il aurait souhaité que vous me passiez au avec le secretariat du service [Chirurgie orthopédique]{"entity": "service", "role": "target"}
+    - bien ? faut que tu m'aide ! j'aurais espéré discuter avec au service [Chirurgie orthopédique]{"entity": "service", "role": "target"} Je suis en cure
+    - bonsoir, bien ? j'aurais besoins d'aide, je veux joindre avec le service [Chirurgie orthopédique]{"entity": "service", "role": "target"}
+    - ca va ? Mon fils est tres malade, comme me l'a demande [Docteur BRUNET Oceane](doctor) nous désirons avoir au avec le secretariat du [Chirurgie orthopédique]{"entity": "service", "role": "target"} Au revoir
+    - coucou, comment allez-vous ? tu peux m'aider ? svp, je souhaiterais m'entretenir avec avec le service [Chirurgie orthopédique]{"entity": "service", "role": "target"} comme me l'a demande [BENOSMAN Hedi](doctor) qui fait partie du service [Urgence](service) je pense.
+    - il souhaiterait dialoguer avec avec l'acceuil du [Chirurgie orthopédique]{"entity": "service", "role": "target"}
+    - ils demandent à telephoner avec au au secretariat du service svp, ca m'aiderais beaucoup, Salut ! [Chirurgie orthopédique]{"entity": "service", "role": "target"}
+    - j'aimerais parler avec avec le service [Chirurgie orthopédique]{"entity": "service", "role": "target"}
+    - je demande à avoir au service [Chirurgie orthopédique]{"entity": "service", "role": "target"} Il dois faire une une prise de sang,
+    - je demande à dialoguer avec au au secretariat du service [Chirurgie orthopédique]{"entity": "service", "role": "target"}
+    - je désirerais parler a a l'acceuil du [Chirurgie orthopédique]{"entity": "service", "role": "target"} a la demande du [BRUNET Oceane](doctor) qui fait partie du service [Admissions](service),
+    - je souhaite discuter avec au service [Chirurgie orthopédique]{"entity": "service", "role": "target"}
+    - nous pouvons echanger avec avec le service [Chirurgie orthopédique]{"entity": "service", "role": "target"} Je dois faire une une prise de sang.
+    - nous voulons telephoner a avec le au secretariat du [Chirurgie orthopédique]{"entity": "service", "role": "target"} a la demande du [Dr AL MOUSSARIH](doctor) qui fait partie du service [Unite de Soins continus](service) je crois,
+    - sur recommandation de [Mr ABOUCAYA Jean-Paul](doctor), je réclame de joindre a l'acceuil du service [Chirurgie orthopédique]{"entity": "service", "role": "target"}
+- intent: contact_doctor/unknown
+  examples: |
+    - Il dois faire une un examen, je demande à que vous me passiez [SALDANA Ione]{"entity": "doctor", "role": "target"}
+    - Je dois faire une une scintigraphie je demande à telephoner a [EPRON]{"entity": "doctor", "role": "target"}
+    - Ma fille est tres malade a la demande du [BAUER Bertrand](doctor) qui appartient au service [Pediatrie](service) de memoire ils veulent discuter avec Mme [CURRY]{"entity": "doctor", "role": "target"}
+    - Ma fille est tres malade a la demande du [BRUNET Morgan](doctor) qui appartient au service [Biomedical](service) de memoire nous demandons à discuter avec [CURRY Marie]{"entity": "doctor", "role": "target"} s'il vous plait,
+    - Nous avons besoins d'aide d'urgence ! je peux converser avec [HAMPTON]{"entity": "doctor", "role": "target"}
+    - bien ? faut que tu m'aide ! il demande à voir Mme [MACRON]{"entity": "doctor", "role": "target"}
+    - bien le bonjour, faut que tu m'aide ! j'aurais souhaité m'entretenir avec Mr [CHRIST]{"entity": "doctor", "role": "target"} comme me l'a demande [BELHASSEN](doctor) qui appartient au service [Oncologie](service), ce serait apprecie, Ciao !
+    - bonjour, a la demande du [BRYON](doctor) qui appartient au service [Anesthesie](service) je pense je désire parler a Docteur [VALJEAN Jean]{"entity": "doctor", "role": "target"}
+    - bonjour, me faut de l'aide, je demande à voir Docteur [WALKER]{"entity": "doctor", "role": "target"}
+    - comme me l'a demande [BLIN](doctor) qui est stomatologue je souhaite avoir Docteur [CASTEX Jean]{"entity": "doctor", "role": "target"}
+    - comment allez-vous ? je demandais à avoir [DIEU]{"entity": "doctor", "role": "target"}
+    - comment allez-vous ? je peux telephoner a Mr [DUPONT]{"entity": "doctor", "role": "target"} comme me l'a conseille [ARMANDON Denis](doctor)
+    - comment vas-tu ? faut que tu m'aide ! comme me l'a demande [Mr APTECAR](doctor) qui est angiologue de memoire nous pouvons m'entretenir avec [DIEU Vivant]{"entity": "doctor", "role": "target"}
+    - elle a passe une analyse, j'espère telephoner avec [MACRON]{"entity": "doctor", "role": "target"}
+    - faut que tu m'aide ! je désire discuter avec [ZIDANE Zinedine]{"entity": "doctor", "role": "target"} ce serait apprecie, Ciao !
+    - il demanderait à causer a [PRINCE]{"entity": "doctor", "role": "target"} Ciao !
+    - il exige de parler avec [VALJEAN]{"entity": "doctor", "role": "target"}
+    - il veut converser avec [SALDANA]{"entity": "doctor", "role": "target"} comme me l'a demande [BELDA Eric](doctor) qui est membre du service [Rythmologie](service) je pense.
+    - il voudrait converser avec [SALDANA]{"entity": "doctor", "role": "target"}
+    - ils demandent à joindre Mme [DUPONT philipe]{"entity": "doctor", "role": "target"}
+    - ils demandent à m'entretenir avec Mr [CHRISTIE]{"entity": "doctor", "role": "target"} a la demande du [Docteur BLIN](doctor) qui est membre du service [Scintigraphie](service)
+    - ils peuvent causer a [WALKER]{"entity": "doctor", "role": "target"}
+    - ils souhaitent m'entretenir avec [D'Arc Jeanne]{"entity": "doctor", "role": "target"} plz, ca m'aiderais beaucoup, merci A+
+    - ils souhaitent voir Mr [WALKER]{"entity": "doctor", "role": "target"}
+    - ils voudraient causer a Mme [SALDANA]{"entity": "doctor", "role": "target"}
+    - j'aimerais m'entretenir avec Docteur [D'Arc Jeanne]{"entity": "doctor", "role": "target"} Je dois faire une une scintigraphie.
+    - j'aspire à echanger avec Mr [CASTEX]{"entity": "doctor", "role": "target"} s'il te plait, ca serait super,
+    - j'aurais demandé à converser avec Mme [DANOURA]{"entity": "doctor", "role": "target"} comme me l'a conseille [APTECAR](doctor), stp, ce serait apprecie, merci Ciao !
+    - j'aurais désiré dialoguer avec Docteur [VALJEAN]{"entity": "doctor", "role": "target"}
+    - je demande à dialoguer avec [CASTEX Jean]{"entity": "doctor", "role": "target"}
+    - je demande à joindre Docteur [PRINCE]{"entity": "doctor", "role": "target"} plz,
+    - je demande à m'entretenir avec Mme [CHRISTIE Agatha]{"entity": "doctor", "role": "target"}
+    - je désire joindre Mr [VALJEAN Jean]{"entity": "doctor", "role": "target"} s'il te plait, ca serait super, merci A+ !
+    - je désire joindre [CHRISTIE Agatha]{"entity": "doctor", "role": "target"}
+    - je désirerais avoir [VALJEAN]{"entity": "doctor", "role": "target"} Je me sens malade.
+    - je peux echanger avec Mme [DUPONT philipe]{"entity": "doctor", "role": "target"}
+    - je peux parler a Mme [PRINCE]{"entity": "doctor", "role": "target"} stp, tu m'enleverais une epine du pied, Salut
+    - je peux telephoner avec [PRINCE Aladdin]{"entity": "doctor", "role": "target"} svp,
+    - je rêve de telephoner avec Docteur [DANOURA]{"entity": "doctor", "role": "target"} s'il te plait, tu m'enleverais une epine du pied, merci
+    - je souhaiterais que vous me passiez [CASTEX]{"entity": "doctor", "role": "target"}
+    - je souhaiterais voir [CURRY]{"entity": "doctor", "role": "target"}
+    - je veux causer avec Mr [VALJEAN Jean]{"entity": "doctor", "role": "target"}
+    - je veux dialoguer avec [CHRIST]{"entity": "doctor", "role": "target"} Au revoir !
+    - je veux echanger avec [CHRIST]{"entity": "doctor", "role": "target"}
+    - salutation, Nous avons besoins d'aide d'urgence ! j'aimerais dialoguer avec Mr [VALJEAN]{"entity": "doctor", "role": "target"}
+    - salutation, ils peuvent parler avec Docteur [CHRISTIE Agatha]{"entity": "doctor", "role": "target"} A+
+    - sur recommandation de [Docteur BLAVIER Benedicte](doctor) qui officie en tant que ophtalmologue de memoire, je souhaiterais converser avec Mme [ZIDANE Zinedine]{"entity": "doctor", "role": "target"}
+    - tu peux m'aider ? J'ai fais une analyse je souhaiterais echanger avec [CHRISTIE Agatha]{"entity": "doctor", "role": "target"}
+    - tu peux m'aider ? il réclamerait de telephoner a [CHRISTIE Agatha]{"entity": "doctor", "role": "target"} a la demande du [Dr BOULET](doctor),
+    - tu peux m'aider ? plz, je voulais converser avec [HAMPTON]{"entity": "doctor", "role": "target"} Elle se sent malade svp, tu m'enleverais une epine du pied, merci Salut !
+- intent: contact_service/unknown
+  examples: |
+    - Aide moi stp, je peux avoir avec le avec le secretariat du service [tour effeil]{"entity": "service", "role": "target"} comme me l'a demande [Dr BORIE Herve](doctor) qui est assistante heteliere svp,
+    - J'ai passe une analyse ils aspireraient à joindre avec le service [gouvernement]{"entity": "service", "role": "target"}
+    - J'ai passe une analyse nous demandions à avoir au service [soleil]{"entity": "service", "role": "target"} plz, ce serait bien aimable, merci
+    - Je me sens pas bien, comme me l'a demande [BAUER](doctor) qui est chirurgien de memoire il souhaiterait telephoner avec a l'acceuil du service [lune]{"entity": "service", "role": "target"}
+    - Mon fils est tres malade sur recommandation de [Dr BLAVIER Benedicte](doctor) j'espérerais voir au avec le secretariat du service [clinique]{"entity": "service", "role": "target"} ce serait apprecie, merci Salut !
+    - Pourriez vous m'aidez plz, ? Je me suis fait mal comme me l'a demande [AL MOUSSARIH Abdallah](doctor) qui officie en tant que ophtalmologue de memoire, je souhaitais telephoner a au service [tour effeil]{"entity": "service", "role": "target"}
+    - a la demande du [Dr BECHEREL](doctor) qui fait partie du service [Assistante heteliere](service) je crois, je souhaite parler avec a l'acceuil du service [église]{"entity": "service", "role": "target"}
+    - bien ? Aide moi svp, je réclame de converser avec au service [hopital]{"entity": "service", "role": "target"} a la demande du [BADO Fabrice](doctor) qui est assistante sociale,
+    - bien le bonjour, Aide moi plz, je voulais parler avec au au secretariat du [perpet les alouettes]{"entity": "service", "role": "target"} Mon fils est tres malade tu m'enleverais une epine du pied, merci A+ !
+    - bien le bonjour, bien ? Nous avons besoins d'aide d'urgence ! il a eu une attaque comme me l'a conseille [Docteur ALONSO Enrique](doctor) qui est membre du service [Ophtalmologie](service) je veux parler a avec le service [magasins]{"entity": "service", "role": "target"} s'il vous plait, ca m'aiderais beaucoup, merci
+    - bien le bonjour, ca va ? j'ai besoins d'aide ! je désire avoir au avec le secretariat du [coiffeur]{"entity": "service", "role": "target"} comme me l'a conseille [Mr BLIN](doctor).
+    - bonjour, bien ? Je me suis brule a la demande du [BECHEREL](doctor). je désire avoir au service [coiffeur]{"entity": "service", "role": "target"}
+    - bonjour, je demande à m'entretenir avec avec l'acceuil du service [restaurant]{"entity": "service", "role": "target"} a la demande du [Mme ALLARD Anne](doctor), Salut !
+    - bonsoir, j'ai besoins d'aide ! je voudrais parler avec a l'acceuil du [soleil]{"entity": "service", "role": "target"}
+    - bonsoir, la forme ? Pourriez vous m'aidez ? j'aimerais avoir avec l'acceuil du service [coiffeur]{"entity": "service", "role": "target"}
+    - ca va ? Aide moi j'aspire à que vous me passiez avec l'acceuil du tu m'enleverais une epine du pied, A+ ! [charité]{"entity": "service", "role": "target"}
+    - ca va ? j'ai besoins d'aide ! Ma fille est malade, sur recommandation de [BELHASSEN Laurent](doctor) qui fait partie du service [Assistante sociale](service) de memoire il peut echanger avec au service [gouvernement]{"entity": "service", "role": "target"} svp, Salut !
+    - comment vas-tu ? me faut de l'aide, nous désirons m'entretenir avec a l'acceuil du service [lune]{"entity": "service", "role": "target"} comme me l'a conseille [BELMAGHNI](doctor)
+    - coucou, comment vas-tu ? j'ai besoins d'aide ! je pourrais avoir a l'acceuil du service [lune]{"entity": "service", "role": "target"} elle a fais une radio Salut
+    - elle a fais une radio je demanderais à voir avec le avec le secretariat du service [perpet les alouettes]{"entity": "service", "role": "target"}
+    - il espère dialoguer avec avec l'acceuil du [église]{"entity": "service", "role": "target"}
+    - il peut telephoner avec au avec le secretariat du [coiffeur]{"entity": "service", "role": "target"} Je dois faire une un examen.
+    - il pourrait dialoguer avec avec le avec le secretariat du  [caserne]{"entity": "service", "role": "target"}
+    - ils aimeraient parler avec avec le avec le secretariat du [clinique]{"entity": "service", "role": "target"} a la demande du [Docteur BELDA Eric](doctor) qui officie en tant que pediatre
+    - j'aimerais dialoguer avec au service [cabinet]{"entity": "service", "role": "target"} comme me l'a demande [BENOSMAN Hedi](doctor).
+    - j'aspirerais à joindre au avec le secretariat du plz, ca m'aiderais beaucoup, merci Salut ! [soleil]{"entity": "service", "role": "target"}
+    - j'aurais aimé m'entretenir avec au au secretariat du service [coiffeur]{"entity": "service", "role": "target"} il est en cure.
+    - j'espère avoir avec l'acceuil du [tour effeil]{"entity": "service", "role": "target"}
+    - j'exigeais de echanger avec a l'acceuil du service [clinique]{"entity": "service", "role": "target"}
+    - je demande à discuter avec avec le au secretariat du service  [pizzeria]{"entity": "service", "role": "target"}
+    - je demande à parler avec au service [coiffeur]{"entity": "service", "role": "target"} a la demande du [Docteur BRUNET](doctor) ce serait apprecie, merci Salut
+    - je demande à voir au service s'il vous plait, [église]{"entity": "service", "role": "target"}
+    - je demanderais à echanger avec avec le au secretariat du s'il te plait, [charité]{"entity": "service", "role": "target"}
+    - je peux m'entretenir avec a l'acceuil du [charité]{"entity": "service", "role": "target"} comme me l'a conseille [Mme BRUNET](doctor) plz,
+    - je peux voir au service ca serait super, [restaurant]{"entity": "service", "role": "target"}
+    - je pourrais que vous me passiez avec le service Salut [cabinet]{"entity": "service", "role": "target"}
+    - je réclame de telephoner a au au secretariat du [tour effeil]{"entity": "service", "role": "target"} Salut !
+    - je veux discuter avec au avec le secretariat du service [coiffeur]{"entity": "service", "role": "target"}
+    - je voulais telephoner a au au secretariat du service [caserne]{"entity": "service", "role": "target"} comme me l'a conseille [Docteur BRUNET Oceane](doctor)
+    - la forme ? me faut de l'aide, Mon fils est malade. sur recommandation de [BAUER](doctor) je souhaite discuter avec avec le avec le secretariat du service [Paris]{"entity": "service", "role": "target"}
+    - la forme ? nous aurions demandé à dialoguer avec au service [magasins]{"entity": "service", "role": "target"}
+    - nous aimerions parler a au avec le secretariat du service [magasins]{"entity": "service", "role": "target"}
+    - nous aurions désiré voir avec l'acceuil du service [gouvernement]{"entity": "service", "role": "target"}
+    - nous réclamerions de avoir au avec le secretariat du service [charité]{"entity": "service", "role": "target"} j'ai eu une complication
+    - nous voudrions dialoguer avec avec le avec le secretariat du service Ciao [restaurant]{"entity": "service", "role": "target"}
+    - nous voulons dialoguer avec avec le au secretariat du ce serait bien aimable, Salut [restaurant]{"entity": "service", "role": "target"}
+    - salut, je veux echanger avec a l'acceuil du service s'il te plait, [restaurant]{"entity": "service", "role": "target"}
+    - yo, Nous avons besoins d'aide d'urgence ! je veux que vous me passiez a l'acceuil du service [clinique]{"entity": "service", "role": "target"} elle a eu un accident
+    - yo, comment vas-tu ? tu peux m'aider ? svp, ils souhaitent dialoguer avec avec le service plz, tu m'enleverais une epine du pied, A+ ! [soleil]{"entity": "service", "role": "target"}
+    - yo, je demanderais à converser avec avec le au secretariat du service ca m'aiderais beaucoup, merci Au revoir ! [lune]{"entity": "service", "role": "target"}
+- intent: out_of_scope
+  examples: |
+    - Cette fille telephone aux pieds de celeri a voiles.
+    - Des donatrices nient savoir mourir.
+    - Elle se sent malade,
+    - En 2050, elles s'excuseront de pivoter...
+    - Il se sent malade
+    - Il se sent malade,
+    - Jacques Attali cherche querelle a des brigands...
+    - Je me sens pas bien,
+    - Je me sens pas bien.
+    - Je me suis brule
+    - Je me suis fait mal
+    - Joe Dalton mime un competiteur a des cartomanciens.
+    - L'attache de presse de Bozo le clown mourait.
+    - Le maà§on regne sur la cycliste...
+    - Les recteurs craignaient de deprimer !
+    - Ma fille est malade
+    - Ma fille est tres malade.
+    - Mon fils est malade
+    - Où le pleurnichard se cache-t-il pleinement ?
+    - Un pignouf ne succedera pas a des avions.
+    - a la demande du [BENSAID Cherazade](doctor),
+    - a la demande du [BOUCHAREB Adam](doctor)
+    - a la demande du [BRUNET Morgan](doctor) qui appartient au service [Planification](service).
+    - bien ? Aide moi
+    - bien le bonjour, Pourriez vous m'aidez s'il vous plait, ?
+    - bonjour, me faut de l'aide,
+    - bonsoir, j'aurais besoins d'aide,
+    - ca serait super, A+ !
+    - ca va ? faut que tu m'aide !
+    - ce serait bien aimable, merci
+    - comme me l'a conseille [BAUER Bertrand](doctor).
+    - comme me l'a conseille [BLIN](doctor)
+    - comme me l'a conseille [Dr BELHASSEN Laurent](doctor) qui est chirurgien de memoire.
+    - comme me l'a conseille [Mme BENSAID](doctor).
+    - comme me l'a demande [Docteur BADO Fabrice](doctor)
+    - plz, Ciao !
+    - plz, ca m'aiderais beaucoup,
+    - plz, ce serait apprecie, merci
+    - s'il te plait, ca m'aiderais beaucoup, Au revoir !
+    - s'il vous plait, ca serait super,
+    - salutation, comment allez-vous ?
+    - stp,
+    - sur recommandation de [BELHASSEN Laurent](doctor) qui fait partie du service [ORL](service) je crois
+    - sur recommandation de [BENOUAICHE Laurence](doctor),
+    - sur recommandation de [BRUNET](doctor) qui est membre du service [Scintigraphie](service) je crois
+    - sur recommandation de [Docteur ALONSO](doctor).
+    - sur recommandation de [Docteur BADO](doctor)
+    - sur recommandation de [Docteur BOULET](doctor).
+    - sur recommandation de [Mme BRYON](doctor)
+    - sur recommandation de [Mr BELDA](doctor) qui officie en tant que assistant logistique je crois.

@@ -1,0 +1,44 @@
+{
+  "contact_doctor": {
+    "precision": 0.9920634920634921,
+    "recall": 1.0,
+    "f1-score": 0.9960159362549801,
+    "support": 500,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 0.92,
+    "f1-score": 0.9583333333333334,
+    "support": 50,
+    "confused_with": {
+      "contact_doctor": 4
+    }
+  },
+  "contact_service": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 500,
+    "confused_with": {}
+  },
+  "accuracy": 0.9961904761904762,
+  "macro avg": {
+    "precision": 0.9973544973544973,
+    "recall": 0.9733333333333333,
+    "f1-score": 0.9847830898627712,
+    "support": 1050
+  },
+  "weighted avg": {
+    "precision": 0.9962207105064248,
+    "recall": 0.9961904761904762,
+    "f1-score": 0.9961186998039587,
+    "support": 1050
+  },
+  "micro avg": {
+    "precision": 0.9961904761904762,
+    "recall": 0.9961904761904762,
+    "f1-score": 0.9961904761904762,
+    "support": 1050
+  }
+}

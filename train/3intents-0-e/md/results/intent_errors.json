@@ -1,0 +1,66 @@
+[
+  {
+    "text": "bonsoir, Aide moi il aurait demandé à voir Docteur AL",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9936284422874451
+    }
+  },
+  {
+    "text": "je pourrais voir BADO Fabrice",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9924135804176331
+    }
+  },
+  {
+    "text": "il demande à voir Mr BENOUAICHE",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.998913049697876
+    }
+  },
+  {
+    "text": "il demande à voir BENSAID",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "j'aurais aimé voir Mme BENSAID plz, Salut !",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999994039535522
+    }
+  },
+  {
+    "text": "la forme ? j'aspirerais à voir BENSAID Cherazade svp, A+",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7638224363327026
+    }
+  },
+  {
+    "text": "bien ? faut que tu m'aide ! il demande à voir Mme MACRON",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "Cette fille telephone aux pieds de celeri a voiles.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  }
+]

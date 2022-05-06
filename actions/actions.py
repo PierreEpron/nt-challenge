@@ -43,7 +43,7 @@ def run_contact(
 class ActionContactDoctor(Action):
 
     def name(self) -> Text:
-        return "action_contact_docor"
+        return "action_contact_doctor"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,

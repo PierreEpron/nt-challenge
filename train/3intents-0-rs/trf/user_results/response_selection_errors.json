@@ -1,0 +1,274 @@
+[
+  {
+    "text": "mr brunet est-il disponible pour un rdv ?",
+    "intent_response_key_target": "contact_doctor/brunet_morgan",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_oceane",
+      "confidence": 0.5200139880180359
+    }
+  },
+  {
+    "text": "j'ai besoin de récupérer mon dossier chez le docteur bedo",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bossi_philippe",
+      "confidence": 0.17457641661167145
+    }
+  },
+  {
+    "text": "Je voudrais accéder à Mr Cadot",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/cadot_bernard",
+      "confidence": 0.9855654835700989
+    }
+  },
+  {
+    "text": "madame Black WIDOW du service de neurologie m'a récemment demandé d'aller voir mademoiselle super GIRL du service de chirurgie, pourrais-je avoir un rendez-vous avec elle svp ?",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brun_magali",
+      "confidence": 0.06394437700510025
+    }
+  },
+  {
+    "text": "je veux voir le dr batman",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bado_fabrice",
+      "confidence": 0.1327858865261078
+    }
+  },
+  {
+    "text": "j'ai perdu ma semelle orthopédique, mr Brignoli serait-il dispo pour un rdv ?",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brun_laurent",
+      "confidence": 0.13611957430839539
+    }
+  },
+  {
+    "text": "j'aimerais un rdv avec le dr cooper, j'ai affreusement mal à la tête",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/al_moussarih_abdallah",
+      "confidence": 0.08973720669746399
+    }
+  },
+  {
+    "text": "Je voudrais avoir un rendez-vous avec Mr Gadot",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/cadot_bernard",
+      "confidence": 0.8354580402374268
+    }
+  },
+  {
+    "text": "Je voudrais prendre rendez-vous avec Mr Gadot",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/cadot_bernard",
+      "confidence": 0.770553708076477
+    }
+  },
+  {
+    "text": "bonjour, je voudrais voir un médecin charé de l'orthopédie",
+    "intent_response_key_target": "contact_service/chirurgie_orthopedique",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.7227278351783752
+    }
+  },
+  {
+    "text": "bonjour, je voudrais voir un médecin charé de l'ortophédi",
+    "intent_response_key_target": "contact_service/chirurgie_orthopedique",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.7600542902946472
+    }
+  },
+  {
+    "text": "Alors passer moi Claude",
+    "intent_response_key_target": "contact_doctor/benhamou_claude",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/allard_anne",
+      "confidence": 0.13664431869983673
+    }
+  },
+  {
+    "text": "je veux avoir le service de cardiologie svp",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.4245092570781708
+    }
+  },
+  {
+    "text": "je veux avoir le service de cardiologie.svp",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.4073288142681122
+    }
+  },
+  {
+    "text": "je veux avoir le service de cardiologie.",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.311804860830307
+    }
+  },
+  {
+    "text": "je veux avoir le service de cardiologie.c'est possible ?",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/angiologie",
+      "confidence": 0.26209205389022827
+    }
+  },
+  {
+    "text": "cadiologie urgent !!",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.24234451353549957
+    }
+  },
+  {
+    "text": "cadiologie stp",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/angiologie",
+      "confidence": 0.2450437694787979
+    }
+  },
+  {
+    "text": "cadiologie svp",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.22853167355060577
+    }
+  },
+  {
+    "text": "j'aimerais consulter un cardiologue le plus vite possible svp",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.2555057406425476
+    }
+  },
+  {
+    "text": "je veux voir quelqu'un de l'administration svp",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.32275131344795227
+    }
+  },
+  {
+    "text": "pourrais-je avoir un médecin du service cardiologie svp ?",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.27020493149757385
+    }
+  },
+  {
+    "text": "passez moi le service neurologie",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.5804088115692139
+    }
+  },
+  {
+    "text": "faudrait que je prenne un rdv avec un cardiologue, c'est possible stp ?",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.3767114579677582
+    }
+  },
+  {
+    "text": "le service cardiologie svp",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/angiologie",
+      "confidence": 0.2666085660457611
+    }
+  },
+  {
+    "text": "j'ai regardé une eclipse sans lunette de protection !! passe moi un ophtalmo, j'ai mal !!!",
+    "intent_response_key_target": "contact_service/ophtalmologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/chirurgie_viscerale",
+      "confidence": 0.2046302855014801
+    }
+  },
+  {
+    "text": "j'aimerais un rdv chez l'opthtamo, j'ai mal !",
+    "intent_response_key_target": "contact_service/ophtalmologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.40644052624702454
+    }
+  },
+  {
+    "text": "on m'a dit d'appeler un pédiatre ?",
+    "intent_response_key_target": "contact_service/pediatrie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.3521129786968231
+    }
+  },
+  {
+    "text": "Mon fils vomi ! appelez le pédiatre !",
+    "intent_response_key_target": "contact_service/pediatrie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.3924770653247833
+    }
+  },
+  {
+    "text": "mon docteur m'a demandé de prendre un rendez-vous avec un pédiatre",
+    "intent_response_key_target": "contact_service/pediatrie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.6978077292442322
+    }
+  },
+  {
+    "text": "J'ai besoin de mon dossier concernant mes analyses biomédicales",
+    "intent_response_key_target": "contact_service/biomedical",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.2540737986564636
+    }
+  },
+  {
+    "text": "j'ai rendez vous avec une pédiatre qui se nomme Océane",
+    "intent_response_key_target": "contact_doctor/brunet_oceane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/allard_anne",
+      "confidence": 0.10273318737745285
+    }
+  },
+  {
+    "text": "J'ai une question concernant l'ordonnance que m'a fourni Mr. Apectar. Pouvez-vous nous mettre en relation ?",
+    "intent_response_key_target": "contact_doctor/aptecar_eduardo",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/allard_anne",
+      "confidence": 0.08803503960371017
+    }
+  },
+  {
+    "text": "Je voudrai parler au docteur Magali",
+    "intent_response_key_target": "contact_doctor/brun_magali",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belmaghni_fatma",
+      "confidence": 0.09700966626405716
+    }
+  }
+]

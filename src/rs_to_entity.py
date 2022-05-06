@@ -23,6 +23,10 @@ my_parser.add_argument(
     '--output-path', '-O', action='store', default=f'{DEFAULT_OUTPUT_PATH}', type=str,
     help=f'path to save conversion result. (default: {DEFAULT_OUTPUT_PATH})')
 
+my_parser.add_argument(
+    '--fill-role', '-F', action='store_true',
+    help=f'if given, set value \'empty\' to role entities if no other role is provided')
+
 args = my_parser.parse_args()
 
 # nlu-path is file ?
@@ -32,5 +36,9 @@ data = load_rasa_data(args.nlu_path)
 
 for example in data.training_examples:
     example.data.pop('intent_response_key', None)
+    if args.fill_role and 'entities' in example.data:
+        for entity in example.data['entities']:
+            if 'role' not in entity:
+                entity['role'] = 'empty'
 
 data.persist_nlu(args.output_path)

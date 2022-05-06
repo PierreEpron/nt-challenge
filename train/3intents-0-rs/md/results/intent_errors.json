@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Aide moi plz, nous espérerions dialoguer avec BAUER comme me l'a conseille BOULET qui fait partie du service Admissions,",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.8695523738861084
+    }
+  },
+  {
+    "text": "il réclame de echanger avec BENHAMOU comme me l'a conseille BLAVIER Benedicte qui est membre du service Angiologie stp, Au revoir !",
+    "intent": "contact_doctor",
+    "intent_prediction": {
+      "name": "contact_service",
+      "confidence": 0.6346782445907593
+    }
+  },
+  {
+    "text": "Ma fille est tres malade comme me l'a demande Dr APTECAR qui fait partie du service Scintigraphie je crois ils rêveraient de telephoner a au service Scintigraphie tu m'enleverais une epine du pied, merci A+ !",
+    "intent": "contact_service",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.873284637928009
+    }
+  },
+  {
+    "text": "Jacques Attali cherche querelle a des brigands...",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9768185615539551
+    }
+  },
+  {
+    "text": "bien le bonjour, Pourriez vous m'aidez s'il vous plait, ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.8514166474342346
+    }
+  },
+  {
+    "text": "sur recommandation de Mr BELDA qui officie en tant que assistant logistique je crois.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.6842463612556458
+    }
+  }
+]

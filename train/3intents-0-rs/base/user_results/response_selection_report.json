@@ -1,0 +1,370 @@
+{
+  "contact_doctor/bado_fabrice": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_doctor/brun_magali": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 2,
+    "confused_with": {
+      "contact_doctor/brun_laurent": 1
+    }
+  },
+  "contact_service/urgence": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "contact_service/unknown": 1
+    }
+  },
+  "contact_doctor/bouchareb_adam": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_service/pediatrie": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "contact_service/orl": 2,
+      "contact_service/stomatologie": 1
+    }
+  },
+  "contact_service/orl": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {}
+  },
+  "contact_service/biomedical": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_service/unknown": {
+    "precision": 0.6666666666666666,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.23529411764705882,
+    "support": 14,
+    "confused_with": {
+      "contact_service/angiologie": 10,
+      "contact_service/stomatologie": 1
+    }
+  },
+  "contact_service/gastro_enterologie": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/borie_herve": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/bauer_bertrand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "contact_doctor/aboucaya_jean_paul": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/belda_eric": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/alonso_enrique": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_service/ophtalmologie": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "contact_service/orl": 1
+    }
+  },
+  "contact_doctor/aboab_jennifer": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "contact_service/soins_ambulatoire": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/blin_jean_louis": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_service/chirurgie_de_la_main": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "contact_doctor/brunet_oceane": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "contact_doctor/al_moussarih_abdallah": 1
+    }
+  },
+  "contact_service/anesthesie": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "contact_doctor/brunet_morgan": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "contact_doctor/brunet_oceane": 1
+    }
+  },
+  "contact_service/stomatherapie": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/bossi_philippe": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_service/unite_de_soins_continus": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_service/chirurgie_digestive": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/boulet_stephane": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_doctor/aptecar_eduardo": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "contact_doctor/cadot_bernard": 1
+    }
+  },
+  "contact_doctor/unknown": {
+    "precision": 1.0,
+    "recall": 0.3684210526315789,
+    "f1-score": 0.5384615384615384,
+    "support": 19,
+    "confused_with": {
+      "contact_doctor/al_moussarih_abdallah": 4,
+      "contact_doctor/cadot_bernard": 3
+    }
+  },
+  "contact_service/chirurgie_vasculaire": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/belhassen_laurent": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/brun_laurent": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_service/planification": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "contact_service/chirurgie_viscerale": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_service/stomatologie": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_doctor/cadot_bernard": {
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1-score": 0.4444444444444445,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_doctor/benhamou_claude": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "contact_doctor/borie_herve": 1
+    }
+  },
+  "contact_service/oncologie": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "contact_doctor/benouaiche_laurence": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "contact_service/accueil": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_doctor/aristizabal_patrick": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_service/assistante_sociale": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "contact_doctor/benosman_hedi": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_doctor/bensaid_cherazade": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "contact_service/chirurgie_orthopedique": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "contact_service/orl": 1
+    }
+  },
+  "contact_doctor/becherel_pierre_andre": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "contact_doctor/cadot_bernard": 1
+    }
+  },
+  "micro avg": {
+    "precision": 0.8538461538461538,
+    "recall": 0.7551020408163265,
+    "f1-score": 0.8014440433212996,
+    "support": 147
+  },
+  "macro avg": {
+    "precision": 0.8576604554865424,
+    "recall": 0.8614770622207691,
+    "f1-score": 0.8303669924547564,
+    "support": 147
+  },
+  "weighted avg": {
+    "precision": 0.8973113054745707,
+    "recall": 0.7551020408163265,
+    "f1-score": 0.7731504526727878,
+    "support": 147
+  },
+  "accuracy": 0.7551020408163265
+}

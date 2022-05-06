@@ -1,0 +1,1170 @@
+[
+  {
+    "text": "nous pouvons m'entretenir avec Docteur ABOAB Jennifer comme me l'a conseille BOSSI Philippe,",
+    "intent_response_key_target": "contact_doctor/aboab_jennifer",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/borie_herve",
+      "confidence": 0.16209356486797333
+    }
+  },
+  {
+    "text": "a la demande du Docteur ARMANDON Denis, j'aurais souhaité converser avec ABOUCAYA",
+    "intent_response_key_target": "contact_doctor/aboucaya_jean_paul",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/armandon_denis",
+      "confidence": 0.5538915395736694
+    }
+  },
+  {
+    "text": "comme me l'a demande BENOUAICHE Laurence qui est angiologue, je souhaitais que vous me passiez Mr ABOUCAYA Jean-Paul",
+    "intent_response_key_target": "contact_doctor/aboucaya_jean_paul",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/borie_herve",
+      "confidence": 0.2004532366991043
+    }
+  },
+  {
+    "text": "j'exige de que vous me passiez ABOUCAYA a la demande du BECHEREL.",
+    "intent_response_key_target": "contact_doctor/aboucaya_jean_paul",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/becherel_pierre_andre",
+      "confidence": 0.984706461429596
+    }
+  },
+  {
+    "text": "Je me suis coupe comme me l'a conseille Docteur BENHAMOU Claude qui est assistante logistique de memoire je souhaiterais avoir Mr AL",
+    "intent_response_key_target": "contact_doctor/al_moussarih_abdallah",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/benhamou_claude",
+      "confidence": 0.657302975654602
+    }
+  },
+  {
+    "text": "Je me suis fait mal a la demande du BELHASSEN qui officie en tant que ophtalmologue je pense, j'aimerais que vous me passiez Docteur AL stp, Au revoir",
+    "intent_response_key_target": "contact_doctor/al_moussarih_abdallah",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belhassen_laurent",
+      "confidence": 0.6549440622329712
+    }
+  },
+  {
+    "text": "salutation, j'ai besoins d'aide ! a la demande du BENSAID qui fait partie du service Chirurgie digestive je crois, je désire avoir Mme AL plz, ce serait bien aimable, merci Ciao",
+    "intent_response_key_target": "contact_doctor/al_moussarih_abdallah",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bensaid_cherazade",
+      "confidence": 0.34657007455825806
+    }
+  },
+  {
+    "text": "Mon fils est tres malade, sur recommandation de Dr BOSSI qui officie en tant que assistant sociale je crois j'exige de que vous me passiez Docteur ALLARD Anne svp, Ciao",
+    "intent_response_key_target": "contact_doctor/allard_anne",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.20171771943569183
+    }
+  },
+  {
+    "text": "bien le bonjour, bien ? j'ai besoins d'aide ! je désirais dialoguer avec ALLARD a la demande du Docteur BLIN Jean-Louis qui est assistante logistique,",
+    "intent_response_key_target": "contact_doctor/allard_anne",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/blin_jean_louis",
+      "confidence": 0.5672846436500549
+    }
+  },
+  {
+    "text": "ils aimeraient dialoguer avec Mr ALLARD comme me l'a conseille CADOT Bernard qui fait partie du service Angiologie,",
+    "intent_response_key_target": "contact_doctor/allard_anne",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/alonso_enrique",
+      "confidence": 0.47777771949768066
+    }
+  },
+  {
+    "text": "je souhaite discuter avec ALLARD Anne a la demande du BADO Fabrice qui est membre du service Scintigraphie je crois",
+    "intent_response_key_target": "contact_doctor/allard_anne",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/boulet_stephane",
+      "confidence": 0.23450598120689392
+    }
+  },
+  {
+    "text": "comme me l'a conseille BELHASSEN Laurent, je demande à discuter avec ALONSO",
+    "intent_response_key_target": "contact_doctor/alonso_enrique",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belhassen_laurent",
+      "confidence": 0.5369274616241455
+    }
+  },
+  {
+    "text": "je souhaite parler avec Mr ALONSO comme me l'a conseille BENHAMOU Claude plz, Ciao !",
+    "intent_response_key_target": "contact_doctor/alonso_enrique",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/benhamou_claude",
+      "confidence": 0.16562476754188538
+    }
+  },
+  {
+    "text": "ca va ? tu peux m'aider ? comme me l'a demande BENSAID. je rêvais de voir Mr APTECAR",
+    "intent_response_key_target": "contact_doctor/aptecar_eduardo",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bensaid_cherazade",
+      "confidence": 0.9728517532348633
+    }
+  },
+  {
+    "text": "nous pouvons m'entretenir avec Mr APTECAR Eduardo sur recommandation de Mr BENHAMOU qui appartient au service Accueil stp, ce serait apprecie, merci Au revoir",
+    "intent_response_key_target": "contact_doctor/aptecar_eduardo",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/benhamou_claude",
+      "confidence": 0.3238251507282257
+    }
+  },
+  {
+    "text": "yo, j'aurais besoins d'aide, s'il te plait, ils demandent à echanger avec Mr APTECAR comme me l'a demande BRUN Magali",
+    "intent_response_key_target": "contact_doctor/aptecar_eduardo",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brun_magali",
+      "confidence": 0.4839235246181488
+    }
+  },
+  {
+    "text": "yo, je souhaiterais causer a APTECAR sur recommandation de Dr BRUNET Morgan qui est rhumatologue de memoire stp, tu m'enleverais une epine du pied, merci",
+    "intent_response_key_target": "contact_doctor/aptecar_eduardo",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.8971894383430481
+    }
+  },
+  {
+    "text": "bonsoir, j'ai besoins d'aide ! ils souhaitent que vous me passiez ARISTIZABAL sur recommandation de BADO.",
+    "intent_response_key_target": "contact_doctor/aristizabal_patrick",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/alonso_enrique",
+      "confidence": 0.232618510723114
+    }
+  },
+  {
+    "text": "ca va ? faut que tu m'aide ! sur recommandation de Dr ALLARD Anne qui fait partie du service Ressources Humaines nous voulons causer avec ARISTIZABAL Patrick plz,",
+    "intent_response_key_target": "contact_doctor/aristizabal_patrick",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/allard_anne",
+      "confidence": 0.7438452839851379
+    }
+  },
+  {
+    "text": "faut que tu m'aide ! Je me sens pas bien. a la demande du BELMAGHNI Fatma, je demanderais à joindre Mme ARISTIZABAL Patrick A+",
+    "intent_response_key_target": "contact_doctor/aristizabal_patrick",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belmaghni_fatma",
+      "confidence": 0.22803986072540283
+    }
+  },
+  {
+    "text": "nous aurions demandé à joindre Mme BADO comme me l'a conseille Mr BELHASSEN Laurent",
+    "intent_response_key_target": "contact_doctor/bado_fabrice",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belhassen_laurent",
+      "confidence": 0.9112626314163208
+    }
+  },
+  {
+    "text": "Aide moi plz, nous espérerions dialoguer avec BAUER comme me l'a conseille BOULET qui fait partie du service Admissions,",
+    "intent_response_key_target": "contact_doctor/bauer_bertrand",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/boulet_stephane",
+      "confidence": 0.5177684426307678
+    }
+  },
+  {
+    "text": "Elle se sent malade. sur recommandation de Mme BRUNET j'exigeais de m'entretenir avec Mr BAUER plz, ce serait apprecie, Ciao",
+    "intent_response_key_target": "contact_doctor/bauer_bertrand",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.5746021270751953
+    }
+  },
+  {
+    "text": "ils réclament de discuter avec BAUER Bertrand comme me l'a demande Dr BENOUAICHE. stp, ca m'aiderais beaucoup,",
+    "intent_response_key_target": "contact_doctor/bauer_bertrand",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/benouaiche_laurence",
+      "confidence": 0.29878145456314087
+    }
+  },
+  {
+    "text": "je souhaite que vous me passiez BAUER comme me l'a conseille Mme ABOAB Jennifer. s'il te plait, tu m'enleverais une epine du pied, merci A+",
+    "intent_response_key_target": "contact_doctor/bauer_bertrand",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/aboab_jennifer",
+      "confidence": 0.7540555000305176
+    }
+  },
+  {
+    "text": "yo, me faut de l'aide, je veux echanger avec Mme BAUER Bertrand comme me l'a demande BRUNET s'il te plait, Salut",
+    "intent_response_key_target": "contact_doctor/bauer_bertrand",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_oceane",
+      "confidence": 0.9656119346618652
+    }
+  },
+  {
+    "text": "bien ? je souhaite causer a Docteur BELDA Eric a la demande du Dr BENSAID Cherazade. svp,",
+    "intent_response_key_target": "contact_doctor/belda_eric",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bensaid_cherazade",
+      "confidence": 0.8602147102355957
+    }
+  },
+  {
+    "text": "comme me l'a conseille Mme BENOUAICHE Laurence, je peux voir BELDA",
+    "intent_response_key_target": "contact_doctor/belda_eric",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/benouaiche_laurence",
+      "confidence": 0.9926481246948242
+    }
+  },
+  {
+    "text": "j'ai eu un probleme, a la demande du Mr BECHEREL Pierre-Andre qui fait partie du service Chirurgie de la main. je peux discuter avec Docteur BELDA",
+    "intent_response_key_target": "contact_doctor/belda_eric",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/becherel_pierre_andre",
+      "confidence": 0.9841133952140808
+    }
+  },
+  {
+    "text": "j'exigerais de voir Mr BELDA Eric sur recommandation de Mme BRUNET Oceane. plz, ca m'aiderais beaucoup, merci Ciao",
+    "intent_response_key_target": "contact_doctor/belda_eric",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_oceane",
+      "confidence": 0.39439380168914795
+    }
+  },
+  {
+    "text": "salutation, me faut de l'aide, je demande à voir Mme BELDA Eric a la demande du ARISTIZABAL qui fait partie du service Stomatherapie, ca serait super,",
+    "intent_response_key_target": "contact_doctor/belda_eric",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/benouaiche_laurence",
+      "confidence": 0.691050112247467
+    }
+  },
+  {
+    "text": "coucou, bien ? Pourriez vous m'aidez plz, ? je désire joindre BELHASSEN Laurent a la demande du ABOUCAYA Jean-Paul.",
+    "intent_response_key_target": "contact_doctor/belhassen_laurent",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/aboucaya_jean_paul",
+      "confidence": 0.5292599201202393
+    }
+  },
+  {
+    "text": "tu peux m'aider ? s'il te plait, Je me suis brule. comme me l'a demande BOUCHAREB Adam qui appartient au service Chirurgie orthopedique j'exigerais de dialoguer avec BELHASSEN Ciao !",
+    "intent_response_key_target": "contact_doctor/belhassen_laurent",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/benosman_hedi",
+      "confidence": 0.20332969725131989
+    }
+  },
+  {
+    "text": "bonjour, ca va ? sur recommandation de Mr BOULET Stephane je peux parler avec BELMAGHNI",
+    "intent_response_key_target": "contact_doctor/belmaghni_fatma",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/allard_anne",
+      "confidence": 0.3745448589324951
+    }
+  },
+  {
+    "text": "salut, la forme ? nous pouvons que vous me passiez Docteur BELMAGHNI sur recommandation de BELDA qui est assistante heteliere je pense svp, Ciao",
+    "intent_response_key_target": "contact_doctor/belmaghni_fatma",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belda_eric",
+      "confidence": 0.40219467878341675
+    }
+  },
+  {
+    "text": "comme me l'a conseille ABOAB Jennifer qui officie en tant que stomatologue je pense il aspire à discuter avec BENHAMOU stp, ca m'aiderais beaucoup,",
+    "intent_response_key_target": "contact_doctor/benhamou_claude",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/aboab_jennifer",
+      "confidence": 0.24778765439987183
+    }
+  },
+  {
+    "text": "il réclame de echanger avec BENHAMOU comme me l'a conseille BLAVIER Benedicte qui est membre du service Angiologie stp, Au revoir !",
+    "intent_response_key_target": "contact_doctor/benhamou_claude",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bensaid_cherazade",
+      "confidence": 0.29335737228393555
+    }
+  },
+  {
+    "text": "ils demandent à voir Mr BENHAMOU Claude comme me l'a conseille Mr BOSSI",
+    "intent_response_key_target": "contact_doctor/benhamou_claude",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bossi_philippe",
+      "confidence": 0.8365842700004578
+    }
+  },
+  {
+    "text": "ils voulaient joindre BENHAMOU comme me l'a conseille Docteur BADO Fabrice.",
+    "intent_response_key_target": "contact_doctor/benhamou_claude",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bado_fabrice",
+      "confidence": 0.9846587181091309
+    }
+  },
+  {
+    "text": "je souhaiterais voir Docteur BENHAMOU sur recommandation de Dr BRUN Magali qui est rhumatologue je crois.",
+    "intent_response_key_target": "contact_doctor/benhamou_claude",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brun_magali",
+      "confidence": 0.8098533749580383
+    }
+  },
+  {
+    "text": "Pourriez vous m'aidez ? Je me suis coupe sur recommandation de BLAVIER il veut echanger avec BENOSMAN",
+    "intent_response_key_target": "contact_doctor/benosman_hedi",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/blavier_benedicte",
+      "confidence": 0.2880706489086151
+    }
+  },
+  {
+    "text": "je veux m'entretenir avec Mme BENOSMAN a la demande du Docteur BORIE",
+    "intent_response_key_target": "contact_doctor/benosman_hedi",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/borie_herve",
+      "confidence": 0.8180899620056152
+    }
+  },
+  {
+    "text": "Je me sens malade a la demande du Mme BELMAGHNI Fatma qui officie en tant que ophtalmologue je pense je demande à voir Mme BLAVIER plz, ca serait super, merci Salut !",
+    "intent_response_key_target": "contact_doctor/blavier_benedicte",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/cadot_bernard",
+      "confidence": 0.3586442470550537
+    }
+  },
+  {
+    "text": "a la demande du BOULET, je veux avoir Docteur BLIN Jean-Louis",
+    "intent_response_key_target": "contact_doctor/blin_jean_louis",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/unknown",
+      "confidence": 0.31935733556747437
+    }
+  },
+  {
+    "text": "bien le bonjour, comme me l'a conseille Mme BLAVIER il souhaiterait parler a BLIN Jean-Louis ca m'aiderais beaucoup, merci",
+    "intent_response_key_target": "contact_doctor/blin_jean_louis",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/blavier_benedicte",
+      "confidence": 0.9636661410331726
+    }
+  },
+  {
+    "text": "j'aimerais dialoguer avec Docteur BLIN Jean-Louis sur recommandation de Dr ABOUCAYA Jean-Paul ca m'aiderais beaucoup, A+",
+    "intent_response_key_target": "contact_doctor/blin_jean_louis",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/cadot_bernard",
+      "confidence": 0.33247265219688416
+    }
+  },
+  {
+    "text": "bien ? je veux discuter avec BORIE Hervé sur recommandation de BAUER Bertrand qui est rythmologue.",
+    "intent_response_key_target": "contact_doctor/borie_herve",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bauer_bertrand",
+      "confidence": 0.35171666741371155
+    }
+  },
+  {
+    "text": "je veux converser avec BORIE Hervé sur recommandation de Dr ARMANDON Denis qui est assistant logistique.",
+    "intent_response_key_target": "contact_doctor/borie_herve",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/armandon_denis",
+      "confidence": 0.7917174100875854
+    }
+  },
+  {
+    "text": "yo, je désire converser avec BORIE Hervé comme me l'a demande Dr ARISTIZABAL qui est membre du service Chirurgie vasculaire. ca serait super,",
+    "intent_response_key_target": "contact_doctor/borie_herve",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/aristizabal_patrick",
+      "confidence": 0.6429314613342285
+    }
+  },
+  {
+    "text": "salut, comment allez-vous ? j'aspirerais à telephoner a Docteur BOSSI Philippe a la demande du BLAVIER plz, tu m'enleverais une epine du pied, merci",
+    "intent_response_key_target": "contact_doctor/bossi_philippe",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/blavier_benedicte",
+      "confidence": 0.9576482772827148
+    }
+  },
+  {
+    "text": "sur recommandation de Dr BOUCHAREB je désirais telephoner avec BOSSI Philippe tu m'enleverais une epine du pied, A+ !",
+    "intent_response_key_target": "contact_doctor/bossi_philippe",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.45313307642936707
+    }
+  },
+  {
+    "text": "j'aurais besoins d'aide, je veux avoir Mr BOUCHAREB comme me l'a demande BELDA Eric qui est membre du service Angiographie je crois,",
+    "intent_response_key_target": "contact_doctor/bouchareb_adam",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belda_eric",
+      "confidence": 0.8733799457550049
+    }
+  },
+  {
+    "text": "je souhaitais joindre Mr BOUCHAREB a la demande du Docteur BRYON qui officie en tant que rythmologue ca serait super,",
+    "intent_response_key_target": "contact_doctor/bouchareb_adam",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/cadot_bernard",
+      "confidence": 0.4847850501537323
+    }
+  },
+  {
+    "text": "il peut dialoguer avec BOULET Stéphane a la demande du Dr BRUNET Oceane.",
+    "intent_response_key_target": "contact_doctor/boulet_stephane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.3080841600894928
+    }
+  },
+  {
+    "text": "je pourrais discuter avec BOULET Stéphane sur recommandation de Mr BELHASSEN Laurent qui fait partie du service Assistante sociale de memoire,",
+    "intent_response_key_target": "contact_doctor/boulet_stephane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belhassen_laurent",
+      "confidence": 0.26747649908065796
+    }
+  },
+  {
+    "text": "je souhaite telephoner avec BOULET comme me l'a demande BENOUAICHE qui est membre du service Stomatologie",
+    "intent_response_key_target": "contact_doctor/boulet_stephane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/benouaiche_laurence",
+      "confidence": 0.7462432384490967
+    }
+  },
+  {
+    "text": "ils aspirent à que vous me passiez BRUN Magali sur recommandation de Dr ARISTIZABAL Patrick s'il vous plait, ca m'aiderais beaucoup,",
+    "intent_response_key_target": "contact_doctor/brun_magali",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.24436450004577637
+    }
+  },
+  {
+    "text": "j'aspire à avoir BRUN",
+    "intent_response_key_target": "contact_doctor/brun_magali",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brun_laurent",
+      "confidence": 0.8624384999275208
+    }
+  },
+  {
+    "text": "je désirerais avoir Mr BRUN ce serait bien aimable, merci A+",
+    "intent_response_key_target": "contact_doctor/brun_magali",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brun_laurent",
+      "confidence": 0.5894300937652588
+    }
+  },
+  {
+    "text": "je veux parler a BRUN Je me suis coupe.",
+    "intent_response_key_target": "contact_doctor/brun_magali",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brun_laurent",
+      "confidence": 0.6459034085273743
+    }
+  },
+  {
+    "text": "salutation, j'aimerais telephoner a BRUN stp, ca serait super, merci",
+    "intent_response_key_target": "contact_doctor/brun_magali",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brun_laurent",
+      "confidence": 0.7462497353553772
+    }
+  },
+  {
+    "text": "comment allez-vous ? a la demande du BOSSI Philippe qui est anesthesite nous voulons telephoner a Mme BRUN Laurent plz, ce serait bien aimable,",
+    "intent_response_key_target": "contact_doctor/brun_laurent",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.22399362921714783
+    }
+  },
+  {
+    "text": "comment vas-tu ? comme me l'a demande Mme ABOAB ils rêvent de echanger avec Docteur BRUN",
+    "intent_response_key_target": "contact_doctor/brun_laurent",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/aboab_jennifer",
+      "confidence": 0.483943909406662
+    }
+  },
+  {
+    "text": "il aurait désiré discuter avec Mr BRUN Laurent comme me l'a conseille Dr BENOUAICHE qui fait partie du service Stomatherapie",
+    "intent_response_key_target": "contact_doctor/brun_laurent",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bauer_bertrand",
+      "confidence": 0.2601556181907654
+    }
+  },
+  {
+    "text": "je souhaite dialoguer avec Mme BRUN sur recommandation de BECHEREL.",
+    "intent_response_key_target": "contact_doctor/brun_laurent",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/becherel_pierre_andre",
+      "confidence": 0.838400661945343
+    }
+  },
+  {
+    "text": "me faut de l'aide, il souhaiterait avoir BRUN sur recommandation de BOUCHAREB. svp, ca serait super, merci",
+    "intent_response_key_target": "contact_doctor/brun_laurent",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bouchareb_adam",
+      "confidence": 0.7711368203163147
+    }
+  },
+  {
+    "text": "salutation, ca va ? Nous avons besoins d'aide d'urgence ! j'ai eu une attaque, comme me l'a conseille BAUER Bertrand qui appartient au service Urgence nous désirons joindre Mr BRUN Laurent",
+    "intent_response_key_target": "contact_doctor/brun_laurent",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/bauer_bertrand",
+      "confidence": 0.9377904534339905
+    }
+  },
+  {
+    "text": "j'exigerais de dialoguer avec Mr BRUNET a la demande du BECHEREL",
+    "intent_response_key_target": "contact_doctor/brunet_morgan",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/becherel_pierre_andre",
+      "confidence": 0.9012752771377563
+    }
+  },
+  {
+    "text": "je voulais dialoguer avec BRUNET a la demande du Dr BOULET qui est chirurgien",
+    "intent_response_key_target": "contact_doctor/brunet_morgan",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/borie_herve",
+      "confidence": 0.3765643537044525
+    }
+  },
+  {
+    "text": "salut, j'aurais souhaité dialoguer avec BRUNET s'il vous plait,",
+    "intent_response_key_target": "contact_doctor/brunet_morgan",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_oceane",
+      "confidence": 0.5471248626708984
+    }
+  },
+  {
+    "text": "yo, ca va ? je désire converser avec BRUNET",
+    "intent_response_key_target": "contact_doctor/brunet_morgan",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_oceane",
+      "confidence": 0.535199761390686
+    }
+  },
+  {
+    "text": "yo, comment vas-tu ? faut que tu m'aide ! j'aspirerais à m'entretenir avec BRUNET Je me sens pas bien.",
+    "intent_response_key_target": "contact_doctor/brunet_morgan",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_oceane",
+      "confidence": 0.6340200901031494
+    }
+  },
+  {
+    "text": "Aide moi j'exige de avoir Mr BRUNET Océane a la demande du ALLARD qui officie en tant que assistante logistique Ciao !",
+    "intent_response_key_target": "contact_doctor/brunet_oceane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.42763379216194153
+    }
+  },
+  {
+    "text": "bien ? Je me sens pas bien sur recommandation de BELMAGHNI qui est angiologue de memoire. ils désirent parler avec Docteur BRUNET",
+    "intent_response_key_target": "contact_doctor/brunet_oceane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.25666725635528564
+    }
+  },
+  {
+    "text": "comment allez-vous ? j'ai besoins d'aide ! Il dois faire une une analyse je peux que vous me passiez Docteur BRUNET Océane s'il te plait, ca serait super, merci Au revoir",
+    "intent_response_key_target": "contact_doctor/brunet_oceane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.7206447124481201
+    }
+  },
+  {
+    "text": "j'aspire à converser avec Mme BRUNET plz, Ciao",
+    "intent_response_key_target": "contact_doctor/brunet_oceane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.8989654779434204
+    }
+  },
+  {
+    "text": "je souhaiterais converser avec BRUNET svp,",
+    "intent_response_key_target": "contact_doctor/brunet_oceane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.8908171057701111
+    }
+  },
+  {
+    "text": "je veux parler avec BRUNET",
+    "intent_response_key_target": "contact_doctor/brunet_oceane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.507968008518219
+    }
+  },
+  {
+    "text": "tu peux m'aider ? Je me sens pas bien sur recommandation de BOSSI, nous désirons voir BRUNET Océane s'il te plait, Au revoir",
+    "intent_response_key_target": "contact_doctor/brunet_oceane",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.743943989276886
+    }
+  },
+  {
+    "text": "salutation, je veux parler avec BRYON Dominique a la demande du Dr ALONSO Enrique. s'il vous plait, Au revoir !",
+    "intent_response_key_target": "contact_doctor/bryon_dominique",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/alonso_enrique",
+      "confidence": 0.8833715319633484
+    }
+  },
+  {
+    "text": "bonjour, la forme ? Ma fille est tres malade a la demande du BELHASSEN Laurent qui est rhumatologue nous demandions à converser avec CADOT Bernard",
+    "intent_response_key_target": "contact_doctor/cadot_bernard",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belhassen_laurent",
+      "confidence": 0.31608060002326965
+    }
+  },
+  {
+    "text": "je rêvais de causer a Mme CADOT comme me l'a demande Mme BRUN Magali,",
+    "intent_response_key_target": "contact_doctor/cadot_bernard",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brun_magali",
+      "confidence": 0.8122143745422363
+    }
+  },
+  {
+    "text": "sur recommandation de Dr BENSAID. je souhaiterais echanger avec CADOT",
+    "intent_response_key_target": "contact_doctor/cadot_bernard",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/blavier_benedicte",
+      "confidence": 0.11991643160581589
+    }
+  },
+  {
+    "text": "il a eu une attaque. a la demande du ARISTIZABAL Patrick qui est assistante sociale. nous réclamerions de discuter avec au service Gastro-entérologie s'il te plait, ca serait super,",
+    "intent_response_key_target": "contact_service/gastro_enterologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/assistante_logistique",
+      "confidence": 0.7942487001419067
+    }
+  },
+  {
+    "text": "la forme ? Aide moi il exigeait de causer avec avec l'acceuil du service Gastro-entérologie a la demande du Mme BENOUAICHE Laurence qui fait partie du service Soins ambulatoire. s'il vous plait, Ciao",
+    "intent_response_key_target": "contact_service/gastro_enterologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.1835852861404419
+    }
+  },
+  {
+    "text": "la forme ? comme me l'a conseille ARMANDON, je désire causer a avec le au secretariat du Gastro-entérologie s'il te plait, Ciao !",
+    "intent_response_key_target": "contact_service/gastro_enterologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.24018502235412598
+    }
+  },
+  {
+    "text": "sur recommandation de ABOUCAYA qui appartient au service Anesthesie je pense je demande à voir au au secretariat du service Gastro-entérologie svp, A+ !",
+    "intent_response_key_target": "contact_service/gastro_enterologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.20168352127075195
+    }
+  },
+  {
+    "text": "bien ? a la demande du BENSAID qui est membre du service Scintigraphie de memoire, je demandais à dialoguer avec a l'acceuil du Angiologie s'il vous plait,",
+    "intent_response_key_target": "contact_service/angiologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/scintigraphie",
+      "confidence": 0.36259981989860535
+    }
+  },
+  {
+    "text": "bien ? j'ai besoins d'aide ! Ma fille est tres malade, sur recommandation de Mr ARISTIZABAL Patrick qui officie en tant que rhumatologue je pense. j'aurais réclamé de avoir avec le au secretariat du Angiologie",
+    "intent_response_key_target": "contact_service/angiologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/oncologie",
+      "confidence": 0.23107093572616577
+    }
+  },
+  {
+    "text": "bien le bonjour, je voudrais avoir avec le avec le secretariat du service Ophtalmologie a la demande du AL MOUSSARIH qui fait partie du service Rhumatologie",
+    "intent_response_key_target": "contact_service/ophtalmologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/rhumatologie",
+      "confidence": 0.9030901789665222
+    }
+  },
+  {
+    "text": "comme me l'a demande BENSAID Cherazade qui est membre du service Planification, je veux telephoner a avec le service Ophtalmologie",
+    "intent_response_key_target": "contact_service/ophtalmologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/gastro_enterologie",
+      "confidence": 0.6704376339912415
+    }
+  },
+  {
+    "text": "Elle se sent malade, sur recommandation de Dr ARISTIZABAL qui est assistante sociale je pourrais avoir au service Accueil Salut !",
+    "intent_response_key_target": "contact_service/accueil",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.2326595038175583
+    }
+  },
+  {
+    "text": "Mon fils est malade sur recommandation de Dr BRUNET Morgan qui officie en tant que stomatologue de memoire je veux echanger avec avec l'acceuil du service Accueil plz, ca serait super, merci",
+    "intent_response_key_target": "contact_service/accueil",
+    "intent_response_key_prediction": {
+      "name": "contact_service/stomatherapie",
+      "confidence": 0.38498443365097046
+    }
+  },
+  {
+    "text": "bien le bonjour, bien ? faut que tu m'aide ! comme me l'a demande Dr ALLARD qui fait partie du service Angiologie j'aurais aspiré à parler a avec le au secretariat du Accueil",
+    "intent_response_key_target": "contact_service/accueil",
+    "intent_response_key_prediction": {
+      "name": "contact_service/angiologie",
+      "confidence": 0.7213526964187622
+    }
+  },
+  {
+    "text": "Ma fille est malade, sur recommandation de BLAVIER qui fait partie du service Pediatrie je crois, je veux causer a au au secretariat du service Admissions",
+    "intent_response_key_target": "contact_service/admissions",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.2847946584224701
+    }
+  },
+  {
+    "text": "sur recommandation de BLIN Jean-Louis qui est ophtalmologue je crois je désirais joindre au au secretariat du service Admissions",
+    "intent_response_key_target": "contact_service/admissions",
+    "intent_response_key_prediction": {
+      "name": "contact_service/accueil",
+      "confidence": 0.2506331205368042
+    }
+  },
+  {
+    "text": "a la demande du ALONSO Enrique qui est membre du service Pediatrie je souhaiterais joindre avec le service Planification tu m'enleverais une epine du pied, merci",
+    "intent_response_key_target": "contact_service/planification",
+    "intent_response_key_prediction": {
+      "name": "contact_service/accueil",
+      "confidence": 0.34522736072540283
+    }
+  },
+  {
+    "text": "comme me l'a demande Mme BELMAGHNI qui est membre du service ORL je crois. je demande à parler a avec le service Planification stp, tu m'enleverais une epine du pied, A+ !",
+    "intent_response_key_target": "contact_service/planification",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.5971046090126038
+    }
+  },
+  {
+    "text": "je désirerais avoir avec le avec le secretariat du service Planification sur recommandation de BELHASSEN qui appartient au service Chirurgie vasculaire,",
+    "intent_response_key_target": "contact_service/planification",
+    "intent_response_key_prediction": {
+      "name": "contact_service/chirurgie_vasculaire",
+      "confidence": 0.9929395914077759
+    }
+  },
+  {
+    "text": "yo, bien ? j'aurais besoins d'aide, plz, comme me l'a demande Dr BADO Fabrice qui officie en tant que rythmologue de memoire, je souhaite voir avec le service Planification",
+    "intent_response_key_target": "contact_service/planification",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.6215376853942871
+    }
+  },
+  {
+    "text": "Je me suis fait mal sur recommandation de Dr BOUCHAREB qui est membre du service Chirurgie de la main je voudrais avoir avec le service Anesthésie ce serait bien aimable,",
+    "intent_response_key_target": "contact_service/anesthesie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/chirurgie_de_la_main",
+      "confidence": 0.4641653597354889
+    }
+  },
+  {
+    "text": "comment vas-tu ? j'aimerais joindre au service Anesthésie J'ai fais une scintigraphie",
+    "intent_response_key_target": "contact_service/anesthesie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/scintigraphie",
+      "confidence": 0.3819506764411926
+    }
+  },
+  {
+    "text": "elle a fais une scintigraphie. je demande à que vous me passiez avec le service Anesthésie",
+    "intent_response_key_target": "contact_service/anesthesie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/scintigraphie",
+      "confidence": 0.4043276309967041
+    }
+  },
+  {
+    "text": "coucou, je demande à joindre au avec le secretariat du Unité de Soins continus comme me l'a demande Mr CADOT qui est membre du service Gastro-enterologie je pense.",
+    "intent_response_key_target": "contact_service/unite_de_soins_continus",
+    "intent_response_key_prediction": {
+      "name": "contact_service/gastro_enterologie",
+      "confidence": 0.6691306829452515
+    }
+  },
+  {
+    "text": "je souhaite dialoguer avec au service Unité de Soins continus sur recommandation de BRYON qui est membre du service Rhumatologie s'il vous plait,",
+    "intent_response_key_target": "contact_service/unite_de_soins_continus",
+    "intent_response_key_prediction": {
+      "name": "contact_service/oncologie",
+      "confidence": 0.2404370754957199
+    }
+  },
+  {
+    "text": "Je me suis coupe sur recommandation de Docteur BELMAGHNI qui appartient au service Sophrologie je souhaite que vous me passiez avec le service Stomatologie",
+    "intent_response_key_target": "contact_service/stomatologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.49640417098999023
+    }
+  },
+  {
+    "text": "a la demande du Docteur ARMANDON Denis qui est membre du service Gastro-enterologie je crois, je peux que vous me passiez au avec le secretariat du Stomatologie",
+    "intent_response_key_target": "contact_service/stomatologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.2052961140871048
+    }
+  },
+  {
+    "text": "bien le bonjour, comment allez-vous ? Aide moi plz, je peux que vous me passiez avec l'acceuil du Stomatologie sur recommandation de BELHASSEN Laurent qui est membre du service Chirurgie vasculaire, s'il te plait, A+ !",
+    "intent_response_key_target": "contact_service/stomatologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/oncologie",
+      "confidence": 0.5616702437400818
+    }
+  },
+  {
+    "text": "j'aspire à joindre a l'acceuil du Stomathérapie a la demande du BRUN qui est membre du service Assistante logistique,",
+    "intent_response_key_target": "contact_service/stomatherapie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/accueil",
+      "confidence": 0.30732181668281555
+    }
+  },
+  {
+    "text": "elle a eu un accident, sur recommandation de Mr BOUCHAREB je demande à echanger avec au au secretariat du service Assistante hôtelière stp, ca m'aiderais beaucoup, merci Salut !",
+    "intent_response_key_target": "contact_service/assistante_hoteliere",
+    "intent_response_key_prediction": {
+      "name": "contact_service/angiologie",
+      "confidence": 0.18229055404663086
+    }
+  },
+  {
+    "text": "j'aurais aspiré à telephoner a au service Assistante hôtelière il a eu un accident ce serait apprecie, merci",
+    "intent_response_key_target": "contact_service/assistante_hoteliere",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.3195546865463257
+    }
+  },
+  {
+    "text": "je voudrais m'entretenir avec avec le service Assistante hôtelière sur recommandation de Mr BENHAMOU qui est membre du service Oncologie je pense,",
+    "intent_response_key_target": "contact_service/assistante_hoteliere",
+    "intent_response_key_prediction": {
+      "name": "contact_service/oncologie",
+      "confidence": 0.33693841099739075
+    }
+  },
+  {
+    "text": "salut, Je me sens pas bien. a la demande du ARMANDON qui est membre du service Anesthesie je pense, je peux echanger avec avec le service Assistante hôtelière",
+    "intent_response_key_target": "contact_service/assistante_hoteliere",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.6147393584251404
+    }
+  },
+  {
+    "text": "je peux avoir a l'acceuil du Oncologie a la demande du BRUN Laurent qui fait partie du service Planification",
+    "intent_response_key_target": "contact_service/oncologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/planification",
+      "confidence": 0.404390424489975
+    }
+  },
+  {
+    "text": "Je me sens malade comme me l'a conseille APTECAR Eduardo qui appartient au service Accueil je crois je désirais dialoguer avec avec le au secretariat du Assistante sociale",
+    "intent_response_key_target": "contact_service/assistante_sociale",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.526692271232605
+    }
+  },
+  {
+    "text": "a la demande du ALONSO Enrique. je demande à que vous me passiez a l'acceuil du service Assistante sociale s'il te plait, tu m'enleverais une epine du pied,",
+    "intent_response_key_target": "contact_service/assistante_sociale",
+    "intent_response_key_prediction": {
+      "name": "contact_service/urgence",
+      "confidence": 0.1845453530550003
+    }
+  },
+  {
+    "text": "comment allez-vous ? me faut de l'aide, Mon fils est malade. a la demande du Docteur ALONSO Enrique je demanderais à joindre a l'acceuil du Assistante sociale",
+    "intent_response_key_target": "contact_service/assistante_sociale",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.30356040596961975
+    }
+  },
+  {
+    "text": "yo, comment vas-tu ? j'ai besoins d'aide ! Je dois faire une anesthesie ils veulent echanger avec au au secretariat du Biomédical",
+    "intent_response_key_target": "contact_service/biomedical",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.39777013659477234
+    }
+  },
+  {
+    "text": "bien le bonjour, comment vas-tu ? je souhaite que vous me passiez avec le avec le secretariat du service Chirurgie de la main a la demande du BAUER Bertrand qui officie en tant que pediatre je pense s'il te plait,",
+    "intent_response_key_target": "contact_service/chirurgie_de_la_main",
+    "intent_response_key_prediction": {
+      "name": "contact_service/assistante_sociale",
+      "confidence": 0.14628176391124725
+    }
+  },
+  {
+    "text": "yo, tu peux m'aider ? nous désirons discuter avec a l'acceuil du service Chirurgie de la main a la demande du BENOUAICHE qui officie en tant que pediatre je crois",
+    "intent_response_key_target": "contact_service/chirurgie_de_la_main",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.46918460726737976
+    }
+  },
+  {
+    "text": "bonsoir, Nous avons besoins d'aide d'urgence ! ils réclament de avoir a l'acceuil du Scintigraphie sur recommandation de APTECAR Eduardo qui fait partie du service Rhumatologie,",
+    "intent_response_key_target": "contact_service/scintigraphie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/rhumatologie",
+      "confidence": 0.8098991513252258
+    }
+  },
+  {
+    "text": "je peux que vous me passiez avec le service Scintigraphie comme me l'a demande BOUCHAREB qui est membre du service Chirurgie Viscerale de memoire plz,",
+    "intent_response_key_target": "contact_service/scintigraphie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/chirurgie_viscerale",
+      "confidence": 0.381083220243454
+    }
+  },
+  {
+    "text": "comme me l'a conseille Docteur CADOT Bernard qui est membre du service Admissions je demande à telephoner avec avec le service rhumatologie",
+    "intent_response_key_target": "contact_service/rhumatologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/angiologie",
+      "confidence": 0.2911655902862549
+    }
+  },
+  {
+    "text": "je voulais avoir a l'acceuil du service rhumatologie comme me l'a demande BENSAID qui est membre du service Oncologie,",
+    "intent_response_key_target": "contact_service/rhumatologie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/oncologie",
+      "confidence": 0.3608563244342804
+    }
+  },
+  {
+    "text": "coucou, comment vas-tu ? j'aurais besoins d'aide, a la demande du Dr BELDA qui appartient au service Sophrologie je pense j'aurais aimé que vous me passiez avec le service Ressources Humaines A+ !",
+    "intent_response_key_target": "contact_service/ressources_humaines",
+    "intent_response_key_prediction": {
+      "name": "contact_service/sophrologie",
+      "confidence": 0.44122153520584106
+    }
+  },
+  {
+    "text": "bonsoir, comment allez-vous ? j'aimerais dialoguer avec avec le service Chirurgie Viscérale comme me l'a demande ALLARD. svp, Ciao !",
+    "intent_response_key_target": "contact_service/chirurgie_viscerale",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.3555915653705597
+    }
+  },
+  {
+    "text": "ils rêvent de joindre a l'acceuil du Chirurgie Viscérale comme me l'a conseille BADO qui appartient au service Angiographie je crois",
+    "intent_response_key_target": "contact_service/chirurgie_viscerale",
+    "intent_response_key_prediction": {
+      "name": "contact_service/angiographie",
+      "confidence": 0.43779516220092773
+    }
+  },
+  {
+    "text": "salutation, comment allez-vous ? faut que tu m'aide ! je veux joindre au au secretariat du service Chirurgie Viscérale",
+    "intent_response_key_target": "contact_service/chirurgie_viscerale",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.472947895526886
+    }
+  },
+  {
+    "text": "yo, Nous avons besoins d'aide d'urgence ! ils demandent à telephoner avec au service ce serait bien aimable, A+ ! Chirurgie Viscérale",
+    "intent_response_key_target": "contact_service/chirurgie_viscerale",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.4151814877986908
+    }
+  },
+  {
+    "text": "je pourrais avoir au service Pédiatrie sur recommandation de Mr ARMANDON Denis,",
+    "intent_response_key_target": "contact_service/pediatrie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.2691594958305359
+    }
+  },
+  {
+    "text": "yo, comment vas-tu ? j'ai besoins d'aide ! il réclame de m'entretenir avec au service stp, ca m'aiderais beaucoup, Ciao Pédiatrie",
+    "intent_response_key_target": "contact_service/pediatrie",
+    "intent_response_key_prediction": {
+      "name": "contact_service/orl",
+      "confidence": 0.38579729199409485
+    }
+  },
+  {
+    "text": "comment allez-vous ? sur recommandation de Docteur BELDA qui appartient au service Chirurgie vasculaire. il pourrait dialoguer avec a l'acceuil du service Chirurgie digestive",
+    "intent_response_key_target": "contact_service/chirurgie_digestive",
+    "intent_response_key_prediction": {
+      "name": "contact_service/chirurgie_vasculaire",
+      "confidence": 0.9766706824302673
+    }
+  },
+  {
+    "text": "coucou, comment allez-vous ? tu peux m'aider ? svp, je souhaiterais m'entretenir avec avec le service Chirurgie orthopédique comme me l'a demande BENOSMAN Hedi qui fait partie du service Urgence je pense.",
+    "intent_response_key_target": "contact_service/chirurgie_orthopedique",
+    "intent_response_key_prediction": {
+      "name": "contact_service/urgence",
+      "confidence": 0.33051547408103943
+    }
+  },
+  {
+    "text": "je désirerais parler a a l'acceuil du Chirurgie orthopédique a la demande du BRUNET Oceane qui fait partie du service Admissions,",
+    "intent_response_key_target": "contact_service/chirurgie_orthopedique",
+    "intent_response_key_prediction": {
+      "name": "contact_service/admissions",
+      "confidence": 0.5269218683242798
+    }
+  },
+  {
+    "text": "nous voulons telephoner a avec le au secretariat du Chirurgie orthopédique a la demande du Dr AL MOUSSARIH qui fait partie du service Unite de Soins continus je crois,",
+    "intent_response_key_target": "contact_service/chirurgie_orthopedique",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.1218767911195755
+    }
+  },
+  {
+    "text": "Ma fille est tres malade a la demande du BRUNET Morgan qui appartient au service Biomedical de memoire nous demandons à discuter avec CURRY Marie s'il vous plait,",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/brunet_morgan",
+      "confidence": 0.29347217082977295
+    }
+  },
+  {
+    "text": "il veut converser avec SALDANA comme me l'a demande BELDA Eric qui est membre du service Rythmologie je pense.",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/belda_eric",
+      "confidence": 0.8610715270042419
+    }
+  },
+  {
+    "text": "sur recommandation de Docteur BLAVIER Benedicte qui officie en tant que ophtalmologue de memoire, je souhaiterais converser avec Mme ZIDANE Zinedine",
+    "intent_response_key_target": "contact_doctor/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_doctor/borie_herve",
+      "confidence": 0.20707978308200836
+    }
+  },
+  {
+    "text": "Aide moi stp, je peux avoir avec le avec le secretariat du service tour effeil comme me l'a demande Dr BORIE Herve qui est assistante heteliere svp,",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/accueil",
+      "confidence": 0.22641722857952118
+    }
+  },
+  {
+    "text": "Mon fils est tres malade sur recommandation de Dr BLAVIER Benedicte j'espérerais voir au avec le secretariat du service clinique ce serait apprecie, merci Salut !",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/accueil",
+      "confidence": 0.2583065330982208
+    }
+  },
+  {
+    "text": "a la demande du Dr BECHEREL qui fait partie du service Assistante heteliere je crois, je souhaite parler avec a l'acceuil du service église",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/urgence",
+      "confidence": 0.19407658278942108
+    }
+  },
+  {
+    "text": "bien ? Aide moi svp, je réclame de converser avec au service hopital a la demande du BADO Fabrice qui est assistante sociale,",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/anesthesie",
+      "confidence": 0.3050515949726105
+    }
+  },
+  {
+    "text": "bien le bonjour, bien ? Nous avons besoins d'aide d'urgence ! il a eu une attaque comme me l'a conseille Docteur ALONSO Enrique qui est membre du service Ophtalmologie je veux parler a avec le service magasins s'il vous plait, ca m'aiderais beaucoup, merci",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/ophtalmologie",
+      "confidence": 0.23838233947753906
+    }
+  },
+  {
+    "text": "bien le bonjour, ca va ? j'ai besoins d'aide ! je désire avoir au avec le secretariat du coiffeur comme me l'a conseille Mr BLIN.",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/urgence",
+      "confidence": 0.236615389585495
+    }
+  },
+  {
+    "text": "ca va ? j'ai besoins d'aide ! Ma fille est malade, sur recommandation de BELHASSEN Laurent qui fait partie du service Assistante sociale de memoire il peut echanger avec au service gouvernement svp, Salut !",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/urgence",
+      "confidence": 0.3922843337059021
+    }
+  },
+  {
+    "text": "comment vas-tu ? me faut de l'aide, nous désirons m'entretenir avec a l'acceuil du service lune comme me l'a conseille BELMAGHNI",
+    "intent_response_key_target": "contact_service/unknown",
+    "intent_response_key_prediction": {
+      "name": "contact_service/urgence",
+      "confidence": 0.2839825749397278
+    }
+  }
+]

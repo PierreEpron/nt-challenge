@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Cette fille telephone aux pieds de celeri a voiles.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9940534234046936
+    }
+  },
+  {
+    "text": "bien le bonjour, Pourriez vous m'aidez s'il vous plait, ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "comme me l'a conseille Dr BELHASSEN Laurent qui est chirurgien de memoire.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.7676686644554138
+    }
+  },
+  {
+    "text": "sur recommandation de BELHASSEN Laurent qui fait partie du service ORL je crois",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sur recommandation de Mr BELDA qui officie en tant que assistant logistique je crois.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "contact_doctor",
+      "confidence": 0.9817622900009155
+    }
+  }
+]

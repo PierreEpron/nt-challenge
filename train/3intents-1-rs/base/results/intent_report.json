@@ -1,0 +1,45 @@
+{
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 0.92,
+    "f1-score": 0.9583333333333334,
+    "support": 50,
+    "confused_with": {
+      "contact_doctor": 3,
+      "contact_service": 1
+    }
+  },
+  "contact_doctor": {
+    "precision": 0.9940357852882704,
+    "recall": 1.0,
+    "f1-score": 0.9970089730807578,
+    "support": 500,
+    "confused_with": {}
+  },
+  "contact_service": {
+    "precision": 0.998003992015968,
+    "recall": 1.0,
+    "f1-score": 0.9990009990009989,
+    "support": 500,
+    "confused_with": {}
+  },
+  "accuracy": 0.9961904761904762,
+  "macro avg": {
+    "precision": 0.9973465924347461,
+    "recall": 0.9733333333333333,
+    "f1-score": 0.9847811018050301,
+    "support": 1050
+  },
+  "weighted avg": {
+    "precision": 0.9962094177639229,
+    "recall": 0.9961904761904762,
+    "f1-score": 0.9961158597214714,
+    "support": 1050
+  },
+  "micro avg": {
+    "precision": 0.9961904761904762,
+    "recall": 0.9961904761904762,
+    "f1-score": 0.9961904761904762,
+    "support": 1050
+  }
+}
