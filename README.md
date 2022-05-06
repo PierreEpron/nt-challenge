@@ -32,11 +32,11 @@
     + [Rasa X](#rasa-x)
     + [Les modèles](#les-mod-les)
       - [Organisation](#organisation)
-      - [Le metrics](#le-metrics)
+      - [Les metrics](#les-metrics)
   * [Conclusion](#conclusion)
 
 ## Introduction
-
+s
 ### Rappel de l'énoncé 
 
     Créer un bot gérant 2 intentions de mise en relation
@@ -527,7 +527,7 @@ $ rasa shell nom_du_model
 # se contenter de la deuxième console pour un modèle de type rs
 ```
 
-#### Le metrics
+#### Les metrics
 
 Les metrics par rasa pour évaluer la perfomance d'un modèle sont les suivantes.
 
