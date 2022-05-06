@@ -14,7 +14,29 @@ def create_methods(spacy_model):
     }
 
 class EntitySimilarity:
+    """
+    Entity Similarity object. 
+    Rank value with list of others values base on similarity
+    Similarity methods allowed :
+        - Levenshtein (lev)
+        - Jaro (jaro)
+        - Jaro-winkler (jaro_winkler)
+        - Word Embedding Cosinus Distance with spacy fr_core_news_md pipeline (spacy) 
+
+    Attributes
+    ----------
+    method_name : str
+        Name of similarity method to apply. 
+        Values allowed are 'lev', 'jaro', 'jaro_winkler', 'spacy'
+    treshold : str, default .75
+        Treshold use for decide to return value or not for step 2 of get_main_entities
+    n : int, default 5
+        Number of value to return for step 3 of get_main_entities
+    """
+
     def __init__(self, method_name : Text, treshold : float = .75, n : int = 5) -> None:
+
+        
         # if method name is spacy load spacy model and retrieve method
         # else ensures that method name is correct and retrieve method
         if method_name == 'spacy':
@@ -28,6 +50,28 @@ class EntitySimilarity:
         self.n = n
 
     def get_best_entities(self, target : Text, entities : List[Text]) -> Any:
+        """
+            Computes similarity between target and entities.
+            Return entities values following those rules :
+            
+            - Step 1 : return the first value from list with similarity ratio equal 1 (same value)
+            - Step 2 : return all values from list with similarity ratio greater than or equal treshold
+            - Step 3 : return n top values from list
+        
+            Parameters
+            ----------
+            target : str
+                Text value uses for compute similarity with entities
+            entities : List[str]
+                Texts values uses for compute similarity with entities
+            
+            Return
+            ------
+            str or List[str]
+                see rules of function
+
+        """
+
         target = target.lower()
         scores = []
         for entity in entities:
