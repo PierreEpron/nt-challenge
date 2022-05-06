@@ -426,11 +426,24 @@ Le fichier src/libs/helpers.py qui contient quelques fonctions generiques que j'
 
 Le fichier train/train.sh, un script bash qui lance le train du modèle puis le test sur son jeu de test généré par chatette et sur le jeu de test utilisateur.
 
+### Rasa X
+
+J'ai installé rasa-x en mode développement. Je l'ai seulement utilisé pour partager le chatbot et corriger les prédictions faites sur les entrées utilisateurs.
+
+Le lien de l'interface admin : https://4a8a-51-159-36-19.eu.ngrok.io
+
+Les logins sont dans le mail.
+
+Vous pouvez switch le modèle à tester via le panel, sachez juste que le switch peu prendre du temps ...
+Mon serveur n'est pas fait pour heberger ce genre de service.
+
+Le lien du chatbot : https://4a8a-51-159-36-19.eu.ngrok.io/guest/conversations/production/25ed46c996c74ae48558998a45f3f402
+
 ### Les modèles
 
 #### Organisation
 
-Les modèles sont tous trouvables dans le dossier : models
+Les modèles sont téléchargable ici (ou sur rasa x directement) : https://drive.google.com/drive/folders/1Pure_qbgWAox0NwJLsbr8od8SToaOyNF?usp=sharing
 
 Les données d'entraînement et de test, la config et le domain sont trouvable dans le dossier : train
 
@@ -515,7 +528,7 @@ Une des causes est sûrement ma mauvaise organisation. J'avais comme suivi seule
 
 Un des meilleurs témoins de ce manque d'organisation est l'historique github. Il y a un nombre trop important de commit à quelques heures du rendu ...
 
-La qualité du code a aussi souffert. Certaine parties mériteraient d'être refactorisées, d'autres d'être simplement commentées. J'aurais voulu faire des tests unitaires pour tout ce qui est similarités.
+La qualité du code a aussi souffert. Certaine parties mériteraient d'être refactorisées, d'autres d'être simplement commentées. J'aurais voulu faire des tests unitaires pour tout ce qui est similarités. Je n'ai pas mis en place de linter, je comptais le faire à la fin mais j'ai manqué de temps.
 
 Une des manières d'éviter ces problèmes aurait été d'échanger un peu plus avec vous. J'aurais dû vous envoyer les phrases ambiguës et vous demander si oui ou non, il fallait les considérer comme des demandes de contact. Cela aurait permis de mieux cadrer l'objectif.
 
@@ -523,4 +536,4 @@ De manière générale, j'ai voulu tester trop de choses en trop peu de temps. J
 
 J'ai quand même pu mettre un pied dans la nlu et la conception de chatbots. J'ai appris beaucoup de choses lors du déploiement de rasa-x. Échanger tout du long avec des utilisateurs tests était bénéfique et au final, j'ai exploré pas mal de choses en une semaine.
 
-Je concluerai en vous remerciant d'avoir lu jusqu'au bout et en précisant qu'il est possible que je finisse certaines parties après vendredi 06/05 23h59 mais que tous les ajouts seront mis sur une autres branch que la branch main pour ne pas tricher.
+Je concluerai en vous remerciant d'avoir lu jusqu'au bout et en précisant qu'il est possible que je finisse certaines parties après vendredi 06/05 mais que tous les ajouts seront mis sur une autres branch que la branch main pour ne pas tricher.
